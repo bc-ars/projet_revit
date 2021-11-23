@@ -77,7 +77,7 @@ Laisser l’initialisation se faire. Elle est longue. Il se passera plusieurs mi
 
 La décompression des fichiers d’installation débute et dure 5 à 10 mn selon les ordinateurs (11,7 Go sur disque).
 
-![ installation Revit B.06](/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit B.06.png)
+![ installation Revit B.06](https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/0_Installation/%20installation%20Revit%20B.06.png)
 
 
 
@@ -91,7 +91,7 @@ La décompression des fichiers d’installation débute et dure 5 à 10 mn selon
 
 La procédure l’installation se lance sans intervention de l’utilisateur dès la fin de l’extraction. Elle débute par une demande d’autorisation d’apporter des modifications sur l’ordinateur, et à laquelle il faut répondre OUI. Puis elle se poursuit par la préparation de l’installation :
 
-![ installation Revit B.18](/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit B.18.png)
+![ installation Revit B.18](https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/0_Installation/%20installation%20Revit%20B.18.png)
 
 <p>&nbsp;</p>
 
@@ -105,13 +105,14 @@ La procédure l’installation se lance sans intervention de l’utilisateur dè
 
 L’écran énonçant les termes de la licence du logiciel apparait. Il faut accepter les termes de la licence produit en cochant J’accepte les conditions d’utilisation, et utiliser le bouton Suivant pour poursuivre l’installation.
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit B.29.png" alt=" installation Revit B.18" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/0_Installation/%20installation%20Revit%20B.29.png" alt=" installation Revit B.18" style="zoom:50%;" />
 
 <p>&nbsp;</p>
 
 <p>&nbsp;</p>
 
 <p>&nbsp;</p
+
 
 ### 7- L’écran d’installation apparait :
 
@@ -121,7 +122,7 @@ L’écran énonçant les termes de la licence du logiciel apparait. Il faut acc
 
 Dans la boite de dialogue suivante, choisir simplement l’option Installation :
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit B.38.png" alt=" installation Revit B.38" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/0_Installation/%20installation%20Revit%20B.38.png" alt=" installation Revit B.38" style="zoom:50%;" />
 
 <p>&nbsp;</p>
 
@@ -149,13 +150,13 @@ La procédure d’installation va se lancer et durer 25 minutes au minimum.
 
 Lorsque l’installation est terminée, la boite de dialogue suivante apparait : Dans cet exemple, on choisira de ne pas redémarrer l’ordinateur, en utilisant le bouton Pas maintenant. En effet, il peut y avoir des tâches en cours, des logiciels en cours d’utilisation, des fichiers à sauvegarder.
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit B.55.png" alt=" installation Revit B.55" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/0_Installation/%20installation%20Revit%20B.55.png" alt=" installation Revit B.55" style="zoom:50%;" />
 
 
 
 On utilisera donc le bouton Terminer. Cependant, avant de lancer REVIT, il faudra impérativement redémarrer l’ordinateur.
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.03.png" alt=" installation Revit C.03" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/0_Installation/%20installation%20Revit%20C.03.png" alt=" installation Revit C.03" style="zoom:50%;" />
 
 <p>&nbsp;</p>
 
@@ -167,7 +168,7 @@ On utilisera donc le bouton Terminer. Cependant, avant de lancer REVIT, il faudr
 
 La procédure d’installation a placé une icône Revit 2022 sur le bureau. Une fois l’ordinateur relancé, on double cliquera sur cette icone pour lancer REVIT.
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.18-7603836.png" alt=" installation Revit C.18" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/0_Installation/%20installation%20Revit%20C.18-7603836.png" alt=" installation Revit C.18" style="zoom:50%;" />
 
 <img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/ installation Revit C.25.png" alt=" installation Revit C.25" style="zoom:50%;" />
 
@@ -181,7 +182,7 @@ La procédure d’installation a placé une icône Revit 2022 sur le bureau. Une
 
 Pour une version d’évaluation REVIT 30 jours, il faut choisir l’option Connectez-vous avec votre ID Autodesk.
 
-![ installation Revit C.34](/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.34.png)
+![ installation Revit C.34](https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/0_Installation/%20installation%20Revit%20C.34.png)
 
 <p>&nbsp;</p>
 
@@ -193,7 +194,7 @@ Pour une version d’évaluation REVIT 30 jours, il faut choisir l’option Conn
 
 Une boite de dialogue propose alors d’entrer un email, ou bien de Créer un compte (en bas et en bleu) en tant que nouvel utilisateur. Cliquer sur cette deuxième option.
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.43.png" alt=" installation Revit C.43" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/0_Installation/%20installation%20Revit%20C.43.png" alt=" installation Revit C.43" style="zoom:50%;" />
 
 <p>&nbsp;</p>
 
@@ -209,7 +210,7 @@ Entrez des informations nominatives, cocher la case J’accepte les conditions d
 
 Utiliser ensuite simplement le bouton Terminé en bas de la boite de dialogue qui suit :
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit D.00.png" alt=" installation Revit D.00" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/0_Installation/%20installation%20Revit%20D.00.png" alt=" installation Revit D.00" style="zoom:50%;" />
 
 <p>&nbsp;</p>
 
@@ -221,7 +222,7 @@ Utiliser ensuite simplement le bouton Terminé en bas de la boite de dialogue qu
 
 Cliquer sur le bouton Lancer la version d’évaluation pour obtenir une version d’évaluation gratuite de 30 jours.
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit D.10.png" alt=" installation Revit D.10" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/0_Installation/%20installation%20Revit%20D.10.png" alt=" installation Revit D.10" style="zoom:50%;" />
 
 Revit va se lancer en version 30 jours.
 
