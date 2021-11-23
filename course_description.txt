@@ -1,2 +1,2 @@
-Ce cours vous introduira pas à pas aux concepts fondamentaux du BIM et vous permettra d'en appréhender les possibilités. En route vers le futur de la construction !
+Ce cours vous introduira au logiciel Revit à travers le projet d'un centre de loisirs.
 
