@@ -16,7 +16,7 @@ L’objectif de ce chapitre est de découvrir l’environnement de travail du lo
 
 Pour lancer le logiciel Revit (quelle que soit la version), Il faut double cliquer sur l'icône du logiciel, ou alors depuis la barre de lancment rapide cliquer une fois sur cette même icône:
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.18-7662978.png" alt=" installation Revit C.18" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/0_Installation/%20installation%20Revit%20C.18.png" alt=" installation Revit C.18" style="max-width: 30%" />
 
 
 
@@ -42,7 +42,7 @@ Nous allons créer un nouveau projet, nous cliquons sur **Nouveau** dans la fen�
 
 Pour créer un nouveau projet, dans la fenêtre **Projets** 1️⃣ de la page d’accueil, cliquez sur **Nouveau** 2️⃣. Dans la boîte de dialogue du **Nouveau projet** 3️⃣, choisir le **Gabarit architectural** 4️⃣, car on souhaite modéliser l’architecture du bâtiment. Dans la zone **Créer un nouveau** 5️⃣, choisir **Projet**.
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.22.png" alt="Interface_Revit38.22" style="max-width: 70%" /><img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.33.png" alt="Interface_Revit38.33" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.22.png" alt="Interface_Revit38.22" style="max-width: 40%" /><img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.33.png" alt="Interface_Revit38.33" style="max-width: 40%" />
 
 Suite à ces choix, cliquez sur OK pour valider. Revit va alors ouvrir un nouveau projet (qui devra être renommé) tout en affichant son interface de travail.
 
@@ -63,7 +63,7 @@ Suite à ces choix, cliquez sur OK pour valider. Revit va alors ouvrir un nouvea
 
 - Enfin, validez en cliquant sur **Enregistrer** 6️⃣.
 
-  <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.47.png" alt="Interface_Revit38.47" style="max-width: 70%" /> <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.59.png" alt="Interface_Revit38.59" style="max-width: 70%" />
+  <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.47.png" alt="Interface_Revit38.47" style="max-width: 50%" /> <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.59.png" alt="Interface_Revit38.59" style="max-width: 50%" />
 
 
 
@@ -87,7 +87,7 @@ Revit contient de base 6 fichiers gabarits différents, extension.rte, qui corre
 
 Nous allons découvrir la composition de l’interface de travail de Revit. Nous reviendrons sur ces différents éléments tout au long de la modélisation du projet.
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit39.16.png" alt="Interface_Revit39.16" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit39.16.png" alt="Interface_Revit39.16" style="max-width: 100%" />
 
 
 
