@@ -1,0 +1,76 @@
+# 📶 Les Niveaux de Maturité BIM  
+
+------------------------------
+
+
+
+L'intérêt d'avoir une maquette numérique et d'utiliser la technologie BIM est de pouvoir collaborer entre entreprises avec des équipes internes et externes. **En 2008, au Royaume-Uni, Mark Bew et Mervyn Richards** élaboré une schéma permettant de classifier le niveau de maturité d'une organisation.
+
+![niveau_maturite](https://raw.githubusercontent.com/bc-ars/plateform-images/main/BIM_Enjeux_et_Fondements/niveau_maturite.jpeg)
+
+
+
+## Le Niveau 0: Pré-BIM
+
+-------------------------------
+
+
+
+La majorité des agences d'architecture se trouvent au niveau 0. C'est la **méthode traditionnelle de travail** avec un apport minime du numérique. Les dessins sont d'abord réalisés sur papier avant d’être retranscris grâce à la CAO en 2D. On transmets ces différents fichiers en .dwg, .pdf... Chaque agence peut avoir sa propre forme de représentation. La collaboration n'est pas simple puisqu'il faut à chaque fois vérifier la cohérence générale du projet, et il est très difficile de standardiser les échanges.
+
+![niveau0](https://raw.githubusercontent.com/bc-ars/plateform-images/main/BIM_Enjeux_et_Fondements/niveau0.jpeg)
+
+
+
+## Le Niveau 1: Modélisation orientée objet
+
+-------------------------------
+
+On atteint un premier véritable niveau de BIM avec le niveau de maturité 1. Un acteur (en général l'architecte), crée une maquette numérique à l'aide d'un logiciel BIM. On commence d'abord avec la géométrie 3D du projet, qui s'enrichit petit à petit d'informations. On utilise le modèle 3D pour des besoins de visualisation mais pas pour échanger ces données utilement avec les autres corps de métiers. **La collaboration est encore très faible** avec des échanges au format .dwg ou .pdf. On a parfois une centralisation des données sur une GED (Gestion Electronique des Documents) ou une armoire à plans. Il peut y avoir quelques échanges standardisés avec par exemple une charte graphique.
+
+
+
+![niveau1](https://raw.githubusercontent.com/bc-ars/plateform-images/main/BIM_Enjeux_et_Fondements/niveau1.jpeg)
+
+
+
+## Le Niveau 2: Collaboration orientée objet
+
+-------------------------------
+
+**Chaque discipline conçoit une maquette numérique pour son lot et son usage**. Elles permettent chacune **l'interopérabilité**. Les acteurs peuvent tester, comparer, et améliorer leurs maquettes grâce aux autres modèles issus des autres corps de métier: on parle d'échanges bidirectionnels. Les modèles contiennent des informations détaillés qui interagissent avec des paramètres de la maquette et sont donc intelligents. **On a maintenant une vraie collaboration** car ces informations sont échangées avec l’entièreté des modèles (aux formats natifs ou IFC) et non plus sous la forme de livrables ne permettant que la visualisation brute (type pdf). Grâce à des outils, on peut comparer différentes versions d'un fichier, détecter des clashs entre modèles et même notifier les utilisateurs de changement instantanément. La **mise à jour de chacun des modèles se fait de manière asynchrone**.
+
+![niveau2](https://raw.githubusercontent.com/bc-ars/plateform-images/main/BIM_Enjeux_et_Fondements/niveau2.jpeg)
+
+
+
+
+
+## Le Niveau 3: Collaboration orientée objet
+
+-------------------------------
+
+C'est le niveau maximum de maturité BIM. On parle **d'iBIM ou de BIM intégré**. C'est un niveau qui est encore très peu atteint et reste parfois à l'état de théorie. C'est un **processus entièrement intégré et collaboratif**, accessible sur le cloud via des plateformes collaboratives. Tous les acteurs se connectent en réseau pour alimenter ensemble un modèle unique. Les échanges deviennent presque inexistants puisque tout se fait en temps réel. La hierarchie des acteurs permet de restreindre l'accès à différentes parties de la maquette et par exemple au pouvoir d'annoter. **Il y a une traçabilité totale de tous les évènements (Product Lifecycle Management)**.
+
+On est encore loin de ce niveau de maturité, pour plusieurs raisons: conflits entre les logiciels BIM, problèmes de serveurs (la blockchain pourra-t-elle régler le problème ? ), format IFC....
+
+![niveau3](https://raw.githubusercontent.com/bc-ars/plateform-images/main/BIM_Enjeux_et_Fondements/niveau3.jpeg)
+
+
+
+### Les Niveaux de maturités BIM
+
+-------------------------------
+
+
+
+![Arcadis](https://raw.githubusercontent.com/bc-ars/plateform-images/main/BIM_Enjeux_et_Fondements/Arcadis.jpeg)
+
+
+
+
+
+Avec ces niveaux de maturités, on comprend bien **l’importance de la collaboration** au sein d’une démarche BIM et que, sans elle, les promesses du BIM ne pourront être atteintes. Le passage d’un niveau à l’autre n’est pas sans efforts mais nécessaire. Les différents niveaux sont illustrés par la société Arcadis ci-dessus pour une meilleure compréhension.
+
+***N'hésitez pas à consulter cette vidéo de Tekla, un éditeur de logiciels BIM, qui résume ces niveaux de maturité.***
+

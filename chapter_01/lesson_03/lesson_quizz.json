@@ -1,0 +1,33 @@
+{ "questions":
+  [
+    {
+      "content": "Le BIM n'est pas un logiciel",
+      "explanation": " Le BIM est une manière intégrée de travailler, permettant une conception, une exécution et une gestion de bâtiments et de biens immobiliers elle aussi intégrées. Ce n’est pas un outil, un logiciel, c’est un processus de travail et de collaboration entre intervenants d’un projet de construction reposant sur des outils métiers particuliers qui permettent la conception et l’exploitation d’une maquette numérique préfigurant le bâtiment tel que construit et exploité.",
+      "answers": [
+        {
+          "content": "Faux",
+          "is_correct": "false"
+        },
+
+        {
+          "content": "Vrai",
+          "is_correct": "true"
+        }
+      ]
+    },
+    {
+      "content": "Le LIM concerne le monde du BTP uniquement",
+      "explanation": "Le LIM concerne plusieurs domaine puisqu'il s'agit de données scientifiques et techniques qui vont prendre en compte le vivant et son évolution dans les projets",
+      "answers": [
+        {
+          "content": "Faux",
+          "is_correct": "true"
+        },
+        {
+          "content": "Vrai",
+          "is_correct": "false"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+# ℹ️ Installation de Autodesk Revit 
+
+
+
+## Prérequis pour l’installation
+
+
+
+- REVIT 2022 fonctionne sous Windows 10. 
+- Il est incompatible avec Windows 8, Windows 7 et antérieures. 
+- Il est nécessaire d’avoir vérifié que toutes les mises à jour de Windows 10 ont bien été effectuées avant l’installation de REVIT 2022.  
+- REVIT 2022 nécessite un minimum de 8 Go de RAM.
+
+
+
+Les élèves ayant l’ADSL n’auront pas la vitesse préconisée par Autodesk (10 Mb/s) pour télécharger REVIT à partir d’un compte Autodesk. Ils sont contraints de suivre la procédure décrite dans cette leçon : ils téléchargeront directement les fichiers d’installation sur le serveur d’Autodesk qui les met légalement à disposition.
+
+
+
+**Remarques** : La procédure décrite ici ne demande aucun nom de société ni d’entreprise. Elle fonctionne en donnant un nom, un prénom et un mail. Ni le nom, ni le mail ne seront vérifiés. Le mieux est cependant de donner son nom et un mail valide. Pour ce manuel, j’ai donné un nom quelconque (Michel Vaillant) et un mail « jetable » (ayrton.senna@automobile.com). La version d’évaluation ne fonctionne que lorsque l’utilisateur se connecte à son compte Autodesk, contrairement aux licences enregistrées. Il n’y a pas d’autre limitation, hormis les 30 jours. Mais pour cette raison, il est indispensable de noter le mail et le mot de passe utilisés pour se connecter au compte Autodesk.
+
+
+
+<p>&nbsp;</p>
+
+## 1 - Voici la liste des cinq fichiers nécessaires à l’installation :
+
+
+
+
+
+Les liens ci-dessous permettent le téléchargement direct des fichiers d’installation, sans passer par le compte utilisateur. Ces fichiers sont mis à disposition des utilisateurs par Autodesk sur leurs serveurs. Cette procédure est conseillée par Autodesk quand les connexions internet sont en ADSL, donc très lentes. https://trial2.autodesk.com/NetSWDLD/2022/RVT/03BD6A4A-C858-3AD2-9353-DF2974C9918B/SFX/Revit_2022_G1_Win_64bit_dlm_001_005.sfx.exe 
+
+https://trial2.autodesk.com/NetSWDLD/2022/RVT/03BD6A4A-C858-3AD2-9353-DF2974C9918B/SFX/Revit_2022_G1_Win_64bit_dlm_002_005.sfx.exe 
+
+https://trial2.autodesk.com/NetSWDLD/2022/RVT/03BD6A4A-C858-3AD2-9353-DF2974C9918B/SFX/Revit_2022_G1_Win_64bit_dlm_003_005.sfx.exe 
+
+https://trial2.autodesk.com/NetSWDLD/2022/RVT/03BD6A4A-C858-3AD2-9353-DF2974C9918B/SFX/Revit_2022_G1_Win_64bit_dlm_004_005.sfx.exe 
+
+https://trial2.autodesk.com/NetSWDLD/2022/RVT/03BD6A4A-C858-3AD2-9353-DF2974C9918B/SFX/Revit_2022_G1_Win_64bit_dlm_005_005.sfx.exe
+
+<p>&nbsp;</p>
+
+### 2 – Lancement du processus d’installation
+
+---------------------------
+
+
+
+Le processus d’installation décompresse les cind fichiers ci-dessus et installe le logiciel en 45 minutes. Pour initialiser ce processus, il suffit de double-cliquer sur le premier fichier de la liste. On obtient la boite de dialogue suivante, permettant le choix du répertoire d’extraction :
+
+![ installation Revit A.44](/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit A.44.png)
+
+
+
+A partir de ce moment, tout est pris en charge et l’utilisateur doit simplement valider avec le bouton OK les options proposées par défaut. 
+
+### 3 - Initialisation de l’extraction (décompression des fichiers d’installation) : 
+
+---------------------------
+
+
+
+Laisser l’initialisation se faire. Elle est longue. Il se passera plusieurs minutes durant lesquelles rien ne se passera à l’écran, ce qui est normal.
+
+![ installation Revit A.57](/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit A.57.png)
+
+<p>&nbsp;</p>
+
+
+
+### 4 - Extraction de l’installation :
+
+---------------------------
+
+
+
+La décompression des fichiers d’installation débute et dure 5 à 10 mn selon les ordinateurs (11,7 Go sur disque).
+
+![ installation Revit B.06](/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit B.06.png)
+
+
+
+<p>&nbsp;</p>
+
+### 5 – Préparation de la procédure d’installation :
+
+---------------------------
+
+
+
+La procédure l’installation se lance sans intervention de l’utilisateur dès la fin de l’extraction. Elle débute par une demande d’autorisation d’apporter des modifications sur l’ordinateur, et à laquelle il faut répondre OUI. Puis elle se poursuit par la préparation de l’installation :
+
+![ installation Revit B.18](/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit B.18.png)
+
+<p>&nbsp;</p>
+
+### 
+
+### 6 – Acceptation de la licence du produit :
+
+---------------------------
+
+
+
+L’écran énonçant les termes de la licence du logiciel apparait. Il faut accepter les termes de la licence produit en cochant J’accepte les conditions d’utilisation, et utiliser le bouton Suivant pour poursuivre l’installation.
+
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit B.29.png" alt=" installation Revit B.18" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p
+
+### 7- L’écran d’installation apparait :
+
+---------------------------
+
+
+
+Dans la boite de dialogue suivante, choisir simplement l’option Installation :
+
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit B.38.png" alt=" installation Revit B.38" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+### 8 – Installation du logiciel :
+
+---------------------------
+
+
+
+La procédure d’installation va se lancer et durer 25 minutes au minimum.
+
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/ installation Revit B.47.png" alt=" installation Revit B.47" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+### 9 – Fin de l’installation :
+
+---------------------------
+
+
+
+Lorsque l’installation est terminée, la boite de dialogue suivante apparait : Dans cet exemple, on choisira de ne pas redémarrer l’ordinateur, en utilisant le bouton Pas maintenant. En effet, il peut y avoir des tâches en cours, des logiciels en cours d’utilisation, des fichiers à sauvegarder.
+
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit B.55.png" alt=" installation Revit B.55" style="zoom:50%;" />
+
+
+
+On utilisera donc le bouton Terminer. Cependant, avant de lancer REVIT, il faudra impérativement redémarrer l’ordinateur.
+
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.03.png" alt=" installation Revit C.03" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+### 10 – Lancement de REVIT
+
+---------------------------
+
+
+
+La procédure d’installation a placé une icône Revit 2022 sur le bureau. Une fois l’ordinateur relancé, on double cliquera sur cette icone pour lancer REVIT.
+
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.18-7603836.png" alt=" installation Revit C.18" style="zoom:50%;" />
+
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/ installation Revit C.25.png" alt=" installation Revit C.25" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+### 11 - Choisir le type de licence à utiliser :
+
+---------------------------
+
+
+
+Pour une version d’évaluation REVIT 30 jours, il faut choisir l’option Connectez-vous avec votre ID Autodesk.
+
+![ installation Revit C.34](/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.34.png)
+
+<p>&nbsp;</p>
+
+### 12 - Connection au site Autodesk :
+
+---------------------------
+
+
+
+Une boite de dialogue propose alors d’entrer un email, ou bien de Créer un compte (en bas et en bleu) en tant que nouvel utilisateur. Cliquer sur cette deuxième option.
+
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.43.png" alt=" installation Revit C.43" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+### 13 – Création d’un compte utilisateur :
+
+---------------------------
+
+
+
+Entrez des informations nominatives, cocher la case J’accepte les conditions d’utilisation. Choisir et noter un mot de passe, puis utiliser le bouton Créer un compte. Il est indispensable de bien noter le mail et le mot de passe utilisés afin de pouvoir se reconnecter au compte Autodesk durant les 30 jours d’évaluation.
+
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/ installation Revit C.51.png" alt=" installation Revit C.51" style="zoom:50%;" />
+
+Utiliser ensuite simplement le bouton Terminé en bas de la boite de dialogue qui suit :
+
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit D.00.png" alt=" installation Revit D.00" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+### 14 – Choisir la version d’évaluation :
+
+---------------------------
+
+
+
+Cliquer sur le bouton Lancer la version d’évaluation pour obtenir une version d’évaluation gratuite de 30 jours.
+
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit D.10.png" alt=" installation Revit D.10" style="zoom:50%;" />
+
+Revit va se lancer en version 30 jours.
+
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/ installation Revit D.20.png" alt=" installation Revit D.20" style="zoom:50%;" />
+
+La version d’évaluation est alors en cours de chargement :
+
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/ installation Revit D.36.png" alt=" installation Revit D.36" style="zoom:50%;" />
+
+
+
+### 15 – Ecran d’accueil première utilisation :
+
+---------------------------
+
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/Installation Revit E.1.png" alt="Installation Revit E.1" style="zoom:50%;" />
+
+
+
+En haut à droite de l’écran apparaissent les informations suivantes : mail de l’utilisateur connecté sur le site Autodesk, ainsi que le nombre de jours restant dans le petit encadré bleu. Voici un agrandissement :
+
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/Installation Revit E.2.png" alt="Installation Revit E.2" style="zoom:50%;" />

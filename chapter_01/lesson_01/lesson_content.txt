@@ -1,0 +1,25 @@
+# Le BIM: enjeux et fondements
+
+
+
+> "Ceci est une révolution !"
+
+[Steve jobs](https://www.youtube.com/watch?v=x7qPAY9JqE4) aurait ainsi pu qualifier le BIM (de l'anglais Building information Modeling). 
+
+Nous verrons dans ce cours pourquoi cette technologie bouscule le monde de la construction. Le BIM est innovant par plusieurs aspects: il introduit la **maquette numérique**, une nouvelle manière de **concevoir**, de **dessiner**, de **collaborer** et redéfinit l'acte de construire.
+
+Ce cours vous permettra de bien comprendre l'essence du BIM:
+
+- Comment en sommes nous arrivés à la technologie BIM.
+
+- La signification de l'acronyme BIM.
+- Les acteurs concernés par le BIM.
+- Les nouveaux métiers du BIM.
+- Un aperçu du cycle de projet en BIM.
+- La modélisation BIM
+- Les standards de fichiers.
+- La gestion de projet en BIM.
+
+Ce cours vous introduira pas à pas aux concepts fondamentaux du BIM et vous permettra d'en appréhender les possibilités. 
+
+En route vers le futur de la construction !

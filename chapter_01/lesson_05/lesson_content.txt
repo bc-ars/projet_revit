@@ -1,0 +1,87 @@
+# ✨ En résumé
+
+------------------------------
+
+<p>&nbsp;</p>
+
+### Une méthode de gestion de projet
+
+-----------------------------------
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+  
+
+On l'a vu, **le BIM n'est pas un logiciel** et il serait réducteur de le définir simplement comme une maquette numérique. Des centaines de logiciels BIM existent à travers le monde, répondant chacun aux besoins d'une ou plusieurs disciplines.
+
+**Le BIM relève de la stratégie et du management de projet** des acteurs, il est de leur ressort de se l'approprier. Cette stratégie et tout le processus qui va en découler repose sur une documentation BIM plus ou moins détaillé, comme nous le verrons par la suite.
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+
+
+
+
+### Un accélérateur pour la collaboration et la gestion des opérations 
+
+-----------------------------------
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+En fonction de l'échelle et de l'utilité, le **BIM** (Building Intelligence Modeling) se mue ou s'additionne au **CIM** (City Intelligence Modeling) et au **LIM** (Lanscape Intelligence Modeling). Autant de concepts qui vont petit à petit faire basculer les villes les plus innovantes vers la **Smart City**.
+
+![smart_city](https://raw.githubusercontent.com/bc-ars/plateform-images/main/BIM_Enjeux_et_Fondements/smart_city.gif)
+
+
+
+Nous verrons bientôt comment différents acteurs peuvent collaborer plus facilement ensemble dans le cycle d'un projet.
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+
+
+
+
+### Une nouvelle manière de représenter le réel
+
+-----------------------------------
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+
+
+La maquette numérique est la partie la plus tangible du BIM. On est passé du dessin manuel, à la DAO 2D puis CAO 3D pour arriver au **BIM: une modélisation paramètrique** qui va lier des représentations géométriques aux données à travers les objets BIM. L'outil devient de plus en plus une aide pour la conception et la mise en oeuvre d'un bâtiment.  
+
+<iframe src="https://xeokit.github.io/xeokit-sdk/examples/#BIMOffline_XKT_Schependomlaan" style="
+    width: 100%;
+    height: 500px;
+"></iframe>
+
+*À vous de maintenant manipuler cette maquette de la visionneuse xeokit et vous rendre compte des possibilités offertes ! La vidéo peut vous aider à réaliser des manipulations simples*.
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+

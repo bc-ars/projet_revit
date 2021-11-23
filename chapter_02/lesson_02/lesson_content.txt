@@ -1,0 +1,219 @@
+# 👷👷‍♀️ Le BIM et les acteurs traditionnels 
+
+
+
+## "There is an elephant in the room"
+
+En participant à des réunions de chantier, on voit très vite que la perception d'un projet est différentes en fonction des acteurs. Là où l'architecte voit un immense atrium apportant un puits de lumière naturelle, l'ingénieur structure y voit un renfort nécessaires des aciers dans les poteaux en béton armé. 
+
+Dans le monde de la construction, on ne peut plus passer à coté du terme BIM. Ce nouveau paradigme est amené à progressivement s'installer durablement dans les projets de BTP. Alors que fait-on ?
+
+Schématisons un peu les choses: Voyons le BIM comme un éléphant au milieu d'une pièce où tous les acteurs d'un projet sont rassemblés. Chacun des acteurs a une vision qui lui est propre, il semble même parfois qu'il a un bandeau devant les yeux pour son interlocuteur.
+
+![elephant_BIM](/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/elephant_BIM.jpg)
+
+*La perception du BIM par les différents acteurs (source: https://www.thenbs.com/knowledge/bim-for-all-dummies-or-not)*
+
+Tout cela est très bien illustré par l'image ci-dessus. Comme dit en langue anglaise: "There is an elephant in the room", il y a un élépant dans la pièce. Pour certains le BIM est un logiciel, pour d'autres une méthode de gestion de projet, un outil pour l'exploitation et la maintenance du bâtiment. Il faut prendre en compte également le fait que le niveau de compréhension du BIM et ses processus varie en fonction des acteurs mais est encore à de manière générale l'heure actuelle très faible.
+
+![niveau_maturite_BIM](/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/niveau_maturite_BIM.jpg)
+
+Comme le montre cette infographie réalisée en 2017, pour différentes tailles d'entreprise, seulement 10% des acteurs du BTP se considèrent maturent (au sens de la compréhension) sur le BIM. Dès lors, il faut bien préciser le rôle de chacun dans le processus BIM, et en particulier vis-à-vis de son métier ou de sa discipline. 
+
+<p>&nbsp;</p>
+
+## L'impact sur les acteurs traditionnels
+
+<p>&nbsp;</p>
+
+La maquette numérique va se retrouver au centre des échanges durant le processus BIM. Chacun des acteurs aura une relation particulière avec celle-ci:
+
+![acteur_traditionnels_BIM](/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/acteur_traditionnels_BIM.jpg)
+
+- Les géomètres ... ont pour mission le relevé des données et informations permettant notamment le géoréférencement du projet de la maquette numérique. Ils utilisent des outils d'acquisition tels que le télémètre laser et vont transmettre ces informations pour l'usage dans la maquette.
+
+SCHEMA GEOMETRE ==> Acquistion et outils
+
+- Les architectes vont pouvoir retranscrire leur vision du projet grâce à leurs esquisses. Ils peuvent pour ce faire utiliser des logiciels de conception en BIM qui fourniront les premières informations géométriques sur les matériaux constituant le bâtiment.
+
+  SCHEMA ARCHITECTE ==> Esquisses
+
+- Les bureaux d'études vont étudier la faisabilité technique des propositions architecturales grâce aux logiciels propres à leur discipline (structure, acoustique, thermique...). Ces simulations vont peu à peu enrichir la précision de la maquette.
+
+  SCHEMA BUREAU ETUDES ==> Calculs et simulations
+
+- Les fabricants de matériaux accompagnent les bureaux d'études et architectes dans le choix des gammes de produits qui vont se retrouver dans les objets BIM. 
+
+SCHEMA FABRICANTS ==> gamme de produits
+
+- Les pouvoirs publics imposent des règlementations tels que l'impact environnemental des produits de construction (sur la base de données INIES) ou le plan local d'urbanisme (PLU) dans chaque zone géographique.
+
+SCHEMA POUVOIR PUBLIC ==> Règlementation
+
+- les économistes de la construction vont établir des devis générés grâce aux objets BIM de la maquette numérique et renseigner sur le coût de la construction.
+
+SCHEMA ECONOMISTE ==> QUANTITATIF et coût
+
+- Les entreprises générales et leurs sous-traitants vont prendre les informations nécessaires sur la maquette numérique pour la préciser au fur et à mesure de l'éxecution avec les matériaux bels et bien installés. La correction progressive et l'enrichissement de la maquette numérique mèneront alors vers l'établissement du dossier des ouvrages exécutés (DOE) qui sera une réflection de l'ouvrage tel que construit.
+
+SCHEMA ENTREPRISE GENERAL ==> chantier et execution
+
+- 
+
+- La maîtrise d'ouvrage publique ou privé va peu à peu voir se constituer sa maquette numérique qui pourra peut-être se transformer en jumeau numérique (comme un jumeau qui née peu de temps avant son ainé) et l'utiliser pour son exploitation et sa maintenance.
+
+SCHEMA MOA ==> visualisation, exploitation gestion du patrimoine
+
+- 
+
+<p>&nbsp;</p>
+
+### Dessin à la main et CAO 2D
+
+---------------------------
+
+
+
+Un architecte est traditionnellement imaginé comme une personne devant une table inclinée avec un crayon, une règle, un compas, une équerre... Le concepteur produit différents types de plans comme des coupes, des perspectives, des plans d'étages... L'architecte utilise du papier et des calques pour tester différentes versions de son projet. On retrouve toujours cette manière de travailler chez des architectes expérimentés ou dans des phases très en amont du projet pour montrer des esquisses au client.
+
+![architecte traditionnel](https://raw.githubusercontent.com/bc-ars/plateform-images/main/BIM_Enjeux_et_Fondements/architecte_traditionnel.gif)
+
+*L'architecte en plein travail*
+
+Dans cette manière de travailler on projette des idées au moyen d'une géomètrie liée à notre support qui est un rendu 2D. La manière de réfléchir est la même mais l'avantage de la CAO vient dans l'industrialisation du process. On peut facilement copier et coller, reproduire à une plus grande échelle, imprimer, représenter des alternatives et les supprimer...
+
+![DAO et CAO 2D](https://raw.githubusercontent.com/bc-ars/plateform-images/main/BIM_Enjeux_et_Fondements/DAO_et_CAO_2D.jpeg)
+
+
+
+En 1963, un ingénieur du Massachusetts Institute of Technology (MIT) du nom d**'Ivan Sutherland** propose le logiciel **Sketchpad**. Il s'agit de l'un des premiers logiciels disposant d'une interface graphique permettant de faire du Dessin assisté par ordinateur. Viendra ensuite en 1977 un logiciel de DAO nommé **CADAM**, qui sera la premier à usage professionnel. Bien avant le bâtiment, l'aéronautique a innové dans la conception des prototypes par l'utilisation progressive de la DAO. On a pu voir alors apparaître des logiciels tels que **AutoCAD** en 1982, et **Archicad** en 1984. La représentation était ainsi réalisée au moyen de traits et de surfaces.
+
+La technique manuel consistant à réaliser des esquisses sur papiers (contenant implicitement des formes géométriques) se transpose alors sur l'ordinateur. il s'agit de la même manière de dessiner, à ceci près qu'il est possible d'industrialiser le processus, modifier ou annuler une action sans porter préjudice au support comme lorsque l'on dessine sur papier.
+
+Si l'on devait résumer et comparer ces deux techniques:
+
+| 💻 CAO 2D                                                     | ✍️ Dessin à la main                                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Conception rapide du plan                                    | Unique et difficilement duplicable                           |
+| Duplicable à l'infini et très rapidement                     | Tous changements implique des coûts conséquents et du temps peu efficient |
+| Modification aisée et facilité (on manipule des éléments lignes et points) | Prévoir gomme et crayons                                     |
+| On peut réutiliser le plan ou certaines de ses sections      | Non.....                                                     |
+| On peut créer et imaginer différentes versions               | Prévoir gomme, crayons et papiers                            |
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+
+
+### CAO 2D et CAO 3D
+
+--------------------------
+
+<p>&nbsp;</p>
+
+Grâce à la **3D, le projet devient beaucoup plus visualisable et proche de la réalité**. On comprend plus rapidement le projet et la communication est plus simple, même pour des non-initiés, les incompréhensions s'en retrouvent diminués.
+
+On fait la distinction entre la DAO et la CAO. Par exemple en DAO une dalle peut-être modélisée par des lignes qui n'auront comme lien entre elles qu'un lien géométrique. En CAO, la dalle sera un objet avec des propriétés géométriques et d'autres propriétés.
+
+![DAO 2D et CAO 3D](https://raw.githubusercontent.com/bc-ars/plateform-images/main/BIM_Enjeux_et_Fondements/DAO_2D_et_CAO_3D.jpeg)
+
+
+
+Dans la DAO, on a essayé de modéliser le processus de dessin à la main, alors que l'on passe avec la **CAO à une liaison entre objets avec des caractéristiques propres**. On peut commencer à parler de modélisation paramétrique où n'importe quel changement à des implications instantanées sur d'autres paramètres (par exemple les dimensions). Et on peut commencer à réaliser des analyses de surfaces, volumes....
+
+Pour résumer:
+
+| 💻 CAO 2D                                                     | 🧊 CAO 3D                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Les objets sont constitués d’éléments géométriques (ensembles de lignes, avec point de départ et point d’arrivée, pour représenter des objets architecturaux tels que les portes, les fenêtres, les murs et les balcons) | Eléments géométriques auxquels la 3ème dimension a été rajoutée |
+| Plusieurs dessins indépendants (plans, coupes, élévations et axonométries). | Cela dépend du logiciel                                      |
+| Modification aisée et facilité (on manipule des éléments lignes et points) | ✅                                                            |
+| On peut réutiliser le plan ou certaines de ses sections      | Cela dépend du logiciel                                      |
+| On peut créer et imaginer différentes versions               | ✅                                                            |
+
+
+
+<p>&nbsp;</p>
+
+
+
+### CAO 3D et BIM
+
+--------------------------
+
+
+
+Les prémices du BIM apparaissent en 1963 lorsque Sutherland propose le logiciel Sketchpad, précurseur de l’interface graphique et de la DAO.
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/BIM_Enjeux_et_Fondements/Sutherland.jpeg" alt="Sutherland" style="
+    width: 50%;
+">
+
+*Ivan Sutherland*
+
+Sketchpad (alias Robot Draftsman) est un programme informatique écrit par Ivan Sutherland en 1963 dans le cadre de sa thèse de doctorat au MIT ; thèse pour laquelle il a reçu un Turing Award en 1988 et le prix de Kyoto en 2012. Sketchpad est considéré comme le précurseur des logiciels de conception assistée par ordinateur (CAO) et a ouvert la voie aux interfaces homme-machine (IHM)1.
+
+
+
+En 1992 van Nederveen & Tolman utilisent pour la première fois le terme **"Building Information Model"** dans un article scientifique. Cet article annonce que les avancées technologiques permettent maintenant aux ordinateurs d'assister les architectes dans leurs plans de conception. Il met quand meme en lumière le fait qu'il exisxte encore beaucoup de restrictions mais invite les dessinateurs a s'emparer de cette technologie pour aboutir à des conceptions complexes. On commence à parler de "building model" qui pourront être intégrés à la DAO dans des bureaux d'études techniques travaillant sur des lots différents.
+
+Le BIM se voient plus qu'un outil de Conception Assistée par Ordinateur mais comme un collègue à qui l'on va confier des tâches automatisables.
+
+en 1984, **Archicad7** développé par Graphisoft est pour beaucoup le **1er logiciel BIM**. En 2000 sort **Revit** 8, racheté en 2002 par Autodesk qui sort la même année un livre blanc: Building Information Modeling. Comme la programmation informatique qui passe dont les langages passent de variables à de la programmation orientée objet, la CAO permet maintenant de manipuler des objets au paramètres propres ou partagés.
+
+![CAO 3D et BIM](https://raw.githubusercontent.com/bc-ars/plateform-images/main/BIM_Enjeux_et_Fondements/CAO_3D_et_BIM.jpeg)
+
+Avec la CAO 3D, il n'y a aucun rapport sémantique avec la construction. Le BIM reprend la logique de conception d'un bâtiment avec ses différents composants (dont on va d'ailleurs commencer la conception de la même manière que le processus réel)
+
+Pour résumer:
+
+| 🧊 CAO 3D                                                     | 💻  🏗️  BIM                                                    |
+| ------------------------------------------------------------ | :----------------------------------------------------------- |
+| Aucun entre les plans 2D et la 3D;                           | La modélisation est paramétrique                             |
+| La production de livrables (plan, coupes, élévations...) n'est pas une finalité en CAO | Les livrables sont connectés en permanence à la maquette numérique et on peut en extraire à l'infinie: (plan, coupes, élévations...) |
+| Le système géométrique est indépendant de la manière de construire | Chacun des objets BIM a des propriétés spécifiques et informations que l'on peut enrichir (matériaux, coût, conductivité thermique, maintenance, etc); |
+
+<p>&nbsp;</p>
+
+C'est une transformation digitale et même intellectuelle majeure. On parle de maquette intelligente. En plus de la géométrie réaliste de chacun des objets, nous avons des informations sur leurs composants et sur leurs connexions aux autres.
+
+
+
+<p>&nbsp;</p>
+
+### L'outil de conception devient outil d'aide à la décision
+
+--------------------------
+
+<p>&nbsp;</p>
+
+Depuis l'émergence du dessin assisté par Ordinateur et de la CAO, c'est une véritable disruption dans le monde de la construction et de l'architecture. Prenons l'exemple du cheminement intellectuel dans la conception d'un plan de détail de façade. 
+
+Le dessin manuel et la DAO 2D partent des mêmes principes. On est parti d'une représentation de l'esprit sur un support en deux dimensions: la feuille. On peut y distinguer 3 types d'éléments: le point, la ligne et la surface. . Ce support s'est amélioré avec l'apport du numérique et de son pouvoir d'industrialisation (copier, coller, éditer, supprimer) avec la DAO ou CAO 2D.
+
+![facade 2D dessin et DAO](https://raw.githubusercontent.com/bc-ars/plateform-images/main/BIM_Enjeux_et_Fondements/facade_2D_dessin_et_DAO.jpeg)
+
+On passe en suite à une géométrie qui n'est plus plane mais en volume, qui nous permet de mieux nous représenter les objets dans notre esprit.
+
+![facade DAO et CAO 3D](https://raw.githubusercontent.com/bc-ars/plateform-images/main/BIM_Enjeux_et_Fondements/facade_DAO_et_CAO_3D.jpeg)
+
+
+
+Avec le BIM, les objets deviennent intelligents avec une idée de final d'éléments constituant un modèle de la construction. Le parallélépipède peut être un poteau, un mur, une dalle, une cloison. Outre sa longueur, largeur, hauteur, il a des caractéristiques propres: références fabricants, marque, couleur, capacité thermique....). Il peut aussi avoir plusieurs objets constitutifs: cloison, isolant, enduit, montant métallique...
+
+![facade CAO 3D et BIM](https://raw.githubusercontent.com/bc-ars/plateform-images/main/BIM_Enjeux_et_Fondements/facade_CAO_3D_et_BIM.jpeg)
+
+<p>&nbsp;</p>
+
+Nous entrons dans un nouveau paradigme avec le BIM. La conception devient orientée objet et va nous permettre de retranscrire plus fidèlement la vision des architectes et des ingénieurs. 
+
+***Revoyez ci-contre la vidéo historique de présentation du logicel Sketchpad en 1963.***
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
