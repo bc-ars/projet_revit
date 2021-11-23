@@ -238,10 +238,10 @@ La version d’évaluation est alors en cours de chargement :
 
 ---------------------------
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/0_Installation/%20installation%20Revit%20E.1.png" alt="Installation Revit E.1" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/0_Installation/Installation%20Revit%20E.1.png" alt="Installation Revit E.1" style="zoom:20%;" />
 
 
 
 En haut à droite de l’écran apparaissent les informations suivantes : mail de l’utilisateur connecté sur le site Autodesk, ainsi que le nombre de jours restant dans le petit encadré bleu. Voici un agrandissement :
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/0_Installation/%20installation%20Revit%20E.2.png" alt="Installation Revit E.2" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/0_Installation/Installation%20Revit%20E.2.png" alt="Installation Revit E.2" style="zoom:20%;" />
