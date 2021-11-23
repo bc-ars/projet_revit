@@ -16,7 +16,7 @@ L’objectif de ce chapitre est de découvrir l’environnement de travail du lo
 
 Pour lancer le logiciel Revit (quelle que soit la version), Il faut double cliquer sur l'icône du logiciel, ou alors depuis la barre de lancment rapide cliquer une fois sur cette même icône:
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/0_Installation/%20installation%20Revit%20C.18.png" alt=" installation Revit C.18" style="max-width: 30%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/0_Installation/%20installation%20Revit%20C.18.png" alt=" installation Revit C.18" style="max-width: 10%" />
 
 
 
