@@ -33,13 +33,13 @@ Nous allons saisir des informations afin de définir le projet, comme le nom du 
 
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_06.44.png" alt="parametrage_general_06.44" style="max-width: 70%" />
 
-
+<p>&nbsp;</p>
 
 Comme indiqué dans l'onglet **Gérer** 1️⃣, le panneau **Paramètres** 2️⃣, cliquez sur **Informations sur le projet** 3️⃣. La boîte de dialogue **Informations sur le projet** 4️⃣ s'ouvre (elle décrit la modélisation). En face de chaque **Paramètre** 5️⃣, saisir les informations correspondantes, dans la partie **Valeur** 6️⃣. Cliquez sur **OK** 7️⃣ pour valider.
 
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_06.53.png" alt="parametrage_general_06.53" style="max-width: 70%" />
 
-
+<p>&nbsp;</p>
 
 **`Fichier corrigé : 2.3.1 Informations du projet.rvt`**
 
@@ -55,7 +55,7 @@ Comme indiqué dans l'onglet **Gérer** 1️⃣, le panneau **Paramètres** 2️
 
 Dans cette section, vous allez paramétrer l’enregistrement automatique de votre projet. Dans le menu **Fichier** 1️⃣, cliquer sur **Options** 2️⃣. La boîte de dialogue du même nom s’ouvre 3️⃣.Choisir dans le menu vertical **Propriétés générales** 4️⃣ et saisir un intervalle de rappel d’enregistrement de **30 minutes** 5️⃣. Cliquer sur **OK** 6️⃣ pour valider.
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_07.33-7682444.png" alt="parametrage_general_07.33" style="max-width: 70%" /> <img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_07.41.png" alt="parametrage_general_07.41" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_07.33.png" alt="parametrage_general_07.33" style="max-width: 70%" /> <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_07.41.png" alt="parametrage_general_07.41" style="max-width: 70%" />
 
 Si vous enregistrez votre fichier Revit manuellement, celui-ci conserve les fichiers précédents qui portent le même nom et il rajoute une extension qu’il incrémente (.0001, 0002, .0003, …). 
 
@@ -75,13 +75,15 @@ Si vous enregistrez votre fichier Revit manuellement, celui-ci conserve les fich
 
 Dans cette section, vous allez définir les unités de travail de votre projet, dans la discipline commune.Dans l'onglet **Gérer** 1️⃣, panneau **Paramètres** 2️⃣, cliquez sur **Unités** 3️⃣. La boîte de dialogue **Unités** 4️⃣ s’ouvre.
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_08.00.png" alt="parametrage_general_08.00" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_08.00.png" alt="parametrage_general_08.00" style="max-width: 70%" />
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_07.50.png" alt="parametrage_general_07.50" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_07.50.png" alt="parametrage_general_07.50" style="max-width: 30%" />
 
 Une fois la boîte de dialogue **Unités** 4️⃣  ouverte, dans la discipline **Commune** 5️⃣, le paramétrage se présente sous la forme d’un tableau avec les **Unités** et le **Format** 6️⃣. Si vous cliquez sur la valeur de la **Longueur** 7️⃣, la boite de dialogue **Format** 8️⃣ s’ouvre.Elle vous propose d’affiner vos **Unités** et l’**Arrondi**. Cliquez une première fois sur **OK** 🔟 pour valider ce choix puis une deuxième fois dans la boîte de dialogue Unités 1️⃣1️⃣.
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_09.21.png" alt="parametrage_general_09.21" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_09.21.png" alt="parametrage_general_09.21" style="max-width: 70%" />
+
+<p>&nbsp;</p>
 
 **`Fichier corrigé : 2.3.3unités de travail.rvt `**
 
@@ -146,19 +148,23 @@ Suite à cela, la boîte de dialogue **Accrochages** 4️⃣ s’ouvre. On dispo
 
 Dans cette section, vous allez définir les unités et la précision de vos cotations, en fonction ou non, des unités de travail. Dans l'onglet **Annoter** 1️⃣, panneau **Cote **2️⃣, cliquez sur le petit triangle noir à coté de **Cote** pour ouvrir un sous menu. 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_10.10.png" alt="parametrage_general_10.10" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_10.10.png" alt="parametrage_general_10.10" style="max-width: 70%" />
 
 Notre exemple de paramétrage de la cotation se fera sur la cotation linéaire.
 
 Quand le sous menu **Cote** s’ouvre, cliquer sur **Types de cotes linéaires** 3️⃣, parmi les 7 autres disponibles dans les réglages.
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_10.17.png" alt="parametrage_general_10.17" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_10.17.png" alt="parametrage_general_10.17" style="max-width: 70%" />
 
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_10.34.png" alt="parametrage_general_10.34" style="max-width: 70%" />
+
+<p>&nbsp;</p>
 
 Dans la fenêtre **Propriétés du type** 1️⃣, vous accédez à la **Famille** et au **Type** de la cotation linéaire2️⃣. Dans le tableau Paramètres de type, en face de **Format des unités** 3️⃣, cliquez sur la valeur **1234.57 (m)** 4️⃣. La boite de dialogue **Format** 5️⃣ s’ouvre. Il faut choisir ses réglages personnels dans l’encadré rouge 6️⃣. Cliquez une première fois sur **OK** 7️⃣, la boite de dialogue **Format** se ferme. Cliquer ensuite une deuxième fois sur **OK** 8️⃣ dans la fenêtre **Propriétés du type**. 
 
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_10.56.png" alt="parametrage_general_10.56" style="max-width: 70%" />
+
+<p>&nbsp;</p>
 
 **`Fichier corrigé : 2.3.5cotations.rvt  `**
 
@@ -176,7 +182,9 @@ Nous aborderons dans ce chapitre les notions d’épaisseurs de ligne aussi appe
 
 Dans l'onglet **Gérer** 1️⃣, cliquez sur **Paramètres supplémentaires **2️⃣. Le menu se déroule, choisir alors **Styles de lignes** 3️⃣. La fenêtre **Styles de lignes** s’ouvre. 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_11.15.png" alt="parametrage_general_11.15" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_11.15.png" alt="parametrage_general_11.15" style="max-width: 70%" />
+
+<p>&nbsp;</p>
 
 Le tableau des **Styles de lignes** 1️⃣ présente les lignes utilisées dans Revit. Elles sont classées dans les colonnes : **Catégorie** 2️⃣, **Epaisseur des lignes** 3️⃣, **Couleur des lignes** 4️⃣ et **Motif des lignes** 5️⃣.  Nous allons modifier la ligne **Esquisse** 6️⃣. Son épaisseur d’origine est de 3, nous allons saisir la valeur 1. Cette ligne sera alors plus fine. Pour valider son choix, cliquer sur **Appliquer** 7️⃣ et **OK** 8️⃣. 
 
@@ -184,11 +192,17 @@ Le tableau des **Styles de lignes** 1️⃣ présente les lignes utilisées dans
 
 Dans l'onglet **Gérer** 1️⃣, cliquer sur **Paramètres supplémentaires** 2️⃣. Le menu se déroule, choisir **Epaisseur des lignes** 3️⃣.  La fenêtre **Epaisseur des lignes** s’ouvre (ci-dessous). 
 
+<p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_12.23.png" alt="parametrage_general_12.23" style="max-width: 70%" />
 
 Dans la fenêtre **Epaisseur des lignes **1️⃣, nous nous intéresserons aux **lignes de modèle** 2️⃣. Ce sont les lignes 3D de votre modélisation. Le tableau 3️⃣ met en relation les épaisseurs de lignes en fonction de l’échelle de votre vue. La ligne 1 est la plus fine et la ligne 16 est la plus épaisse. Cliquez sur **OK** 4️⃣ pour valider. 
 
+<p>&nbsp;</p>
+
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_12.54.png" alt="parametrage_general_12.54" style="max-width: 70%" />
+
+<p>&nbsp;</p>
 
 Nous aborderons plus loin les épaisseurs des lignes de détail que l’on peut rajouter sur les vues 2D. Nous effectuerons également les réglages des épaisseurs des lignes d’un mur composé de plusieurs couches, lors de la modélisation architecturale de l’ouvrage, notamment des murs. Ces réglages seront prioritaires.
 
@@ -209,15 +223,21 @@ En bas à droite de la boîte de dialogue **visibilité / graphisme**, cochez la
 
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_13.05.png" alt="parametrage_general_13.05" style="max-width: 70%" />
 
+<p>&nbsp;</p>
+
 La boîte de dialogue **Styles de ligne des couches Hôtes** 1️⃣ s'ouvre comme ci-dessous: Les **Epaisseurs de lignes** 3️⃣ attribuées aux différentes couches du mur (**Fonction** 2️⃣), donnent le résultat **`Avant`** modification. Nous pouvons aussi ajuster les **Couleurs des lignes** 4️⃣.
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_13.18.png" alt="parametrage_general_13.18" style="max-width: 70%" /><img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_13.33.png" alt="parametrage_general_13.33" style="max-width: 70%" /> 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_13.18.png" alt="parametrage_general_13.18" style="max-width: 70%" /><img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_13.33.png" alt="parametrage_general_13.33" style="max-width: 70%" /> 
+
+<p>&nbsp;</p>
 
 Les épaisseurs de lignes s'échelonnent de 1 à 16, du plus fin au plus épais (voir le paragraphe précédent **Les styles et épaisseurs de ligne****). Dans le fichier gabarit d’origine, les épaisseurs des couches sont toutes réglées à 2. Nous allons, comme indiqué ci-dessous, modifier les **Epaisseurs des lignes** 1️⃣, nous choisirons l’épaisseur 3 pour le mur porteur (Porteur / Ossature) qui apparaîtra plus épais au dépend des autres couches secondaires (2, 3,4 et 5) qui se voient attribuer une ligne d’épaisseur 1.Cliquer sur **OK** 2️⃣ pour valider et sur **Appliquer** dans la fenêtre **Styles de ligne des couches Hôtes.**
 
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_14.32.png" alt="parametrage_general_14.32" style="max-width: 70%" />
 
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_14.59.png" alt="parametrage_general_14.59" style="max-width: 70%" />
+
+<p>&nbsp;</p>
 
 Ce réglage de l’épaisseur des lignes pour les couches est visible si vous activez l’épaisseur des lignes en cliquant sur l’icône **Lignes fines** dans la barre d’outils d’accès rapide.
 
@@ -239,10 +259,14 @@ Dans l'onglet **Vue** 1️⃣, panneau **Graphismes** 2️⃣, cliquer sur **Vis
 
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_15.15.png" alt="parametrage_general_15.15" style="max-width: 70%" />
 
+<p>&nbsp;</p>
+
 Comme indiqué ci-dessous, la fenêtre **Remplacement visibilité / graphisme pour Plan d’étage Niveau 0** 1️⃣ s’affiche (vue active à l’écran). On obtient le même résultat avec le raccourci clavier « **vv** ».
 Dans cette fenêtre, les informations sont classées dans **4 onglets** 2️⃣. Durant la modélisation, nous utiliserons principalement les onglets **Catégories de modèles** (les composants modélisés et insérés) et **Catégories importées** (plan DWG du projet par exemple). La colonne **Visibilité** 3️⃣ liste les catégories à gérer et la visibilité s’active à l’aide des cases à cocher ou décocher 4️⃣, comme indiqué sur droite du tableau. Selon les modifications effectuées, il faut soit cliquer sur **OK**, sur **Annuler** ou **Appliquer** 5️⃣.
 
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_15.36.png" alt="parametrage_general_15.36" style="max-width: 70%" />
+
+<p>&nbsp;</p>
 
 Nous pourrons utiliser cet outil de gestion des calques tout au long de la modélisation du projet, très utile pour créer des gabarits de vue ou simplement pour ajuster ses graphismes de la vue courante (visibilité, couleur, …).
 
