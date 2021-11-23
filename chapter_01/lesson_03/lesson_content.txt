@@ -16,13 +16,13 @@ L’objectif de ce chapitre est de découvrir l’environnement de travail du lo
 
 Pour lancer le logiciel Revit (quelle que soit la version), Il faut double cliquer sur l'icône du logiciel, ou alors depuis la barre de lancment rapide cliquer une fois sur cette même icône:
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.18-7662978.png" alt=" installation Revit C.18" style="zoom:50%;" />
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.18-7662978.png" alt=" installation Revit C.18" style="max-width: 70%" />
 
 
 
 Lors de son ouverture 1️⃣, la page d'acceuil propose différentes actions possibles:
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/Interface_Revit25.10.png" alt="Interface_Revit25.10" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit25.10.png" alt="Interface_Revit25.10" style="max-width: 70%" />
 
 
 
@@ -42,7 +42,7 @@ Nous allons créer un nouveau projet, nous cliquons sur **Nouveau** dans la fen�
 
 Pour créer un nouveau projet, dans la fenêtre **Projets** 1️⃣ de la page d’accueil, cliquez sur **Nouveau** 2️⃣. Dans la boîte de dialogue du **Nouveau projet** 3️⃣, choisir le **Gabarit architectural** 4️⃣, car on souhaite modéliser l’architecture du bâtiment. Dans la zone **Créer un nouveau** 5️⃣, choisir **Projet**.
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/Interface_Revit38.22.png" alt="Interface_Revit38.22" style="zoom:50%;" /><img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/1_Interface/Interface_Revit38.33.png" alt="Interface_Revit38.33" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.22.png" alt="Interface_Revit38.22" style="max-width: 70%" /><img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.33.png" alt="Interface_Revit38.33" style="max-width: 70%" />
 
 Suite à ces choix, cliquez sur OK pour valider. Revit va alors ouvrir un nouveau projet (qui devra être renommé) tout en affichant son interface de travail.
 
@@ -63,7 +63,7 @@ Suite à ces choix, cliquez sur OK pour valider. Revit va alors ouvrir un nouvea
 
 - Enfin, validez en cliquant sur **Enregistrer** 6️⃣.
 
-  <img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/Interface_Revit38.47.png" alt="Interface_Revit38.47" style="zoom:50%;" /> <img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/1_Interface/Interface_Revit38.59.png" alt="Interface_Revit38.59" style="zoom:50%;" />
+  <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.47.png" alt="Interface_Revit38.47" style="max-width: 70%" /> <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.59.png" alt="Interface_Revit38.59" style="max-width: 70%" />
 
 
 
@@ -87,7 +87,7 @@ Revit contient de base 6 fichiers gabarits différents, extension.rte, qui corre
 
 Nous allons découvrir la composition de l’interface de travail de Revit. Nous reviendrons sur ces différents éléments tout au long de la modélisation du projet.
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/Interface_Revit39.16.png" alt="Interface_Revit39.16" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit39.16.png" alt="Interface_Revit39.16" style="max-width: 70%" />
 
 
 
@@ -164,7 +164,7 @@ La procédure l’installation se lance sans intervention de l’utilisateur dè
 
 L’écran énonçant les termes de la licence du logiciel apparait. Il faut accepter les termes de la licence produit en cochant J’accepte les conditions d’utilisation, et utiliser le bouton Suivant pour poursuivre l’installation.
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit B.29.png" alt=" installation Revit B.18" style="zoom:50%;" />
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit B.29.png" alt=" installation Revit B.18" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -180,7 +180,7 @@ L’écran énonçant les termes de la licence du logiciel apparait. Il faut acc
 
 Dans la boite de dialogue suivante, choisir simplement l’option Installation :
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit B.38.png" alt=" installation Revit B.38" style="zoom:50%;" />
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit B.38.png" alt=" installation Revit B.38" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -194,7 +194,7 @@ Dans la boite de dialogue suivante, choisir simplement l’option Installation :
 
 La procédure d’installation va se lancer et durer 25 minutes au minimum.
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit B.47-7662485.png" alt=" installation Revit B.47" style="zoom:50%;" />
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit B.47-7662485.png" alt=" installation Revit B.47" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -208,13 +208,13 @@ La procédure d’installation va se lancer et durer 25 minutes au minimum.
 
 Lorsque l’installation est terminée, la boite de dialogue suivante apparait : Dans cet exemple, on choisira de ne pas redémarrer l’ordinateur, en utilisant le bouton Pas maintenant. En effet, il peut y avoir des tâches en cours, des logiciels en cours d’utilisation, des fichiers à sauvegarder.
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit B.55.png" alt=" installation Revit B.55" style="zoom:50%;" />
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit B.55.png" alt=" installation Revit B.55" style="max-width: 70%" />
 
 
 
 On utilisera donc le bouton Terminer. Cependant, avant de lancer REVIT, il faudra impérativement redémarrer l’ordinateur.
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.03.png" alt=" installation Revit C.03" style="zoom:50%;" />
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.03.png" alt=" installation Revit C.03" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -226,9 +226,9 @@ On utilisera donc le bouton Terminer. Cependant, avant de lancer REVIT, il faudr
 
 La procédure d’installation a placé une icône Revit 2022 sur le bureau. Une fois l’ordinateur relancé, on double cliquera sur cette icone pour lancer REVIT.
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.18-7603836.png" alt=" installation Revit C.18" style="zoom:50%;" />
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.18-7603836.png" alt=" installation Revit C.18" style="max-width: 70%" />
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.25-7662485.png" alt=" installation Revit C.25" style="zoom:50%;" />
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.25-7662485.png" alt=" installation Revit C.25" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -252,7 +252,7 @@ Pour une version d’évaluation REVIT 30 jours, il faut choisir l’option Conn
 
 Une boite de dialogue propose alors d’entrer un email, ou bien de Créer un compte (en bas et en bleu) en tant que nouvel utilisateur. Cliquer sur cette deuxième option.
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.43.png" alt=" installation Revit C.43" style="zoom:50%;" />
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.43.png" alt=" installation Revit C.43" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -264,11 +264,11 @@ Une boite de dialogue propose alors d’entrer un email, ou bien de Créer un co
 
 Entrez des informations nominatives, cocher la case J’accepte les conditions d’utilisation. Choisir et noter un mot de passe, puis utiliser le bouton Créer un compte. Il est indispensable de bien noter le mail et le mot de passe utilisés afin de pouvoir se reconnecter au compte Autodesk durant les 30 jours d’évaluation.
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.51-7662485.png" alt=" installation Revit C.51" style="zoom:50%;" />
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit C.51-7662485.png" alt=" installation Revit C.51" style="max-width: 70%" />
 
 Utiliser ensuite simplement le bouton Terminé en bas de la boite de dialogue qui suit :
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit D.00.png" alt=" installation Revit D.00" style="zoom:50%;" />
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit D.00.png" alt=" installation Revit D.00" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -280,15 +280,15 @@ Utiliser ensuite simplement le bouton Terminé en bas de la boite de dialogue qu
 
 Cliquer sur le bouton Lancer la version d’évaluation pour obtenir une version d’évaluation gratuite de 30 jours.
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit D.10.png" alt=" installation Revit D.10" style="zoom:50%;" />
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit D.10.png" alt=" installation Revit D.10" style="max-width: 70%" />
 
 Revit va se lancer en version 30 jours.
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit D.20-7662485.png" alt=" installation Revit D.20" style="zoom:50%;" />
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit D.20-7662485.png" alt=" installation Revit D.20" style="max-width: 70%" />
 
 La version d’évaluation est alors en cours de chargement :
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit D.36-7662485.png" alt=" installation Revit D.36" style="zoom:50%;" />
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/ installation Revit D.36-7662485.png" alt=" installation Revit D.36" style="max-width: 70%" />
 
 
 
@@ -296,10 +296,10 @@ La version d’évaluation est alors en cours de chargement :
 
 ---------------------------
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/Installation Revit E.1.png" alt="Installation Revit E.1" style="zoom:50%;" />
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/Installation Revit E.1.png" alt="Installation Revit E.1" style="max-width: 70%" />
 
 
 
 En haut à droite de l’écran apparaissent les informations suivantes : mail de l’utilisateur connecté sur le site Autodesk, ainsi que le nombre de jours restant dans le petit encadré bleu. Voici un agrandissement :
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/Installation Revit E.2.png" alt="Installation Revit E.2" style="zoom:50%;" />
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/Evebim/Images/Installation Revit E.2.png" alt="Installation Revit E.2" style="max-width: 70%" />
