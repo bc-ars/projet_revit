@@ -22,7 +22,7 @@ Pour lancer le logiciel Revit (quelle que soit la version), Il faut double cliqu
 
 Lors de son ouverture 1️⃣, la page d'acceuil propose différentes actions possibles:
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit25.10.png" alt="Interface_Revit25.10" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit25.10.png" alt="Interface_Revit25.10" style="max-width: 120%" />
 
 
 
@@ -63,7 +63,7 @@ Suite à ces choix, cliquez sur OK pour valider. Revit va alors ouvrir un nouvea
 
 - Enfin, validez en cliquant sur **Enregistrer** 6️⃣.
 
-  <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.47.png" alt="Interface_Revit38.47" style="max-width: 50%" /> <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.59.png" alt="Interface_Revit38.59" style="max-width: 50%" />
+  <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.47.png" alt="Interface_Revit38.47" style="max-width: 30%" /> <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.59.png" alt="Interface_Revit38.59" style="max-width: 50%" />
 
 
 
