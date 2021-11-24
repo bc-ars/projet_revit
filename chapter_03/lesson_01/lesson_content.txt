@@ -1,50 +1,296 @@
-# What is a web page?
+# **La mise en place du projet**
 
-## Nec alto perenni
+------------------------------
 
-Lorem markdownum tunc alimenta solvi? Malo incepti **rotarum** temptant et
-ultimus posuitque duabus sed atque solidam, latrare Rhodopen est.
+<p>&nbsp;</p>
 
-## Numquam tantummodo moenia nondum
+L’objectif de cette section est d’être capable de réaliser la modélisation architecturale du projet, le centre de loisirs, à partir du dossier de base du projet (documents graphiques et pièces écrites). 
 
-Dum ait sed certamen hoc parabant se suo ad si audentes ubera **Solem**
-tribuitque litem at! Insidiosa bella metas paulum, septem vivunt decorum
-sustulit placet; illum, est est Telamoniades robora alieni. Adit conbiberat
-color, medio **crines**; torrens est seniles femina missae.
+A cet effet, nous utiliserons toutes les fonctions et outils proposés par le logiciel Revit. 
 
-Tum nec et ferunt Iovis, tempora habeo radiis lacrimisque saepe aversata. Post
-annos, beatam [artus](http://pedesat.io/nymphanigro) ingemit differt habenas
-silvasque trementem, macies troia sacrilegos non cuncta
-[tutae](http://eratper.org/inminet.aspx)? *Probat* parens Epopeus fuit spectare
-serpit inpune honorum Alcmene pennis est. Est terras innumeras summa pastoria
-orbem.
+De la précision de cette modélisation du projet dépend la qualité de toutes les exploitations que nous pourrons en faire, dans le cadre de l’interopérabilité du projet (économique, réalité virtuelle, …). 
 
-## Gratia et summae contenta
+**Nous allons apprendre à créer le contexte de modélisation du projet avec ses niveaux, l’insertion d’un fond de plan en DWG et le quadrillage des éléments porteurs.**  
 
-Inque [nunc aevo Castore](http://moraemicat.com/enim-cognosse): cruore: erat
-telum taedasque aduncis tamen? Noctem coniuge, voce nec ingens, exsecrere
-rictus. Nentes modo, acta pennas nescia vertice levis turbatum nostrum pennas
-laudare Saturno pinus sublimes.
+<p>&nbsp;</p>
 
-    utf_apple(nosql_ram, 4, operatingMetaBoot);
-    var ipvHashtagProcessor = bare.rightSlaOdbc(loadRupHdd + file / raw_dual,
-            metaPim + format_uat_on + 5);
-    sprite.cad_lossy(digitalMenuSystem, 715791, ebook);
-    readRegistry.bit_status_spooling -= memoryFlamingManet * ttl - 4;
-    hitPointMap(driveSyntax, 364622);
+## 1- **Création et modification des niveaux du projet**
 
-## Haec neque illis decipiat
+---------------------------
 
-Quem Ammon culpatque **mali**, soletur male nomine. Sed Pindo est parenti domum
-vultumque Priamus quo imago dona? Deus modo, inter?
+Cette section vous présente la méthode de travail à adopter lors cette première étape importante. Dans notre cas de figure, nous disposons des fichiers natifs au format **DWG**, grâce auxquels nous allons prendre connaissance des niveaux à créer pour la modélisation. Il est important de consulter régulièrement les documents du projet ou du moins de bien connaître sa composition.
+Sur la coupe ci-dessous, extrait du DG7, les niveaux caractéristiques du projet sont indiqués:	
 
-> [Edam quae Aeson](http://hoc-inquit.io/) tibi atque sunt sua iniectis summae
-> parantem aliqua pace. Putet vela visa: ferebant resecuta altis? Pectora *et
-> utque* tetigisset modo vivit ignotas animumque ortygiam iacuit, vidi utque
-> iactat facit male, Babylonia Iovis, **ab**.
+- **`-1.14`** :	Mur de soubassement.	
 
-Quid ira infelix valens faciet tibi curva dant suorum Oetaeus laniare Lucifer
-retroque mori adimit haerent, duo sub! Urbem intellege restabat subitis
-Pallantidos deum me te primus, septem Phoebus. Candida tollit. Memnonis dei lege
-exhalari dolores, nubibus qua, me dies. Colloque verebor numen vibrabant longos
-insurgere Achillem.
+- **`-0.70`** : voirie / extérieur.	
+
+- **`-0.12`** : Cour intérieure.	
+
+- **`0.00`** : 	RDC niveau fini.	
+
+- **`3.17`** : 	1er étage niveau fini.	
+
+- **`6.29`** : 	Toiture terrasse niveau brut supérieur.	
+
+- **`6.87`** : 	Acrotère toiture terrasse niveau brut.
+
+  <p>&nbsp;</p>
+
+![mise_en_place_projet_1.43](https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_1.43.png)
+
+<p>&nbsp;</p>
+
+Dans Revit, rendez vous dans **l’Arborescence du projet** 1️⃣, dans **Elévations** 2️⃣, puis double-cliquez sur **Elévation Sud** 3️⃣. Comme indiqué ci-dessous, Revit ne propose que 3 niveaux par défaut.
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_1.44.png" alt="mise_en_place_projet_1.44" style="zoom:50%;" />
+
+
+
+*Les 3 niveaux proposés par défaut par Revit, qu’il faudra repositionner et renommer :* 
+
+- *0 : Niveau 0* 
+
+- *3.00 : Niveau 1*
+- *6.00 : Niveau 2* 
+
+Pour information, la création et la modification des niveaux du projet que nous allons effectuer sur l’**élévation Sud** sera visible ensuite sur toutes les élévations du projet, accessibles depuis l’arborescence.Ces 3 niveaux proposés par Revit sont les 3 **Plans d’étage** dans l’**Arborescence du projet**.
+
+Pour maîtriser les niveaux du projet dans Revit, il faut savoir principalement : 
+
+- Créer un nouveau niveau, 
+- Déplacer son étiquette, 
+- Changer son altitude et le renommer.
+
+Avant toute création et manipulation, regardons la composition du niveau et de son étiquette.
+
+**1️⃣ 	Symbole** 
+
+**2️⃣** 	Nom 
+
+3️⃣ 	Altitude 
+
+**4️⃣** 	Case de visibilité 
+
+**5️⃣** 	Ligne 
+
+**6️⃣** 	Point accroche 
+
+**7️⃣** 	Coude 
+
+**8️⃣** 	Cadenas 
+
+**9️⃣** 	Symbole 2D ou 3D 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_2.05.png" alt="mise_en_place_projet_2.05" style="zoom:50%;" />
+
+**Comment créer un niveau dans le projet ?** 
+
+Dans le menu **Architecture** 1️⃣, et le panneau **Référence** 2️⃣, cliquer sur **Niveau** 3️⃣. 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_2.25.png" alt="mise_en_place_projet_2.25" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+1- Pour placer la ligne de **Niveau 5**, cliquer une première fois 1️⃣ pour placer le point de droite. 
+
+(Avant de cliquer, on peut rentrer une valeur de décalage par rapport au niveau d’appui, à la place de 2.61 qui est proposé). 
+
+2- Cliquer une deuxième fois 2️⃣ pour placer le point de gauche de votre ligne de **Niveau 5**. 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_2.38.png" alt="mise_en_place_projet_2.38" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Vous obtenez le résultat ci-dessous, quand on sélectionne le niveau pour l’éditer (cliquer sur sa ligne) :Il ne vous reste plus qu’à cliquer sur la case 4️⃣ de visibilité pour afficher sur la droite l’étiquette du **Niveau 5**.
+
+![mise_en_place_projet_2.39](https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_2.39.png)
+
+<p>&nbsp;</p>
+
+**Comment déplacer son étiquette de niveau ? **Pour ramener l’étiquette du **Niveau 5** sur la droite, alignée verticalement aux autres, il faut le sélectionner en cliquant sur sa ligne et déplacer le point rose d’accroche (repéréprécedemment) de la position 1️⃣ à la position 2️⃣. Quand votre **Niveau 5** s’aligne avec les autres, la ligne en pointillé bleu verticale apparaît.
+
+<p>&nbsp;</p>
+
+**Comment changer l’altitude du niveau?**	
+
+- 1️⃣: Avec la souris, survolez la valeur de l’altitude du niveau qui passe en bleu. Cliquez dessus afin 	d’activer la saisie. Nous allons changer la valeur **8.6100 **en surbrillance.	
+- 2️⃣: Saisir la valeur du niveau 6.29. Cela correspond au niveau brut du dernier niveau (voir précédemment).	Cliquez sur **le coude** 7️⃣ afin de déplacer l’étiquette de votre **Niveau 5**, elle se confond avec le **Niveau 2**.
+- 3️⃣: Déplacez le coude, transformé en point bleu 7️⃣, verticalement afin de gagner en lisibilité.
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_2.49.png" alt="mise_en_place_projet_2.49" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+**Comment renommer le Niveau 5 ?**
+
+- 1️⃣: Avec la souris, survoler le nom du niveau qui passe en bleu. Cliquer dessus afin 	d’activer la saisie. Nous allons changer le nom **Niveau 5** en surbrillance.
+- 2️⃣: Saisir le nom du niveau **Niveau 2** brut. Cela correspond au niveau brut du dernier niveau.
+
+💡 *: Quand Revit vous demandera « Voulez-vous renommer les vues correspondantes ? » répondre **oui**.* 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_2.50.png" alt="mise_en_place_projet_2.50" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Ainsi, vous allez pourvoir créer et modifier tous les niveaux du projet, comme ci-dessous, à droite et à gauche de votre élévation Sud. Il sera à reproduire pour les autres élévations Nord, Est et Ouest.
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_3.09.png" alt="mise_en_place_projet_3.09" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Pour information, le cadenas 8️⃣ verrouille le déplacement de votre étiquette, le symbole 2D / 3D 9️⃣ permet de jouer sur la limite de la vue (2D pour l’élévation et 3D pour le modèle entier). 
+
+**`Fichier corrigé 3.1.1 creation des niveaux.rvt`**
+
+
+
+<p>&nbsp;</p>
+
+## 2- **Insertion d'un plan en DWG**
+
+---------------------------
+
+
+
+L’objectif de cette section est de préparer la future modélisation du projet à l’aide d’un **plan au format DWG**. Nous allons insérer le plan du RDC dans notre fichier Revit au niveau 0 RDC.
+Pour insérer un plan DWG dans Revit, deux méthodes existent : 
+
+- Importer un fichier CAO : dans ce cas on considère le projet  terminé. Si celui-ci évolue, il faudra l’importer à nouveau.	
+- Lier un fichier CAO : le projet n’est pas finalisé, les modifications qui sont effectuées vont être répercutées lorsque l'on rechargera le lien. Cette fonction est utilisée par exemple lors de liaison d’un fichier Génie Climatique avec le fichier Revit Architecture.
+
+Pour notre exemple, le projet est déjà réalisé, par conséquent nous importerons le plan du RDC au format DWG. Avant l’insertion, il faut d'abord isoler son plan du RDC sur un fichier Autocad, le reste des documents sont inutiles et ne doivent pas surcharger votre importation.
+
+Dans l'onglet **Insérer** 1️⃣, panneau **Importer** 2️⃣, cliquer sur **Importer CAO** 3️⃣.
+
+<p>&nbsp;</p>
+
+ <img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/3_mise_en_place_projet/mise_en_place_projet_3.18.png" alt="mise_en_place_projet_3.18" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+La boîte de dialogue **Importer les formats CAO** 1️⃣ s’ouvre.  Dans votre explorateur Windows, ouvrez le répertoire **Dossier de base DWG WORD** 2️⃣ et sélectionnez le fichier **RDC** 3️⃣ au format DWG (dans le dossier de la formation). 
+
+Choisir le **mètre** 4️⃣ pour les Unités d’importation et le Positionnement **Automatique – Centre à centre** 5️⃣. 
+
+Cliquer sur **Ouvrir** 6️⃣.
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_3.39.png" alt="mise_en_place_projet_3.39" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+*Ne pas tenir compte du message d’alerte ci-dessous et cliquer sur **Fermer** 1️⃣.* 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_3.53.png" alt="mise_en_place_projet_3.53" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_4.53.png" alt="mise_en_place_projet_4.53" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Pour clôturer cette section, il nous reste à apprendre à gérer l’affichage de ce plan importé. Dans l'onglet **Vue** 1️⃣, panneau **Graphismes** 2️⃣, cliquer sur **Visibilité / Graphismes** 3️⃣.
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_5.04.png" alt="mise_en_place_projet_5.04" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+La fenêtre **Remplacements visibilité/ graphismes** 1️⃣ s’ouvre. Choisir le 4ème onglet **Catégories importées** 2️⃣. 
+
+On retrouve bien le plan **RDC.dwg** 3️⃣ dans la liste. En développant ce dossier, les calques du fichier Autocad sont listés 4️⃣. On peut ainsi masquer ce plan ou certains calques si on le souhaite, en cochant ou décochant la case à côté du nom. 
+
+Cliquer sur **OK**, **Annuler** ou **Appliquer** 5️⃣. 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_5.21.png" alt="mise_en_place_projet_5.21" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+**`Fichier corrigé 3.1.2 insertion d’un plan en DWG.rvt  `**
+
+
+
+<p>&nbsp;</p>
+
+## 3- **Analyse et identification de la composition des murs porteurs** 
+
+---------------------------
+
+
+
+Nous allons maintenant analyser la construction du projet et plus particulièrement identifier la composition de tous les murs porteurs qui le constituent. 
+
+Avant toute modélisation, et indépendamment de la méthode de tracé (avec un plan DWG ou libre), il est **important d’avoir une maîtrise de la conception** de l’ouvrage et de lister les familles de murs à dessiner. La lecture du CCTP est nécessaire en identifiant les articles à lire et leur numéro de page : 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_5.22.png" alt="mise_en_place_projet_5.22" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Dans la page suivante, on retrouve un repérage des 8 murs porteurs à représenter sur Revit, inventoriés pour intégrer la bibliothèque de votre projet. Cela nous permettra par la suite d’enrichir notre fichier gabarit personnel. 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_5.23.png" alt="mise_en_place_projet_5.23" style="zoom:50%;" />
+
+**`Fichier corrigé 3.1.3 identification des murs porteurs.rvt  `**
+
+
+
+<p>&nbsp;</p>
+
+## 4- **Définir les files de la structure porteuse : le quadrillage** 
+
+---------------------------
+
+
+
+Nous allons apprendre à dessiner le quadrillage du projet, qui représente sa trame structurelle. Nous sommes dans la préparation de la modélisation. Ce quadrillage est visible en plan et en coupe et nous aidera à dessiner les éléments porteurs du projet (Justification : Axe porteur).
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_5.42.png" alt="mise_en_place_projet_5.42" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Si le quadrillage n’est pas exécuté lors de la réalisation du projet, sa modélisation demande de la précision afin de placer les axes des files au milieu des porteurs verticaux. Comme indiqué sur l’exemple ci-dessus, les files seront repérées horizontalement par des numéros et verticalement par des lettres.  Nous effectuerons, par la suite, la cotation de ce quadrillage.
+
+Avant de commencer à travailler, il faut verrouiller le plan RDC.dwg sur votre espace de travail. Cliquez dessus, le contour devient bleu. Dans le menu **Modifier I RDC.dwg** 1️⃣, dans **Modifier** 2️⃣ cliquer sur **la punaise** 3️⃣. Celle-ci apparaît alors au centre de votre importation. Il ne bougera plus.
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_6.03.png" alt="mise_en_place_projet_6.03" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Dans l’onglet **Architecture** 1️⃣, dans le **Panneau Référence** 2️⃣, cliquez sur **Quadrillage** 3️⃣ (l’icône Niveau est grisée, donc indisponible, car cette action n’est pas réalisable dans une vue en plan).
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_6.15.png" alt="mise_en_place_projet_6.15" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Pour placer sa première ligne de quadrillage sur le mur porteur vertical le plus à gauche, il faut :
+
+- Cliquer sur le milieu du mur 1️⃣ puis descendre son quadrillage vers le bas du plan 2️⃣. 
+
+- Puis, cliquer sur le point d’origine 3️⃣ et prolonger sa ligne jusqu’à la partie supérieure du plan 4️⃣. Cocher la case de visibilité 5️⃣ pour afficher le numéro de la file. 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_6.27.png" alt="mise_en_place_projet_6.27" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Procédez ainsi pour placer tout le quadrillage du projet jusqu’à obtenir le résultat ci-dessous : 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_6.46.png" alt="mise_en_place_projet_6.46" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+💡 : Le dessin 2D des plans sur Autocad comporte parfois des imperfections. C’est le cas ici car une seule épaisseur de mur englobe parfois le porteur avec les enduits intérieurs et extérieurs. Il est conseillé d’ouvrir le fichier corrigé ci-dessous qui tient compte de cette remarque. 
+
+**`Fichier corrigé 3.1.4 files de la structure porteuse.rvt  `**
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
