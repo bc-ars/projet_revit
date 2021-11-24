@@ -36,7 +36,7 @@ Dans le panneau **Propriétés**, choisir parmi les murs déjà intégrés à la
 
 <p>&nbsp;</p>
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_2.19.png" alt="creation_mur_porteur_rdc_2.19" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_2.19.png" alt="creation_mur_porteur_rdc_2.19" style="max-width: 70%" />
 
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_3.53.png" alt="creation_mur_porteur_rdc_3.53" style="max-width: 70%" />
 
@@ -94,6 +94,8 @@ A titre d’exemple, nous allons modéliser le Mur M1 qui correspond aux murs p�
 
 **Un mur est toujours modélisé d’une contrainte inférieure à une contrainte supérieure, elles correspondent aux niveaux créés dans les élévations.** 
 
+<p>&nbsp;</p>
+
 #### `Étape 1:` Connaître la géométrie du mur - contraintes inférieurs et supérieurs.
 
 Le mur M1 1️⃣ sera dessiné sur le niveau 0 RDC : 
@@ -122,11 +124,13 @@ Dans le menu **Architecture** 1️⃣, dans le panneau **Création** 2️⃣, ch
 
 Dans **Mur porteur**, dans la liste de mur proposée par Revit, choisir le **Mur M1**, comme ci-dessous :
 
- <img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.15.png" alt="creation_mur_porteur_rdc_5.15" style="max-width: 70%" />
+ <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.15.png" alt="creation_mur_porteur_rdc_5.15" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
 💡 : Dalle BA du RDC 20 cm et non 13 cm (plan DWG), solution poutrelles hourdis (15 + 5) sur VS. 
+
+<p>&nbsp;</p>
 
 #### `Étape 3:` Régler les propriétés de la modélisation du mur.
 
@@ -136,7 +140,7 @@ Après l’analyse de la géométrie du mur M1, nous allons pouvoir, au moment d
 
 Tout d’abord, dans le réglage d’origine de Revit, il faut indiquer **Hauteur** (et non Profondeur) dans **Modifier I Placer Mur porteur**. Sinon un message d’erreur apparaîtra et le tracé sera impossible. 
 
- <img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.26.png" alt="creation_mur_porteur_rdc_5.26" style="max-width: 70%" />
+ <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.26.png" alt="creation_mur_porteur_rdc_5.26" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -156,7 +160,7 @@ Ensuite, dans la boîte de dialogue **Propriétés** 1️⃣ du **Mur de base M1
 
  <p>&nbsp;</p>
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.39.png" alt="creation_mur_porteur_rdc_5.39" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.39.png" alt="creation_mur_porteur_rdc_5.39" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -174,7 +178,7 @@ Vous remarquez que le **Mur M1** se superpose parfaitement avec le mur existant 
 
 Etant donné que l’option **chaîner** pour le dessin est validée, il faut appuyer sur la touche Echap du clavier pour quitter la fonction actuelle, et donc interrompre la modélisation du mur. 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.48.png" alt="creation_mur_porteur_rdc_5.48" style="max-width: 70%" /><img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.59.png" alt="creation_mur_porteur_rdc_5.59" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.48.png" alt="creation_mur_porteur_rdc_5.48" style="max-width: 30%" /><img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.59.png" alt="creation_mur_porteur_rdc_5.59" style="max-width: 30%" />
 
 <p>&nbsp;</p>
 
@@ -194,7 +198,7 @@ Pour contrôler son travail en coupe, il faut créer une coupe en se replaçant 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_7.05-7757739.png" alt="creation_mur_porteur_rdc_7.05" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_7.05.png" alt="creation_mur_porteur_rdc_7.05" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -236,7 +240,7 @@ Comme indiqué ci-dessous, pour visualiser cette **Coupe 1 **1️⃣, vous pouve
 
  <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_8.35.png" alt="creation_mur_porteur_rdc_8.35" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_8.35.png" alt="creation_mur_porteur_rdc_8.35" style="max-width: 40%" />
 
 <p>&nbsp;</p>
 
@@ -244,7 +248,7 @@ On peut également afficher sa **Coupe 1** en cliquant sur la zone réservée au
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_8.57.png" alt="creation_mur_porteur_rdc_8.57" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_8.57.png" alt="creation_mur_porteur_rdc_8.57" style="max-width: 30%" />
 
 <p>&nbsp;</p>
 
@@ -316,7 +320,7 @@ Nous avons modélisé le **Mur M1** du Niveau 0 RDC. Il reste, comme indiqué ci
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_919.17.png" alt="creation_mur_porteur_rdc_919.17" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_919.17.png" alt="creation_mur_porteur_rdc_919.17" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -444,7 +448,7 @@ Nous avons modélisé les murs M1 et M4 du Niveau 0 RDC. Il reste, comme indiqu�
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_919.17-7769040.png" alt="creation_mur_porteur_rdc_919.17" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_919.17.png" alt="creation_mur_porteur_rdc_919.17" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -540,7 +544,7 @@ Le mur M8 sélectionné apparaît en bleu.
 
  <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_926.54.png" alt="creation_mur_porteur_rdc_926.54" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_926.54.png" alt="creation_mur_porteur_rdc_926.54" style="max-width: 100%" />
 
  <p>&nbsp;</p>
 
@@ -548,9 +552,11 @@ Le mur M8 sélectionné apparaît en bleu.
 
  <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_927.05.png" alt="creation_mur_porteur_rdc_927.05" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_927.05.png" alt="creation_mur_porteur_rdc_927.05" style="max-width: 100%" />
 
  <p>&nbsp;</p>
+
+On retrouvera cette étape dans:
 
 **`Fichier corrigé 3.2.3 modélisation des murs porteurs du RDC.rvt `** 
 
