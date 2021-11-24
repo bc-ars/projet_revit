@@ -36,13 +36,15 @@ Dans le panneau **Propriétés**, choisir parmi les murs déjà intégrés à la
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_2.19.png" alt="creation_mur_porteur_rdc_2.19" style="max-width: 70%" />
-
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_3.53.png" alt="creation_mur_porteur_rdc_3.53" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_2.19.png" alt="creation_mur_porteur_rdc_2.19" style="max-width: 40%" />
 
 <p>&nbsp;</p>
 
-La fenêtre **Modifier l’assemblage** s’ouvre (**1**) : 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_3.53.png" alt="creation_mur_porteur_rdc_3.53" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+La fenêtre **Modifier l’assemblage** s’ouvre 1️⃣ : 
 
 <p>&nbsp;</p>
 
@@ -52,7 +54,7 @@ La fenêtre **Modifier l’assemblage** s’ouvre (**1**) :
 
 **2️⃣** 	Identité du mur édité : **M1 enduit 2 + BBMC 20 + iso 10** 
 
-​		Nous adopterons ce mode de désignation : M numéro+ matériau épaisseur + ……. 
+​		Nous adopterons ce mode de désignation : <!--M numéro+ matériau épaisseur + …….--> 
 
 **3️⃣** 	Le panneau des **Couches du mur** pour le concevoir avec : Numéro, Fonction, épaisseur, … 
 
@@ -98,6 +100,8 @@ A titre d’exemple, nous allons modéliser le Mur M1 qui correspond aux murs p�
 
 #### `Étape 1:` Connaître la géométrie du mur - contraintes inférieurs et supérieurs.
 
+<p>&nbsp;</p>
+
 Le mur M1 1️⃣ sera dessiné sur le niveau 0 RDC : 
 
 \- contrainte inféieure: **NIVEAU 0 RDC** avec un décalage inférieur de **-0.07** (carrelage + chape). 
@@ -111,6 +115,8 @@ Le mur M1 1️⃣ sera dessiné sur le niveau 0 RDC :
 <p>&nbsp;</p>
 
 #### `Étape 2:` Sélectionner le mur dans Architecture / Mur porteur / ...
+
+<p>&nbsp;</p>
 
 Après avoir pris connaissance des caractéristiques dimensionnelles du **Mur M1**, nous allons pouvoir le modéliser et paramétrer ses propriétés. 
 
@@ -133,6 +139,8 @@ Dans **Mur porteur**, dans la liste de mur proposée par Revit, choisir le **Mur
 <p>&nbsp;</p>
 
 #### `Étape 3:` Régler les propriétés de la modélisation du mur.
+
+<p>&nbsp;</p>
 
 Dans l’arborescence du projet, se placer sur le **Niveau 0 RDC.** 
 
@@ -166,6 +174,8 @@ Ensuite, dans la boîte de dialogue **Propriétés** 1️⃣ du **Mur de base M1
 
 #### `Étape 4:` Modéliser le mur sur le niveau RDC.
 
+<p>&nbsp;</p>
+
 ⚠️ : Si l’on veut garder la couche du mur extérieure à l’extérieur du tracé, il faut dessiner ses murs dans le sens horaire. 
 
 Nous allons tracer le **Mur M1**, comme indiqué ci-dessous, entre le Hall, les sanitaires et la cour. 
@@ -178,11 +188,13 @@ Vous remarquez que le **Mur M1** se superpose parfaitement avec le mur existant 
 
 Etant donné que l’option **chaîner** pour le dessin est validée, il faut appuyer sur la touche Echap du clavier pour quitter la fonction actuelle, et donc interrompre la modélisation du mur. 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.48.png" alt="creation_mur_porteur_rdc_5.48" style="max-width: 30%" /><img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.59.png" alt="creation_mur_porteur_rdc_5.59" style="max-width: 30%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.48.png" alt="creation_mur_porteur_rdc_5.48" style="max-width: 10%" /><img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.59.png" alt="creation_mur_porteur_rdc_5.59" style="max-width: 10%" />
 
 <p>&nbsp;</p>
 
 #### `Étape 5:` Contrôler son travail élévation, coupe et perspective.
+
+<p>&nbsp;</p>
 
 Pour vérifier son travail en élévation, il faut se rendre dans **l’arborescence du projet** 1️⃣ et cliquer deux fois sur l’**Elévation Ouest** 2️⃣. Le mur 3️⃣ est visible au centre de votre vue,  encadré par les niveaux 4️⃣ du projet, à repositionner si nécessaire. 
 
@@ -364,7 +376,7 @@ Dans cette fenêtre **Nom `Avant`**, vous pouvez renommer l’ancien Mur **M1 en
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_923.30-7768225.png" alt="creation_mur_porteur_rdc_923.30" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_923.30.png" alt="creation_mur_porteur_rdc_923.30" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -416,7 +428,7 @@ Pour tracer le Mur M4 :
 
 - <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_924.34-7768785.png" alt="creation_mur_porteur_rdc_924.34" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_924.34.png" alt="creation_mur_porteur_rdc_924.34" style="max-width: 70%" />
 
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_924.56.png" alt="creation_mur_porteur_rdc_924.56" style="max-width: 70%" />
 
