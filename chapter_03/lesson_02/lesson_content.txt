@@ -188,7 +188,7 @@ Vous remarquez que le **Mur M1** se superpose parfaitement avec le mur existant 
 
 Etant donné que l’option **chaîner** pour le dessin est validée, il faut appuyer sur la touche Echap du clavier pour quitter la fonction actuelle, et donc interrompre la modélisation du mur. 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.48.png" alt="creation_mur_porteur_rdc_5.48" style="max-width: 10%" /><img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.59.png" alt="creation_mur_porteur_rdc_5.59" style="max-width: 10%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.48.png" alt="creation_mur_porteur_rdc_5.48" style="max-width: 20%" /><img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.59.png" alt="creation_mur_porteur_rdc_5.59" style="max-width: 30%" />
 
 <p>&nbsp;</p>
 
