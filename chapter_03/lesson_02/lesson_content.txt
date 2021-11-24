@@ -202,7 +202,7 @@ Afin d’obtenir cet aspect de rendu, il faut aller dans **la barre de contrôle
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_6.39.png" alt="creation_mur_porteur_rdc_6.39" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_6.39.png" alt="creation_mur_porteur_rdc_6.39" style="max-width: 90%" />
 
 <p>&nbsp;</p>
 
