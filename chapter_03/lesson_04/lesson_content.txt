@@ -1,0 +1,272 @@
+# **Création du cloisonnement intérieur du RDC** 
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Nous allons apprendre à modéliser le cloisonnement intérieur des espaces du projet, en respectant les compositions prescrites dans les pièces écrites. Nous utiliserons également les outils de modification ainsi que la cotation temporaire.
+
+Les pièces écrites du projet détaillent la mise en oeuvre des cloisons dans le lot : 
+
+**03 PLATRERIE ISOLATION - 2 CLOISONNEMENT** 
+
+Les 7 compositions sont présentées ci-dessous, soit 4 familles A, B, C et D, pages PE6 – PE7. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_43.35.png" alt="creation_cloison_in_rdc_43.35" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Pour notre tutoriel, nous prendrons l’exemple des cloisons de la cuisine, du type 98/48 (B).  
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_43.22.png" alt="creation_cloison_in_rdc_43.22" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Pour modéliser les cloisons de la cuisine, il faut se placer sur le Plan d’étage **Niveau 0 RDC**, affiché dans l’Arborescence du projet. 
+
+Nous rendrons invisible le plan **RDC.dwg** dans l’onglet **Catégories importées** de la fenêtre **Remplacements graphisme / visibilité** (raccourci **vv**). Cela nous permettra de modéliser les cloisons en utilisant la cotation temporaire bleue. 
+
+💡 : Les pièces écrites indiquent la présence d’un faux plafond 600x600x15 dans la cuisine, il sera placé à une hauteur de 2,80 m, ce qui déterminera la hauteur des cloisons. 
+
+Cliquer sur l’onglet **Architecture** 1️⃣, puis dans **Mur** 2️⃣, choisir **Mur architectural** 3️⃣ (car non porteur). Dans le menu déroulant, choisir par exemple la cloison **Int. Plâtre 70 mm** 4️⃣. 
+
+Pour notre tutoriel, nous prendrons l’exemple des cloisons de la cuisine, du type 98/48 (B).  
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_43.51.png" alt="creation_cloison_in_rdc_43.51" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Cette cloison nous servira de base pour créer l’assemblage des couches de la nouvelle, de 100 mm. 
+
+En suivant la même méthode que pour les murs porteurs, il faudra **Modifier** le type, puis **Dupliquer** la cloison de 70 mm afin de la renommer : B2 **cloison 98/48 -2 ba 13h + isol 48 + 2 ba 13h 1️⃣**.
+
+L’assemblage des matériaux (couches) 2️⃣ est indiqué ci-dessous, il faudra s’aider des boutons **Insérer**, **Supprimer** et **Monter** 3️⃣ afin de créer les couches de la cloison. 
+
+Respectez les numéros de priorités de matériaux dans les crochets [], identiques aux murs de façade. Ces priorités sont plus grandes plus on s’éloigne de la couche principale. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_44.10.png" alt="creation_cloison_in_rdc_44.10" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Nous pouvons commencer par modéliser la cloison repérée ci-dessous 1️⃣ en premier.  Elle servira de référence pour placer les autres. Il faut maintenant régler les contraintes de la cloison dans le Panneau **Propriétés**, avant de la représenter sur le RDC. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_44.23.png" alt="creation_cloison_in_rdc_44.23" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Après avoir sélectionné la cloison **B2 cloison 98/48 - 2 ba 13h + isol 48 + 2 ba 13h **1️⃣, il faut régler ses **Propriétés** comme indique ci-dessous : 2️⃣. 
+
+\- Ligne de justification : Nus fini Extérieur (peu important). 
+
+\- Contrainte inférieure : Niveau 0 RDC. 
+
+\- Décalage inférieur : -0.07. 
+
+\- Contrainte supérieure : Sans contrainte. 
+
+\- Hauteur non contrainte : 2.97 (sous face du plancher) .
+
+Nous pouvons maintenant la modéliser dans la cuisine. 
+
+💡  **Remarques** :
+
+- Nous ajusterons la hauteur des murs périphériques du projet, pour chaque aile de bâtiment, au fur et à mesure de l’avancement de la modélisation (plancher R+1). 
+
+- Pour être rigoureux, nous aurions modélisé les cloisons avec le plancher R+1 en contrainte supérieure, avec un décalage supérieur de-0.27 (cela nous ferait une hauteur de cloison de 2.90 m). 
+
+Pour positionner la cloison, cliquer sur le point 1️⃣, à l’intérieur de la cuisine, puis dessiner la cloison en déplaçant la souris vers le haut, jusqu’au point 2️⃣, puis cliquer à nouveau pour définir l’extrémité. 
+
+Il faut penser à appuyer sur la **touche ECHAP** du clavier pour quitter la fonction en cours. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_44.58.png" alt="creation_cloison_in_rdc_44.58" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Sur la vue ci-dessous, nous remarquons que lorsque l’on sélectionne la cloison 3️⃣, elle devient bleue. Revit la positionne alors avec des cotations temporaires 4️⃣ par rapport aux éléments modélisés les plus proches. Le symbole 5️⃣ permet d’inverser le sens de dessin. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_45.10.png" alt="creation_cloison_in_rdc_45.10" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Afin de positionner correctement la cloison à 4.48 m du mur à gauche, il faut cliquer sur la cotation temporaire **3.1710** 1️⃣ taper la valeur**4.48 **2️⃣, puis valider sur **ENTRER**. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_45.31.png" alt="creation_cloison_in_rdc_45.31" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+On constate que la cloison s’est déplacée sur la droite et qu’elle se trouve bien maintenant à 4.48 m du mur gauche. Ces cotations temporaires disparaissent dès que l’on désélectionne la cloison. 
+
+Les cotations temporaires apparaissent aussi sur la **`Vue {3D}`**, dès que l’on sélectionne la cloison, modifiables directement. Il est cependant plus pratiques d'utiliser les vues en plan et en coupe. Des flèches bleues permettent aussi d’ajuster sa hauteur non contrainte (qui change dans les propriétés). 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_46.00.png" alt="creation_cloison_in_rdc_46.00" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Nous allons voir comment raccorder la cloison verticale, sélectionnée en bleu, avec le mur de façade horizontal. 2 choix sont possibles:
+
+- Saisir la valeur **0** dans la cotation temporaire 1️⃣. 
+- Cliquer sur le point bleu, sur l’extrémité de la cloison 2️⃣, et le ramener jusqu’au mur selon la direction indiquée par la flèche. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_46.31.png" alt="creation_cloison_in_rdc_46.31" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Comme on le voit, le logiciel Revit a automatiquement raccordé la cloison 3️⃣ au mur, selon les priorités, et cela ne convient pas forcément. Le point bleu 4️⃣ dans le mur est l’extrémité de la cloison. Afin de ramener la cloison contre le mur, il faut : 
+
+\- Effectuer un clic droit souris sur le point bleu 4️⃣ puis sélectionner **Interdire le joint** dans le menu contextuel. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_46.51.png" alt="creation_cloison_in_rdc_46.51" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+\- Faire glisser ce point bleu sur la face intérieur du mur 5️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_47.02.png" alt="creation_cloison_in_rdc_47.02" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Voici, ci-dessous, la cuisine représentée avec son cloisonnement intérieur.
+
+- Vue en plan.
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_47.17.png" alt="creation_cloison_in_rdc_47.17" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+-  Vue en {3D} : 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_47.31.png" alt="creation_cloison_in_rdc_47.31" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Pour information, si la nature des cloisons devait changer sur le projet, inutile de les supprimer une à une et de les redessiner. Il suffit juste d’en sélectionner une seule sur la vue en plan ou en {3D} 1️⃣, puis, avec un clic droit souris, choisir dans le menu contextuel **Sélectionner toutes les occurrences** 2️⃣, et **Dans l’ensemble du projet** 3️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_48.50.png" alt="creation_cloison_in_rdc_48.50" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+**`Fichier étape 3.4 Création du cloisonnement intérieur du RDC 1.rvt  `** 
+
+Revit va donc sélectionner toutes les cloisons de votre projet ayant la même composition de matériaux. Dans le Panneau **Propriétés**, il restera alors à choisir un autre type de cloison qui remplacera celles sélectionnées. 
+
+Pour le reste des cloisons du projet, pour le **Niveau 0 RDC**, il faudra reproduire la précédente méthode. 
+
+Il vous reste à modéliser les cloisons indiquées ci-dessous : 
+
+- A – Type SAD 200 … 
+
+- C – Type 98/48 … 
+
+- D – Type 72/48 … 
+
+La nature des plaques de ba13 hydro sera indiquée lors de la phase d’ajustement du projet.
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_49.11.png" alt="creation_cloison_in_rdc_49.11" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+**💡 : Sanitaires** 
+
+**LOT 03.2 Cloisonnement : PE 8** 
+
+- Cotés 70 sur les plans et décrites en 98/48 sur le descriptif. 
+
+**LOT 04.10 Cloisons toilettes** : PE 10 
+
+- Les cloisons pour les cabines sont côtées 70 sur les plans. Cependant le descriptif donne d’autres caractéristiques : Panneaux et refends en stratifiés de 13 mm. 
+
+Nous verrons plus loin comme trouver cet objet au moyen d’une recherche de ressource BIM intégrée au projet depuis une bibliothèque en ligne. 
+
+<p>&nbsp;</p>
+
+***Comment dupliquer facilement une cloison dessinée, et ainsi éviter de la modéliser à chaque fois ?*** 
+
+Prenons l’exemple des 2 cloisons repérées ci-dessous (1️⃣ et **2️⃣**) dans la zone Administration. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_49.30.png" alt="creation_cloison_in_rdc_49.30" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+La cloison **1️⃣** est modélisée et sélectionnée. Nous allons la copier grâce à une translation. Simultanément, faire un clic gauche dessus en maintenant la touche **CTRL** du clavier appuyée, et la déplacer sur la droite (selon le sens de la flèche rose, du point **3️⃣** au point **4️⃣**). 
+
+La cloison **2️⃣** est maintenant créée, il suffit de la positionner à 0.50 m de la première à l’aide de **la cotation temporaire** 5️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_49.42.png" alt="creation_cloison_in_rdc_49.42" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Il existe l’outil **Réseau**, également connu sous Autocad, mais plus pratique dans le cas de répétition en série. Nous verrons son utilisation lors de l’implantation des parois en stratifié des sanitaires et des poteaux. On peut aussi reproduire sa cloison à l’aide de la rotation. Prenons l’exemple de la cloison à créer horizontale plus bas. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_52.46.png" alt="creation_cloison_in_rdc_52.46" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Dans Revit, Il faut sélectionner une cloison verticale, Revit affiche l’onglet **Modifier I Murs** 1️⃣, avec le Panneau **Modifier** 2️⃣. Choisir l’outil **Rotation** 3️⃣ pour orienter verticalement sur la feuille la cloison. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_52.32.png" alt="creation_cloison_in_rdc_52.32" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Une fois l’outil **Rotation** sélectionné, le point 2️⃣ apparaît, c’est le centre de rotation de la cloison. Il faut alors déclarer l’angle en allant cliquer sur le point 3️⃣ à l’horizontal de **2️⃣**, puis effectuer une rotation horaire. Vous devez saisir votre angle de rotation dans la **case 3️⃣** (**90**). La cloison se met en place horizontalement, il ne vous reste plus qu’à saisir la valeur **1.14** dans la **case 6️⃣** de **la cotation temporaire**. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_53.10.png" alt="creation_cloison_in_rdc_53.10" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Les cloisons qui accueillent les portes de placard seront modélisées, elles sont nécessaires pour permettre l’implantation des portes coulissantes. 
+
+La vérification de l’implantation des cloisons peut se faire en réaffichant le fond de plan RDC.dwg, dans la fenêtre **Remplacements visibilité / graphismes** du plan, onglet **Catégories importées**. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_53.23.png" alt="creation_cloison_in_rdc_53.23" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+**`Fichier étape 3.4 Création du cloisonnement intérieur du RDC 2.rvt  `** 
+
+ <p>&nbsp;</p>
+
+<p>&nbsp;</p>
