@@ -1,0 +1,691 @@
+# Création du plancher du RDC 
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Nous allons modéliser les 2 planchers du RDC, composés de plusieurs couches de matériaux. Nous aurons deux types de plancher, celui sur vide sanitaire et celui sur dallage terre-plein. La logique de travail pour la composition de ces sols sera identique à celle des murs, par couches. 
+
+**Les planchers sont décrits dans le document « PE1 à PE26 »,** page PE2 **:** 
+
+`LOT 01 GROS OEUVRE / 01 – Construction / E – Dallages, Planchers, Auvent.` 
+
+Comme pour les murs, une modélisation précise passe toujours par la bonne connaissance de son projet. Nous allons donc identifier les 2 zones de plancher distincts sur le projet.
+
+Le repérage ci-dessous présente l’identification des 2 zones de plancher distincts sur le projet : 
+
+🟩 **Plancher sur vide sanitaire** 
+
+🟦 **Plancher sur dallage terre-plein** 
+
+Nous modéliserons nos planchers selon le principe de zonage en nous adaptant aux murs porteurs. 
+
+Le plancher sur vide sanitaire se trouve sur la totalité du projet, sauf sous les espaces de stockage aux deux extrémités des ailes (terre-plein).  
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_1.18.png" alt="creation_plancher_bas_1.18" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+## 1- Plancher sur vide sanitaire
+
+
+
+<p>&nbsp;</p>
+
+A la lecture du CCTP, il existe 2 types de plancher bas du RDC : 
+
+1- Plancher isolant hourdis 20 cm (15+5) au droit des locaux RDC sauf réfectoire et salles d’activités. 
+
+2- Plancher dalles alvéolées 20 cm (15+5) sur réfectoire et salles d’activités. 
+
+Nous allons modéliser le plancher numéro 1 : **Plancher isolant hourdis 20 cm + chape + revêtement de sol.** 
+
+Il est composé des couches : 
+
+- Revêtement de sol 2 cm 
+
+- Chape ciment 5 cm 
+
+-  Hourdis et dalle de compression (15+5) 20 cm **soit 27 cm** 
+
+Pour ce premier exemple, ce sera le plancher bas du RDC repéré ci-dessous : 
+
+Nous allons nous intéresser à sa composition, à sa création dans Revit (couches). 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_12.39.png" alt="creation_plancher_bas_12.39" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+⚠️ : **Pour toute modélisation, il faut suivre ces 5 étapes :** 
+
+*`1`- Création du plancher et de sa structure (assemblage).* 
+
+*`2`- Choix des matériaux qui composent le plancher.* 
+
+*`3`- Modélisation du plancher avec les outils de dessin.* 
+
+*`4`- Contrôler son travail en perspective et en coupe.* 
+
+*`5`- Attacher les murs et les planchers en coupe.* 
+
+*`6`- Améliorer les graphismes en plan, coupe et perspective.*  
+
+<p>&nbsp;</p>
+
+#### `Étape 1:` Création du plancher et de sa structure (assemblage).
+
+<p>&nbsp;</p>
+
+Pour créer le plancher bas du RDC, il faut utiliser l’outil **Plancher**, pour réaliser la dalle du projet. 
+
+L'outil **Plancher**, à la différence de **Dalle architecture**, possède des propriétés structurelles, en cochant la case structure dans la composition du sol (couche principale). 
+
+- Dans l'onglet **Architecture** 1️⃣, choisissez **Sol** 2️⃣ et **Plancher** 3️⃣. 
+
+- Cliquez sur **Modifier le type** 4️⃣ afin de personnaliser votre sol. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_12.54.png" alt="creation_plancher_bas_12.54" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+La boîte de dialogue **Propriétés du type **1️⃣ s'ouvre, à partir du sol «**Dalle en béton - 250 mm** » 2️⃣, nous allons créer notre plancher, avant de le dessiner. Pour cela, cliquer sur **Dupliquer** 3️⃣ pour adapter la structure. 
+
+Nous ne modéliserons que la partie porteuse du plancher, la chape avec le revêtement de sol seront représentés une fois les cloisons implantées (sur sol brut). Ce sera une seconde modélisation. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_13.49.png" alt="creation_plancher_bas_13.49" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Renommer ce nouveau plancher comme indiqué ci-contre, puis cliquer sur **OK** 1️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_14.22.png" alt="creation_plancher_bas_14.22" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Il ne sous reste plus qu’à modifier sa composition, selon les indications du CCTP. 
+
+Après avoir validé ce nouveau nom, nous revenons dans la fenêtre **Propriétés du type** 1️⃣, où le plancher apparaît avec la nouvelle dénomination 2️⃣. Afin d’accéder à sa composition maintenant, cliquer sur **Modifier** 3️⃣, sur la ligne **Structure**. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_16.02.png" alt="creation_plancher_bas_16.02" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Après avoir cliqué sur **Modifier**, la fenêtre **Modifier l’assemblage** 1️⃣ s’ouvre, les caractéristiques du plancher sont détaillées 2️⃣, avec les **Couches** 3️⃣ : matériaux de sa structure. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_16.46.png" alt="creation_plancher_bas_16.46" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+L’élément porteur est toujours entre les 2 Limites de couche principale, il sera composé du **Porteur/Ossature [1]**  en béton armé de 5 cm et de l’**Isolant/vide [3]** en Polystyrène (Expansé – EPS) de 15 cm 1️⃣. Les couches sont créées à l’aide des boutons 2️⃣ **Insérer**, **Supprimer**, **Monter**, **Descendre**. 
+
+La case **Matériau structurel** 3️⃣ est cochée en face de la couche 2, **Porteur/Ossature [1]**. 
+
+Désormais, dans la version **`Après`**, nous avons 2 matériaux, totalisant une **Epaisseur totale** de 0.20 m 4️⃣. La création des 2 autres couches de matériaux qui seront la chape et le revêtement de sol, se fera à travers la création d’un autre plancher. Nous leur donnerons les épaisseurs respectives de 0.05 m et 0.02 m. 
+
+💡 :  Les priorités de couches entre crochets [] est un numéro qui indique l’importance de la couche. Revit connecte les couches dont la priorité est élevée avant de connecter celles dont la priorité est la plus faible (il est important de faire correspondre les priorités des matériaux pour leur assemblage). 
+
+Dans la continuité du plancher porteur, nous allons créer le plancher composé de la chape et du revêtement de sol. Ce nouveau plancher sera nommé **Plancher 5 chape + 2 rs**, avec une **Epaisseur totale** de 0.07 m 1️⃣. Les **Couches** de matériaux qui le composent 2️⃣ seront créées à l’aide des boutons de modification 3️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_17.18.png" alt="creation_plancher_bas_17.18" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+#### `Étape 2:` Choix des matériaux qui composent le plancher.
+
+<p>&nbsp;</p>
+
+Maintenant que nous avons créé la structure de l’assemblage des 2 planchers sur le vide sanitaire, il faut choisir ses matériaux ou les créer s’ils n’existent pas encore. Nous allons nous intéresser à la partie supérieure. 
+
+Sur la ligne de la couche 3, cliquer sur l’icône de sous menu 1️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_17.36.png" alt="creation_plancher_bas_17.36" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Comme indiqué ci-dessous, la fenêtre du **Navigateur de matériaux** 1️⃣ s’ouvre. Dans le cas de figure où votre matériau n’a pas déjà été créé et que vous ne le trouvez pas à l’aide de **l’outil de recherche** 2️⃣ dans la liste 3️⃣, il faut le créer en cliquant sur l’icône 4️⃣ en bas de la fenêtre. Choisir **Créer un matériau** 4️⃣. Cette opération est nécessaire à chaque fois que votre matériau n'est pas existant. Il fera toujours partie de votre projet Revit et de votre fichier gabarit si vous le souhaitez. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_18.01.png" alt="creation_plancher_bas_18.01" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Effectuer un clic droit souris sur **Valeur par défaut Nouveau Matériau** 1️⃣, afin de le **Renommer** 2️⃣. Saisir le nouveau nom **Chape ciment** 3️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_18.23.png" alt="creation_plancher_bas_18.23" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Il faudra ensuite lui assigner un matériau (avec ses propriétés), dans l’étape suivante. 
+
+Pour assigner un matériau, contenu dans la bibliothèque du logiciel, sélectionner **Chape ciment** 1️⃣ et cliquer sur le **Navigateur de ressources** 2️⃣.  
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_18.51.png" alt="creation_plancher_bas_18.51" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Quand votre **Navigateur de ressources** 3️⃣ s’ouvre, effectuer une recherche avec le mot **ciment** 4️⃣. Choisir le matériau **Mortier de ciment **5️⃣ proposé, celui-ci est issu de la bibliothèque des **Ressources physiques Autodesk** 6️⃣. 
+
+Cliquer sur l’icône 7️⃣, cela remplace la ressource actuelle dans l’éditeur par cette nouvelle ressource. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_19.42.png" alt="creation_plancher_bas_19.42" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Ensuite, fermer la fenêtre du Navigateur de ressources. 
+
+Pour information, seules les ressources Autodesk contiennent des propriétés thermiques, physiques, … 
+
+Comme indiqué ci-dessous la **chape ciment** 1️⃣ est désormais caractérisée par son matériau Mortier de ciment, à l’aide des **4 onglets** 2️⃣. Ils vous permettent de personnaliser le matériau (**Identité**, **Graphisme**, **Apparence**, **Thermique**) 
+
+Par exemple, les **Propriétés **3️⃣ contenues dans l’onglet **Thermiques** sont modifiables afin de leurs donner des valeurs conformes au produit technique. Comme pour toute création et modification, il faut toujours cliquer ensuite sur **Appliquer** 4️⃣ puis **OK** 5️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_20.42.png" alt="creation_plancher_bas_20.42" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+En suivant la même méthode de travail, on peut nommer « **Carrelage** » la couche 1 **Finition 2 [5]**, à laquelle on assignera le matériau carrelage, à l’aide du navigateur de ressources Autodesk. (Carrés 6 po – Beige, par exemple). Voici le résultat final pour la création de nos deux matériaux 1️⃣: 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_23.33.png" alt="creation_plancher_bas_23.33" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Maintenant que vous avez compris la méthode pour la création couches, comme indiqué précédemment, nous allons revenir en détail sur la couche 1 **Porteur/Ossature [1]** pour la modifier. 
+
+L’exercice consiste à affecter le matériau Polystyrène à la couche **Isolant/Vide [3]**. Pour le moment, il y a indiqué **<Par catégorie>**. Il faut créer le matériau **Polystyrène** et lui assigner. Puis grâce au Navigateur de ressources, lui affecter le polystyrène (Ressources Physiques Autodesk). 
+
+Voici ci-dessous les étapes **`Avant`** et **`Après`** : 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_23.47.png" alt="creation_plancher_bas_23.47" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+#### `Étape 3:` Modélisation du plancher avec les outils de dessin.
+
+<p>&nbsp;</p>
+
+Pour dessiner ce plancher sur vide sanitaire sur les bureaux 1 et 2, et sur la salle de réunion, il faut : 
+
+- **1**- dans l’arborescence du projet, se placer sur le plan d’étage : **Niveau 0 RDC.** 
+
+- **2**- Zoomer sur les espaces concernés afin d’exploiter tout l’espace de travail du logiciel. Le zoom s’effectue à l’aide de la molette centrale, rotation haut bas, et on fait glisser sa feuille en déplaçant la souris avec la molette enfoncée. On pourra également zoomer durant la modélisation du plancher, sur chaque point caractéristique. 
+
+- <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_25.15.png" alt="creation_plancher_bas_25.15" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+- **3**- dans l'onglet **Architecture** 1️⃣, panneau **Création** 2️⃣, choisissez **Sol** 3️⃣ et **Plancher** 4️⃣. L’espace de travail de Revit se grise car le logiciel est en mode esquisse et il attend une action de votre part (choix du plancher et tracé de son implantation). 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_30.42.png" alt="creation_plancher_bas_30.42" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+- **4**- Dans le **panneau Propriétés**, choisir le plancher **« Plancher VS Ho 20**», à l’aide du petit triangle noir (sélecteur). 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_30.55.png" alt="creation_plancher_bas_30.55" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Dans le panneau **Propriétés**, se placer sur le **Niveau 0 RDC** avec un de **Décalage par rapport au niveau** de -0.07 m (réservation chape + rs). 
+
+Dans la zone du ruban des outils de Revit, dans l’onglet **Modifier I Créer un contour du sol** 1️⃣, fonction **Dessiner** 2️⃣, choisir l’outil **Rectangle** 3️⃣, afin de tracer l’emprise du plancher à l’aide de deux coins opposés. D’autres outils de dessin sont mis à disposition selon les situations de modélisation. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_31.28.png" alt="creation_plancher_bas_31.28" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+- **1**- Saisir la valeur 0.22 dans la case Décalage : 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_31.41.png" alt="creation_plancher_bas_31.41" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Cette case se trouve à gauche de l’écran sous le ruban des outils de Revit. Cela nous permettra de cliquer sur les 2 angles opposés extérieurs du bâtiment, Revit appliquera alors tout seul un décalage intérieur équivalent à l’épaisseur de l’enduit et du mur porteur (la barre espace permet d’inverser le sens du décalage de la ligne d’esquisse rose, vers l’intérieur ou vers l’extérieur). 
+
+- **2**- cliquer une première fois sur point **1** de **`Début`**, pour commencer le rectangle, puis une deuxième fois sur le point **2** de **`Fin`**, pour finir le rectangle. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_32.03.png" alt="creation_plancher_bas_32.03" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_32.13.png" alt="creation_plancher_bas_32.13" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Il ne vous reste plus qu’à cliquer sur la **coche verte** 2️⃣ afin de terminer l’esquisse. Sans cette action, toute modélisation est interrompue. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_32.58.png" alt="creation_plancher_bas_32.58" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+La zone de travail n’est plus grisée, et le plan apparaît dans son contraste réel. 
+
+**💡 :** Les accrochages de Revit sont les mêmes que ceux que l’on retrouve sur Autocad (Autodesk), ici, le carré pour l’extrémité. 
+
+<p>&nbsp;</p>
+
+#### `Étape 4:` Contrôler son travail en perspective et en coupe.
+
+<p>&nbsp;</p>
+
+Pour vérifier son travail, il faut utiliser la vue en coupe et la vue {3D}, générique de Revit. 
+
+Dans **l’Arborescence du projet** 1️⃣, dans les Vues 3D, il faut cliquer sur la vue **{3D}** 2️⃣, générique de Revit. Votre vue isométrique s’affiche, comme dans la vue ci-dessous 3️⃣. Vous pouvez changer de point de vue en cliquant sur un angle supérieur du **View Cube** 4️⃣, ou effectuer une rotation autour de votre projet en déplaçant la souris avec la touche MAJ et la molette enfoncée. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_33.17.png" alt="creation_plancher_bas_33.17" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Vous allez également créer une coupe, comme indiqué ci-dessous, celle-ci apparaîtra dans votre arborescence du projet, dans les **coupes (coupes de bâtiment)**, avec le nom **Coupe 1** (si c’est la première). Vous renommerez cette coupe locale « **Longitudinale Administration** », à l’aide d’un clic droit souris. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_33.48.png" alt="creation_plancher_bas_33.48" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Voici le résultat automatique de la coupe partielle longitudinale Administration, ci-dessous. Nous ne sommes pas encore dans la phase de mise en page, donc nous ne règlerons pas maintenant ni le cadrage et la visibilité, ni la position de niveaux. En revanche, nous allons nous intéresser aux graphismes, à la représentation des matériaux, dans la zone repérée par le **cadre rose** 1️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_34.05.png" alt="creation_plancher_bas_34.05" style="zoom:50%;" />
+
+
+
+<p>&nbsp;</p>
+
+#### `Étape 5:` Améliorer les graphismes en coupe et en plan.
+
+<p>&nbsp;</p>
+
+Nous allons maintenant prendre l’exemple du mur afin de comprendre comment améliorer le graphisme des couches qui le composent.  Cette étape peut être réalisée à la fin de votre modélisation, sur les vues qui apparaîtront uniquement dans votre mise en page. 
+
+Cependant, cette étape améliore considérablement le confort de travail, rendant les éléments modélisés plus lisibles. Dans la vue active, cliquer sur le mur puis sur **Modifier le type** du panneau de **Propriétés**. Dans la fenêtre qui s’ouvre, cliquer sur **Modifier** en face de **Structure**, pour éditer l’assemblage. 
+
+Comme indiqué ci-après, la fenêtre **Modifier l’assemblage** 1️⃣ s’ouvre et affiche les **couches du mur** 2️⃣. Cliquer sur le matériau **Isolant/Vide **3️⃣, cette couche est représentée sur la gauche 4️⃣. Cliquer sur le **sous menu** 5️⃣ afin d’accéder au **Navigateur de matériau**. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_34.46.png" alt="creation_plancher_bas_34.46" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+En prenant l’exemple de ce **Mur M1** de façade, avec l’isolation thermique, nous allons découvrir comment paramétrer l’onglet **graphiques** d’un matériau afin d’améliorer son aspect graphique en plan.
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_35.05.png" alt="creation_plancher_bas_35.05" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Dans la fenêtre **Navigateur de matériaux** 1️⃣, nous étudions le matériau **Maçonnerie – Isolant** 2️⃣. 
+
+Dans l’onglet **Graphiques** 3️⃣, les propriétés sont organisées en 3 parties : 
+
+- **Ombrage** 4️⃣ 
+
+- **Motif de surface** 5️⃣ 
+-  **Motif de coupe** 6️⃣ 
+
+Penser à cliquer sur **Appliquer** et **OK** après les modifications, afin de les prendre en compte. Ces paramètres seront visibles dans les vues avec le style visuel : couleurs uniformes. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_35.30.png" alt="creation_plancher_bas_35.30" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Pour information, l’onglet **Apparence** vous permet de régler les paramètres de rendu du matériau. 
+
+- **Ombrage :** La couleur représente la teinte de fond du matériau en coupe. 
+
+  : Choisir un gris léger RGB 216 146 16 pour symboliser l’isolant) 
+
+- **Motif de surface** : Il correspond à l’apparence du matériau que l’on voit en élévation avec la couleur choisie en Ombrage. 
+
+- : Aucune modification dans notre cas car l’isolation n’est pas vue de façon isolée. 
+
+  **Motif de coupe** : On peut choisir le motif de remplissage et sa couleur. 
+
+  : Choisir le motif **Isolation** 6️⃣, en noir, avec son motif quadrillé en diagonal. 
+
+Appliquons ce principe d’aspect graphique à l’isolation en polystyrène du plancher poutrelles hourdis. 
+
+Pour configurer l’aspect graphique des matériaux, il faut cliquer sur l’icône de sous-menu 1️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_35.48.png" alt="creation_plancher_bas_35.48" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Comme indiqué ci-dessous, la fenêtre **Navigateur de matériaux** 1️⃣ s’ouvre sur la description du **Polystyrène** 2️⃣. Il faut ouvrir l’onglet **Graphiques** 3️⃣, pour la gestion de l’aspect graphique des matériaux, ici en plan et coupe. 
+
+Nous nous intéresserons aux rubriques **Ombrage** 4️⃣ et **Motif de coupe** 5️⃣, qui pour l’instant ne proposent que des teintes grises ou blanches, à modifier. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_36.10.png" alt="creation_plancher_bas_36.10" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+- **Ombrage :** La couleur représente la teinte de fond du matériau en coupe (**4**) 
+
+  : Choisir un gris léger RGB 210 210 210 pour le polystyrène 
+
+- **Motif de surface** : Il correspond à l’apparence du matériau que l’on voit en élévation. 
+
+  : Aucune modification 
+
+- **Motif de coupe** : On peut choisir le motif de remplissage et sa couleur (**5**). 
+
+<p>&nbsp;</p>
+
+**💡 :** Il faudra cliquer à deux reprises sur le motif (fenêtre Navigateur de matériaux et Motifs de remplissage) afin d’adapter son échelle de représentation et de modifier son graphisme, si nécessaire. Cliquer sur **Appliquer** afin de voir les changements sur la représentation en coupe du plancher, grâce à l’Aperçu de la fenêtre **Modifier l’assemblage**. L’échelle du motif en coupe du matériau dépend de l’échelle de la vue, le contrôle doit donc se faire sur la fenêtre de travail de Revit. 
+
+Voici le résultat que l’on pourrait obtenir, en prévision d’une publication à l’échelle 1 :100 : 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_36.25.png" alt="creation_plancher_bas_36.25" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_36.38.png" alt="creation_plancher_bas_36.38" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+**`Fichier corrigé 3.3.1 Plancher sur vide sanitaire 1.rvt  `** 
+
+Désormais, vous pouvez modéliser, en vous plaçant sur le Niveau 0 RDC, tous les planchers sur vide sanitaire (voir la localisation à la leçon précédente), en suivant la méthode de travail en 6 étapes. Il faudra également réaliser les liaisons pour chaque jonction de mur et de plancher. 
+
+Voici le résultat que l’on obtient, en vue en plan et en {3D} : 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_37.07.png" alt="creation_plancher_bas_37.07" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_37.19-7859669.png" alt="creation_plancher_bas_37.19" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_38.24.png" alt="creation_plancher_bas_38.24" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_38.42.png" alt="creation_plancher_bas_38.42" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+⚠️ :  Les vues sont colorées pour mettre en évidence les zones de plancher. 
+
+💡 : \- Les onglets situés en haut de l’espace de travail vous permettent de passer d’une vue à l’autre (à partir du moment où elles sont actives). 
+
+\- Les couleurs du revêtement en plan ne sont pas définitives et pourront être modifiées. 
+
+\- Les chaînages périphériques seront modélisés dans la leçon suivante: **Chaînages périphériques RDC**. 
+
+**`Fichier corrigé 3.3.1 Plancher sur vide sanitaire 2.rvt  `** 
+
+<p>&nbsp;</p>
+
+## 2- **Dallage terre-plein** 
+
+---------------------------
+
+
+
+Nous allons modéliser le plancher numéro 1 : **Plancher sur dallage terre-plein** 
+
+Il est composé des couches : 
+
+- - Dalle ba 12 cm 
+- \- Couche membrane 0 cm 
+- \- Couche de sable 5 cm 
+- \- Tout venant 10 cm Soit 27 cm 
+
+
+<p>&nbsp;</p>
+
+Commençons par le plancher bas du RDC repéré ci-dessous : 
+
+Nous allons nous intéresser à sa composition et à sa création dans Revit. Nous avons ici 2 planchers distincts, avec 2 assemblages de matériaux (différence de carrelage à réaliser). 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_39.03.png" alt="creation_plancher_bas_39.03" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Il faudra toujours suivre la même méthode de travail en 6 étapes vu précédemment.  Ce dallage sur terre-plein sera modélisé à l’intérieur des murs porteurs des espaces concernés. Pour créer ce nouveau plancher dans Revit, vous pouvez le faire en dupliquant un plancher existant.
+
+Dans **Architecture**, **Sol** et **Plancher**, sélectionner le plancher précédent **Plancher VS 20 Ho** 1️⃣ et cliquer sur **Modifier le type** 2️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_39.16.png" alt="creation_plancher_bas_39.16" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Puis, dans la fenêtre **Propriété du type** qui s’ouvre, nous allons cliquer sur **Dupliquer** afin de le renommer: Ce nouveau plancher s’appellera : **Dallage 10 graviers + 5 sable + 15 ba.** Cliquez sur **OK**. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_39.27.png" alt="creation_plancher_bas_39.27" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Dans la fenêtre de **Propriété du type** qui s’ouvre, dans le tableau **Paramètres du type**, cliquer sur **Modifier** 1️⃣ afin de modifier l’assemblage de matériaux de ce nouveau plancher créé : 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_39.39.png" alt="creation_plancher_bas_39.39" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Pour modifier l’**Assemblage des matériaux de départ** 1️⃣, il faut utiliser les boutons **Insérer**,…2️⃣. Vous devez obtenir l’assemblage des matériaux indiqués dans le cadre du bas 3️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_40.25.png" alt="creation_plancher_bas_40.25" style="zoom:50%;" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_40.34.png" alt="creation_plancher_bas_40.34" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+⚠️ **Important**: 
+
+- Respecter l’ordre des priorités pour chacun des 4 matériaux, indiquées entre []. 
+
+- Cliquer sur **OK** et **Appliquer** afin d’enregistrer vos modifications. 
+
+En commençant l’esquisse (sur le **Niveau 0 RDC**), dans **Modifier I Sols > Modifier la limite** 1️⃣, vous utiliserez les **outils de dessin** 2️⃣. **Terminez** l’esquisse pour la valider 3️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_41.22.png" alt="creation_plancher_bas_41.22" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Les 2 planchers peuvent être modélisés dans la même esquisse, à partir du moment où leur géométrie est bien fermée, indépendamment l’une de l’autre.  La composition est identique, vous pouvez par la suite dupliquer ce plancher afin de modifier la nature du carrelage qui se trouve à l’Entrée du Réfectoire.
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_42.30.png" alt="creation_plancher_bas_42.30" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Voici une coupe longitudinale sur l’Entrée Réfectoire et sur le Stockage Cantine afin de contrôler son travail:
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_43.15.png" alt="creation_plancher_bas_43.15" style="zoom:50%;" />
+
+ <p>&nbsp;</p>
+
+**`Fichier étape 3.3.2 Dallage terre plein.rvt  `** 
+
+<p>&nbsp;</p>
+
+## 3- **Chaînages périphériques RDC** 
+
+---------------------------
+
+<p>&nbsp;</p>
+
+Nous allons maintenant modéliser les chaînages périphériques du **Niveau 0 RDC**. Ils sont sous les murs d’élévation, dans le prolongement du plancher porteur. Pour illustrer cette modélisation, nous réaliserons ceux en périphérie du plancher de l’Administration (voir section 1). 
+
+Dans l’**Arborescence du projet**, nous allons ouvrir la coupe **Longitudinale Administration**. 
+
+Ci-dessous, la coupe partielle sur l’Administration montre la position du chainage 1️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_43.29.png" alt="creation_plancher_bas_43.29" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Dans la modélisation, ce chaînage sera un mur aligné avec le plancher et sous le mur d’élévation, il sera composé : 
+
+-  Enduit de façade 2 cm. 
+
+- Planelle de rive 5 cm. 
+
+- Chaînage béton armé 15 cm 
+
+Les murs de soubassements seront modélisés en dessous. 
+
+Pour créer ce nouveau composant dans Revit, il est conseillé de partir du mur d’élévation supérieur, de le dupliquer, de le renommer **Chaînage 2 + 5 + 15** et de supprimer les couches 5, 6 et 7 qui sont inutiles : *Doublage + isolant/Vide +Finition.* Voici la méthode pour créer l’assemblage de matériaux de ce chaînage : 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_43.45.png" alt="creation_plancher_bas_43.45" style="zoom:50%;" />
+
+
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_43.59.png" alt="creation_plancher_bas_43.59" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Pour réaliser le chaînage périphérique, il faut commencer par enlever dans la vue en plan **Niveau 0 RDC** la visibilité du plan RDC.DWG. Pour cela, taper le raccourci clavier **« vv »** puis dans l’onglet **Catégories importées**, décocher le fond de plan. 
+
+Après avoir sélectionné le **Chaînage 2 + 5 + 15** dans l’onglet **Architecture**, puis **Mur** et **Mur porteur**, il faut paramétrer les **Contraintes** 2️⃣ de la modélisation, comme ci-contre : 
+
+\- Mur de base : Chaînage 2 + 5 +15 1️⃣ 
+
+\- Ligne de justification Nu fini Extérieur 2️⃣ 
+
+\- Contrainte inférieure : Niveau 0 RDC 2️⃣ 
+
+\- Décalage inférieur : -0.27 2️⃣ 
+
+\- Contrainte supérieure : Sans contrainte 2️⃣ 
+
+\- Hauteur non contrainte : 0.2000 2️⃣ 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_44.27.png" alt="creation_plancher_bas_44.27" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Ci-dessous, les points **1️⃣** à **4️⃣** indiquent le sens de modélisation du chaînage. Dans le sens horaire, on respecte l’ordre des matériaux entre le côté extérieur et le côté intérieur. La justification se fera au Nu fini. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_44.43.png" alt="creation_plancher_bas_44.43" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+Vous quitterez la modélisation du chaînage en appuyant sur la touche **ECHAP** du clavier, après le point 4️⃣. Il est toujours essentiel de contrôler son travail (la position du chaînage), à l’aide d’une coupe locale : 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_44.57.png" alt="creation_plancher_bas_44.57" style="zoom:50%;" /><img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_45.12.png" alt="creation_plancher_bas_45.12" style="zoom:50%;" />
+
+<p>&nbsp;</p>
+
+**`Fichier étape 3.3.3 Chainages périphériques RDC 1.rvt `** 
+
+De la même façon, vous réaliserez les chaînages périphériques des autres murs du RDC du projet, en partant de l’assemblage du mur d’élévation. Nous avons 8 typologies de murs donc autant de chaînages. Nous allons aborder la méthode de modélisation du chaînage courbe, en demi-cercle, au niveau du plancher de la cage d’escalier (Etape délicate). 
+
+Nous sommes sur le **Niveau 0 RDC** 1️⃣, avec le Mur de base **Chaînage 2 + 5 + 15** 2️⃣. 
+
+ <p>&nbsp;</p>
+
+\- Sélectionner l’outil de dessin **Arc centre fins** : 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_45.26.png" alt="creation_plancher_bas_45.26" style="zoom:50%;" />
+
+ <p>&nbsp;</p>
+
+\- Vérifier les propriétés du Mur 3️⃣. 
+
+\- Cliquer sur le centre 4️⃣. 
+
+\- Cliquer sur le bas du demi-cercle, extérieur 5️⃣. 
+
+\- Cliquer sur le haut du demi-cercle 6️⃣. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_45.48.png" alt="creation_plancher_bas_45.48" style="zoom:50%;" />
+
+ <p>&nbsp;</p>
+
+Vous utiliserez l’outil de visualisation **View Cube** en cliquant sur un angle supérieur afin de vous placer au-dessus du chaînage circulaire. Il est sélectionné, et il apparaît en surbrillance bleu. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_46.07.png" alt="creation_plancher_bas_46.07" style="zoom:50%;" />
+
+ <p>&nbsp;</p>
+
+**`Fichier étape 3.3.3 Chaînages périphériques RDC 2.rvt  `** 
+
+ <p>&nbsp;</p>
+
+ <p>&nbsp;</p>
+
