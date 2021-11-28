@@ -18,7 +18,7 @@ Voici l’assemblage des 2 matériaux de ce plancher. Il se nommera **Plancher C
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/8_creation_plancher_fini_rdc/creation_plancher_fini_rdc_28.png" alt="creation_plancher_fini_rdc_28" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/8_creation_plancher_fini_rdc/creation_plancher_fini_rdc_28.png" alt="creation_plancher_fini_rdc_28" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -28,7 +28,7 @@ Voici ci-dessous, le résultat obtenu, en plan et en coupe longitudinale :
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/8_creation_plancher_fini_rdc/creation_plancher_fini_rdc_47.png" alt="creation_plancher_fini_rdc_47" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/8_creation_plancher_fini_rdc/creation_plancher_fini_rdc_47.png" alt="creation_plancher_fini_rdc_47" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 

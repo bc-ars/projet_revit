@@ -1,0 +1,169 @@
+# Ajout des menuiseries intérieures 
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Nous allons intégrer les menuiseries intérieures du projet. Nous positionnerons ainsi les portes des différents espaces ainsi que les portes coulissantes de placard, à 3 vantaux. Cette étape est relativement simple. Nous prendrons comme exemple l’Administration du centre de loisirs. 
+
+Les menuiseries intérieures sont décrites dans le lot **04 MENUISIES INTERIEURES : PE 9**. 
+
+Les dimensions non indiquées sur le plan RDC.dwg se retrouvent dans un tableau dans le PE 10 du descriptif. 
+
+Dans l’onglet **Architecture** 1️⃣, Panneau **Création** 2️⃣, choisir **Porte** 3️⃣. Dans la fenêtre **Propriétés**, Revit vous proposera les composants chargés. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_0.03.png" alt="ajout_menuiseries_interieures_0.03" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Dans la fenêtre **Propriétés** 1️⃣, Vous allez choisir la porte **PP (0.83m x 2.04m** 2️⃣. Il ne vous reste plus qu’à la positionner sur la cloison du projet.  Si vous souhaitez une dimension de porte que Revit ne propose pas, Vous pouvez la créer à partir d’une porte existante. La méthode est la même que pour les murs ou les plancher:
+
+- Modifier le type. 
+
+- Dupliquer. 
+
+- Renommer. 
+
+- Modifier les caractéristiques dimensionnelles et valider. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_0.11.png" alt="ajout_menuiseries_interieures_0.11" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Quand vous présentez la porte sur plan, seul un mur (architectural ou porteur) peut l’accepter. Sur le reste du projet, Revit vous affichera un symbole d’interdiction.  L’avantage de travailler dans une suite de logiciel Autodesk est que les symboles sont très proches et donc la superposition est facilitée. Vous positionnerez votre porte comme indiqué ci-dessous, sur le plan **Niveau 0 RDC**, sans modifier la Hauteur de l’appui (0.000). 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_0.26.png" alt="ajout_menuiseries_interieures_0.26" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Vous remarquez que Revit vous propose plusieurs **cotations temporaires bleues** 1️⃣, qui situent la porte dans son environnement. Pour positionner votre porte, vous pouvez soit les utiliser, soit déplacer votre composant le long de la cloison. 
+
+Vous avez également **2 doubles flèches** 2️⃣ qui vous permettent d’inverser le sens de la porte. Au moment de la positionner, vous pouvez aussi inverser son sens à l’aide de la barre **ESPACE** du clavier (fonction propre à tous les composants). 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_0.34.png" alt="ajout_menuiseries_interieures_0.34" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Pour information, vous pouvez repositionner les cotations temporaires en déplaçant les points bleus qui marquent leurs extrémités.  Positionnez les 2 autres portes de circulation intérieure des bureaux de l’Administration. 
+
+Nous allons placer les portes coulissantes des placards qui font 2.40m de largeur et 2.50 m de hauteur. Si vous retournez sur les choix proposés par Revit dans les portes, vous constatez qu’il ne charge pas tous les composants de ses bibliothèques à l’ouverture d’un nouveau fichier. 
+
+En revanche, tous les composants et familles chargés dans le fichier y resteront toujours, même si le fichier est exécuté sur un autre ordinateur. 
+
+Comme indiqué ci-dessous, Il faut donc se rendre dans l’onglet **Modifier I Placer Portes** 1️⃣, le Panneau **Mode** 2️⃣ et cliquer sur **Charger la famille 3️⃣**.
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_0.41.png" alt="ajout_menuiseries_interieures_0.41" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+Une fois que vous avez cliqué sur **Charger la famille**, vous arrivez dans un explorateur, avec la fenêtre **Charger la famille** 1️⃣ : 
+
+Pour accéder à la porte coulissante et la charger, il faut ouvrir les répertoires : **France** – **Portes** – **Placards**. Vous allez choisir la porte **Placard coulissante – 3 panneaux** 2️⃣. L’**Aperçu** 3️⃣ vous permet de contrôler votre choix. Puis cliquer sur **Ouvrir** 4️⃣. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_0.51.png" alt="ajout_menuiseries_interieures_0.51" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+L’extension de ce fichier est .rfa. C’est une famille Revit paramétrique. Ces familles de composants sont génériques et s’adaptent à votre projet. Nous verrons par la suite comment intégrer un composant professionnel d’une marque, issu d’une bibliothèque en ligne. 
+
+Après avoir ouvert votre famille, Revit vous propose directement de la positionner dans votre cloison. Il faut tout de même contrôler dans le Panneau **Propriétés** qu’il s’agit du bon composant. 
+
+La porte **Placard coulissante – 3 panneaux** 1️⃣ n’a pas la bonne dimension, elle n’occupe pas la quasi-totalité de la cloison, soit 2.40 m. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_1.12.png" alt="ajout_menuiseries_interieures_1.12" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+Pour l’adapter au projet, il faut modifier ses caractéristiques dimensionnelles en cliquant sur **Modifier le type** 2️⃣. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_1.02.png" alt="ajout_menuiseries_interieures_1.02" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+La méthode est maintenant connue, il faut **Dupliquer** cette porte puis la **Renommer** : 
+
+**Placard coulissantes – 3 panneaux 2.40 x 2.50**.
+
+Dans la fenêtre **Propriétés du type**, vous changerez les **Cotes** 1️⃣ de ce composant. Cliquer sur **OK** à la fin pour valider.  
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_1.27.png" alt="ajout_menuiseries_interieures_1.27" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+La porte prend alors les bonnes dimensions et se centre automatiquement entre les 2 bords latéraux. 
+
+Vous pouvez désormais positionner ce composant dans l’**Administration** (copier/coller) et nous aurons fini de positionner les menuiseries intérieures pour l’exemple choisi. 
+
+Voici le résultat en plan et en **vue {3D}** : 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_1.54.png" alt="ajout_menuiseries_interieures_1.54" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+Intéressons-nous en détail aux Propriétés du composant **Int. Simple PP (0.83m x 2.04m)** 1️⃣: 
+
+**2️⃣** 	Le **Niveau**, la **Hauteur de l’appui** et la **Hauteur sous linteau** sont 3 critères liés et cohérents. Ils vous permettent de définir la géométrie et la position de la porte. Ils reprennent son intitulé. 
+
+**3️⃣**	L’**Angle d’ouverture 3D** présente la position de la porte dans les vues 3D. 
+
+​	  L’**Angle d’ouverture 2D** fixe affiche une porte ouverte ou fermée en 2D. 
+
+**4️⃣** 	Les **Commentaires** sont utilisés pour documenter le composant et pour servir de filtre pour l’édition des nomenclatures. 
+
+La Visibilité dans les nomenclatures permettra à la porte d’être comptabilisée dans les quantités. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_2.26.png" alt="ajout_menuiseries_interieures_2.26" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+Les matériaux de la porte se modifient dans la fenêtre **Propriété du type** (cliquer sur **Modifier le type**).
+
+**`Fichier étape 3.6 Ajout des menuiseries intérieures 1.rvt  `**
+
+<p>&nbsp;</p>
+
+Placez maintenant toutes les autres menuiseries intérieures (portes de circulation et portes de placard) dans le reste du projet, en en créant de nouvelles si nécessaire (exemple porte 93x204) : 
+
+Vous devez **Modifier le type** 1️⃣, le **Dupliquer** 2️⃣, le **nommer** 3️⃣ et **ajuster les cotes** 4️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_2.58.png" alt="ajout_menuiseries_interieures_2.58" style="max-width: 70%" />
+
+
+
+<p>&nbsp;</p>
+
+**`Fichier étape 3.6 Ajout des menuiseries intérieures2.rvt  `**
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+
+
+ <p>&nbsp;</p>
+
+<p>&nbsp;</p>
