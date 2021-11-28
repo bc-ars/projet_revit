@@ -1,0 +1,275 @@
+# Ajout des menuiseries extérieures 
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Nous allons insérer dans le projet les menuiseries extérieures, apprendre à les positionner, et à en créer de nouvelles en fonction des caractéristiques dimensionnelles. 
+
+Le lot concerné est le **LOT 05 MENUISERIES EXTERIEURES – PE 11**, avec des matériaux  en aluminium. 
+
+Leurs dimensions sont décrites dans la rubrique **III – NOMENCLATURES** du **PE12** au **PE13**, ainsi que les plans cotés, avec les hauteurs d’allège. 
+
+Pour illustrer la modélisation des menuiseries extérieures, nous allons commencer par les ouvertures de l’espace Administration, avec ses 6 fenêtres 1️⃣. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_11.58.png" alt="ajout_menuiseries_ext_11.58" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+Celles-ci, identiques, ont pour dimensions : 2️⃣ 
+
+\- largeur : 0.60 
+
+\- hauteur : 1.85 
+
+\- hauteur d’allège : 0.30 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_12.15.png" alt="ajout_menuiseries_ext_12.15" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+Ci-dessus, un extrait du plan du RDC.dwg avec la ligne de cote de la menuiserie extérieure de l’espace Administration. 
+
+Dans le descriptif, cette menuiserie extérieure est décrite à l’article III – A – 2 – b (fenêtre oscillo battante) – PE12 : 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_13.00.png" alt="ajout_menuiseries_ext_13.00" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+Pour modéliser la fenêtre, il faut, dans l’onglet **Architecture** 1️⃣, Panneau **Création** 2️⃣, cliquer sur **Fenêtre** 3️⃣. 
+
+**Le sélecteur de type** 4️⃣ ne vous propose qu’une seule typologie d’ouverture, le **Vantail – Droit 0.60 mx 0.95 m - Appui en aluminium** 5️⃣. 
+
+Dans le fichier gabarit architectural par défaut, Revit ne propose qu’un minimum de composant. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_13.11.png" alt="ajout_menuiseries_ext_13.11" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+Pour accéder au chargement d’une nouvelle famille de fenêtre de Revit, il faut : 
+
+Cliquer sur l’onglet **Modifier I Placer Fenêtre** 1️⃣ et dans le Panneau **Mode** 2️⃣, cliquer sur **Charger la famille** 3️⃣. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_13.22.png" alt="ajout_menuiseries_ext_13.22" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+Revit ouvre alors la fenêtre **Charger la famille** que vous connaissez, il faut ouvrir le répertoire **Fenêtres**, puis le répertoire **Simples**. Nous pourrons toujours télécharger par la suite un composant professionnel. 
+
+Dans la fenêtre **Charger la famille** 1️⃣, répertoire **Simples** 2️⃣, choisir 1 Vantail – Droit 3️⃣. 
+
+💡 : Il n'y a pas de famille de fenêtre oscillo – battante. 
+
+L’**Aperçu** 4️⃣ vous permet de contrôler votre choix. Cliquer sur **Ouvrir** 5️⃣ pour choisir ses dimensions. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_14.33.png" alt="ajout_menuiseries_ext_14.33" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+Dans la fenêtre **Spécifier les types** 1️⃣, choisir le Type **0.60m x 1.25m – Appui Alu** 2️⃣. Nous modifierons la hauteur dans ses propriétés. 
+
+Cliquer sur **OK** 3️⃣ pour valider. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_15.28.png" alt="ajout_menuiseries_ext_15.28" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+Afin de définir correctement sa fenêtre avec les bonnes dimensions, il faut cliquer sur **Modifier le type** dans la fenêtre **Propriétés**. Vous la renommerez **0.60m x 1.85m – Appui Aluminium**. 
+
+Dans la fenêtre **Propriétés du type** 1️⃣, les critères qui définissent le Type **0.60m x 1.85m – Appui aluminium** 2️⃣ sont affichés, ils sont modifiables. 
+
+Dans la rubrique **Cotes** 3️⃣, nous retrouvons les dimensions caractéristiques : en mm 
+
+\- Hauteur : 1.850 
+
+\- Largeur : 0.6000 
+
+\- Ep. Isolant : 0.1000 
+
+\- Hauteur de la poignée : 1.0000 
+
+La hauteur d’allège de 0.30m sera renseignée directement dans le Panneau **Propriétés** de la fenêtre grâce au critère : 
+
+**Hauteur sous linteau : 2.1500** (0.3000 + 1.8500). 
+
+Cliquer sur **OK** (**4**) pour valider. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_15.41.png" alt="ajout_menuiseries_ext_15.41" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+Positionner la fenêtre 1️⃣ sur le mur de façade Nord de l’Administration. Nous retrouverons de nombreuses cotations temporaires bleues. 
+
+- **Le point bleu** 2️⃣ est aligné avec le bas de la fenêtre. 
+
+- **Le point bleu** 3️⃣ est aligné avec le bas du mur. 
+
+- **La valeur 1.50** est saisie dans le cadre 4️⃣. 
+
+Les points bleus permettent de déplacer les repères des cotations temporaires, afin de retrouver des cotations à saisir (en fonction des composants). 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_15.54.png" alt="ajout_menuiseries_ext_15.54" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+Vous pouvez désormais placer les 5 autres fenêtres de l’Administration, qui sont toutes identiques. 
+
+Vous obtenez le résultat ci-dessous, en vue **{3D}** : 
+
+💡 **: Remarques**
+
+- Les informations liées aux matériaux pourront être renseignées dans la phase d’ajustement prévue à cet effet. 
+
+- Également, une coupe verticale partielle permet de contrôler la position de la fenêtre par rapport au plancher. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_16.11.png" alt="ajout_menuiseries_ext_16.11" style="max-width: 70%" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_16.24.png" alt="ajout_menuiseries_ext_16.24" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+**`Fichier étape 3.7 Ajout des menuiseries extérieures 1.rvt  `**
+
+ <p>&nbsp;</p>
+
+De la même façon, vous placerez les autres menuiseries extérieures sur le reste du projet. Selon les dimensions caractéristiques, il vous faudra en créer certaines selon le principe **Modifier / Dupliquer**. 
+
+Certaines menuiseries extérieures ont des propriétés particulières et sont peut-être absentes des modèles génériques proposées par Revit. Après avoir abordé le chapitre sur l’intégration de familles externes, vous pourrez procéder à leur mise en conformité : 
+
+\- Toutes les fenêtres avec des châssis fixes : **4a - 4b - 4c –4d** 
+
+\- Porte fenêtre 3 vantaux : **5e** 
+
+\- Porte pleine extérieure : **6a** 
+
+\- Porte fenêtre simple : **5d** 
+
+\- Double porte vitrée accès : **1a** 
+
+💡 : Le mur rideau fera l’objet d’une section à part. 
+
+**2 conseils afin de réaliser correctement l’implantation des fenêtres 3b et 4b :** 
+
+- **1- Plage de vue :** 
+
+  Le paramétrage de la Plage de vue vous permet d’afficher correctement en plan tous les éléments que vous souhaitez afficher. Il faut ajuster la hauteur du plan de coupe. 
+
+  Prenons l’exemple des fenêtres 3b et 4b, avec une hauteur sous linteau à 2.15m donc une hauteur d’allège à 1.45m (hauteur fenêtre 0.70m).  Avec le paramétrage actuel, la représentation de l’ouverture est incomplète 1️⃣. 
+
+  Nous allons voir quel paramétrage de **la Plage de vue** il faut effectuer afin d’obtenir une coupe complète de la fenêtre en plan 2️⃣. 
+
+   <p>&nbsp;</p>
+
+  <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_16.50.png" alt="ajout_menuiseries_ext_16.50" style="max-width: 70%" />
+
+   <p>&nbsp;</p>
+
+  Pour paramétrer la plage de vue, de la vue active, il faut se rendre sur la vue en plan **Niveau 0 RDC**. Dans le Panneau **Propriétés** 1️⃣ du **Plan d’étage : Niveau 0 RDC** 2️⃣, cliquer sur **Modifier** 3️⃣ en face **de Plage de vue.** 
+
+   <p>&nbsp;</p>
+
+  <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_17.14.png" alt="ajout_menuiseries_ext_17.14" style="max-width: 70%" />
+
+   <p>&nbsp;</p>
+
+  Dans la fenêtre **Plage de vue** 4️⃣, vous remarquez que la valeur du **Plan de coupe** (par rapport au Niveau associé 0 RDC) est de **1.20** m 5️⃣. Le plan de coupe ne passe pas encore par la fenêtre qui à son allège à 1.45m. 
+
+  Il faut alors saisir la valeur **1.50** m 6️⃣ dans la case du Plan de coupe. Pensez à cliquer sur **Appliquer** et **OK** 7️⃣ afin que les modifications soient prises en compte. 
+
+   <p>&nbsp;</p>
+
+  <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_18.25.png" alt="ajout_menuiseries_ext_18.25" style="max-width: 70%" />
+
+   <p>&nbsp;</p>
+
+- **2- Placer un plan de référence :** 
+
+  Le Plan de référence est une ligne virtuelle d’accroche, de repère sur votre espace de travail, en plan, coupe et élévation. Vous avez la possibilité de le déplacer. 
+
+  Vous venez de placer la première fenêtre 4b, comme indiqué ci-contre, à l’aide de la cotation temporaire. 
+
+  **Les lignes d’accroches avec les points** 1️⃣ sont bien positionnées pour saisir la valeur **0.70** 2️⃣. 
+
+   <p>&nbsp;</p>
+
+  <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_18.49.png" alt="ajout_menuiseries_ext_18.49" style="max-width: 70%" />
+
+   <p>&nbsp;</p>
+
+  Pour placer une fenêtre, vous pouvez également utiliser le Plan de référence. 
+
+  Dans l’onglet Architecture, il faut aller dans le **Panneau Plan de construction** 3️⃣ et choisir **Plan de référence** 4️⃣. 
+
+   <p>&nbsp;</p>
+
+  <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_19.08.png" alt="ajout_menuiseries_ext_19.08" style="max-width: 70%" />
+
+   <p>&nbsp;</p>
+
+  Ce plan de référence va vous permettre de positionner votre nouvelle fenêtre. 
+
+  ⚠️ : Si vous supprimez un composant sur lequel s’accroche un plan de référence, celui-ci sera aussi supprimé.
+
+  Pour placer son plan de référence, cliquer une première fois, à gauche, sur **le point 1️⃣** puis une deuxième fois, à droite, sur **le point 2️⃣**. Le plan de référence est représenté en **pointillés bleus** 3️⃣. Il se trouve à **3.9161** m 4️⃣ de l’extrémité de la fenêtre.  
+
+ <p>&nbsp;</p>
+
+​	<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_19.31.png" alt="ajout_menuiseries_ext_19.31" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+Vous devez commencer par saisir la valeur **0.90** dans la case 4️⃣ de la cotation temporaire. Puis vous insérez votre nouvelle fenêtre qui s’alignera sur le **Plan de référence**. Vous utiliserez l’outil **Déplacer** (MV) afin de faire glisser le long du mur la nouvelle fenêtre. 
+
+Voici, ci-dessous le résultat : 
+
+La fenêtre est alignée avec le **Plan de référence** 1️⃣. 
+
+Vous pouvez créer autant de **Plan de référence** que vous voulez. Vous avez la possibilité de les renommer pour mieux les identifier (cliquer pour saisir un nom). 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_19.42.png" alt="ajout_menuiseries_ext_19.42" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+Ils peuvent être masqués, un à un ou tous de votre zone de travail. Pour cela, il faut le (les) sélectionner et faire un clic droit souris, et choisir **Masquer dans la vue élément** (pour un) ou **Catégorie** (pour tous). 
+
+Pour réafficher ces éléments masqués, il faut cliquer sur l’ampoule (**Afficher les éléments cachés)** dans la barre de visualisation, en bas de l’écran. Cliquer sur l’élément souhaité et choisir **Afficher dans la vue élément**. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_19.43.png" alt="ajout_menuiseries_ext_19.43" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_19.58.png" alt="ajout_menuiseries_ext_19.58" style="max-width: 70%" />
+
+ <p>&nbsp;</p>
+
+**`Fichier étape 3.7 Ajout des menuiseries extérieures 2.rvt  `**
+
+<p>&nbsp;</p>
+
+ <p>&nbsp;</p>
+
+<p>&nbsp;</p>
