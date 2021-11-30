@@ -1,4 +1,4 @@
-# Création des murs porteurs du R+1 : méthode 2 de tracé suivant le niveau inférieur  
+# Création des murs porteurs du R+1 : 2ème méthode de tracé suivant le niveau inférieur  
 
 ------------------------------
 
@@ -117,7 +117,7 @@ Cliquer une première fois sur le point **1️⃣** (extrémité du nu fini ext�
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteur_N1/11_creation_murs_porteur_N14.19.png" alt="11_creation_murs_porteur_N14.19" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteur_N1/11_creation_murs_porteur_N14.19.png" alt="11_creation_murs_porteur_N14.19" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -125,11 +125,11 @@ Poursuivez la modélisation des murs périphériques extérieurs de l’étage j
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteur_N1/11_creation_murs_porteur_N14.32.png" alt="11_creation_murs_porteur_N14.32" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteur_N1/11_creation_murs_porteur_N14.32.png" alt="11_creation_murs_porteur_N14.32" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
-⚠️ : 
+⚠️ : **Important**
 
 \- Pour modéliser les 2 murs périphériques qui donnent sur la terrasse, il faudra choisir une ligne de justification autre que Nu fini extérieur. Ce sera Axe porteur afin de s’accrocher sur les fils des murs (K file horizontale et 4 file verticale). 
 

@@ -1,0 +1,103 @@
+# R+1: Création du cloisonnement intérieur, du revêtement de sol, du plancher haut.
+
+------------------------------
+
+<p>&nbsp;</p>
+
+## Modélisation du cloisonnement
+
+<p>&nbsp;</p> 
+
+Nous avons désormais le réflexe de consulter le CCTP. Regardons la page PE8 et suivons les prescriptions. écrites par rapport à ce qui est parfois dessiné. Vous pouvez enlever le plan RDC.dwg et faire référence au plan de l’étage au format AutoCad. 
+
+Les **Contraintes** 1️⃣ des cloisons sont indiquées ci-dessous : 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/12_creation_cloisonnement_interieur_N1creation_cloisonnement_interieur_N11.07.png" alt="creation_cloisonnement_interieur_N11.07" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+## Modélisation des menuiseries intérieures
+
+<p>&nbsp;</p> 
+
+Aucune préconisation particulière pour la modélisation. 
+
+<p>&nbsp;</p>
+
+## Modélisation des menuiseries extérieures
+
+<p>&nbsp;</p> 
+
+Aucune préconisation particulière, hormis qu’il faudra importer certains modèles de fenêtres afin que la modélisation soit conforme au CCTP *(4a 4.20 x 0.60 fixe et 4d 4.60 x 0.60 fixe).* 
+
+  <p>&nbsp;</p> 
+
+## Modélisation du revêtement de sol
+
+<p>&nbsp;</p> 
+
+L'analyse du CCTP pour les sols du projet dait ressortir qu'ils sont classés en 2 catégories : **PE20** 
+
+**LOT 08 SOLS ET REVETEMENTS** 
+
+​	**A – SOLS DURS** 
+
+​		1 – Revêtements intérieurs : 
+
+​		d) Carrelage : 
+
+​	**B – SOLS SOUPLES** 
+
+​		1 – Revêtements de Sols Vinyliques souples en lés. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/12_creation_cloisonnement_interieur_N1creation_cloisonnement_interieur_N11.18.png" alt="creation_cloisonnement_interieur_N11.18" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Nous nous intéresserons à l’article ***1 –a***, ci-dessus, qui concerne le sol souple pour les locaux secs dans la Salle de Réunion, salle de repos et le rangement étage. Dans la phase d’ajustement, les caractéristiques de chaque sol seront alors affinés en fonction de leur localisation (carrelage et sol souple). Pour le reste de l’étage, le revêtement de sol sera harmonisé avec du carrelage. 
+
+Pour le sol souple 1️⃣, ci-dessous l’assemblage des **couches** 2️⃣, à ajuster à l’aide des **boutons** 3️⃣. Il vous suffira de dupliquer le sol avec le carrelage et de l’adapter. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/12_creation_cloisonnement_interieur_N1creation_cloisonnement_interieur_N12.23.png" alt="creation_cloisonnement_interieur_N12.23" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+## Modélisation du plancher haut du R+1
+
+<p>&nbsp;</p> 
+
+Pour la modélisation de la dalle sur le **Niveau fini toiture R+1**, il faut utiliser le Plancher **Toiture terrasse inaccessible gravillons 38**, représenté auparavant dans les salles d’Activités et le Réfectoire. 
+
+Afin d’afficher le plan du RDC en référence, nous allons effectuer des réglages de visibilité des graphismes dans l’option **Plage de vue** (fenêtre Propriétés de la vue en plan), avec les modifications ci-dessous : 
+
+​	\- Plage principale : Bas : **Niveau 0 RDC**. 
+
+​	\- Profondeur de la vue : Niveau : **Sans limite**. 
+
+Vous utiliserez les outils **Dessiner** habituels -ligne et cercle -en scindant en deux points afin de ne laisser que le demi-cercle de l’escalier. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/12_creation_cloisonnement_interieur_N1creation_cloisonnement_interieur_N12.32.png" alt="creation_cloisonnement_interieur_N12.32" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Voici, ci-dessous, la modélisation du plancher haut du R+1, sur le **Niveau fini toiture R+1** : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/12_creation_cloisonnement_interieur_N1creation_cloisonnement_interieur_N12.47.png" alt="creation_cloisonnement_interieur_N12.47" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 3.10 Création cloisons men int et ext -dalle R+1.rvt  `** 
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
