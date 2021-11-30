@@ -1,0 +1,172 @@
+# Création des murs porteurs du R+1 : méthode 2 de tracé suivant le niveau inférieur  
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Nous allons découvrir comment modéliser les murs périphériques du R+1 à partir de la modélisation du RDC. Nous ferons appel le moins souvent possible au fond de plan en dwg. 
+
+À l'analyse le projet du Centre de loisirs, à l’étage, il est important de bien comprendre le plan de structure, et la superposition des murs porteurs. 
+
+Dans le plan de repérage ci-dessous, nous avons : 
+
+​	\- 🟩 **La partie habitable**, couverte par une toiture terrasse inaccessible. 
+
+​	\- 🟨 La partie en **Terrasse**, avec des dalles sur plots, sur une étanchéité. 
+
+Pour les principes de modélisation des murs, nous reprendrons les méthodes abordées précédemment. 
+
+La composition des murs est la suivante : *M6 doublage thermique (1 vide + 8 polystyrène + 1 ba13) \+ mur porteur (20 BBMC) \+ finition intérieure (2 plâtre)= 32 cm* 
+
+Nous aurons aussi le mur porteur de la cage d’ascenseur : *M8 Finition intérieure (1 plâtre) \+ mur porteur (20 BBMC) = 21 cm*. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteurs_N1/11_creation_murs_porteur_N12.34.png" alt="11_creation_murs_porteur_N12.34" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Sur la coupe ci-dessous, extrait du DG7, les niveaux caractéristiques du projet sont indiqués. 
+
+- **`-1.14` :** Mur de soubassement 
+- **`-0.70`** : voirie / extérieur 
+- **`-0.12`** : Cour intérieures 
+- **`0.00`** : RDC niveau fini 
+- **`3.17`** : 1er étage niveau fini 
+- **`6.29`** : Toiture terrasse niveau brut supérieur 
+- **`6.47`** : Toiture terrasse niveau fini supérieur 
+- **`6.87`** : Acrotère toiture terrasse niveau brut
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteurs_N1/11_creation_murs_porteur_N12.49.png" alt="11_creation_murs_porteur_N12.49" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Nous allons commencer par créer le niveau : **`6.47` : Toiture terrasse niveau fini supérieur.**  Rendons-nous sur une coupe ou une élévation pour le concevoir. Il sera utilisé comme contrainte supérieure (avec un décalage supérieur de 38 cm (dalle + étanchéité). 
+
+<p>&nbsp;</p> 
+
+## **Méthode 1** : Paramétrer la Plage de vue 
+
+<p>&nbsp;</p> 
+
+***👍 Avantage: On voit la modélisation du plan inférieur***.
+
+***👎 Inconvénient: Un paramétrage est à réaliser.***
+
+<p>&nbsp;</p>
+
+Placez-vous sur la vue active **Niveau 1er**. Dans le Panneau **Propriétés**, cliquer sur le bouton **Modifier** en face de **Plage de vue** (rubrique Etendues). La fenêtre de la **Plage de vue** 1️⃣ indique que le **niveau Bas** est le **Niveau 1er**, comme celui de la **Profondeur de vue** 2️⃣. C'est la raison pour laquelle, dans la figure 3️⃣, que le plan du RDC est vu au-dessus et que le fond de plan RDC.dwg est visible en gris. 
+
+Dans la figure 3️⃣, nous avons le fond de plan RDC.dwg qui est apparent, les accroches objets sont possibles. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteurs_N1/11_creation_murs_porteur_N13.18.png" alt="11_creation_murs_porteur_N13.18" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Il est en grisé et visible car dans les **Propriétés** du plan Niveau 1er, le Niveau 0 RDC est sélectionné dans **Plage : niveau de base** (rubrique **Niveau en fond de plan**). C’est important pour voir le RDC. 
+
+Il faudra masquer temporairement le plancher haut du RDC pour faire apparaître le plan inférieur. Vous le sélectionnerez dans la vue 3D, ou dans une coupe, et vous choisirez (clic droit souris) de le **masquer dans la vue**. 
+
+Pour le faire réapparaître, vous activerez **Afficher les éléments cachés** dans **la barre de visualisation**, et vous choisirez **Afficher dans la vue l’élément.** 
+
+<p>&nbsp;</p>
+
+## **Méthode 2** : **Modélisation sur le plan de Niveau RDC**  
+
+<p>&nbsp;</p> 
+
+**👍 Avantage: *Aucun paramétrage particulier, on dessine directement sur le niveau inférieur.***
+
+***👎 Inconvénient: la modélisation n'est pas très visible.***
+
+<p>&nbsp;</p>
+
+Pour cette deuxième méthode, il faut simplement, depuis l’arborescence des vues, se placer sur le plan inférieur du RDC et choisir correctement, dans le Panneau Propriétés, le Niveau 1er comme contrainte supérieure. 
+
+On s’appuie donc sur la modélisation effectuée du RDC mais on ne verra pas correctement notre modélisation du Niveau 1er (invisible car sur le niveau supérieur). Vous ne voyez pas votre travail tant qu’un segment n’est pas terminé. 
+
+Pour notre modélisation des murs porteurs du R+1, nous allons appliquer **la méthode 1**. 
+
+Auparavant, vous avez besoin de créer le **Niveau fini toiture R+1** (comme ci-contre) **à 6.47** m. Il nous servira de contrainte supérieure des murs avec un décalage supérieur de -0.38. 
+
+Nous allons commencer par modéliser le **Mur de base M1** (**1**) périphérique, avec ses paramètres (**2**) à faire avant de le modéliser : 
+
+​	\- Ligne de justification : **Nu fini Extérieur** 
+
+​	\- Contrainte inférieure : **Niveau 1er** 
+
+​	\- Décalage inférieur : **-0.0700** 
+
+​	\- Contrainte supérieure : **Niveau fini toiture R+1** 
+
+​	\- Décalage supérieure : **-0.3800** 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteur_N1/11_creation_murs_porteur_N14.05.png" alt="11_creation_murs_porteur_N14.05" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Pour le modéliser ensuite sur le Niveau 1er, il faut suivre la méthode suivante: 
+
+Cliquer une première fois sur le point **1️⃣** (extrémité du nu fini extérieur du mur courbe) et modéliser son mur jusqu’à l’extrémité droite en cliquant sur le point **2️⃣**. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteurs_N1/11_creation_murs_porteur_N14.19.png" alt="11_creation_murs_porteur_N14.19" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Poursuivez la modélisation des murs périphériques extérieurs de l’étage jusqu’au début de l’escalier. Appuyez sur la touche ECHAP du clavier (pour quitter l’action en cours) et contrôlez votre travail avec une coupe perpendiculaire, comme indiqué ci-dessous. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteurs_N1/11_creation_murs_porteur_N14.32.png" alt="11_creation_murs_porteur_N14.32" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+⚠️ : 
+
+\- Pour modéliser les 2 murs périphériques qui donnent sur la terrasse, il faudra choisir une ligne de justification autre que Nu fini extérieur. Ce sera Axe porteur afin de s’accrocher sur les fils des murs (K file horizontale et 4 file verticale). 
+
+\- Il n’est pas impossible que Revit vous indique un message d’erreur « **la contrainte supérieure est incorrecte pour le niveau** », dans ce cas, choisir sans contrainte et indiquez une hauteur non contrainte de 2.81 m. 
+
+Dans la mesure où vous avez suivi les conseils de modélisation, vous vous retrouvez avec deux murs dans l’angle supérieur gauche mal raccordés. Nous allons raccorder ces deux murs. 
+
+Il faut commencer par sélectionner un des deux murs afin de faire apparaître les outils de modifications. Dans l’onglet **Modifier I Murs** (**1**), Panneau **Modifier** (**2**), choisir l’outil **Ajuster/prolonger en angle** (**3**). 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteurs_N1/11_creation_murs_porteur_N15.02.png" alt="11_creation_murs_porteur_N15.02" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Cliquer ensuite sur le mur **1️⃣** puis le mur **2️⃣**, vous obtiendrez un raccord parfait des 2 murs, comme indiqué ci-dessous (**Après**). 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteurs_N1/11_creation_murs_porteur_N15.37.png" alt="11_creation_murs_porteur_N15.37" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Cet outil fonctionne dans la vue {3D}, où la visualisation est plus confortable. 
+
+Nous modéliserons également le mur M7 de la cage d’ascenseur, on respectera la distance de 1.65 m à l’intérieur de la cage, entre les 2 murs horizontaux. 
+
+Voici le résultat de cette modélisation en **vue {3D}** : le mur repéré **2** a été réduit par la suite.
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteurs_N1/11_creation_murs_porteur_N15.53.png" alt="11_creation_murs_porteur_N15.53" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+**`Fichier étape 3.9 Création des murs porteurs du R+1.rvt  `** 
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>

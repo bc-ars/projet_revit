@@ -28,7 +28,7 @@ Pour dessiner votre **plancher dalle pleine ba 20** 1️⃣, il faut se placer, 
 
  <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_37.27.png" alt="creation_plancher_haut_rdc_37.27" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_37.27.png" alt="creation_plancher_haut_rdc_37.27" style="max-width: 60%" />
 
  <p>&nbsp;</p>
 
@@ -36,7 +36,7 @@ Tracer l’esquisse de l’emprise en vous aidant des outils **Dessiner** (ligne
 
  <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_37.45.png" alt="creation_plancher_haut_rdc_37.45" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_37.45.png" alt="creation_plancher_haut_rdc_37.45" style="max-width: 70%" />
 
  <p>&nbsp;</p>
 
@@ -80,7 +80,7 @@ Vous vous aiderez du premier chaînage que vous dupliquerez et adapterez dans l�
 
  <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_38.44.png" alt="creation_plancher_haut_rdc_38.44" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_38.44.png" alt="creation_plancher_haut_rdc_38.44" style="max-width: 70%" />
 
  <p>&nbsp;</p>
 
