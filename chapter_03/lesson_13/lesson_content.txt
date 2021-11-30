@@ -1,0 +1,64 @@
+# Création de la toiture terrasse dalle sur plot R+1  
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Nous allons modéliser la toiture terrasse dalle sur plots du projet, toujours en faisant référence aux prescriptions du CCTP : **PE23**  La toiture terrasse dalle sur plots sera composée des couches : 
+
+\- Dalle et plots : 8 cm (selon la coupe C1) 
+
+\- Couche étanchéité 6 mm. 
+
+\- Isolant polystyrène extrudé 60 mm 
+
+\- Pare vapeur / membrane : 4 mm. 
+
+(Les plots ne sont pas représentés) 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/15_creation_toiture_N1/creation_toiture_N1_2.24.png" alt="creation_toiture_N1_2.24" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Voici l’assemblage des matériaux pour la **Toiture terrasse dalle sur plots** 1️⃣: 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/15_creation_toiture_N1/creation_toiture_N1_2.35.png" alt="creation_toiture_N1_2.35" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Les couches de matériaux 2️⃣ n’intègrent pas la dalle béton, elle est déjà modélisée. Vous utiliserez **les boutons** 3️⃣ pour Insérer, Supprimer Monter et Descendre vos couches. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/15_creation_toiture_N1/creation_toiture_N1_2.51.png" alt="creation_toiture_N1_2.51" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Pour information, afin de permettre au seuil des baies vitrées de passer au-dessus des dalles sur plots 1️⃣, il faudra rehausser les ouvertures du R+1 sur la terrasse, avec une **Hauteur sous linteau de 2.27 m** 2️⃣. Les gardes corps de la terrasse du R+1 seront représentés dans la section dédiée à cet effet. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/15_creation_toiture_N1/creation_toiture_N1_2.59.png" alt="creation_toiture_N1_2.59" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Voici le résultat de la toiture dalle sur plots du R+1, nous rajouterons également la partie qui est inaccessible, au-dessus de la cuisine (uniquement le complexe de matériaux sur la dalle ba) : 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/15_creation_toiture_N1/creation_toiture_N1_3.09.png" alt="creation_toiture_N1_3.09" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+
+
+**`Fichier étape 3.13 Création de la toiture terrasse dalle sur plot R+1.rvt  `** 
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
