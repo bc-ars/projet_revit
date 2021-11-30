@@ -22,7 +22,7 @@ Nous aurons aussi le mur porteur de la cage d’ascenseur : *M8 Finition intéri
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteurs_N1/11_creation_murs_porteur_N12.34.png" alt="11_creation_murs_porteur_N12.34" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteur_N1/11_creation_murs_porteur_N12.34.png" alt="11_creation_murs_porteur_N12.34" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -39,7 +39,7 @@ Sur la coupe ci-dessous, extrait du DG7, les niveaux caractéristiques du projet
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteurs_N1/11_creation_murs_porteur_N12.49.png" alt="11_creation_murs_porteur_N12.49" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteur_N1/11_creation_murs_porteur_N12.49.png" alt="11_creation_murs_porteur_N12.49" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -63,7 +63,7 @@ Dans la figure 3️⃣, nous avons le fond de plan RDC.dwg qui est apparent, les
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteurs_N1/11_creation_murs_porteur_N13.18.png" alt="11_creation_murs_porteur_N13.18" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteur_N1/11_creation_murs_porteur_N13.18.png" alt="11_creation_murs_porteur_N13.18" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -117,7 +117,7 @@ Cliquer une première fois sur le point **1️⃣** (extrémité du nu fini ext�
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteurs_N1/11_creation_murs_porteur_N14.19.png" alt="11_creation_murs_porteur_N14.19" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteur_N1/11_creation_murs_porteur_N14.19.png" alt="11_creation_murs_porteur_N14.19" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -125,7 +125,7 @@ Poursuivez la modélisation des murs périphériques extérieurs de l’étage j
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteurs_N1/11_creation_murs_porteur_N14.32.png" alt="11_creation_murs_porteur_N14.32" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteur_N1/11_creation_murs_porteur_N14.32.png" alt="11_creation_murs_porteur_N14.32" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -141,7 +141,7 @@ Il faut commencer par sélectionner un des deux murs afin de faire apparaître l
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteurs_N1/11_creation_murs_porteur_N15.02.png" alt="11_creation_murs_porteur_N15.02" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteur_N1/11_creation_murs_porteur_N15.02.png" alt="11_creation_murs_porteur_N15.02" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -149,7 +149,7 @@ Cliquer ensuite sur le mur **1️⃣** puis le mur **2️⃣**, vous obtiendrez 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteurs_N1/11_creation_murs_porteur_N15.37.png" alt="11_creation_murs_porteur_N15.37" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteur_N1/11_creation_murs_porteur_N15.37.png" alt="11_creation_murs_porteur_N15.37" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -161,7 +161,7 @@ Voici le résultat de cette modélisation en **vue {3D}** : le mur repéré **2*
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteurs_N1/11_creation_murs_porteur_N15.53.png" alt="11_creation_murs_porteur_N15.53" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/11_creation_murs_porteur_N1/11_creation_murs_porteur_N15.53.png" alt="11_creation_murs_porteur_N15.53" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
