@@ -14,7 +14,7 @@ Les **Contraintes** 1️⃣ des cloisons sont indiquées ci-dessous :
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/12_creation_cloisonnement_interieur_N1creation_cloisonnement_interieur_N11.07.png" alt="creation_cloisonnement_interieur_N11.07" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/12_creation_cloisonnement_interieur_N1/creation_cloisonnement_interieur_N11.07.png" alt="creation_cloisonnement_interieur_N11.07" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -54,7 +54,7 @@ L'analyse du CCTP pour les sols du projet dait ressortir qu'ils sont classés en
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/12_creation_cloisonnement_interieur_N1creation_cloisonnement_interieur_N11.18.png" alt="creation_cloisonnement_interieur_N11.18" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/12_creation_cloisonnement_interieur_N1/creation_cloisonnement_interieur_N11.18.png" alt="creation_cloisonnement_interieur_N11.18" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -64,7 +64,7 @@ Pour le sol souple 1️⃣, ci-dessous l’assemblage des **couches** 2️⃣, �
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/12_creation_cloisonnement_interieur_N1creation_cloisonnement_interieur_N12.23.png" alt="creation_cloisonnement_interieur_N12.23" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/12_creation_cloisonnement_interieur_N1/creation_cloisonnement_interieur_N12.23.png" alt="creation_cloisonnement_interieur_N12.23" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -84,7 +84,7 @@ Vous utiliserez les outils **Dessiner** habituels -ligne et cercle -en scindant 
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/12_creation_cloisonnement_interieur_N1creation_cloisonnement_interieur_N12.32.png" alt="creation_cloisonnement_interieur_N12.32" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/12_creation_cloisonnement_interieur_N1/creation_cloisonnement_interieur_N12.32.png" alt="creation_cloisonnement_interieur_N12.32" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -92,7 +92,7 @@ Voici, ci-dessous, la modélisation du plancher haut du R+1, sur le **Niveau fin
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/12_creation_cloisonnement_interieur_N1creation_cloisonnement_interieur_N12.47.png" alt="creation_cloisonnement_interieur_N12.47" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/12_creation_cloisonnement_interieur_N1/creation_cloisonnement_interieur_N12.47.png" alt="creation_cloisonnement_interieur_N12.47" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
