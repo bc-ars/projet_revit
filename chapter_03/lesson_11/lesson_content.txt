@@ -1,0 +1,80 @@
+# Création du faux plafond RDC et R+1 
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Nous allons maintenant nous attaquer à la modélisation des faux plafonds sur le projet, en fonction des indications du CCTP. Cette étape viendra clôturer la modélisation intérieure du projet. 
+
+Les faux plafonds sont décrits dans les articles : **PE8** 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/13_creation_faux_plafond_rdc_N1creation_faux_plafond_rdc_N1_7.53.png" alt="creation_faux_plafond_rdc_N1_7.53" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Par ailleurs, comme l’indique le CCTP à la page **PE7** : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/13_creation_faux_plafond_rdc_N1creation_faux_plafond_rdc_N1_8.24.png" alt="creation_faux_plafond_rdc_N1_8.24" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Pour l’exemple de cette leçon, nous allons modéliser le faux plafond des sanitaires à l’étage, décrit à l’article **03.3.c Fourniture et mise en oeuvre de faux plafonds en dalles 600 x 600.** 
+
+Pour la modélisation du faux plafond, il faut se rendre dans l’onglet **Architecture** 1️⃣, Panneau **Création** 2️⃣, il faut cliquer sur **Plafond** 3️⃣. Vous devez sélectionner votre famille ou la créer. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/13_creation_faux_plafond_rdc_N1creation_faux_plafond_rdc_N1_8.39.png" alt="creation_faux_plafond_rdc_N1_8.39" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+La famille de faux plafond pré-chargé dans Revit au démarrage (inclus dans le fichier gabarit d’origine) ne propose que le **Plafond 600 mm x 1200 mm**, sans pour autant offrir la possibilité de charger une famille. Il faudrait donc, dans l’idéal, importer une famille de Revit issue d’un catalogue de fabricant professionnel. 
+
+Pour le modéliser, il faut se placer sur le **Niveau 1er**, et choisir la valeur de **Décalage par rapport au niveau** de **2.50 m**, dans le panneau **Propriétés**. 
+
+Dans l’onglet **Modifier I Placer Plafond** 1️⃣, choisir **Esquisse du Plafond** 2️⃣. Nous allons le dessiner son implantation. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/13_creation_faux_plafond_rdc_N1creation_faux_plafond_rdc_N1_8.26.png" alt="creation_faux_plafond_rdc_N1_8.26" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Dans l’onglet **Modifier I Créer un contour de plafond** 1️⃣, Panneau **Dessiner** 2️⃣, choisir **Ligne de contour **3️⃣ et utiliser **l’outil ligne** ou **l‘outil rectangle** 4️⃣ pour le dessiner. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/13_creation_faux_plafond_rdc_N1creation_faux_plafond_rdc_N1_8.48.png" alt="creation_faux_plafond_rdc_N1_8.48" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Ci-dessous, nous avons l’implantation des faux plafonds dans les sanitaires de l’étage. L’esquisse est symbolisée par **un contour du profil en violet** (trait fin ou fort). Pour quitter ce mode esquisse, il faut le Valider en cliquant sur la **coche verte** ✅. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/13_creation_faux_plafond_rdc_N1creation_faux_plafond_rdc_N1_8.58.png" alt="creation_faux_plafond_rdc_N1_8.58" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Ci-dessous, nous avons ouvert le **Niveau 1er**, dans **Plans de plafond** de **l’arborescence**. Nous avons donc une vue miroir de l’étage où nous voyons le calepinage du faux plafond. Il faudra retourner sur les Plans d’étage pour la modélisation du projet. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/13_creation_faux_plafond_rdc_N1creation_faux_plafond_rdc_N1_9.09.png" alt="creation_faux_plafond_rdc_N1_9.09" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Vous modéliserez, en suivant la même méthode, les autres faux plafonds sur le reste du projet. 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 3.11 Création du faux plafond RDC et R+1.rvt  `** 
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+

@@ -64,7 +64,7 @@ Pour le sol souple 1️⃣, ci-dessous l’assemblage des **couches** 2️⃣, �
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/12_creation_cloisonnement_interieur_N1/creation_cloisonnement_interieur_N12.23.png" alt="creation_cloisonnement_interieur_N12.23" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/12_creation_cloisonnement_interieur_N1/creation_cloisonnement_interieur_N12.23.png" alt="creation_cloisonnement_interieur_N12.23" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -92,7 +92,7 @@ Voici, ci-dessous, la modélisation du plancher haut du R+1, sur le **Niveau fin
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/12_creation_cloisonnement_interieur_N1/creation_cloisonnement_interieur_N12.47.png" alt="creation_cloisonnement_interieur_N12.47" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/12_creation_cloisonnement_interieur_N1/creation_cloisonnement_interieur_N12.47.png" alt="creation_cloisonnement_interieur_N12.47" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -101,3 +101,4 @@ Voici, ci-dessous, la modélisation du plancher haut du R+1, sur le **Niveau fin
 <p>&nbsp;</p>
 
 <p>&nbsp;</p>
+
