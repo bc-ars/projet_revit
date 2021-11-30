@@ -14,7 +14,7 @@ Pour illustrer la modélisation des menuiseries extérieures, nous allons commen
 
  <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_11.58.png" alt="ajout_menuiseries_ext_11.58" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_11.58.png" alt="ajout_menuiseries_ext_11.58" style="max-width: 100%" />
 
  <p>&nbsp;</p>
 
@@ -38,7 +38,7 @@ Dans le descriptif, cette menuiserie extérieure est décrite à l’article III
 
  <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_13.00.png" alt="ajout_menuiseries_ext_13.00" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_13.00.png" alt="ajout_menuiseries_ext_13.00" style="max-width: 100%" />
 
  <p>&nbsp;</p>
 
@@ -50,7 +50,7 @@ Dans le fichier gabarit architectural par défaut, Revit ne propose qu’un mini
 
  <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_13.11.png" alt="ajout_menuiseries_ext_13.11" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_13.11.png" alt="ajout_menuiseries_ext_13.11" style="max-width: 100%" />
 
  <p>&nbsp;</p>
 
@@ -60,7 +60,7 @@ Cliquer sur l’onglet **Modifier I Placer Fenêtre** 1️⃣ et dans le Panneau
 
  <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_13.22.png" alt="ajout_menuiseries_ext_13.22" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_13.22.png" alt="ajout_menuiseries_ext_13.22" style="max-width: 100%" />
 
  <p>&nbsp;</p>
 
@@ -74,7 +74,7 @@ L’**Aperçu** 4️⃣ vous permet de contrôler votre choix. Cliquer sur **Ouv
 
  <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_14.33.png" alt="ajout_menuiseries_ext_14.33" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_14.33.png" alt="ajout_menuiseries_ext_14.33" style="max-width: 100%" />
 
  <p>&nbsp;</p>
 
@@ -84,7 +84,7 @@ Cliquer sur **OK** 3️⃣ pour valider.
 
  <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_15.28.png" alt="ajout_menuiseries_ext_15.28" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_15.28.png" alt="ajout_menuiseries_ext_15.28" style="max-width: 100%" />
 
  <p>&nbsp;</p>
 
@@ -142,9 +142,9 @@ Vous obtenez le résultat ci-dessous, en vue **{3D}** :
 
  <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_16.11.png" alt="ajout_menuiseries_ext_16.11" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_16.11.png" alt="ajout_menuiseries_ext_16.11" style="max-width: 100%" />
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_16.24.png" alt="ajout_menuiseries_ext_16.24" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_16.24.png" alt="ajout_menuiseries_ext_16.24" style="max-width: 50%" />
 
  <p>&nbsp;</p>
 
@@ -180,7 +180,7 @@ Certaines menuiseries extérieures ont des propriétés particulières et sont p
 
    <p>&nbsp;</p>
 
-  <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_16.50.png" alt="ajout_menuiseries_ext_16.50" style="max-width: 70%" />
+  <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_16.50.png" alt="ajout_menuiseries_ext_16.50" style="max-width: 100%" />
 
    <p>&nbsp;</p>
 
@@ -198,7 +198,7 @@ Certaines menuiseries extérieures ont des propriétés particulières et sont p
 
    <p>&nbsp;</p>
 
-  <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_18.25.png" alt="ajout_menuiseries_ext_18.25" style="max-width: 70%" />
+  <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_18.25.png" alt="ajout_menuiseries_ext_18.25" style="max-width: 100%" />
 
    <p>&nbsp;</p>
 
@@ -234,7 +234,7 @@ Certaines menuiseries extérieures ont des propriétés particulières et sont p
 
  <p>&nbsp;</p>
 
-​	<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_19.31.png" alt="ajout_menuiseries_ext_19.31" style="max-width: 70%" />
+​	<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_19.31.png" alt="ajout_menuiseries_ext_19.31" style="max-width: 100%" />
 
  <p>&nbsp;</p>
 
@@ -258,11 +258,11 @@ Pour réafficher ces éléments masqués, il faut cliquer sur l’ampoule (**Aff
 
  <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_19.43.png" alt="ajout_menuiseries_ext_19.43" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_19.43.png" alt="ajout_menuiseries_ext_19.43" style="max-width: 100%" />
 
  <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_19.58.png" alt="ajout_menuiseries_ext_19.58" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/9_ajout_menuiseries_exterieures/ajout_menuiseries_ext_19.58.png" alt="ajout_menuiseries_ext_19.58" style="max-width: 100%" />
 
  <p>&nbsp;</p>
 

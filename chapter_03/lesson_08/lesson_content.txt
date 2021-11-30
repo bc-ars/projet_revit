@@ -1,0 +1,229 @@
+# **Création du plancher haut du RDC et du chaînage périphérique** 
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Comme précedemment nous alons travailler sur le plancher du RDC. Cette dalle couvre l’ensemble du RDC. Le projet comporte un étage sur les espaces du RDC du hall d’entrée, du wc PMR, de l’infirmerie et aussi des sanitaires garçons et filles. Comme exemple, nous allons nous intéresser au plancher qui couvre la zone d’accueil jusqu’à la cuisine. 
+
+Nous allons modéliser ce plancher qui se nommera **Plancher dalle pleine ba 20**. 
+
+Il ne sera composé que d’une seule couche : *Plancher dalle pleine 20 cm* soit 20 cm 
+
+Voici la composition des matériaux de ce plancher R+1 :  
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_36.53.png" alt="creation_plancher_haut_rdc_36.53" style="max-width: 100%" />
+
+ <p>&nbsp;</p>
+
+On retrouve dans cet assemblage de matériaux le nom du plancher **Plancher dalle pleine ba 20** 1️⃣, avec l’assemblage des matériaux en une seule couche 2️⃣, en respectant la priorité [1] 2️⃣. 
+
+La création et l’organisation des couches se fera toujours avec les boutons **Insérer**, … 3️⃣. 
+
+Ne pas oublier de valider son travail à la fin (**Appliquer** et **OK**). Vous devez, dans la continuité modéliser votre dalle, dans le cas contraire, il arrive que celle-ci ne soit pas prise en compte par Revit. 
+
+Pour dessiner votre **plancher dalle pleine ba 20** 1️⃣, il faut se placer, dans l’arborescence du projet, sur le **Niveau 1er** avec un **Décalage par rapport au niveau** de **-0.0700** 2️⃣. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_37.27.png" alt="creation_plancher_haut_rdc_37.27" style="max-width: 100%" />
+
+ <p>&nbsp;</p>
+
+Tracer l’esquisse de l’emprise en vous aidant des outils **Dessiner** (ligne). Cliquez sur **la coche verte** ✅ à la fin pour valider votre travail. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_37.45.png" alt="creation_plancher_haut_rdc_37.45" style="max-width: 100%" />
+
+ <p>&nbsp;</p>
+
+Si nécessaire, le profil du plancher sera ajusté au moment de la modélisation de l’escalier. Il est nécessaire de laisser la place du chaînage (20 cm) au niveau de la trémie d’escalier. 
+
+Une fois l’esquisse (contour en trait rose) de votre projet, validée, Revit affiche le message ci-dessous. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_38.00.png" alt="creation_plancher_haut_rdc_38.00" style="max-width: 100%" />
+
+ <p>&nbsp;</p>
+
+Il faut impérativement refuser, cliquer sur **Non** 2️⃣. Dans le cas contraire, les murs et les planchers seront attachés et le déplacement de l’un entrainera le déplacement de l’autre. 
+
+En ouvrant la coupe **Longitudinale Cuisine Réfectoire**, voici la représentation de la dalle. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_38.22.png" alt="creation_plancher_haut_rdc_38.22" style="max-width: 100%" />
+
+ <p>&nbsp;</p>
+
+Il ne reste plus qu’à modéliser le chaînage périphérique de ce plancher (chainage 2 + 5 + 15), comme cela a été fait dans une leçon précédente. Vous vous placerez sur le **Niveau 1er**. 
+
+Par ailleurs, celui-ci s’adaptera au profil des murs et du plancher : 
+
+​	**1️⃣** - Avec un enduit pour les murs en contact avec l’extérieur. 
+
+​	**2️⃣** - Sans enduit au niveau du mur contre le joint de dilatation. 
+
+​	**3️⃣** - Avec un enduit plâtre, sans planelle, au niveau de la trémie d’escalier. 
+
+Ci-dessous, voici le repérage des 3 chaînages différents. 
+
+Vous vous aiderez du premier chaînage que vous dupliquerez et adapterez dans l’assemblage des matériaux pour créer les 2 autres. 
+
+ <p>&nbsp;</p>
+
+**`Fichier étape 3.8 Création du plancher haut du RDC 1.rvt  `**
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_38.44.png" alt="creation_plancher_haut_rdc_38.44" style="max-width: 100%" />
+
+ <p>&nbsp;</p>
+
+Cette étape est assez longue mais vous permettra de bien maîtriser cette modélisation.
+
+Voici les 3 chaînages en situation avec leurs contraintes de modélisation : 
+
+**`CHAINAGE 1`** : plancher contre extérieur. 
+
+\- Enduit 2 + planelle 5 + ba 15 
+
+Le mur **Chaînage 2 + 5 + 15** 1️⃣ est modélisé selon **les contraintes** 2️⃣ indiquées, au niveau de l’intersection 3️⃣ du mur et du plancher. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_39.08.png" alt="creation_plancher_haut_rdc_39.08" style="max-width: 100%" />
+
+ <p>&nbsp;</p>
+
+**`CHAINAGE 2`** : plancher contre JD 
+
+\- Planelle 5 + ba 15 
+
+Le mur **Chaînage 2 + 15** 1️⃣ est modélisé selon **les contraintes** 2️⃣ indiquées, au niveau de l’intersection 3️⃣ du mur et du plancher. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_39.20.png" alt="creation_plancher_haut_rdc_39.20" style="max-width: 100%" />
+
+ <p>&nbsp;</p>
+
+**`CHAINAGE 3`** : plancher trémie 
+
+\- Plâtre 2 + ba 20 
+
+Le mur **Chaînage 2 + 20** 1️⃣ est modélisé selon **les contraintes** 2️⃣ indiquées, au niveau de l’intersection 3️⃣ du mur et du plancher. 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_39.42.png" alt="creation_plancher_haut_rdc_39.42" style="max-width: 100%" />
+
+ <p>&nbsp;</p>
+
+Les 3 familles de **`chaînage (1, 2 et 3)`** sont sélectionnées sur la **vue {3D}** et apparaissent en bleu.  Voici, ci-dessous, une vue {3D} qui présente la modélisation effectuée :
+
+ <p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_39.55.png" alt="creation_plancher_haut_rdc_39.55" style="max-width: 100%" />
+
+ <p>&nbsp;</p> 
+
+La zone encadrée (**1**) est relativement complexe à modéliser (dalle courbe, escalier, chaînage, mur rideau et cloisons). Sa modélisation s’ajustera au moment de mettre en place l’escalier. 
+
+ <p>&nbsp;</p>
+
+**`Fichier étape 3.8 Création du plancher haut du RDC 2.rvt  `**
+
+<p>&nbsp;</p>
+
+De la même façon, et pour le reste du projet, vous modéliserez les planchers haut du RDC et les chaînages périphériques respectifs. Vous réutiliserez les 3 familles créées précédemment. 
+
+**💡 :** Les bâtiments ont des hauteurs sous dalles différentes, la hauteur des murs périphériques sera ajustée en conséquence. 
+
+​	\- Salles d’activités : 3.21 m 
+
+​	\- Réfectoire : 3.21 m 
+
+​	\- Espace Administration : 2.90 m 
+
+Nous allons voir ensemble la création des trois toitures inaccessibles sur les salles d’activités, le réfectoire et l’espace Administration. Le descriptif présente leurs compositions dans le **LOT 10 ETANCHEITE – A/ TERRASSES INACESSIBLES**. Voici l’extrait : **PE22** 
+
+ <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_40.04.png" alt="creation_plancher_haut_rdc_40.04" style="max-width: 100%" />
+
+ <p>&nbsp;</p>
+
+Nous allons composer cette toiture inaccessible : **Toiture terrasse inaccessible gravillons 38** 
+
+Il est composé des couches : 
+
+​	*- Gravillons 5 cm* 
+
+​	*\- Etanchéité bicouche 0,6 cm* 
+
+​	*\- Isolant polystyrène 12 cm* 
+
+​	*\- Pare vapeur 0,4 cm* 
+
+​	\- *Dalle ba 20 cm* Soit 38 cm
+
+Nous allons créer le niveau (depuis une vue en coupe) : **Niveau fini dalle ba Activités – Réfectoire** à **3.59**. 
+
+Voici l’assemblage des matériaux de ce complexe d’étanchéité en toiture avec la dalle ba : 
+
+Nous retrouvons notre dénomination du plancher **Toiture terrasse gravillons 38** 1️⃣, l’assemblage des matériaux en **couches** 2️⃣, créées à l’aide des **boutons** du bas 3️⃣.  
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_40.22.png" alt="creation_plancher_haut_rdc_40.22" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Il ne vous reste plus qu’à modéliser ce plancher sur les espaces Activités et Réfectoire, en veillant à ajuster la hauteur des murs périphériques si nécessaire. 
+
+Voici le résultat de la modélisation de ce plancher dans la coupe **Transversale Activités – Réfectoire :** 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_40.36.png" alt="creation_plancher_haut_rdc_40.36" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Ci-dessous, nous avons la coupe **Transversale Activités –Réfectoire** dans son intégralité avec les deux locaux coupés avec l’espace libre les séparant : 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_519.12.png" alt="creation_plancher_haut_rdc_519.12" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Il reste à réaliser la modélisation de la **Toiture terrasse inaccessible 38** sur l’espace Administration. 
+
+Pour information, la protection des zones techniques de celle-ci sera réalisée avec les graviers et par l’ajout de dalles béton pour le cheminement jusqu’aux équipements **: LOT 10 ETANCHEITE – A/ TERRASSES INACESSIBLES- 1 – 5**. Les dalles béton seront modélisées quand nous implanterons les équipements techniques. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_519.30.png" alt="creation_plancher_haut_rdc_519.30" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Il faudra créer son niveau d’implantation dans une coupe : **Niveau fini dalle BA Administration** à **3.28**. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/10_creation_plancher_haut_rdc/creation_plancher_haut_rdc_519.41.png" alt="creation_plancher_haut_rdc_519.41" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Il ne vous reste plus qu’à modéliser tous les chaînages horizontaux des 3 toitures terrasses (outils ligne). 
+
+**`Fichier étape 3.8 Création du plancher haut du RDC 3.rvt  `**
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
