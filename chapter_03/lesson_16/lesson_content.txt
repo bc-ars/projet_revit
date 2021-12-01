@@ -1,0 +1,186 @@
+# Création de l’escalier intérieur et des gardes corps 
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Nous allons modéliser un escalier balancé, nous utiliserons la méthode de tracé par esquisse, en nous appuyant sur le tracé du plan du RDC en dwg. Ce plan importé est incontournable avec cette méthode. Cette méthode permet de modéliser toutes les formes d’escalier, en complément de celles proposées par Revit. Lors de la modélisation des aménagements extérieurs, nous aborderons le tracé par volée. 
+
+💡 : les plans ne sont pas toujours aboutis et la conversion du format 2D au format BIM (modélisation des compositions de murs) génère de faibles écarts de mesure. 
+
+Pour tracer l’escalier balancé, il faut se placer sur le Niveau 0 RDC. Dans l’onglet Architecture 1️⃣, cliquer sur **Escalier** 2️⃣. Quand le bandeau change, choisir **Créer une esquisse** 3️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_28.16.png" alt="creation_escalier_interieur_gardes_corps_28.16" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Le bandeau vous propose un nouvel affichage avec la méthode à suivre : 
+
+- **1️⃣-** Tracer la **Limite** de l’escalier. 
+- **2️⃣-** Dessiner la position des **Contremarches.** 
+- **3️⃣-** Dessiner la **Trajectoire de l’escalier**. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_28.41.png" alt="creation_escalier_interieur_gardes_corps_28.41" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Revit va considérer que vous allez tracer un escalier du niveau courant à l’étage supérieur. 
+
+💡 : Même après la validation de l’escalier, ou pourra à nouveau modifier son esquisse. 
+
+<p>&nbsp;</p> 
+
+### **1- Tracer la Limite de l’escalier :** cliquer sur Limite 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_28.56.png" alt="creation_escalier_interieur_gardes_corps_28.56" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Utiliser lignes et les cercles (à couper avec scinder l’élément) afin de représenter la Limite de l’escalier ci-dessous. La **`Ligne verte de Limite de l’esquisse`** est identifiée sur les paliers de départ et d’arrivée (ci-dessous). Cette limite est symbolisée par un trait vert. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_29.26.png" alt="creation_escalier_interieur_gardes_corps_29.26" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous allons réaliser la deuxième étape. Ne pas valider ou quitter l’esquisse. 
+
+
+
+### **2- Dessiner la position des Contremarches :** cliquer sur Contremarche 
+
+<p>&nbsp;</p>
+
+Redessiner une à une toutes les contremarches de l’escalier, avec l’outil ligne, selon leur implantation sur le fond de plan en dwg. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_29.58.png" alt="creation_escalier_interieur_gardes_corps_29.58" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+💡 : il faut recliquer sur l’icône Contremarche dans le bandeau pour que celle-ci soit prise en compte dans le décompte qui s’affiche sous l’escalier en grisé. Ces contremarches sont représentées avec un trait noir.
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_29.51.png" alt="creation_escalier_interieur_gardes_corps_29.51" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Pour information, l’escalier du projet devrait comporter 18 marches, celui de Revit en aura 17, en accord avec la formule de Blondel (algorithme de calcul). 
+
+<p>&nbsp;</p>
+
+### **2- Dessiner la **Trajectoire de l’escalier: cliquer sur Trajectoire de l’escalier.  
+
+<p>&nbsp;</p>
+
+Nous dessinerons, à l’aide des lignes et cercles, la trajectoire (ligne de foulée) de cet escalier balancé. Cette trajectoire est représentée avec un trait noir. Elle doit partir de la première marche, couper toutes les contremarches pour s’arrêter à la dernière. Afin d’avoir 17 marches et non 18, nous enlèverons la marche de départ (en réduisant la limite de l’escalier). 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_30.17.png" alt="creation_escalier_interieur_gardes_corps_30.17" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Nous avons désormais terminé le tracé de l’escalier avec le mode esquisse. Cette méthode demande de la précision. 
+
+Pour valider l’esquisse et sortir de ce mode de travail, il faut cliquer sur la coche verte ✅, elle se trouve dans le bandeau, au-dessus de **Mode**. Une fois l’esquisse validée, la volée de l’escalier balancée devient bleue. Il faut alors valider une nouvelle fois l’esquisse à l’aide de la coche verte ✅ pour terminer définitivement la modélisation de l’escalier. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_30.40.png" alt="creation_escalier_interieur_gardes_corps_30.40" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Revit vous affiche un **Avertissement** sans conséquence, sur la traverse du garde-corps qui est discontinue. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_30.29.png" alt="creation_escalier_interieur_gardes_corps_30.29" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Si le sens de montée de l’escalier est inversé, il suffit de cliquer sur la petite **flèche bleue** 1️⃣ et le sens de monter s’inverse. Il ne vous reste plus qu’à contrôler votre travail et à ajuster la trémie de l’escalier, à son profil. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_30.57.png" alt="creation_escalier_interieur_gardes_corps_30.57" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+**`Fichier étape 3.16 Création de l’escalier intérieur 1.rvt  `** 
+
+<p>&nbsp;</p>
+
+Voici l’escalier balancé modélisé, selon les 2 **Vues {3D}** opposées : 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_31.14.png" alt="creation_escalier_interieur_gardes_corps_31.14" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Nous allons ajuster la modélisation de l’escalier balancé avec la trémie, et modéliser ses garde-corps. Nous aurons toujours la possibilité de régler certaines finitions lors des deux phases d’ajustement à venir. Il sera alors nécessaire de contrôler son travail. 
+
+Il faut se placer sur le Niveau 1er et sélectionner le plancher. La sélection devient bleue. Cliquer sur **Modifier la limite** 1️⃣ afin de redéfinir son implantation. Le plan de niveau se grise pour mettre en évidence le profil du plancher délimité avec **un trait rose** 2️⃣. Nous pouvons déplacer individuellement chaque ligne de ce contour. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_31.35.png" alt="creation_escalier_interieur_gardes_corps_31.35" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Il faudra effectuer la modification des limites des 2 planchers (dalle porteuse et revêtement de sol et plancher porteur), et réajuster la position du chaînage, selon le profil proposé ci-contre. Cet exercice est fastidieux, si l’on souhaite modéliser l’ouvrage avec précision. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_31.44.png" alt="creation_escalier_interieur_gardes_corps_31.44" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Il ne faudra pas accepter d’attacher les murs à la base, quand Revit vous le proposera. Si vous le faites, chaque déplacement d’un mur entraînera celui du plancher. 
+
+<p>&nbsp;</p>
+
+**`Fichier étape 3.16 Création de l’escalier intérieur 2.rvt  `** 
+
+<p>&nbsp;</p>
+
+**Pour modéliser les garde-corps de la trémie d’escalier**, il faut se placer sur le **Niveau 1er**. Il faut se rendre dans l’onglet **Architecture** 1️⃣, choisir **Garde-corps** 2️⃣ et cliquer **Esquisser la trajectoire** 3️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_31.53.png" alt="creation_escalier_interieur_gardes_corps_31.53" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Il faut zoomer suffisamment afin de visualiser la trémie de l’escalier. Tracer la trajectoire du garde-corps, dans le mode esquisse, à l’aide d’un trait rose, segment par segment **`Avant`**. Cliquer sur la coche verte ✅ afin de voir le résultat **`Après`**. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_32.21.png" alt="creation_escalier_interieur_gardes_corps_32.21" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Réalisons une coupe perpendiculaire afin de contrôler sa position, comme la hauteur de la lisse haute. Elle doit être à 1 m du niveau fini. 
+
+La mesure donne 0.93 m donc, dans **Modifier le type** du **Panneau Propriétés**, vous accéderez à la hauteur du garde-corps, et indiquerez **0.9700 mm** en face de **Hauteur**. Une **Vue {3D}** vous permet de contrôler votre travail : 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_32.14.png" alt="creation_escalier_interieur_gardes_corps_32.14" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+**`Fichier étape 3.16 Création de l’escalier intérieur 3.rvt  `** 
+
+<p>&nbsp;</p>
+
