@@ -24,7 +24,7 @@ Le bandeau vous propose un nouvel affichage avec la méthode à suivre :
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_28.41.png" alt="creation_escalier_interieur_gardes_corps_28.41" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_28.41.png" alt="creation_escalier_interieur_gardes_corps_28.41" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -38,7 +38,7 @@ Revit va considérer que vous allez tracer un escalier du niveau courant à l’
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_28.56.png" alt="creation_escalier_interieur_gardes_corps_28.56" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_28.56.png" alt="creation_escalier_interieur_gardes_corps_28.56" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -62,7 +62,7 @@ Redessiner une à une toutes les contremarches de l’escalier, avec l’outil l
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_29.58.png" alt="creation_escalier_interieur_gardes_corps_29.58" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_29.58.png" alt="creation_escalier_interieur_gardes_corps_29.58" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -70,7 +70,7 @@ Redessiner une à une toutes les contremarches de l’escalier, avec l’outil l
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_29.51.png" alt="creation_escalier_interieur_gardes_corps_29.51" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_29.51.png" alt="creation_escalier_interieur_gardes_corps_29.51" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -78,7 +78,7 @@ Pour information, l’escalier du projet devrait comporter 18 marches, celui de 
 
 <p>&nbsp;</p>
 
-### **2- Dessiner la **Trajectoire de l’escalier: cliquer sur Trajectoire de l’escalier.  
+### 3- Dessiner la Trajectoire de l’escalier: cliquer sur Trajectoire de l’escalier.  
 
 <p>&nbsp;</p>
 
@@ -86,7 +86,7 @@ Nous dessinerons, à l’aide des lignes et cercles, la trajectoire (ligne de fo
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_30.17.png" alt="creation_escalier_interieur_gardes_corps_30.17" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_30.17.png" alt="creation_escalier_interieur_gardes_corps_30.17" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -96,7 +96,7 @@ Pour valider l’esquisse et sortir de ce mode de travail, il faut cliquer sur l
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_30.40.png" alt="creation_escalier_interieur_gardes_corps_30.40" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/18_creation_escalier_interieur_gardes_corps/creation_escalier_interieur_gardes_corps_30.40.png" alt="creation_escalier_interieur_gardes_corps_30.40" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
