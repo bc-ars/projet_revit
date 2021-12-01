@@ -1,0 +1,560 @@
+# Création des auvents du projet et de l’édicule de l’ascenseur 
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Nous allons modéliser les auvents du projet ainsi que l’édicule de l’ascenseur. Nous verrons également comment réaliser une trémie. 
+
+<p>&nbsp;</p> 
+
+## 1- **Les auvents en béton armé du projet (avec poteaux et poutres)** 
+
+<p>&nbsp;</p> 
+
+Ces auvents en béton armé 1️⃣ sont dans l’alignement des planchers attenants (prolongement des armatures) et jouent le rôle de brise soleil selon leurs orientations, en participant à l’esthétique du projet. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.01.49.png" alt="creation_auvent_edicule_7.01.49" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Ces auvents, qui sont appelés aussi casquettes, sont décrits dans le CCTP à l’article : **PE3.** Ces auvents recevront directement une couleur grâce à la fonction Peindre de Revit. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.01.58.png" alt="creation_auvent_edicule_7.01.58" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous allons modéliser par exemple la casquette qui est sur la cour. Elle se trouve à 0.88 m (avec la couvertine) du sommet des bâtiments sur lesquelles elle s’accroche. Ses dimensions sont accessibles depuis les élévations en dwg.
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.02.07.png" alt="creation_auvent_edicule_7.02.07" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Pour simplifier la modélisation des auvents, une épaisseur unique de 20 cm sera choisie. Maintenant, nous allons affecter une peinture blanche à chacun de ses parements visibles. Il faut se placer sur la vue {3D} et sélectionner la casquette. Dans le ruban de Revit, dans l’onglet **Modifier I Sols** 1️⃣, choisir **Peindre** 2️⃣ puis cliquer sur **Peindre** 3️⃣ dans le sous menu. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.02.19.png" alt="creation_auvent_edicule_7.02.19" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Ensuite, dans la fenêtre de Navigateur de matériaux qui s’ouvre, choisir la teinte **RAL9010 – Blanc pur** 1️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.02.29.png" alt="creation_auvent_edicule_7.02.29" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous reviendrons ultérieurement sur cette fonction **Peindre** du logiciel. Pour attribuer cette teinte à la casquette, cliquer sur chacune des faces visibles (sans cliquer sur **Terminer** du **Navigateur de matériaux**). Il faut se rapprocher de chaque face pour que la face sélectionnée apparaisse bien avec un contour bleu. 
+
+Cette opération permet d’affecter aussi bien des couleurs que des textures (dont celles utilisées dans le projet). Voici ci-dessous, les modifications de teinte apportées à la casquette : 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.02.39.png" alt="creation_auvent_edicule_7.02.39" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+De la même façon, vous réaliserez tous les auvents du projet. Voici le résultat obtenu sur le projet avec les casquettes peintes en blanc, elles sont marquées d’un point rose : 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.02.52.png" alt="creation_auvent_edicule_7.02.52" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 3.14.1 Les auvents en béton armé du projet 1.rvt  `** 
+
+<p>&nbsp;</p> 
+
+## 2- Les poteaux en béton armé du projet 
+
+<p>&nbsp;</p> 
+
+Nous profitons de la création des auvents extérieurs pour aborder la modélisation des poteaux sur le projet, notamment ceux qui sont isolés. Dans le CCTP, ils sont décrits dans l’article : **PE2** : 
+
+*LOT 01 GROS OEUVRE* 
+
+*01 – Constructions :* 
+
+*D – Structure BA* 
+
+*b) Poteaux isolés ø30.* 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.00.png" alt="creation_auvent_edicule_7.03.00" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**💡 :** Comme ce qui est représenté sur les plans, nous dessinerons des poteaux de 250 mm de diamètre, ceux de 300 mm touchent la façade. 
+
+Ces poteaux, au nombre de 8, sont au Niveau 0 RDC, devant la cour intérieure du projet. Ils supportent l’auvent en ba. Les autres poteaux sont métalliques, ils supportent des auvents et brises soleil métalliques en périphérie de la cour intérieure. Ils seront abordés au moment de modéliser cette couverture en zinc. 
+
+<p>&nbsp;</p>
+
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.10.png" alt="creation_auvent_edicule_7.03.10" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+A titre d’exemple nous allons modéliser le poteau en béton armé repéré ci-dessous 1️⃣. Vous suivrez la même méthode pour modéliser les autres. Il faudra être vigilant au niveau d’implantation et à la hauteur afin qu’ils s’arrêtent sous le auvent (casquette) en BA. 
+
+<p>&nbsp;</p>
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.2.png" alt="creation_auvent_edicule_7.03.2" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Pour modéliser le poteau, il faut le sélectionner dans l’onglet **Structure** 1️⃣, Panneau **Structure** 2️⃣ puis cliquer sur **Poteau** 3️⃣. Seul le poteau HEA 160 est chargé dans le gabarit de Revit. Il faut donc cliquer sur **Charger la famille**, dans le ruban. 
+
+<p>&nbsp;</p>
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.35.png" alt="creation_auvent_edicule_7.03.35" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Une fois dans le répertoire France, il faut cliquer sur les répertoires : **Structure**, **Poteaux**, **Béton** et sélectionner la famille **Poteau béton – arrondi** 1️⃣, comme ci-dessous:
+
+<p>&nbsp;</p>
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.46-8363461.png" alt="creation_auvent_edicule_7.03.46" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Dans le Panneau **Propriétés** 1️⃣, du **Poteau béton - arrondi** ouvert, vous allez créer un poteau de **250 mm** de diamètre 2️⃣, en dupliquant celui de 300 mm par exemple. 
+
+<p>&nbsp;</p>
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.56.png" alt="creation_auvent_edicule_7.03.56" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Il ne vous reste plus qu’à vous placer sur le **Niveau 0 RDC** et à le positionner selon les distances proposées à la page précédente. Pour cela, vous vous aiderez de la cotation temporaire (bleue). Il ne restera plus qu’à le positionner correctement en altitude. Pour cela, vous vous aiderez des DG en dwg. 
+
+<p>&nbsp;</p>
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.04.27.png" alt="creation_auvent_edicule_7.04.27" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Le poteau en ba est identifié ci-dessous avec une hauteur totale de 3.25 m. Il sera modélisé sur le Niveau Voirie / Extérieur avec un décalage inférieur de 0.16 m et jusqu’au Niveau 1er, avec un décalage supérieur de -0.46. Pour information, la platine inférieure sous le poteau ne sera pas représentée. Cela nous permettra de modéliser la fondation qui se placera automatiquement sous le poteau. 
+
+<p>&nbsp;</p>
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.04.35-8363642.png" alt="creation_auvent_edicule_7.04.35" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Pour la modélisation et l’utilisation du logiciel avec la fonction **Fondation**, nous choisissons d’avoir le poteau qui descend dans le sol (sécurité en cas de réalisation de la sorte). Une fois le poteau modélisé, nous pouvons le « peindre » avec la teinte utilisée précédemment, **RAL9010 – Blanc pur**, pour les casquettes. 
+
+Attention, il faudra « **Peindre** » le poteau sur les 2 demi-cylindres qui le composent. 
+
+Pour modéliser les 3 autres poteaux qui sont en contre bas de la cour, nous allons utiliser l’outil **Réseau** 3️⃣, en copie linéaire. Pour préparer votre action, vous placerez le centre du poteau N°4, en bas, à 0.13 m et 2.03 m de l’angle du mur 1️⃣, avec des plans de référence (comme à la précédente). 
+
+<p>&nbsp;</p>
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.04.55.png" alt="creation_auvent_edicule_7.04.55" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Cliquer sur le premier poteau 2️⃣ puis sur l’outil Réseau 3️⃣. Choisir **4** pour le **nombre** et **déplacer vers le dernier**. 
+
+Puis cliquer sur la position du dernier poteau 4️⃣. Revit duplique ainsi le poteau de référence 2️⃣ 4 fois: 5️⃣, y compris lui-même, avec des intervalles réguliers. 
+
+<p>&nbsp;</p>
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.05.18.png" alt="creation_auvent_edicule_7.05.18" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Pour modifier les contraintes d’un de ces 4 poteaux, il faudra le **Dissocier** des autres (Dans le Panneau **Groupe**, une fois le poteau sélectionné).Il fait partie désormais d’un groupe, quand on en sélectionne un, ils sont tous inclus dans une sélection rectangulaire en pointillés bleus. 
+
+Pour ces 4 premiers poteaux, nous ajusterons **le décalage inférieur à -0.40** par rapport au **Niveau de base Voirie / extérieur**, pour la modélisation des fondations. 
+
+Voici, ci-dessous, le résultat dans la **Vue {3D}**, après l’utilisation de l’outil **Réseau** pour dupliquer le poteau, et après avoir ajusté le niveau d’implantation. 
+
+ <p>&nbsp;</p>
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.05.27.png" alt="creation_auvent_edicule_7.05.27" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+De la même façon, vous pouvez modéliser les 4 autres poteaux béton qui sont dans la cour intérieure.Cette fois-ci, ils sont identiques aux précédents hormis le **Niveau de base** qui est le **Niveau 0 RDC** avec un **Décalage inférieur de -0.4000**. 
+
+Voici, ci-dessous, le résultat dans la **Vue {3D**, avec les 2 rangées de 4 poteaux qui soutiennent l’auvent de la cour intérieure : 
+
+<p>&nbsp;</p>
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.05.35-8364365.png" alt="creation_auvent_edicule_7.05.35" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+**💡 :** Le niveau d’implantation des poteaux sera ajusté au moment de modéliser les fondations. 
+
+<p>&nbsp;</p>
+
+**`Fichier étape 3.14.2 Les poteaux en béton armé du projet.rvt  `** 
+
+<p>&nbsp;</p> 
+
+## 3- **Les poutres en BA de l’auvent de la cour** 
+
+<p>&nbsp;</p> 
+
+L’objectif de ce chapitre est de comprendre la modélisation d’une poutre, ici en béton armé, avec les notions de décalage par rapport aux niveaux de départ et d’arrivée. 
+
+Dans le CCTP, les poutres BA sont décrites à la page **PE2**, à l’article : 
+
+*LOT 01 GROS OEUVRE* 
+
+​	*01 - Construction* 
+
+​		*D – Structures BA :* 
+
+​			*c) Poutres BA de section et hauteur variables …* 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.05.44.png" alt="creation_auvent_edicule_7.05.44" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dans notre cas exemple avec les poutres de l’auvent BA de la cour, celles-ci font 57 x 12 (37 avec l’épaisseur de l’auvent de 20 cm). 
+
+Pour choisir et modéliser les poutres ba de l’auvent, il faut se rendre dans l’onglet **Structure** 1️⃣, Panneau **Structure** 2️⃣ puis choisir **Poutre** 3️⃣. Une poutre apparaît dans le **Panneau Propriétés** : un HE-A. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.06.10.png" alt="creation_auvent_edicule_7.06.10" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Pour sélectionner une poutre en béton armé, il faudra Charger la famille, et se rendre dans le répertoire **France**, **Structure**, **Ossature**, **Béton** et choisir la famille **Poutre rectangulaire – Béton.** Cliquer sur **Ouvrir** en bas de la page pour valider le chargement de la famille. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.06.19.png" alt="creation_auvent_edicule_7.06.19" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+La fenêtre Propriétés 1️⃣ vous propose la **Poutre rectangulaire – Béton 400 x 800 mm** 2️⃣, parmi un choix de deux dimensions 3️⃣, 300 x 600 mm et 400 x 800 mm. Pour créer notre poutre de 120 x 370 mm, il faut cliquer sur **Modifier le type**, puis **Dupliquer** et créer notre nouvelle poutre (120 x 370 mm) 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.06.30.png" alt="creation_auvent_edicule_7.06.30" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Les dimensions caractéristiques à saisir seront : 
+
+​	*b : 1200 (120 mm)* 
+
+​	*h : 3700 mm (370 mm)* 
+
+Cliquer sur **Appliquer** et **OK** en bas de la page. 
+
+Dans le Panneau Propriété de la **Poutre rectangulaire – Béton 120 x 370 mm** 1️⃣, choisir les **Contraintes** 2️⃣ indiquées. Il faut se placer sur le **Niveau 1er**. Pour voir les poteaux en fond de plan, il faudra choisir le **Niveau 0 RDC** pour le **Niveau en fond de plan** (en face de **Plage : niveau de base**). 
+
+Tracer la poutre ba du point de **Départ** 3️⃣ au point d’**Arrivée** 4️⃣, d’extrémité à extrémité des poteaux. 
+
+Avec ce paramétrage, la poutre est visible en coupe 5️⃣. 
+
+Seuls les paramètres des décalages sont alors modifiables après validation (si vous changez le niveau de référence, les décalages changeront sans modifier la position de la poutre). 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.29.40.png" alt="creation_auvent_edicule_8.29.40" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+De la même façon, et en utilisant la fonction de duplication en réseau, vous modéliserez les autres poutres qui soutiennent l’auvent de la cour. Il est préférable de peindre la poutre avant de la dupliquer. La variable de décalage permet de modéliser des poutres inclinées. 
+
+Pour information, pour sélectionner les poutres dans la vue {3D}, en sélectionner une puis à l’aide d’un clic droit souris, choisir **sélectionner toutes les occurrences** et **Visible dans la vue**. 
+
+Voici, ci-dessous, le résultat de la modélisation des 7 poutres en ba de l’auvent de la cour, vue en contre plongée : Celle-ci est réalisée en cliquant sur un coin bas du ViewCube de Revit. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.30.14.png" alt="creation_auvent_edicule_8.30.14" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 3.14.3 Les poutres en ba du auvent.rvt  `** 
+
+<p>&nbsp;</p> 
+
+## 4- Les poteaux métalliques des brises soleil 
+
+<p>&nbsp;</p> 
+
+Nous allons modéliser les poteaux métalliques du projet, ils vont supporter les brises soleil et l’auvent métallique. Ils se trouvent à l’intérieur de la cour centrale. 
+
+Nous appliquerons la même méthode utilisée que celle utilisée pour la modélisation des poteaux en BA de l’auvent. Les poteaux métalliques du projet sont décrits dans l’article : PE5, du lot charpente métallique (voir ci-dessous):
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.30.23.png" alt="creation_auvent_edicule_8.30.23" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+*LOT 02 CHARPENTE METALLIQUE ZINGUERIE* 
+
+​	*1 – CHARPENTE COUVERTURE :* 
+
+​		*A – Charpente métallique* 
+
+Au moment de Charger la famille 1️⃣, il faut se rendre dans le répertoire **France**, **Structure**, **Ossature**, **et Acier 2️⃣. Vous choisirez la famille RO (EN 10201-2) 3️⃣**, qui est un poteau métallique profil creux. L’**Aperçu** 4️⃣ est disponible une fois le profil sélectionné. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.30.39.png" alt="creation_auvent_edicule_8.30.39" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dans la fenêtre suivante **Spécifier les types** 1️⃣, vous porterez votre choix sur la référence **RO244.5x25** 2️⃣, celui-ci a un diamètre de 24.45 cm, se rapprochant des 25 cm des documents graphiques. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.01.png" alt="creation_auvent_edicule_8.31.01" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Pour la modélisation des poteaux métalliques, vous pourrez réafficher le fichier importé RDC.dwg, cela vous aidera dans leurs implantations. Cela n’exclut pas un contrôle des entre – axes. 
+
+Les poteaux seront implantés à **-0.40 m du Niveau 0 RDC** et à **-0.87 du Niveau 1er.** La hauteur des poteaux sera probablement ajustée au moment de positionner les brises soleils du projet. Leur hauteur est actuellement de 2.70 m. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.13.png" alt="creation_auvent_edicule_8.31.13" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**💡 :** Le niveau d’implantation des poteaux sera ajusté au moment de modéliser les fondations. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.24.png" alt="creation_auvent_edicule_8.31.24" style="max-width: 100%" />
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.36.png" alt="creation_auvent_edicule_8.31.36" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Réalisez la modélisation de l’ensemble des poteaux métalliques du projet. Vous obtenez ce résultat : 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.46.png" alt="creation_auvent_edicule_8.31.46" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 3.14.4 Les poteaux métalliques du brise soleil.rvt  `** 
+
+<p>&nbsp;</p> 
+
+## 5- Les auvents métalliques avec les brises soleil  
+
+<p>&nbsp;</p> 
+
+Cette modélisation sera abordée au moment de découvrir l’extrusion d’un profil. Elle nécessite une pratique confirmée du logiciel. Le réseau de poutre de cet auvent métallique sera modélisé à ce moment-là. 
+
+<p>&nbsp;</p> 
+
+## 6- L’édicule d’ascenseur   
+
+<p>&nbsp;</p> 
+
+Nous allons modéliser l’édicule de l’ascenseur 1️⃣, composé de mur de base porteur ainsi que de plancher. Nous aborderons surtout le percement des différents planchers afin de réaliser les trémies de la cage d’ascenseur. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.58.png" alt="creation_auvent_edicule_8.31.58" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+La structure de l’édicule est détaillée dans les articles : 
+
+**Pour la dalle :**
+
+0*1 LOT GROS OEUVRE* 
+
+​	*01 – Construction* 
+
+​		*E – Dallages, Planchers, Auvent* 
+
+​			*b) Planchers* 
+
+**Pour les murs :** 
+
+Pas de précision dans *le chapitre C – Maçonnerie* 
+
+Les parois verticales seront en béton banché, comme pour l’ascenseur, de 16 cm et la dalle haute fera 20 cm d’épaisseur, en béton armé. Pour modéliser l’emprise des murs périphériques de l’édicule, il est préférable de se placer sur le Niveau fini toiture R+1 et de paramétrer le Niveau de fond de plan : 
+
+Dans les Propriétés du Plan d’étage, nous allons afficher le plan du RDC. Rendons-nous dans la rubrique **Plage de vue** et en face de **bas** de **Plage principale**, choisir **Niveau 0 RDC**. La profondeur de vue doit aller jusqu’au **Niveau 0 RDC** (celle-ci s’ajuste en général automatiquement). 
+
+Malgré cela, la dalle du Niveau 1er bloque la visibilité, il faut la sélectionner : 
+
+- En coupe en la masquer dans la vue du Niveau fini toiture R+1. 
+
+- En pointant sa limite sur le plan Revit, avec le pointeur de la souris et appuyer sur la touche **TAB** du clavier jusqu’à ce que Revit la sélectionne en bleu (le nom de la sélection s’affiche en bas à gauche de votre écran). 
+
+Nous sommes bien, ci-dessous, sur le **Niveau fini toiture R+1 **1️⃣ avec la cage d’ascenseur visible 2️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.32.07.png" alt="creation_auvent_edicule_8.32.07" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Pour modéliser votre édicule sur le Niveau fini toiture R+1, il faudra créer le mur : 
+
+**M9 enduit 2 + voile ba 16 (ascenseur) = 18 cm** 
+
+Cette création se fera en ouvrant, dupliquant et renommant le Mur M7 de la cage d’ascenseur. 
+
+Voici la composition du Mur M9 2 enduit + BA 16 1️⃣, avec ses **Couches** 2️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.32.21.png" alt="creation_auvent_edicule_8.32.21" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Pour modéliser votre édicule, il convient, après avoir choisir votre Mur M9, régler les **Contraintes** 1️⃣, et dessiner son emprise 2️⃣ avec l’outil rectangle du point **3️⃣** au point **4️⃣**. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.32.37.png" alt="creation_auvent_edicule_8.32.37" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Il faut vérifier son travail et la position de l’édicule, en créant une coupe transversale. Il apparaît en bleu ci-dessous. Il ne faut pas hésiter à contrôler régulièrement sa modélisation, en utilisant aussi la vue {3D}. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.32.47.png" alt="creation_auvent_edicule_8.32.47" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+La modélisation de la dalle supérieure est simple, en BA de 20 cm, avec un débord périphérique de 15 cm, à partir du Niveau fini toiture R+1, avec un décalage supérieur de 0.62 m. Elle est représentée ci-dessus. 
+
+Cette dalle sera « peinte » avec la teinte **RAL9010 – Blanc pur**, comme nous l’avons vu pour l’auvent. 
+
+<p>&nbsp;</p> 
+
+Maintenant que nous avons modélisé les parois en béton latérales et la dalle supérieure de l’édicule, nous devons: 
+
+1 - Ajouter les parois latérales.
+
+2 - Réaliser les trémies de l’ascenseur dans les planchers.
+
+Nous allons faire d'une pierre deux coups avec la modification du profil de la sélection. 
+
+Pour ajouter la paroi de l’édicule, il faut la sélectionner dans la vue {3D} 1️⃣.
+
+<p>&nbsp;</p> 
+
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.33.25.png" alt="creation_auvent_edicule_8.33.25" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Créer une coupe qui passe devant ce mur 2️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.33.25 copie.png" alt="creation_auvent_edicule_8.33.25 copie" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dans l’onglet **Modifier I Murs** 3️⃣, choisir **Modifier le profil** 4️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.33.25 copie 2.png" alt="creation_auvent_edicule_8.33.25 copie 2" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous avons, **`Avant`**, l’esquisse du mur en contour rose qui s’affiche. Vous allez modifier ce profil avec l’outil **Ligne** de la palette **Dessiner**, en étirant, supprimant ou en rajoutant des segments afin d’obtenir le résultat **`Après`**. Vous vous aiderez des plans de référence si nécessaire, en respectant les mesures indiquées. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.00.png" alt="creation_auvent_edicule_8.34.00" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Une fois la modification du profil effectuée, il faut cliquer sur la coche verte ✅ dans le ruban supérieur de Revit. Sans cela, le mode Esquisse est toujours actif, et aucune autre action n’est possible (sauf Annuler **❌**). Vous effectuerez la même modification sur le mur opposé de l’édicule. 
+
+La **Vue {3D}** montre bien l’édicule ajouré des 2 côtés. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.07.png" alt="creation_auvent_edicule_8.34.07" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+La plage de vue de la **Vue en plan du Niveau fini toiture R+1** a été ajustée afin de montrer les ouvertures. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.14.png" alt="creation_auvent_edicule_8.34.14" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Pour ce qui est de la création des trémies de l’ascenseur sur le Niveau R+1 et sur la toiture, la méthode est sensiblement la même que précédemment.  Il faut éditer le profil de chaque plancher et dessiner l’emprise du vide à l’aide de l’outil **Rectangle**.  La coupe créée à cet effet, ci-dessous, présente les 2 trémies (**1**). 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.21.png" alt="creation_auvent_edicule_8.34.21" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Pour affiner notre modélisation, nous allons par la suite découvrir la fonction Attacher Plancher – Mur. Les couches des 2 composants vont alors s’assembler dans l’ordre de leurs priorités. 
+
+Si nous observons le détail ci-dessous, nous remarquons que l’assemblage entre le mur de l’édicule de l’ascenseur 1️⃣ et la dalle du dernier niveau de la toiture 2️⃣ n’est pas réalisé automatiquement par le logiciel. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.29.png" alt="creation_auvent_edicule_8.34.29" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous allons effectuer l’opération « **Attacher la géométrie** » de ces 2 éléments, successivement pour les 4 murs périphériques de l’édicule. Cette action permettra d’associer les matériaux entre eux selon l’ordre des priorités. Les graphismes sont réglés avec un **Niveau de détail Elevé** et en **couleur uniforme** pour le style visuel (pour rappel ces réglages s’effectuent dans la barre de contrôle de l’affichage, partie inférieure de l’écran). 
+
+Sélectionner le **mur** 1️⃣, cela fait apparaître les possibilités de modification du mur dans le ruban supérieur. Le mur sélectionné devient bleu. Puis, dans l’onglet **Modifier I Murs**, du ruban, choisir **Attacher** 2️⃣ et enfin **Attacher la géométrie** 3️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.36.png" alt="creation_auvent_edicule_8.34.36" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Vous devez ensuite cliquer une première fois sur le mur puis sur le plancher. La modification de l’assemblage s’effectue. Revit vient d’assembler les 2 matériaux en béton, de priorité 1, ensemble, en interrompant le polystyrène du plancher, qui a une priorité égale à 3. 
+
+Voici ci-dessous, l’évolution entre **`Avant`** et **`Après`**.
+
+<p>&nbsp;</p> 
+
+<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.55.png" alt="creation_auvent_edicule_8.34.55" style="max-width: 100%" /> 
+
+<p>&nbsp;</p> 
+
+De la même manière, réalisez l’assemblage des 3 autres murs périphériques de l’édicule avec le plancher du dernier niveau. 
+
+<p>&nbsp;</p> 
+
+<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.35.03.png" alt="creation_auvent_edicule_8.35.03" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 3.14.6 L’édicule de l’ascenseur.rvt   `** 
+
+<p>&nbsp;</p> 
+
+<p>&nbsp;</p> 
+
