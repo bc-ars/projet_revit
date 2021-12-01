@@ -1,0 +1,378 @@
+# Création des murs de soubassments et des fondations
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Nous allons réaliser les murs de soubassement du projet, avec les fondations correspondantes, en l’occurrence des semelles filantes et des semelles isolées. 
+
+<p>&nbsp;</p> 
+
+## 1- Les murs de soubassement : double mur et mur empilé (profil complexe) 
+
+<p>&nbsp;</p> 
+
+Nous utiliserons la modélisation des murs porteurs pour réaliser les murs de soubassement du projet. Ce sera l’occasion de découvrir deux méthodes, car ces murs n’ont plus d’enduit à une certaine profondeur : 
+
+- 1- Modélisation en superposant deux murs de base porteurs. 
+
+- 2- Modélisation d’un mur empilé porteur. 
+
+Nous devons observer la position des murs de soubassement dans le projet, même si pour notre exemple nous modéliserons ceux de l’espace Administration. 
+
+- Les 2 bâtiments latéraux (et ceux contigus au central) : niveau de basse des murs de soubassement : -1.00 1️⃣. 
+
+- Le bâtiment central : niveau de base des murs de soubassement : -1.14 2️⃣.
+
+ <p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_2.55.png" alt="murs_soubassement_fondations_2.55" style="max-width: 100%" />
+
+ <p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_3.08.png" alt="murs_soubassement_fondations_3.08" style="max-width: 100%" />
+
+ <p>&nbsp;</p> 
+
+Le niveau créé dans Revit pour les murs de soubassement se nomme : **Mur soubassement à -1.14**. Il faudra ainsi implanter ceux du bâtiment central avec un décalage inférieur de -0.14 m. Pour information, l’enduit s’arrête au niveau – 0.70 m. 
+
+Les murs de soubassements sont décrits dans le CTTP à l’article : **PE1** 
+
+*LOT 01 GROS OEUVRE* 
+
+​	*01 – Construction* 
+
+​		*B- Fondations :* 
+
+​			*d) Maçonnerie en blocs creux ou béton banché.* 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_3.23.png" alt="murs_soubassement_fondations_3.23" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+
+
+### 1- Première méthode : la superposition de deux murs de base porteurs 
+
+<p>&nbsp;</p>
+
+Pour modéliser les murs de soubassement de l’espace Administration, il faut se placer sur le **Plan d’étage Mur soubassement**, depuis l’arborescence du projet. Nous obtenons la vue ci-dessous, dans la mesure où le **Décalage** du **Plan de coupe** de la Plage principale (option **Plage de la vue, Panneau Propriétés**), est de **1.20 m**. Cela nous permet de dessiner sur le niveau choisi tout en contrôlant l’implantation des murs.
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_3.33.png" alt="murs_soubassement_fondations_3.33" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Nous choisirons le **Mur de base M2 enduit 2 + BBMC 20** 1️⃣, avec les **Contraintes** 2️⃣ indiquées ci-dessous. La modélisation se fera suivant l’axe porteur du mur (on aurait aussi pu choisir le Nu fini : extérieur). Cette partie de mur avec l’enduit commencera 0.43 m au-dessus du niveau soubassement pour finir sous la dalle du RDC. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_3.43.png" alt="murs_soubassement_fondations_3.43" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Vous modéliserez le mur de soubassement du point **1️⃣** au point **2️⃣**, en s’accrochant à l’intersection des axes des files, comme ci-dessous : 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_3.54.png" alt="murs_soubassement_fondations_3.54" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Il ne reste plus qu’à réaliser la partie inférieure du mur composé de BBMC uniquement : 
+
+Nous choisirons le **Mur de base M10 BBMC 20** 1️⃣, à créer, avec les **Contraintes** 2️⃣ indiquées ci-dessous. La modélisation se fera suivant l’axe porteur du mur (on aurait aussi pu choisir le Nu fini : extérieur). Cette partie de mur avec l’enduit commencera au niveau soubassement pour finir sous la 0.44 m au-dessus. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_4.03.png" alt="murs_soubassement_fondations_4.03" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+### 2- Deuxième méthode : la superposition de deux murs de base porteurs 
+
+<p>&nbsp;</p>
+
+Ce mur empilé, unique, sera composé de deux sous-murs, empilés l’un sur l’autre. Cela permet de faire varier la hauteur des couches. Dans notre cas de figure, c’est la couche d’enduit extérieur qui ne fera pas toute la hauteur du mur, elle sera scindée. 
+
+Il faut commencer par modéliser le **Mur de base M21 enduit 2 + BBMC 20**, depuis le Niveau soubassement avec une hauteur non contrainte de 0.87 m (Mur M2 dupliqué en Mur M21). Nous représenterons le mur repéré ci-dessous, de l’espace Administration, toujours avec la ligne de justification **Axe porteur.** 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_4.13.png" alt="murs_soubassement_fondations_4.13" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Ensuite, il faut se rendre sur la fenêtre **Modifier l’assemblage** 1️⃣, depuis **Propriétés**, **Modifier le type** et **Modifier** en face de **Structure**. Vous cliquerez sur le bouton **Aperçu** 2️⃣ afin de visualiser le mur dans la fenêtre de gauche 3️⃣, avec la **Vue : Coupe : Modifie les attributs des types** 4️⃣.  Les boutons de **Modifications de la composition verticales** 5️⃣ se dégrisent alors. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_4.39.png" alt="murs_soubassement_fondations_4.39" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+- Cliquer sur **Scinder la zone**, dans le cadre **5️⃣**. 
+
+- Placer le logo du scalpel le long de la couche de l’enduit 3️⃣ et cliquer à une hauteur de la base de 0.44 m. Zoomer si nécessaire afin d’obtenir directement la bonne valeur. 
+
+- Cliquer à nouveau **Scinder la zone** pour quitter la fonction. L’enduit apparaît coupé avec un petit trait. 
+
+- Ci-dessous, voici l’apparence du mur avec l’enduit coupé. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_4.50.png" alt="murs_soubassement_fondations_4.50" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+- L’épaisseur de la couche enduit coupé apparaît comme **Variable**, alors. 
+
+- Ensuite, ajouter un nouveau matériau dans les Couches, en l’insérant au-dessus de l’enduit. 
+
+- Il faut lui attribuer la même priorité de couche que celui de l’enduit, **4️⃣**. 
+- Il faut lui attribuer le matériau **Vide**, **sans épaisseur**. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_5.46.png" alt="murs_soubassement_fondations_5.46" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+- Pour associer ce matériau vide à la partie inférieure de l’enduit coupé, cliquer sur **Attribuer couche** dans le cadre **5️⃣**. 
+
+- Cliquer sur la partie inférieure de l’enduit dans l’**Aperçu**. La couche ne change pas d’état en la survolant, il faut juste cliquer dessus. 
+
+- Comme indiqué ci-dessous, la partie inférieure de 44 cm de haut change de couleur et devient **bleue**. Cliquer sur **OK** dans la fenêtre. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_6.14.png" alt="murs_soubassement_fondations_6.14" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+- Cliquer ensuite sur **Appliquer** et **OK** dans la fenêtre suivante. 
+
+Nous avons terminé la modification du mur de soubassement, selon la deuxième méthode. Quand on compare les 2 murs sur la vue {3D}, la partie vide apparaît blanche et non transparente. 
+
+Cette deuxième méthode est intéressante pour parfaire sa modélisation et inclure une couche de protection du soubassement (membrane d’étanchéité + delta ms, par exemple), à la place du matériau Vide. Dans le cadre de notre projet, nous resterons sur la méthode 1, plus rapide. 
+
+Pour information, on peut réajuster la hauteur de 44 cm après validation : 
+
+- Sélectionner la couche inférieure de l’enduit dans l’assemblage des couches (Vide). 
+
+- Cliquer sur **Modifier** dans la zone **5️⃣** (voir précédemment). 
+
+- Cliquer sur le petit trait dans l’**Aperçu** (symbole de l’endroit coupé). Une petite flèche bleue apparaît 1️⃣ 
+
+- Cliquer sur la valeur **44** à modifier 2️⃣. 
+
+- Saisir la nouvelle valeur dans le cadre 3️⃣.
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_6.23.png" alt="murs_soubassement_fondations_6.23" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+**`Fichier étape 3.15.1 Les murs de soubassement 1.rvt  `** 
+
+<p>&nbsp;</p> 
+
+Désormais, vous pouvez modéliser tous les murs de soubassement du projet (M2 et M10), en suivant la 1ère méthode. Nous n’oublierons pas de modéliser les murs de soubassement de la cage d’ascenseur, qui reprendront les mêmes caractéristiques que les autres, pour simplifier la modélisation. Voici le résultat obtenu en générant une **Vue {3D}** en contre-plongée : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_6.34.png" alt="murs_soubassement_fondations_6.34" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 3.15.1 Les murs de soubassement 2.rvt  `** 
+
+<p>&nbsp;</p> 
+
+## 2- Les fondations : semelles filantes et isolées 
+
+<p>&nbsp;</p> 
+
+Nous allons modéliser les fondations du projet, les semelles filantes ainsi que les semelles isolées sous les poteaux (béton et acier). Nous utiliserons les familles de fondations depuis l’onglet Structure de Revit. 
+
+<p>&nbsp;</p> 
+
+### Modélisation des semelles filantes du projet
+
+<p>&nbsp;</p>
+
+Nous allons nous positionner dans la **Vue {3D}**, en contre-plongée, ce qui facilitera la modélisation des fondations. Cette action est relativement simple car il suffit, après le paramétrage des semelles filantes, de cliquer sur chacun des murs de soubassement. 
+
+Les fondations sont décrites dans le CCTP à l’article : **PE1** 
+
+​	*LOT 01 GROS OEUVRE* 
+
+​		*01 – Construction* 
+
+​			*B- Fondations* 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_725.38.png" alt="murs_soubassement_fondations_725.38" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Également, selon les indications des documents graphiques, nous allons choisir des semelles filantes de 40 x 30, afin de rester sur des proportions en rigole, dans le cadre de cette leçon.
+
+Pour modéliser les semelles filantes, il faut se rendre dans l’onglet **Structure** 1️⃣, et cliquer sur **Mur** 2️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_727.26.png" alt="murs_soubassement_fondations_727.26" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Le Panneau Propriétés ne propose qu’une seule dimension 30 cm/30 cm x 50 cm. Pour information la dimension de 30 cm correspond au débord de la semelle de fondation par rapport au mur de soubassement. 
+
+Dans notre cas de figure, nous devons créer une semelle ayant les dimensions 10 cm/10 cm x 30 cm (Localisation : les semelles sous les murs périphériques sans joint de rupture). Pour cela il va falloir cliquer sur **Modifier le type** puis sur **Dupliquer**. 
+
+Nous nommerons cette semelle : **Soubassement 10 cm/10 cm x 30 cm** 1️⃣:
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_727.35.png" alt="murs_soubassement_fondations_727.35" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Pour placer les fondations, nous allons nous positionner sous la **vue {3D}** en contre-plongée et venir cliquer sur chaque mur de soubassement de l’ouvrage. Dans les autres vues de Revit, la modélisation des fondations n’est pas possible. 
+
+Nous utiliserons aussi la vue en perspective en dessous afin d’évaluer la position des semelles filantes. 
+
+Dans notre projet, nous aurons trois types de fondations : 
+
+**1️⃣** - Les semelles filantes 50 x 30, centrées sur les murs : **Soubassement 10 cm/10 cm x 30 cm.** 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_727.49.png" alt="murs_soubassement_fondations_727.49" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+**2️⃣** - Les semelles filantes 50 x 30, décentrées sur les murs : **Soubassement 20 cm/0 cm x 30 cm.** 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_728.00.png" alt="murs_soubassement_fondations_728.00" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+**3️⃣** - Les semelles filantes 50 x 30, décentrées sur les murs : **Soubassement 0 cm/20 cm x 30 cm.** 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_728.15.png" alt="murs_soubassement_fondations_728.15" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Les semelles filantes **2️⃣** et **3️⃣** seront placées dans le cas de deux murs séparés par un joint de rupture. Elles seront créées en faisant varier la valeur de la largeur côté intérieur ou extérieur (0 / 20). 
+
+Voici, ci-dessous, les 3 vues en plan du niveau soubassement, pour les 3 types de fondations énoncés. Attention : ces représentations sont des vues inversées à l’aide de l’outil View Cube, sur la face BAS. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_728.24.png" alt="murs_soubassement_fondations_728.24" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+**`Fichier étape 3.15.2 Les fondations 1.rvt  `** 
+
+<p>&nbsp;</p>
+
+### Modélisation des semelles isolées du projet
+
+<p>&nbsp;</p>
+
+Nous allons nous positionner sur le plan d’étage **Mur soubassement**, afin de modéliser les semelles isolées. Elles se positionneront au centre du poteau, à sa base automatiquement (uniquement sous un poteau qui est considéré comme l’hôte de la semelle). 
+
+Nous allons, pour l’exemple de la modélisation, placer les fondations des poteaux en béton armé de l’auvent (voir ci-dessous). Les semelles isolées ne sont pas représentées sur les documents graphiques, ni mentionnées sur le CCTP. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_728.32.png" alt="murs_soubassement_fondations_728.32" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Le futur DCE du projet aurait précisé les dimensions et positions exactes des semelles, et des poteaux, sur le projet. Nous choisirons les dimensions 40x40 40 pour les plots isolés. En revanche, nous allons éloigner les files de poteau des façades afin de permettre l’implantation des plots, sans interférer avec la façade (sur le Niveau 0 RDC). 
+
+**`Avant`** : l’entre axe des files horizontales est de **6.047 m** 1️⃣. 
+
+**`Après`** : Suite à l’ajustement, l’entre axe des files horizontales est de **5.91 m** 2️⃣. 
+
+La file du haut et celle du bas sont à 0.335 m des façades, ce qui permettra la modélisation des plots isolés de 40x40x30. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_728.42.png" alt="murs_soubassement_fondations_728.42" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Pour modéliser les semelles isolées, il faut se rendre dans l’onglet **Structure** 1️⃣, et cliquer sur **Isolée** 2️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_728.52.png" alt="murs_soubassement_fondations_728.52" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Le Panneau Propriétés ne propose que deux dimensions de Base rectangulaire, qui ne conviennent pas. Si la famille n’est pas chargée, il faut le faire en acceptant l’invitation et suivre le chemin : France / Structures / Fondations et cliquer sur **Base rectangulaire**, les deux semelles sont alors proposées. 
+
+Dans notre cas de figure, nous devons créer une semelle ayant les dimensions 400mm x 400mm x 300 mm, en dupliquant et renommant une semelle déjà existante. Pour cela il va falloir cliquer sur Modifier le type puis sur Dupliquer. Nous retrouvons dans la fenêtre **Propriétés du type** 1️⃣, la semelle que nous nommerons:**400mm x 400mm x 300 mm **2️⃣, avec les **Paramètres** indiqués ci-dessous 3️⃣: 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_729.05.png" alt="murs_soubassement_fondations_729.05" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Pour placer les 4 semelles de fondation en contre bas de l’auvent, il faut se placer sur le plan d’étage **Voirie / extérieur** et effectuer les opérations suivantes : 
+
+- Paramétrer sa **Plage de vue** 1️⃣ avec les paramètres indiqués 2️⃣, cela permet de couper le poteau et de voir aussi la semelle. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_729.24.png" alt="murs_soubassement_fondations_729.24" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+- Ajuster le Niveau de base des 4 poteaux sans décalage inférieur, à la **Voirie / extérieur**. 
+
+- Choisir dans le Panneau Propriété son type de fondation : 400mm x 400mm x 300 mm 3️⃣. 
+
+- Cliquer sur le centre du poteau 4️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_729.48.png" alt="murs_soubassement_fondations_729.48" style="max-width: 100%" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_729.58.png" alt="murs_soubassement_fondations_729.58" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Pour information, il faudra repositionner les poutres selon les nouveaux axes des poteaux. Les groupes de modèle des poutres (dupliquer en réseau) doivent être dissociés pour pouvoir les sélectionner. La semelle se positionne à la base du poteau. Si vous êtes amenés à modifier le **Niveau de base** du poteau ou son **Décalage inférieur**, la semelle restera attachée. 
+
+Vous pouvez ainsi modéliser les autres semelles isolées de l’auvent en béton armé, voici le résultat : 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_730.06.png" alt="murs_soubassement_fondations_730.06" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+En suivant la même méthode, vous modéliserez les semelles isolées des poteaux métalliques, à l’intérieur de la cour. Au préalable, il faudra éloigner les files des poteaux des façades (36.5 cm façade intérieure de la cour) et s’assurer que les semelles des poteaux métalliques ne touchent pas celles des poteaux en béton. 
+
+<p>&nbsp;</p>
+
+**`Fichier étape 3.15.2 Les fondations 2.rvt  `** 
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
