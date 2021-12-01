@@ -124,7 +124,7 @@ Une fois dans le répertoire France, il faut cliquer sur les répertoires : **St
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.46-8363461.png" alt="creation_auvent_edicule_7.03.46" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.46.png" alt="creation_auvent_edicule_7.03.46" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -148,7 +148,7 @@ Le poteau en ba est identifié ci-dessous avec une hauteur totale de 3.25 m. Il 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.04.35-8363642.png" alt="creation_auvent_edicule_7.04.35" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.04.35.png" alt="creation_auvent_edicule_7.04.35" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -188,11 +188,11 @@ Voici, ci-dessous, le résultat dans la **Vue {3D}**, après l’utilisation de 
 
 De la même façon, vous pouvez modéliser les 4 autres poteaux béton qui sont dans la cour intérieure.Cette fois-ci, ils sont identiques aux précédents hormis le **Niveau de base** qui est le **Niveau 0 RDC** avec un **Décalage inférieur de -0.4000**. 
 
-Voici, ci-dessous, le résultat dans la **Vue {3D**, avec les 2 rangées de 4 poteaux qui soutiennent l’auvent de la cour intérieure : 
+Voici, ci-dessous, le résultat dans la **Vue {3D}**, avec les 2 rangées de 4 poteaux qui soutiennent l’auvent de la cour intérieure : 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.05.35-8364365.png" alt="creation_auvent_edicule_7.05.35" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.05.35.png" alt="creation_auvent_edicule_7.05.35" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -342,7 +342,7 @@ Les poteaux seront implantés à **-0.40 m du Niveau 0 RDC** et à **-0.87 du Ni
 
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.24.png" alt="creation_auvent_edicule_8.31.24" style="max-width: 100%" />
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.36.png" alt="creation_auvent_edicule_8.31.36" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.36.png" alt="creation_auvent_edicule_8.31.36" style="max-width: 80%" />
 
 <p>&nbsp;</p> 
 
@@ -510,7 +510,7 @@ Pour ce qui est de la création des trémies de l’ascenseur sur le Niveau R+1 
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.21.png" alt="creation_auvent_edicule_8.34.21" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.21.png" alt="creation_auvent_edicule_8.34.21" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -520,7 +520,7 @@ Si nous observons le détail ci-dessous, nous remarquons que l’assemblage entr
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.29.png" alt="creation_auvent_edicule_8.34.29" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.29.png" alt="creation_auvent_edicule_8.34.29" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
