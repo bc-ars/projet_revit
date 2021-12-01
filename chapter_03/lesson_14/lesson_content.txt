@@ -460,7 +460,7 @@ Pour ajouter la paroi de l’édicule, il faut la sélectionner dans la vue {3D}
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.33.25.png" alt="creation_auvent_edicule_8.33.25" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.33.25.png" alt="creation_auvent_edicule_8.33.25" style="max-width: 60%" />
 
 <p>&nbsp;</p> 
 
@@ -502,7 +502,7 @@ La plage de vue de la **Vue en plan du Niveau fini toiture R+1** a été ajusté
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.14.png" alt="creation_auvent_edicule_8.34.14" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.14.png" alt="creation_auvent_edicule_8.34.14" style="max-width: 60%" />
 
 <p>&nbsp;</p> 
 
