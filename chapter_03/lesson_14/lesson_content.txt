@@ -100,7 +100,7 @@ Ces poteaux, au nombre de 8, sont au Niveau 0 RDC, devant la cour intérieure du
 
 <p>&nbsp;</p>
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.10.png" alt="creation_auvent_edicule_7.03.10" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.10.png" alt="creation_auvent_edicule_7.03.10" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -460,7 +460,7 @@ Pour ajouter la paroi de l’édicule, il faut la sélectionner dans la vue {3D}
 
 <p>&nbsp;</p> 
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.33.25.png" alt="creation_auvent_edicule_8.33.25" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.33.25.png" alt="creation_auvent_edicule_8.33.25" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -468,7 +468,7 @@ Créer une coupe qui passe devant ce mur 2️⃣.
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.33.25 copie.png" alt="creation_auvent_edicule_8.33.25 copie" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.33.25 copie.png" alt="creation_auvent_edicule_8.33.25 copie" style="max-width: 60%" />
 
 <p>&nbsp;</p> 
 
@@ -530,7 +530,7 @@ Sélectionner le **mur** 1️⃣, cela fait apparaître les possibilités de mod
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.36.png" alt="creation_auvent_edicule_8.34.36" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.36.png" alt="creation_auvent_edicule_8.34.36" style="max-width: 60%" />
 
 <p>&nbsp;</p> 
 
@@ -540,7 +540,7 @@ Voici ci-dessous, l’évolution entre **`Avant`** et **`Après`**.
 
 <p>&nbsp;</p> 
 
-<img src="/Users/kamsmacbook/Desktop/BIM - ConstrucTech/BuildingCode/plateform-images/Projet Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.55.png" alt="creation_auvent_edicule_8.34.55" style="max-width: 100%" /> 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.55.png" alt="creation_auvent_edicule_8.34.55" style="max-width: 100%" /> 
 
 <p>&nbsp;</p> 
 
