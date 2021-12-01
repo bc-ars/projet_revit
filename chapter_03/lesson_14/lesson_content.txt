@@ -16,7 +16,7 @@ Ces auvents en béton armé 1️⃣ sont dans l’alignement des planchers atten
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.01.49.png" alt="creation_auvent_edicule_7.01.49" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.01.49.png" alt="creation_auvent_edicule_7.01.49" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -24,7 +24,7 @@ Ces auvents, qui sont appelés aussi casquettes, sont décrits dans le CCTP à l
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.01.58.png" alt="creation_auvent_edicule_7.01.58" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.01.58.png" alt="creation_auvent_edicule_7.01.58" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -32,7 +32,7 @@ Nous allons modéliser par exemple la casquette qui est sur la cour. Elle se tro
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.02.07.png" alt="creation_auvent_edicule_7.02.07" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.02.07.png" alt="creation_auvent_edicule_7.02.07" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -40,7 +40,7 @@ Pour simplifier la modélisation des auvents, une épaisseur unique de 20 cm ser
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.02.19.png" alt="creation_auvent_edicule_7.02.19" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.02.19.png" alt="creation_auvent_edicule_7.02.19" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -48,7 +48,7 @@ Ensuite, dans la fenêtre de Navigateur de matériaux qui s’ouvre, choisir la 
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.02.29.png" alt="creation_auvent_edicule_7.02.29" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.02.29.png" alt="creation_auvent_edicule_7.02.29" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -58,7 +58,7 @@ Cette opération permet d’affecter aussi bien des couleurs que des textures (d
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.02.39.png" alt="creation_auvent_edicule_7.02.39" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.02.39.png" alt="creation_auvent_edicule_7.02.39" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -66,7 +66,7 @@ De la même façon, vous réaliserez tous les auvents du projet. Voici le résul
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.02.52.png" alt="creation_auvent_edicule_7.02.52" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.02.52.png" alt="creation_auvent_edicule_7.02.52" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -90,7 +90,7 @@ Nous profitons de la création des auvents extérieurs pour aborder la modélisa
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.00.png" alt="creation_auvent_edicule_7.03.00" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.00.png" alt="creation_auvent_edicule_7.03.00" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -108,7 +108,7 @@ A titre d’exemple nous allons modéliser le poteau en béton armé repéré ci
 
 <p>&nbsp;</p>
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.2.png" alt="creation_auvent_edicule_7.03.2" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.2.png" alt="creation_auvent_edicule_7.03.2" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -116,7 +116,7 @@ Pour modéliser le poteau, il faut le sélectionner dans l’onglet **Structure*
 
 <p>&nbsp;</p>
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.35.png" alt="creation_auvent_edicule_7.03.35" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.35.png" alt="creation_auvent_edicule_7.03.35" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -124,7 +124,7 @@ Une fois dans le répertoire France, il faut cliquer sur les répertoires : **St
 
 <p>&nbsp;</p>
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.46-8363461.png" alt="creation_auvent_edicule_7.03.46" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.46-8363461.png" alt="creation_auvent_edicule_7.03.46" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -132,7 +132,7 @@ Dans le Panneau **Propriétés** 1️⃣, du **Poteau béton - arrondi** ouvert,
 
 <p>&nbsp;</p>
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.56.png" alt="creation_auvent_edicule_7.03.56" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.03.56.png" alt="creation_auvent_edicule_7.03.56" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -140,7 +140,7 @@ Il ne vous reste plus qu’à vous placer sur le **Niveau 0 RDC** et à le posit
 
 <p>&nbsp;</p>
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.04.27.png" alt="creation_auvent_edicule_7.04.27" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.04.27.png" alt="creation_auvent_edicule_7.04.27" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -148,7 +148,7 @@ Le poteau en ba est identifié ci-dessous avec une hauteur totale de 3.25 m. Il 
 
 <p>&nbsp;</p>
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.04.35-8363642.png" alt="creation_auvent_edicule_7.04.35" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.04.35-8363642.png" alt="creation_auvent_edicule_7.04.35" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -160,7 +160,7 @@ Pour modéliser les 3 autres poteaux qui sont en contre bas de la cour, nous all
 
 <p>&nbsp;</p>
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.04.55.png" alt="creation_auvent_edicule_7.04.55" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.04.55.png" alt="creation_auvent_edicule_7.04.55" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -170,7 +170,7 @@ Puis cliquer sur la position du dernier poteau 4️⃣. Revit duplique ainsi le 
 
 <p>&nbsp;</p>
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.05.18.png" alt="creation_auvent_edicule_7.05.18" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.05.18.png" alt="creation_auvent_edicule_7.05.18" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -182,7 +182,7 @@ Voici, ci-dessous, le résultat dans la **Vue {3D}**, après l’utilisation de 
 
  <p>&nbsp;</p>
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.05.27.png" alt="creation_auvent_edicule_7.05.27" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.05.27.png" alt="creation_auvent_edicule_7.05.27" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -192,7 +192,7 @@ Voici, ci-dessous, le résultat dans la **Vue {3D**, avec les 2 rangées de 4 po
 
 <p>&nbsp;</p>
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.05.35-8364365.png" alt="creation_auvent_edicule_7.05.35" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.05.35-8364365.png" alt="creation_auvent_edicule_7.05.35" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -222,7 +222,7 @@ Dans le CCTP, les poutres BA sont décrites à la page **PE2**, à l’article :
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.05.44.png" alt="creation_auvent_edicule_7.05.44" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.05.44.png" alt="creation_auvent_edicule_7.05.44" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -232,7 +232,7 @@ Pour choisir et modéliser les poutres ba de l’auvent, il faut se rendre dans 
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.06.10.png" alt="creation_auvent_edicule_7.06.10" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.06.10.png" alt="creation_auvent_edicule_7.06.10" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -240,7 +240,7 @@ Pour sélectionner une poutre en béton armé, il faudra Charger la famille, et 
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.06.19.png" alt="creation_auvent_edicule_7.06.19" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.06.19.png" alt="creation_auvent_edicule_7.06.19" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -248,7 +248,7 @@ La fenêtre Propriétés 1️⃣ vous propose la **Poutre rectangulaire – Bét
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.06.30.png" alt="creation_auvent_edicule_7.06.30" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_7.06.30.png" alt="creation_auvent_edicule_7.06.30" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -270,7 +270,7 @@ Seuls les paramètres des décalages sont alors modifiables après validation (s
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.29.40.png" alt="creation_auvent_edicule_8.29.40" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.29.40.png" alt="creation_auvent_edicule_8.29.40" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -282,7 +282,7 @@ Voici, ci-dessous, le résultat de la modélisation des 7 poutres en ba de l’a
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.30.14.png" alt="creation_auvent_edicule_8.30.14" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.30.14.png" alt="creation_auvent_edicule_8.30.14" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -300,7 +300,7 @@ Nous appliquerons la même méthode utilisée que celle utilisée pour la modél
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.30.23.png" alt="creation_auvent_edicule_8.30.23" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.30.23.png" alt="creation_auvent_edicule_8.30.23" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -314,7 +314,7 @@ Au moment de Charger la famille 1️⃣, il faut se rendre dans le répertoire *
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.30.39.png" alt="creation_auvent_edicule_8.30.39" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.30.39.png" alt="creation_auvent_edicule_8.30.39" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -322,7 +322,7 @@ Dans la fenêtre suivante **Spécifier les types** 1️⃣, vous porterez votre 
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.01.png" alt="creation_auvent_edicule_8.31.01" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.01.png" alt="creation_auvent_edicule_8.31.01" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -332,7 +332,7 @@ Les poteaux seront implantés à **-0.40 m du Niveau 0 RDC** et à **-0.87 du Ni
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.13.png" alt="creation_auvent_edicule_8.31.13" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.13.png" alt="creation_auvent_edicule_8.31.13" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -340,9 +340,9 @@ Les poteaux seront implantés à **-0.40 m du Niveau 0 RDC** et à **-0.87 du Ni
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.24.png" alt="creation_auvent_edicule_8.31.24" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.24.png" alt="creation_auvent_edicule_8.31.24" style="max-width: 100%" />
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.36.png" alt="creation_auvent_edicule_8.31.36" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.36.png" alt="creation_auvent_edicule_8.31.36" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -350,7 +350,7 @@ Réalisez la modélisation de l’ensemble des poteaux métalliques du projet. V
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.46.png" alt="creation_auvent_edicule_8.31.46" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.46.png" alt="creation_auvent_edicule_8.31.46" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -374,7 +374,7 @@ Nous allons modéliser l’édicule de l’ascenseur 1️⃣, composé de mur de
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.58.png" alt="creation_auvent_edicule_8.31.58" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.31.58.png" alt="creation_auvent_edicule_8.31.58" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -408,7 +408,7 @@ Nous sommes bien, ci-dessous, sur le **Niveau fini toiture R+1 **1️⃣ avec la
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.32.07.png" alt="creation_auvent_edicule_8.32.07" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.32.07.png" alt="creation_auvent_edicule_8.32.07" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -422,7 +422,7 @@ Voici la composition du Mur M9 2 enduit + BA 16 1️⃣, avec ses **Couches** 2�
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.32.21.png" alt="creation_auvent_edicule_8.32.21" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.32.21.png" alt="creation_auvent_edicule_8.32.21" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -430,7 +430,7 @@ Pour modéliser votre édicule, il convient, après avoir choisir votre Mur M9, 
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.32.37.png" alt="creation_auvent_edicule_8.32.37" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.32.37.png" alt="creation_auvent_edicule_8.32.37" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -438,7 +438,7 @@ Il faut vérifier son travail et la position de l’édicule, en créant une cou
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.32.47.png" alt="creation_auvent_edicule_8.32.47" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.32.47.png" alt="creation_auvent_edicule_8.32.47" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -468,7 +468,7 @@ Créer une coupe qui passe devant ce mur 2️⃣.
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.33.25 copie.png" alt="creation_auvent_edicule_8.33.25 copie" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.33.25 copie.png" alt="creation_auvent_edicule_8.33.25 copie" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -476,7 +476,7 @@ Dans l’onglet **Modifier I Murs** 3️⃣, choisir **Modifier le profil** 4️
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.33.25 copie 2.png" alt="creation_auvent_edicule_8.33.25 copie 2" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.33.25 copie 2.png" alt="creation_auvent_edicule_8.33.25 copie 2" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -484,7 +484,7 @@ Nous avons, **`Avant`**, l’esquisse du mur en contour rose qui s’affiche. Vo
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.00.png" alt="creation_auvent_edicule_8.34.00" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.00.png" alt="creation_auvent_edicule_8.34.00" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -494,7 +494,7 @@ La **Vue {3D}** montre bien l’édicule ajouré des 2 côtés.
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.07.png" alt="creation_auvent_edicule_8.34.07" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.07.png" alt="creation_auvent_edicule_8.34.07" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -502,7 +502,7 @@ La plage de vue de la **Vue en plan du Niveau fini toiture R+1** a été ajusté
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.14.png" alt="creation_auvent_edicule_8.34.14" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.14.png" alt="creation_auvent_edicule_8.34.14" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -510,7 +510,7 @@ Pour ce qui est de la création des trémies de l’ascenseur sur le Niveau R+1 
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.21.png" alt="creation_auvent_edicule_8.34.21" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.21.png" alt="creation_auvent_edicule_8.34.21" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -520,7 +520,7 @@ Si nous observons le détail ci-dessous, nous remarquons que l’assemblage entr
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.29.png" alt="creation_auvent_edicule_8.34.29" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.29.png" alt="creation_auvent_edicule_8.34.29" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -530,7 +530,7 @@ Sélectionner le **mur** 1️⃣, cela fait apparaître les possibilités de mod
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.36.png" alt="creation_auvent_edicule_8.34.36" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.34.36.png" alt="creation_auvent_edicule_8.34.36" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -548,7 +548,7 @@ De la même manière, réalisez l’assemblage des 3 autres murs périphériques
 
 <p>&nbsp;</p> 
 
-<img src="/https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.35.03.png" alt="creation_auvent_edicule_8.35.03" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/16_creation_auvent_edicule/creation_auvent_edicule_8.35.03.png" alt="creation_auvent_edicule_8.35.03" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
