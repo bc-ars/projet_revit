@@ -124,7 +124,7 @@ Ensuite, il faut se rendre sur la fenêtre **Modifier l’assemblage** 1️⃣, 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_4.50.png" alt="murs_soubassement_fondations_4.50" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_4.50.png" alt="murs_soubassement_fondations_4.50" style="max-width: 60%" />
 
 <p>&nbsp;</p>
 
@@ -137,7 +137,7 @@ Ensuite, il faut se rendre sur la fenêtre **Modifier l’assemblage** 1️⃣, 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_5.46.png" alt="murs_soubassement_fondations_5.46" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_5.46.png" alt="murs_soubassement_fondations_5.46" style="max-width: 60%" />
 
 <p>&nbsp;</p>
 
@@ -149,7 +149,7 @@ Ensuite, il faut se rendre sur la fenêtre **Modifier l’assemblage** 1️⃣, 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_6.14.png" alt="murs_soubassement_fondations_6.14" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_6.14.png" alt="murs_soubassement_fondations_6.14" style="max-width: 60%" />
 
 <p>&nbsp;</p>
 
@@ -173,7 +173,7 @@ Pour information, on peut réajuster la hauteur de 44 cm après validation :
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_6.23.png" alt="murs_soubassement_fondations_6.23" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_6.23.png" alt="murs_soubassement_fondations_6.23" style="max-width: 60%" />
 
 <p>&nbsp;</p>
 
@@ -253,7 +253,7 @@ Dans notre projet, nous aurons trois types de fondations :
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_727.49.png" alt="murs_soubassement_fondations_727.49" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_727.49.png" alt="murs_soubassement_fondations_727.49" style="max-width: 60%" />
 
 <p>&nbsp;</p>
 
@@ -261,7 +261,7 @@ Dans notre projet, nous aurons trois types de fondations :
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_728.00.png" alt="murs_soubassement_fondations_728.00" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_728.00.png" alt="murs_soubassement_fondations_728.00" style="max-width: 60%" />
 
 <p>&nbsp;</p>
 
@@ -269,7 +269,7 @@ Dans notre projet, nous aurons trois types de fondations :
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_728.15.png" alt="murs_soubassement_fondations_728.15" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/17_murs_soubassement_fondations/murs_soubassement_fondations_728.15.png" alt="murs_soubassement_fondations_728.15" style="max-width: 60%" />
 
 <p>&nbsp;</p>
 
@@ -376,3 +376,4 @@ En suivant la même méthode, vous modéliserez les semelles isolées des poteau
 <p>&nbsp;</p>
 
 <p>&nbsp;</p>
+
