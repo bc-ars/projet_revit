@@ -1,0 +1,241 @@
+# **Création des rampes extérieures, escaliers et gardes corps du projet** 
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Nous abordons ici les aménagements extérieurs du projet. L’objectif est de modéliser les escaliers et les garde-corps, ainsi que les rampes extérieures du projet. 
+
+Le plan de repérage à droite vous indique la position de ces éléments : 
+
+**1️⃣-** Les escaliers. 
+
+**2️⃣-** Les rampes. 
+
+Pour l’apprentissage de Revit, nous nous intéresserons à la **zone d’étude** repérée en bleu, avec un escalier et une rampe en trois parties. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_3.34.png" alt="creation_rampes_exrerieures_3.34" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Le CCTP donne des indications sur les éléments à modéliser dans l’article : **PE2** 
+
+-  01 LOT GROS OEURE 
+  - 01 Construction 
+    - D – Dallages, Planchers, Auvents : 
+      - a) Dallage : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_3.55.png" alt="creation_rampes_exrerieures_3.55" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+## 1- Les escaliers extérieurs 
+
+<p>&nbsp;</p> 
+
+Nous reverrons dans cette leçon la modélisation d’un escalier, mais cette fois-ci à volée droite, avec les caractéristiques suivantes : 
+
+- Largeur : 2.25 m 
+
+- Hauteur à franchir : 0.67 m (de -0.70 à -0.03) : 2.5 cm carrelage 
+
+- Nombre de marche : 5 
+
+- Hauteur de la marche : 13.50 cm 
+
+- Giron de la marche : 35 cm 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_4.12.png" alt="creation_rampes_exrerieures_4.12" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Il faut se placer sur le plan d’étage Voirie / extérieur, dans l’arborescence du projet.  Notre escalier ira du niveau Voirie / extérieur au Niveau 0 RDC, avec un décalage inférieur de - 0.025 m pour recevoir un carrelage. 
+
+On affichera le plan du RDC en dwg afin de service de référence pour l’implantation de l’escalier. 
+
+Dans l’onglet **Architecture** 1️⃣, **Panneau Circulation** 2️⃣, cliquer sur **Escalier** 3️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_4.35.png" alt="creation_rampes_exrerieures_4.35" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Dans l’onglet **Modifier I Créer un escalier** 1️⃣, **Panneau Composants** 2️⃣, choisir **Volée** 3️⃣ et cliquer sur **Droit** 4️⃣. L’escalier sera calculé automatiquement selon la formule de Blondel (dans les Propriétés de l’escalier coulé sur place Monobloc). 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_4.42.png" alt="creation_rampes_exrerieures_4.42" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Dans le **Panneau Propriétés** 1️⃣ de **l’Escalier coulé sur place Monobloc** 2️⃣, il faut valider les contraintes et cotes suivantes : 
+
+- Niveau de base : Voirie / extérieur, sans décalage. 
+
+- Niveau supérieure : Niveau 0 RDC, avec un décalage supérieur de -0.025 m. 
+
+- Nombre de contremarches souhaité : 5 
+
+- Profondeur actuelle du giron : 0.35 m 
+
+Penser à cliquer sur **Appliquer** afin d’enregistrer vos paramètres. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_4.51.png" alt="creation_rampes_exrerieures_4.51" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+*💡 : Si la hauteur de marche n’est pas 0.1350 m, il faut cliquer sur **Modifier le type**, puis sur **Modifier** en face de **Règle de calcul** et décocher la case **Utiliser le calculateur d’escalier pour le calcul de l’inclinaison**.* 
+
+Cliquer sur la **marche 1** 1️⃣ puis sur la **marche 5** 2️⃣, sur la ligne de foulée. Les marches 1 et 5 sont numérotées 3️⃣. Cliquer sur la coche verte ✅ pour valider. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_5.38.png" alt="creation_rampes_exrerieures_5.38" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+La coupe localisée sur l’escalier présente 4 hauteurs de marche de 13.5 cm et 4 girons de 35 cm. La 5ème hauteur n’est pas représentée mais elle est prise compte dans le calcul. Il faudra vérifier la hauteur de la rampe de l’escalier à 1 m minimum et décaler l’escalier contre le mur de la jardinière (au moment de modéliser les jardinières et les murets). 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_6.19.png" alt="creation_rampes_exrerieures_6.19" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+De la même façon, pour procéderez à la modélisation des escaliers droits extérieurs du projet, en supprimant parfois les garde-corps. 
+
+<p>&nbsp;</p>
+
+**`Fichier étape 3.18.1 Les escaliers extérieurs.rvt  `** 
+
+<p>&nbsp;</p>
+
+
+
+## 2- Les rampes extérieures
+
+<p>&nbsp;</p> 
+
+Nous allons modéliser la rampe 1️⃣ repérée ci-dessous dans les vues en plan et en élévation. Elle est composée de 4 petites rampes avec 3 paliers intermédiaires. Son inclinaison est de 5%, toutes les altitudes de départ, intermédiaires et d’arrivées sont indiquées sur le plan du RDC. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_6.29.png" alt="creation_rampes_exrerieures_6.29" style="max-width: 100%" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_6.39.png" alt="creation_rampes_exrerieures_6.39" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Placez-vous sur le niveau Voirie / extérieur. Dans l’onglet **Architecture** 1️⃣, dans le Panneau **Circulation** 2️⃣ cliquer sur **Rampe d’accès** 3️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_6.41.png" alt="creation_rampes_exrerieures_6.41" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Le **Panneau Propriétés** vous propose 3 types de rampe : **Rampe d’accès Béton – 150 mm** de 12%, 15% et 20%. Cliquer sur **Modifier le type** afin de créer celle qui sera adaptée au projet (5% et 16 cm). 
+
+Il faut dupliquer la rampe de 12%, par exemple, et la renommer : **Rampe d'accès Béton - 160 mm - 5%** 2️⃣. 
+
+Dans la fenêtre **Propriétés du type** 1️⃣, de la nouvelle **Rampe d’accès Béton – 160 mm – 5%**, il faut saisir les nouveaux **Paramètres de type **3️⃣ dont l’**Epaisseu**r et **l’Inclinaison max. de la rampe d’accès (1/x).**Penser à cliquer sur **Appliquer** et **OK** 4️⃣. 
+
+*Inclinaison de la rampe d’accès: 20 = 1 / 0.05* 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_6.48-8883998.png" alt="creation_rampes_exrerieures_6.48" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dans la fenêtre **Propriétés** 1️⃣ de la **Rampe d’accès Béton – 160 mm – 5%** 2️⃣, saisir les paramètres de modélisation 3️⃣ et décocher la visibilité des **Libellés Bas et Haut** 4️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_7.13.png" alt="creation_rampes_exrerieures_7.13" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous rallongerons le développé de cette première partie de la rampe, de 5 cm sur la gauche, pour qu’elle fasse 1.80 m. Cliquer sur le point  **Début** pour commencer la rampe, et sur le point **Fin** pour la terminer. Décocher la visibilité des Libellés. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_7.23.png" alt="creation_rampes_exrerieures_7.23" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Sur le même principe que sur une seule partie de la rampe, reprenez votre modélisation du point **1️⃣** au point **8️⃣**, pour chacune des 4 parties de la rampe. Le paramétrage de la rampe dans le Panneau Propriétés est identique à l’exemple. Cette esquisse en Volée (identique à celle des escaliers) devra être validée avec la coche verte ✅. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_7.45.png" alt="creation_rampes_exrerieures_7.45" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Voici le résultat dans la **Vue {3D}** : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_7.54.png" alt="creation_rampes_exrerieures_7.54" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Il est nécessaire de contrôler la bonne altitude de l’arrivée de la dernière rampe, qui se trouve bien au niveau 0 (Niveau 0 RDC). 
+
+De la même façon, Modélisez les autres rampes (avec ou sans garde-corps) du projet. 
+
+<p>&nbsp;</p>
+
+**`Fichier étape 3.18.2 Les rampes extérieures.rvt  `** 
+
+<p>&nbsp;</p>
+
+## 3- Les dalles extérieures (jardinières et murets) 
+
+<p>&nbsp;</p> 
+
+Modélisons maintenant:
+
+- Les dalles extérieures : entrée, quai et cour. 
+
+- Les murets sous les rampes et escalier, avec les fondations. 
+
+- Les jardinières (dalle, murets et terre). 
+
+Nous faisons appel aux notions de modélisation abordées dans les leçons précédentes. 
+
+Cette étape est longue et malgré le soin apporté à modéliser ces éléments complémentaires, d’autres modifications ne sont pas exclues par la suite. Modéliser un ouvrage dont on n’est pas à l’origine de la conception, reste un exercice difficile. Voici deux points de **Vue {3D}** opposés qui laissent apparaître le projet avec les dernières modélisations : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_8.04.png" alt="creation_rampes_exrerieures_8.04" style="max-width: 100%" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_8.04-8884410.png" alt="creation_rampes_exrerieures_8.04" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**Zoom sur les Vues {3D}**:
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_8.26.png" alt="creation_rampes_exrerieures_8.26" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 3.18.3 Les dalles extérieures.rvt  `** 
+
+<p>&nbsp;</p> 
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
