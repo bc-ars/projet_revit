@@ -22,7 +22,7 @@ La méthode de modélisation pour la création de ce profil en relief se déroul
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.46.30.png" alt="surface_topographique_6.46.30" style="max-width: 40%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.46.30.png" alt="surface_topographique_6.46.30" style="max-width: 40%" />
 
 <p>&nbsp;</p>
 
@@ -56,7 +56,7 @@ Dans l’onglet **Modifier I Place Lignes** 1️⃣, cliquer sur l’icône **Ca
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.46.39.png" alt="surface_topographique_6.46.39" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.46.39.png" alt="surface_topographique_6.46.39" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -66,7 +66,7 @@ Dans l’onglet **Modifier I Place Lignes** 1️⃣, cliquer sur l’icône **Ca
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.46.57.png" alt="surface_topographique_6.46.57" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.46.57.png" alt="surface_topographique_6.46.57" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -82,7 +82,7 @@ Se placer sur le Niveau 0 RDC (une vue en plan), choisir son mur de base **A 2 e
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.47.15.png" alt="surface_topographique_6.47.15" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.47.15.png" alt="surface_topographique_6.47.15" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -94,7 +94,7 @@ Dans la fenêtre **Modifier l’assemblage**, cliquer sur **Aperçu** et choisir
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.47.55.png" alt="surface_topographique_6.47.55" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.47.55.png" alt="surface_topographique_6.47.55" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -102,7 +102,7 @@ Dans cette même fenêtre **Modifier l’assemblage**, cliquer sur Profils en re
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.48.01.png" alt="surface_topographique_6.48.01" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.48.01.png" alt="surface_topographique_6.48.01" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -110,7 +110,7 @@ La fenêtre **Profils en relief** 1️⃣ s’ouvre. Cliquer sur **Ajouter** 2�
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.48.45.png" alt="surface_topographique_6.48.45" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.48.45.png" alt="surface_topographique_6.48.45" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -120,7 +120,7 @@ Il faut cliquer sur **Appliquer** 4️⃣ pour voir les changements de position 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.49.17.png" alt="surface_topographique_6.49.17" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.49.17.png" alt="surface_topographique_6.49.17" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -158,7 +158,7 @@ De la même façon, vous modifierez l’autre type d’acrotère du projet :
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.49.39.png" alt="surface_topographique_6.49.39" style="max-width: 30%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.49.39.png" alt="surface_topographique_6.49.39" style="max-width: 30%" />
 
 <p>&nbsp;</p>
 
@@ -184,7 +184,7 @@ Dans l’onglet **Modifier I Place Lignes** 1️⃣, cliquer sur l’icône **Ca
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.49.51.png" alt="surface_topographique_6.49.51" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.49.51.png" alt="surface_topographique_6.49.51" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -200,7 +200,7 @@ Dans l’onglet Créer, et avec l’outil Ligne, dessiner le profil en creux de 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.50.36.png" alt="surface_topographique_6.50.36" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.50.36.png" alt="surface_topographique_6.50.36" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -216,7 +216,7 @@ Se placer sur le Niveau 0 RDC (une vue en plan), choisir son mur de base **A 2 e
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.50.59.png" alt="surface_topographique_6.50.59" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.50.59.png" alt="surface_topographique_6.50.59" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -228,7 +228,7 @@ Dans la fenêtre **Modifier l’assemblage**, cliquer sur **Aperçu** et choisir
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.51.05.png" alt="surface_topographique_6.51.05" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.51.05.png" alt="surface_topographique_6.51.05" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -236,7 +236,7 @@ Dans cette même fenêtre **Modifier l’assemblage**, cliquer sur Profil en rel
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.51.11.png" alt="surface_topographique_6.51.11" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.51.11.png" alt="surface_topographique_6.51.11" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -244,9 +244,9 @@ La fenêtre **Profils en creux** 1️⃣ s’ouvre. Cliquer sur **Ajouter** 2️
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.51.27.png" alt="surface_topographique_6.51.27" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.51.27.png" alt="surface_topographique_6.51.27" style="max-width: 70%" />
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.51.36.png" alt="surface_topographique_6.51.36" style="max-width: 40%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.51.36.png" alt="surface_topographique_6.51.36" style="max-width: 40%" />
 
 <p>&nbsp;</p>
 
@@ -254,7 +254,7 @@ Ci-dessous, dans la fenêtre **Modifier l’assemblage** 1️⃣, il faut régle
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.52.18.png" alt="surface_topographique_6.52.18" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.52.18.png" alt="surface_topographique_6.52.18" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -274,7 +274,7 @@ Nous allons importer la coupe C2, au format dwg, en fond de plan (de centre à c
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.52.28.png" alt="surface_topographique_6.52.28" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.52.28.png" alt="surface_topographique_6.52.28" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -294,7 +294,7 @@ Article CCTP : **PE5**
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.52.41.png" alt="surface_topographique_6.52.41" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.52.41.png" alt="surface_topographique_6.52.41" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
@@ -318,7 +318,7 @@ Il faut s’aider des poteaux à chacun des angles pour dessiner son implantatio
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.52.50.png" alt="surface_topographique_6.52.50" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.52.50.png" alt="surface_topographique_6.52.50" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -326,7 +326,7 @@ Ci-dessous, **Vue {3D}** représente les 2 faces de l’auvent. Il reste à mod�
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.53.00.png" alt="surface_topographique_6.53.00" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.53.00.png" alt="surface_topographique_6.53.00" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -334,7 +334,7 @@ Ci-dessous, nous avons sélectionné l’auvent et repositionné sur **l’Elév
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.53.10.png" alt="surface_topographique_6.53.10" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.53.10.png" alt="surface_topographique_6.53.10" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -350,7 +350,7 @@ Tracer cette poutre sur le **Niveau 1er**, dans le sens de l’auvent qui est vi
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.53.20.png" alt="surface_topographique_6.53.20" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.53.20.png" alt="surface_topographique_6.53.20" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -360,11 +360,11 @@ Comme indiqué ci-dessous, les longueurs des pare-soleils seront ajustées dans 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.53.32.png" alt="surface_topographique_6.53.32" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.53.32.png" alt="surface_topographique_6.53.32" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.53.49.png" alt="surface_topographique_6.53.49" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_6.53.49.png" alt="surface_topographique_6.53.49" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -374,7 +374,7 @@ Pour dupliquer l’ensemble 1️⃣ (auvent et pare-soleil), il faut le Sélecti
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_7.01.22.png" alt="surface_topographique_7.01.22" style="max-width: 30%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_7.01.22.png" alt="surface_topographique_7.01.22" style="max-width: 30%" />
 
 <p>&nbsp;</p>
 
@@ -382,7 +382,7 @@ et cliquer sur **l’axe central** 2️⃣, la copie se place dans la zone encad
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_7.01.38.png" alt="surface_topographique_7.01.38" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_7.01.38.png" alt="surface_topographique_7.01.38" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -390,7 +390,7 @@ Pour réaliser l’ensemble, auvent et pare-soleil, dans l’axe de la cour, il 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_7.02.02.png" alt="surface_topographique_7.02.02" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_7.02.02.png" alt="surface_topographique_7.02.02" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -404,7 +404,7 @@ Dans cette troisième et dernière partie, rien de différent de ce qui a été 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_7.02.11.png" alt="surface_topographique_7.02.11" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_couvertine/couvertine_7.02.11.png" alt="surface_topographique_7.02.11" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
