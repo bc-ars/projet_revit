@@ -1,0 +1,236 @@
+# **Création du mur rideau de la cage d’escalier** 
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Nous allons bientôt modéliser le mur rideau, mais avant cela terminons la modélisation du volume de la cage d’escalier. Nous avons fait le choix de modifier l’architecture du projet. 
+
+**1️⃣** – Compléter le volume au-dessus de la cage d’escalier. 
+
+**2️⃣** - Supprimer l’élément porteur vertical. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/19_creation_mur_rideau/creation_mur_rideau_3.01.png" alt="creation_mur_rideau_3.01" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Vous disposez du fichier étape de cette progression, que vous pouvez ouvrir afin de modéliser le mur rideau. 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 3.17 Création du mur rideau de l’escalier 1.rvt  `** 
+
+<p>&nbsp;</p> 
+
+L’objectif de cette leçon est de comprendre la modélisation du mur rideau courbe. Cette méthode diffère d’un mur rideau vertical. Pour un mur vertical, sans courbure, il suffit de modéliser le vitrage en simple panneau puis de placer le quadrillage avec les meneaux. 
+
+Dans notre cas de figure nous utiliserons un volume sur lequel nous appliquerons un système de mur rideau. 
+
+Cette méthode de modélisation se déroule en trois étapes: 
+
+**1-** Création d’un volume (famille demi-cylindre). 
+
+**2-** Création d’un système de mur rideau. 
+
+**3-** Mise en place des meneaux. 
+
+**4-** Suppression du volume. 
+
+**5-** Mise en place du mur rideau dans le projet. 
+
+
+
+Il faut se placer sur le **Niveau 0 RDC**, à l’écart du projet, afin de concevoir notre mur rideau courbe sans interférer avec le projet. 
+
+<p>&nbsp;</p> 
+
+## 1- Création d'un volume
+
+<p>&nbsp;</p> 
+
+Dans l’onglet **Volume et site** 1️⃣, cliquer sur **Placer un volume** 2️⃣. Nous allons ouvrir une famille de volume paramétrique. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/19_creation_mur_rideau/creation_mur_rideau_3.24.png" alt="creation_mur_rideau_3.24" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Si les familles de volume ne sont pas chargées, il faut accepter le chargement 1️⃣.
+
+Se rendre dans le répertoire : **France/Volumes** 2️⃣ puis ouvrir la famille **Demi cylindre** 3️⃣, l’**Aperçu** 4️⃣ est disponible sur la droite. Cliquer sur **Ouvrir** 5️⃣ pour valider son choix.  
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/19_creation_mur_rideau/creation_mur_rideau_3.50.png" alt="creation_mur_rideau_3.50" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Placer son volume en demi cylindre sur la zone de travail de Revit, dans la **Vue {3D}.** Sélectionner le volume dans la **vue {3D}** puis dans le **Panneau Propriétés** 1️⃣ du **Demi cylindre** 2️⃣, saisir les valeurs indiquées dans les **Cotes** 3️⃣: 
+
+- Largeur = Diamètre 
+
+- Profondeur = hauteur 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/19_creation_mur_rideau/creation_mur_rideau_4.04.png" alt="creation_mur_rideau_4.04" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Le volume qui sera utilisé pour le système de mur rideau est désormais créé. 
+
+<p>&nbsp;</p>
+
+## 2- Création d'un système de mur rideau
+
+<p>&nbsp;</p> 
+
+Dans l’onglet **Volume et site** 1️⃣, cliquer sur **Système de mur-rideau** 2️⃣. Le volume Demi-cylindre servira de support au mur rideau. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/19_creation_mur_rideau/creation_mur_rideau_4.15.png" alt="creation_mur_rideau_4.15" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+L’onglet **Modifier I Placer un système de mur-rideau par face** 1️⃣ est ouvert. Dans le **Panneau Propriétés Système de mur- rideau** 2️⃣, saisir le **Nombre** 3️⃣ dans les valeurs des **Quadrillages** (quadrillage 1 = longueur et quadrillage 2 = hauteur). Cliquer sur Appliquer 4️⃣. Cliquer sur **Sélect**. Plusieurs 5️⃣ puis cliquer sur le demi cylindre 6️⃣. Le calepinage du mur rideau est modélisé, comme indiqué dans la vue **`Après`**. 
+
+Cette division permet d’avoir un calepinage des menuiseries compatible avec la courbure de la maçonnerie du projet. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/19_creation_mur_rideau/creation_mur_rideau_5.15.png" alt="creation_mur_rideau_5.15" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+## 3- Mise en place des meneaux
+
+<p>&nbsp;</p> 
+
+Dans l’onglet **Architecture** 1️⃣, cliquer sur **Meneau** 2️⃣. Nous allons choisir les meneaux du mur rideau, parmi ceux qui sont proposés ou les créer. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/19_creation_mur_rideau/Projet Revit/19_creation_mur_rideau/creation_mur_rideau_6.06.png" alt="creation_mur_rideau_6.06" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Si l’on souhaite accéder aux paramètres de ce meneau, il faut cliquer sur **Modifier le type**, du Panneau **Propriétés**. Revit vous propose de l’adapter à votre projet avec plusieurs paramètres, dont celui des **dimensions** 1️⃣ : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/19_creation_mur_rideau/creation_mur_rideau_6.15.png" alt="creation_mur_rideau_6.15" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dans notre cas, nous resterons sur le type proposé. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/19_creation_mur_rideau/creation_mur_rideau_6.24.png" alt="creation_mur_rideau_6.24" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous devons maintenant choisir les lignes de quadrillage sur lesquelles les meneaux s’appliqueront. 
+
+Dans l’onglet **Modifier I Placer Meneaux** 1️⃣, cliquer sur **Toutes les lignes de quadrillage** 2️⃣. Pour notre exemple, le calepinage du mur rideau sera celui des lignes de quadrillage. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/19_creation_mur_rideau/creation_mur_rideau_6.38.png" alt="creation_mur_rideau_6.38" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+💡 : *Nous avons deux autres possibilités pour positionner les meneaux (**Ligne de quadrillage** et **Segment de la ligne de quadrillage**). Cela permet de jouer sur le rythme des menuiseries, après avoir étudié le découpage. Ensuite, il faudra supprimer les lignes de quadrillage inutiles.* 
+
+Survoler le volume avec la souris et cliquer sur les **Lignes de quadrillage** du volume 3D (**`Avant`**), et les meneaux s’appliquent au projet selon le découpage (**`Après`**). Nous allons maintenant supprimer le volume en dessous. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/19_creation_mur_rideau/creation_mur_rideau_6.49.png" alt="creation_mur_rideau_6.49" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+## 4- Suppression du volume
+
+<p>&nbsp;</p> 
+
+Maintenant que notre mur rideau est modélisé, nous allons pouvoir supprimer le volume, qui nous a servi de support de travail. Deux méthodes sont possibles (la 2ème Méthode est plus rapide). 
+
+### **1ère Méthode:** 
+
+- Sélectionner, en pointant la souris sur les meneaux, le système de mur rideau et choisir **Masquer dans la vue l’élément** (clic droit de la souris). 
+
+- Le volume en demi-cylindre reste affiché tout seul, cliquer dessus et le supprimer. 
+
+- Réafficher le système de mur rideau dans la **Vue {3D}** en activant grâce à l’ampoule les éléments cachés. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/19_creation_mur_rideau/creation_mur_rideau_7.15.png" alt="creation_mur_rideau_7.15" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+- Cliquer sur le système de mur rideau et choisir **Afficher dans la vue l’élément** (clic droit souris). 
+
+- Vous pouvez désactiver la vision des éléments cachés en cliquant à nouveau sur l’ampoule pour l’éteindre. 
+
+### **2ème Méthode:** 
+
+Nous aurions pu sélectionner et supprimer ce volume en demi-cylindre avec une autre méthode. Il faut passer le curseur de la souris sur la modélisation jusqu’à ce que Revit mettre en surbrillance le **Volume : Demi cylindre** (dans une étiquette), en bleu, et le supprimer. 
+
+Il ne nous reste plus qu’à appliquer une rotation au système de mur rideau et à le positionner sur le projet. 
+
+<p>&nbsp;</p> 
+
+## 5- Mise en place du mur rideau dans le projet.
+
+<p>&nbsp;</p> 
+
+Avant de placer le mur rideau dans le projet, il faut lui appliquer une rotation. 
+
+Dans l’arborescence du projet, il faut se placer sur l’Elévation Ouest afin d’avoir le système de mur rideau de profil pour effectuer la rotation. Cette rotation n’est pas réalisable dans la **Vue {3D}.** Si votre mur rideau n’est pas visible, il faut étendre la plage de vue de l’élévation (retourner sur le niveau 0 RDC, cliquer sur le symbole de l’élévation Ouest et déplacer ses limites de vue avec les poignées bleues). 
+
+Sélectionner le système de mur rideau afin d’activer les outils de modification et cliquer sur la Rotation 1️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/19_creation_mur_rideau/creation_mur_rideau_7.24.png" alt="creation_mur_rideau_7.24" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Revit place seul le centre de rotation (qui peut être repositionné) sur le système de mur rideau. Cliquer sur **le point 1️⃣** puis ramener la souris jusqu’au **point 2️⃣** et cliquer à nouveau. **L’angle de rotation** de **90.00**° 3️⃣ s’obtient facilement. On peut aussi le saisir avec le clavier. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/19_creation_mur_rideau/creation_mur_rideau_8.23.png" alt="creation_mur_rideau_8.23" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Il ne vous reste plus qu’à déplacer ce système de mur rideau sur le projet (pose dans la maçonnerie), avec une rotation effectuée en plan. Voici le résultat obtenu, ci-dessous, dans plusieurs vues : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/19_creation_mur_rideau/creation_mur_rideau_9.20.png" alt="creation_mur_rideau_9.20" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 3.17 Création du mur rideau de l’escalier 2.rvt  `** 
+
+<p>&nbsp;</p> 
+
+De la même façon, réalisez la deuxième partie du système du mur rideau, selon le même calepinage. Celui-ci a une hauteur de 2.59 m. 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 3.17 Création du mur rideau de l’escalier 3.rvt  `** 
+
+<p>&nbsp;</p> 
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
