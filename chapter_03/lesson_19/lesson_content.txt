@@ -1,0 +1,415 @@
+# **La couvertine et les brises soleils métalliques ** 
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Nous allons maintenant voir le principe du profil en relief, en creux et l’extrusion d’une forme 2D. 
+
+<p>&nbsp;</p> 
+
+## 1- La couvertine des acrotères avec un profil en relief  
+
+<p>&nbsp;</p> 
+
+La méthode de modélisation pour la création de ce profil en relief se déroule en 3 étapes : 
+
+**1-** Création de la famille **Couvertine laquée blanc 290.** 
+
+**2-** Conception du profil en relief. 
+
+**3-** Intégration du profil en relief au mur d’acrotère. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.46.30.png" alt="surface_topographique_6.46.30" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+
+
+
+
+**`Fichier étape 3.18.1 Les escaliers extérieurs.rvt  `** 
+
+<p>&nbsp;</p>
+
+### **1 – Création de la famille Couvertine laquée blanc 290**
+
+<p>&nbsp;</p>
+
+Nous allons créer cette couvertine à l’aide d’une famille. Pour cela, il faut aller dans : 
+
+- **Fichier** / **Nouveau** / **Famille**. 
+
+- Dans le répertoire French, ouvrir le fichier **Profil métrique.rft** 
+
+Revit ouvre une nouvelle feuille de travail, celle de la conception du profil en relief. 
+
+<p>&nbsp;</p>
+
+###  **2 – Conception du profil en relief :** 
+
+<p>&nbsp;</p>
+
+Dans l’onglet **Modifier I Place Lignes** 1️⃣, cliquer sur l’icône **Catégorie et paramètres de famille** 2️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.46.39.png" alt="surface_topographique_6.46.39" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+- Dans cette fenêtre, en face du paramètre **Utilisation du profil**, choisir **Profil en relief** et cliquer sur **OK**. Maintenant que le profil est déclaré, penser à enregistrer la famille : **Couvertine laquée blanc 290.**
+
+- Dans l’onglet Créer, et avec l’outil Ligne, dessiner le profil en relief de la couvertine selon, par exemple, les dimensions ci-dessous (en mm comme le dessin) : 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.46.57.png" alt="surface_topographique_6.46.57" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Ensuite, Cliquer sur l’icône **Charger dans le projet** (dans le bandeau), cocher la case en face du nom de son projet et cliquer sur **OK**. Votre projet s’ouvre dans la page de travail principale de Revit. 
+
+<p>&nbsp;</p>
+
+### **3- Intégration du profil en relief au mur d’acrotère :** 
+
+<p>&nbsp;</p>
+
+Se placer sur le Niveau 0 RDC (une vue en plan), choisir son mur de base **A 2 enduit + 20 ba + étanchéité 6 mm** 1️⃣ et cliquer sur **Modifier le type** 2️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.47.15.png" alt="surface_topographique_6.47.15" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+**Duplique**r et **renommer** ce mur : **A 2 enduit + 20 ba + étanchéité 6 mm + couvertine 290**. 
+
+Pour intégrer le profil en relief de la couvertine au mur, dans la fenêtre **Propriété du type**, en face du paramètre **Structure**, cliquer sur **Modifier** pour accéder aux couches de matériaux. 
+
+Dans la fenêtre **Modifier l’assemblage**, cliquer sur **Aperçu** et choisir **Vue : Coupe** 2️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.47.55.png" alt="surface_topographique_6.47.55" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Dans cette même fenêtre **Modifier l’assemblage**, cliquer sur Profils en relief, afin de l’intégrer au mur. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.48.01.png" alt="surface_topographique_6.48.01" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+La fenêtre **Profils en relief** 1️⃣ s’ouvre. Cliquer sur **Ajouter** 2️⃣, pour ajouter votre profil, puis le sélectionner 3️⃣ parmi les choix proposés. Vous pouvez également définir son matériau 4️⃣, ici, **Aluminium**. Enfin, cliquer sur **Appliquer** 5️⃣ afin d’ajuster la position de la couvertine sur le mur. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.48.45.png" alt="surface_topographique_6.48.45" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Ci-dessous, dans la fenêtre **Modifier l’assemblage** 1️⃣, il faut régler les paramètres 2️⃣ indiqués, afin d’obtenir la couvertine 3️⃣ correctement positionnée et centrée sur le mur. Ces ajustements sont liés à la façon de dessiner la famille. 
+
+Il faut cliquer sur **Appliquer** 4️⃣ pour voir les changements de position dans l’Aperçu. Penser à cliquer sur **OK **5️⃣ pour valider. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.49.17.png" alt="surface_topographique_6.49.17" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Il ne vous reste plus qu’à designer ce nouveau mur de base comme nouvel acrotère : 
+
+- **A 2 enduit + 20 ba + étanchéité 6 mm** devient 
+
+​		➡️** couvertine 290**: **A 2 enduit + 20 ba + étanchéité 6 mm + couvertine 290** 
+
+De la même façon, vous modifierez l’autre type d’acrotère du projet : 
+
+- **A 20 ba + étanchéité 6 mm** qui devient : 
+
+​	➡️ A 20 ba + étanchéité 6 mm+ couvertine 290 
+
+*💡 : La difficulté sera de les aligner quand les acrotères différents seront cote à cote. Les couvertines des acrotères des bâtiments Administration – Salle d’activités devront avoir un profil différent, elles sont trop proches.*
+
+<p>&nbsp;</p>
+
+**`Fichier étape 3.19.1 La couvertine profil en relief.rvt  `** 
+
+<p>&nbsp;</p>
+
+## 2- L'acrotère avec un profil en creux
+
+<p>&nbsp;</p> 
+
+**La méthode de modélisation pour la création de ce profil en creux se déroule en 3 étapes :** 
+
+**1-** Création de la famille **acrotère béton.** 
+
+**2-** Conception du profil en creux 
+
+**3-** Intégration du profil en relief au mur d’acrotère. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.49.39.png" alt="surface_topographique_6.49.39" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+### **1 – Création de la famille Acrotère béton:**
+
+<p>&nbsp;</p>
+
+Nous allons créer cette couvertine à l’aide d’une famille. Pour cela, il faut aller dans : 
+
+- **Fichier** / **Nouveau** / **Famille**. 
+
+- Dans le répertoire French, ouvrir le fichier **Profil métrique.rft**.
+
+Revit ouvre une nouvelle feuille de travail, celle de la conception du profil en creux. Le principe de ce travail consiste à dessiner la forme que l’on va soustraire à l’acrotère.  
+
+<p>&nbsp;</p>
+
+###  **2 – Conception du profil en creux :** 
+
+<p>&nbsp;</p>
+
+Dans l’onglet **Modifier I Place Lignes** 1️⃣, cliquer sur l’icône **Catégorie et paramètres de famille** 2️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.49.51.png" alt="surface_topographique_6.49.51" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Dans cette fenêtre, en face du paramètre **Utilisation du profil**, choisir **Profil en creux** et cliquer sur **OK**. Maintenant que le profil est déclaré, enregistrez la famille : **acrotère béton.** 
+
+Cette forme négative est composée de 2 parties : 
+
+- Un triangle rectangle. 
+
+- Un rectangle avec un rejingot en relief au sommet. 
+
+Dans l’onglet Créer, et avec l’outil Ligne, dessiner le profil en creux de l’acrotère selon, par exemple, les dimensions ci-dessous. Pour rappel les dimensions sont en mm, comme le dessin de cette famille. Enregistrer votre travail. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.50.36.png" alt="surface_topographique_6.50.36" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Cliquer ensuite sur l’icône **Charger dans le projet** (dans le bandeau), cocher la case en face du nom de son projet et cliquer sur **OK**. Votre projet s’ouvre dans la page de travail principale de Revit.
+
+<p>&nbsp;</p>
+
+###  **3 – **Intégration du profil en creux au mur d’acrotère : 
+
+<p>&nbsp;</p>
+
+Se placer sur le Niveau 0 RDC (une vue en plan), choisir son mur de base **A 2 enduit + 20 ba +enduit 2** 1️⃣ et cliquer sur **Modifier le type** 2️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.50.59.png" alt="surface_topographique_6.50.59" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+**Duplique**r et **renommer** ce mur : **A 2 enduit + 20 ba + acrotère béton 20**. Supprimer la couche d’étanchéité de 6 mm mettre une épaisseur de 0.40 pour le béton armé. 
+
+Pour intégrer le profil en creux de l’acrotère au mur, dans la fenêtre **Propriété du type**, en face du paramètre **Structure**, cliquer sur **Modifier** pour accéder aux couches de matériaux. 
+
+Dans la fenêtre **Modifier l’assemblage**, cliquer sur **Aperçu** et choisir **Vue : Coupe** 2️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.51.05.png" alt="surface_topographique_6.51.05" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Dans cette même fenêtre **Modifier l’assemblage**, cliquer sur Profil en relief, afin de l’intégrer au mur. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.51.11.png" alt="surface_topographique_6.51.11" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+La fenêtre **Profils en creux** 1️⃣ s’ouvre. Cliquer sur **Ajouter** 2️⃣, pour ajouter votre profil, puis le sélectionner 3️⃣ parmi les choix proposés. Enfin, cliquer sur **Appliquer** 4️⃣ afin d’ajuster la position de l’acrotère dans le mur. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.51.27.png" alt="surface_topographique_6.51.27" style="max-width: 100%" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.51.36.png" alt="surface_topographique_6.51.36" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Ci-dessous, dans la fenêtre **Modifier l’assemblage** 1️⃣, il faut régler les paramètres 2️⃣ indiqués, afin d’obtenir l’acrotère 3️⃣ correctement intégré dans le mur. Cliquer sur **Appliquer** 4️⃣ puis sur **OK** 5️⃣.
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.52.18.png" alt="surface_topographique_6.52.18" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Ce mur de base acrotère est désormais créé, prêt à être utilisé, en variante par exemple. 
+
+<p>&nbsp;</p>
+
+**`Fichier étape 3.19.2 L’acrotère profil en creux .rvt  `** 
+
+<p>&nbsp;</p>
+
+## 3- Les pare soleil métalliques
+
+<p>&nbsp;</p> 
+
+Nous allons importer la coupe C2, au format dwg, en fond de plan (de centre à centre, en mètre, uniquement dans cette vue). Cela nous servira à positionner le profil de l’auvent avec les brise- soleil. La trame des poteaux nous indique la position des poutres. L’auvent et les brise-soleil porteront entre ces poutres. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.52.28.png" alt="surface_topographique_6.52.28" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Voici les éléments qui composent le système : 
+
+- Les poutres longitudinales et transversales. 
+
+- Couverture de l’auvent : outil Platine. 
+
+- Les pare soleils. 
+
+Article CCTP : **PE5** 
+
+- LOT 02 CHARPENTE METTALIQUE ZINGUERIE 
+  - A Charpente métallique 
+    - B Couverture 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.52.41.png" alt="surface_topographique_6.52.41" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+En nous aidant de la Coupe C2, nous effectuerons la modélisation de la structure dans l’ordre suivant : 
+
+**1-** Modélisation de l’auvent avec l’outil Platine dans l’onglet Acier. 
+
+**2-** Modélisation des pare-soleil. 
+
+**3-** Modélisation des poutres longitudinales et transversales. 
+
+<p>&nbsp;</p> 
+
+### **1 – **Modélisation de l'auvent: 
+
+<p>&nbsp;</p>
+
+Ses dimensions sont 2.12 x 0.20 x longueur selon l’implantation. Il faut se rendre dans l’onglet **Acier** 1️⃣ et cliquer sur **Platine** 2️⃣. Se placer sur le Niveau 1er et dessiner une platine horizontale, de la forme d’un trapèze, d’une surface de 21.60 et 19.58 x 2.02 m (environ). 
+
+Il faut s’aider des poteaux à chacun des angles pour dessiner son implantation. Valider son esquisse avec la coche verte ✅. Dans une vue en coupe, copier l’auvent 20 cm plus bas, en cliquant dessus et ne le déplaçant, avec la touche **CTRL** enfoncée. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.52.50.png" alt="surface_topographique_6.52.50" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Ci-dessous, **Vue {3D}** représente les 2 faces de l’auvent. Il reste à modéliser les 3 tranches repérées par un trait rouge. Nous pourrons ensuite régler son inclinaison à l’aide de la Coupe C2 en dwg importée dans la façade Est de Revit. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.53.00.png" alt="surface_topographique_6.53.00" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Ci-dessous, nous avons sélectionné l’auvent et repositionné sur **l’Elévation Est** (fond de plan dwg). Nous allons modéliser les pare-soleil métalliques. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.53.10.png" alt="surface_topographique_6.53.10" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+### **2 – **Modélisation des Pare-soleil: 
+
+<p>&nbsp;</p>
+
+Après avoir cliqué sur Poutre de l’onglet **Structure**, il faut **Charger la famille** de poutre métallique **RHS (En 10219-2)**, qui correspond au profil du pare-soleil (chemin Structure, Ossature et Acier). Nous choisirons dans le tableau la section : **RHS80x40x2**. 
+
+Elle sera renommée RSH240X40X2, avec les dimensions adaptées dans la **partie géométrie de coupe structurelle**. 
+
+Tracer cette poutre sur le **Niveau 1er**, dans le sens de l’auvent qui est visible, lui donner un angle de 45° et la dupliquer selon la représentation ci-dessous : 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.53.20.png" alt="surface_topographique_6.53.20" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+La modélisation de l’auvent sera simplifiée, afin de proposer une implantation en 3D (avec une structure métallique). L’ensemble (auvent et pare-soleil) peut désormais être repositionné dans la vue 3D du projet.
+
+Comme indiqué ci-dessous, les longueurs des pare-soleils seront ajustées dans la vue du **Niveau 1er**. Sélectionner les pare-soleils un à un et ajuster leur longueur du point **1️⃣** au point **2️⃣**, jusqu’à la ligne d’intersection des auvents à 45°. L’auvent sera également ajusté à cette ligne.  
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.53.32.png" alt="surface_topographique_6.53.32" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_6.53.49.png" alt="surface_topographique_6.53.49" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Nous allons maintenant dupliquer cet ensemble de l’autre côté de la cour, celui du milieu sera modélisé par la suite (duplication). 
+
+Pour dupliquer l’ensemble 1️⃣ (auvent et pare-soleil), il faut le Sélectionner, cliquer sur **Symétrie – choisir l’axe**
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_7.01.22.png" alt="surface_topographique_7.01.22" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+et cliquer sur **l’axe central** 2️⃣, la copie se place dans la zone encadrée 3️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_7.01.38.png" alt="surface_topographique_7.01.38" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Pour réaliser l’ensemble, auvent et pare-soleil, dans l’axe de la cour, il faudra dupliquer en rotation un des deux modélisés précédemment. Voici le résultat : 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_7.02.02.png" alt="surface_topographique_7.02.02" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+### **3 – **Modélisation des poutres longitudinales et transversales : 
+
+<p>&nbsp;</p>
+
+Dans cette troisième et dernière partie, rien de différent de ce qui a été abordé lors de la modélisation des poutres, hormis les valeurs de décalage du niveau de départ et d’arrivée, qui vont vous permettre de régler l’inclinaison de la poutre, le cas échéant. 
+
+**Voici le résultat final :** Auvent + pare soleil + poutres 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/21_surface_topographique/surface_topographique_7.02.11.png" alt="surface_topographique_7.02.11" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+**`Fichier étape 3.19.3 Les pare- soleils métalliques.rvt  `** 
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
