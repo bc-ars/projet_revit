@@ -85,11 +85,11 @@ Dans le **Panneau Propriétés** 1️⃣ de **l’Escalier coulé sur place Mono
 
 - Profondeur actuelle du giron : 0.35 m 
 
-Penser à cliquer sur **Appliquer** afin d’enregistrer vos paramètres. 
+Cliquez sur **Appliquer** afin d’enregistrer vos paramètres. 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_4.51.png" alt="creation_rampes_exrerieures_4.51" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_4.51.png" alt="creation_rampes_exrerieures_4.51" style="max-width: 60%" />
 
 <p>&nbsp;</p>
 
@@ -107,7 +107,7 @@ La coupe localisée sur l’escalier présente 4 hauteurs de marche de 13.5 cm e
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_6.19.png" alt="creation_rampes_exrerieures_6.19" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_6.19.png" alt="creation_rampes_exrerieures_6.19" style="max-width: 70%" />
 
 <p>&nbsp;</p>
 
@@ -129,7 +129,7 @@ Nous allons modéliser la rampe 1️⃣ repérée ci-dessous dans les vues en pl
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_6.29.png" alt="creation_rampes_exrerieures_6.29" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_6.29.png" alt="creation_rampes_exrerieures_6.29" style="max-width: 60%" />
 
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_6.39.png" alt="creation_rampes_exrerieures_6.39" style="max-width: 100%" />
 
@@ -153,7 +153,7 @@ Dans la fenêtre **Propriétés du type** 1️⃣, de la nouvelle **Rampe d’ac
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_6.48-8883998.png" alt="creation_rampes_exrerieures_6.48" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_6.48.png" alt="creation_rampes_exrerieures_6.48" style="max-width: 80%" />
 
 <p>&nbsp;</p> 
 
@@ -177,7 +177,7 @@ Sur le même principe que sur une seule partie de la rampe, reprenez votre modé
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_7.45.png" alt="creation_rampes_exrerieures_7.45" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_7.45.png" alt="creation_rampes_exrerieures_7.45" style="max-width: 50%" />
 
 <p>&nbsp;</p> 
 
@@ -219,7 +219,7 @@ Cette étape est longue et malgré le soin apporté à modéliser ces éléments
 
 <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_8.04.png" alt="creation_rampes_exrerieures_8.04" style="max-width: 100%" />
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_8.04-8884410.png" alt="creation_rampes_exrerieures_8.04" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/20_creation_rampes_exterieures/creation_rampes_exrerieures_8.04.png" alt="creation_rampes_exrerieures_8.04" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
