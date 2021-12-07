@@ -1,0 +1,265 @@
+# La surface topographique
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Nous allons modéliser le terrain du projet, sa surface topographique. Nous utiliserons l’outil afin de modéliser le terrain point par point. Cette méthode tient compte des éventuels dénivelés. 
+
+<p>&nbsp;</p> 
+
+## 1- Importation du fond de plan topographique dwg  
+
+<p>&nbsp;</p> 
+
+Au préalable, il faut désactiver la visibilité du plan de **RDC.dwg** dans les **Catégories importées**. Nous allons importer le fond de plan dwg qui va nous permettre de dessiner la topographie du site. Dans l’arborescence du projet, ouvrir le **Plan Masse**. 
+
+Dans l’onglet **Insérer** 1️⃣, cliquer sur **Importer CAO** 2️⃣. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/22_surface_topographique/surface_topographique_5.47.png" alt="surface_topographique_5.47" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Ouvrir le fichier **PLAN DE MASSE topographie formation.dwg**, dans le dossier du projet support. 
+
+Paramétrer l’importation selon les paramètres **encadrés en bleu**, ci-dessous. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/22_surface_topographique/surface_topographique_6.30.png" alt="surface_topographique_6.30" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Fermer la fenêtre avec le message **Certains éléments ont été perdus pendant l’importation …** . 
+
+Repositionner le fichier dwg importé sur un angle du projet (angle supérieur gauche), afin de faire correspondre les 2 fichiers. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/22_surface_topographique/surface_topographique_6.42.png" alt="surface_topographique_6.42" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Le projet Revit se superpose au fond de plan dwg. Les points NGF sont positionnés. Les altitudes caractéristiques utiles à la modélisation (taille supérieure) sont reliées par des courbes de niveaux (orange). Nous allons modéliser le Terrain Naturel. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/22_surface_topographique/surface_topographique_7.03.png" alt="surface_topographique_7.03" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 3.20.1 Importation plan topographique  `** 
+
+<p>&nbsp;</p> 
+
+## 2- Modélisation du terrain naturel 
+
+<p>&nbsp;</p> 
+
+Pour créer un site nivelé, il faut, depuis le niveau **Plan Masse**, cliquer sur l’onglet **Volume et site** 1️⃣ et choisir **Surface topographique** 2️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/22_surface_topographique/surface_topographique_7.37.png" alt="surface_topographique_7.37" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Le niveau 0.00 du projet est rattaché au niveau +4.81 NGF du terrain. 
+
+Avant de dessiner votre site, il faut masquer l’ensemble des éléments modélisés du projet visible sur le Plan Masse (Masquer le fond de plan dwg, sélection l’ensemble du projet, masquer dans la vue Elément, puis afficher à nouveau le fond de plan dwg). Étendre la plage de vue sans limite pour le bas. Voici la correspondance des niveaux NGF caractéristiques du site et du projet : 
+
+Le terrain du projet se trouve sur les 5 altitudes NGF caractéristiques ci-contre. Nous les rattachons aux niveaux du projet. Ce sont ces niveaux qui vont nous servir à modéliser le site. La cotation altimétrique du projet sera faite en fonction. 
+
+<p>&nbsp;</p> 
+
+| **Numéro de Point** | **Altitude NGF** **en m** | **Altitude du PROJET** **en m** |
+| :-----------------: | :-----------------------: | :-----------------------------: |
+|          1          |           +3.85           |              -0.95              |
+|          2          |          + 3.90           |              -0.90              |
+|          3          |           +3.95           |              -0.85              |
+|          4          |           +4.00           |              -0.80              |
+|          5          |          + 4.05           |              -0.75              |
+|          6          |           +4.10           |              -0.70              |
+
+<p>&nbsp;</p> 
+
+Vous vous trouvez sur le niveau **Plan Masse** 1️⃣, dans l’onglet **Modifier I Modifier la surface** 2️⃣, l’outil **Placer un point** 3️⃣ est actif. Pour la première altitude, +3.85 NGF, saisir la valeur **-0.96 **4️⃣, puis cliquer sur le **point de cette altitude** 5️⃣ sur la zone de travail Dessiner ainsi la courbe de niveau qui passe par ces points -0.96 (Revit devrait vous dessiner un trapèze vert qui représente la surface à cette altitude). 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/22_surface_topographique/surface_topographique_7.46.png" alt="surface_topographique_7.46" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Après avoir saisi les 4 points à -0.96, Revit devrait vous dessiner un trapèze vert qui représente la surface plane à cette altitude, comme indiqué ci-dessous :
+
+ <p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/22_surface_topographique/surface_topographique_7.55.png" alt="surface_topographique_7.55" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Poursuivez ainsi la modélisation des autres altitudes du projet, en vérifiant la saisie dans la case.  A la fin de la modélisation, cliquer sur la coche ✅ verte pour la valider. Pour contrôler son travail, on peut effectuer une coupe sur terrain pour mesurer la déclivité. 
+
+*💡 : On peut déplacer un point afin de couvrir la surface de terrain. C’est notamment le cas de celui qui est à l’altitude +4.05 qui remonte 1.01 m plus haut.* 
+
+*Si l’on souhaite ajuster correctement la surface topographique avec les limites de propriété, il faut **Scinder la surface** (Volume et site), ce qui permet de découper des parties, et de pouvoir les supprimer. Les angles seront réajustés en déplaçant les points noirs des extrémités.* 
+
+Voici le résultat obtenu, avec le projet, après la saisie des points d’altitude : 
+
+(Vue Plan de Masse, Vue {3D} et Coupe Longitudinale Cuisine - Réfectoire - Stockage cuisine).
+
+ <p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/22_surface_topographique/surface_topographique_8.08.png" alt="surface_topographique_8.08" style="max-width: 100%" />
+
+
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/22_surface_topographique/surface_topographique_8.19.png" alt="surface_topographique_8.19" style="max-width: 100%" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/22_surface_topographique/surface_topographique_8.29.png" alt="surface_topographique_8.29" style="max-width: 100%" />
+
+ <p>&nbsp;</p> 
+
+**`Fichier étape 5.2.2 Modélisation du terrain naturel 1.rvt  `** 
+
+<p>&nbsp;</p>
+
+Dans notre cas de figure, le site ne dispose plus d’une seule surface de terrain naturel. Toute la surface extérieure est au même niveau, et recouverte d’un revêtement, soit – 0.70 m par rapport au niveau 0.00 du rez-de-chaussée. 
+
+De ce fait, après avoir appris à créer une surface topographique, nous allons créer une surface nivelée avec une altimétrie unique à -0.75 m projet soit 4.05 m NGF. Dans notre cas étudié, cela simplifie la modélisation. Cette réservation de 0.05 m nous permettra de modéliser soit un revêtement de sol minéral, soit de la terre végétale sur la parcelle côté rue Algred de Vigny. 
+
+En termes de modélisation, c’est la solution optimale sachant que toute la surface du terrain est au même niveau. Revit n’accepte que les terre-pleins à l’intérieur d’une topographie. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/22_surface_topographique/surface_topographique_8.42.png" alt="surface_topographique_8.42" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+**`Fichier étape 5.2.2 Modélisation du terrain naturel 2.rvt  `** 
+
+<p>&nbsp;</p>
+
+## 3- Le terre-plein
+
+<p>&nbsp;</p> 
+
+Les terre-pleins permettent de modifier la géométrie du terrain naturel, ils ne peuvent être créés que sur des surfaces topographiques. Nous utiliserons cette fonction pour la réalisation des fouilles des fondations du projet. (bâtiment Administration pour l’exemple). 
+
+Pour créer un site nivelé, depuis le niveau **Plan Masse** : Cliquer sur l’onglet **Volume et site** 1️⃣ et choisir **Terre-plein** 2️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/22_surface_topographique/surface_topographique_9.09.png" alt="surface_topographique_9.09" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Il faut créer un nouveau terre-plein. Cliquer sur **Modifier le type** dans le **Panneau Propriétés** du Terre-**plein béton 300 mm**, le **Dupliquer** et le renommer **Terre-plein - 10 mm** (matériau **terre).** La composition de ses couches est présentée ci-dessous. Le matériau sera la **Terre**, avec **1 cm d’épaisseur** (0.0100 m). 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/22_surface_topographique/surface_topographique_8.49.png" alt="surface_topographique_8.49" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Paramétrer la **Plage de vue** du niveau **Mur soubassement** 1️⃣ : 
+
+Cette étape est importante afin d’avoir le meilleur confort de travail, de visibilité. 
+
+**Choisir :** 
+
+​	**Décalage haut :** 0.5000 
+
+​	**Plan de coupe Décalage** : 0.5000 
+
+​	**Bas :** Sans limite 
+
+​	**Profondeur de vue :** Sans limite 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/22_surface_topographique/surface_topographique_9.27.png" alt="surface_topographique_9.27" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+faut dessiner le terre-plein ou choisir des lignes existantes comme limite. Une fois la fonction du terre-plein activée, l’onglet **Modifier I Créer une limite pour le terre-plein** 1️⃣ s’ouvre, paramétrer correctement sa position dans les **Contraintes** 2️⃣, puis cliquer sur **l’icône Choisir de lignes** 3️⃣ pour désigner son implantation. Il faut venir choisir les contours des fondations. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/22_surface_topographique/surface_topographique_9.51.png" alt="surface_topographique_9.51" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Réaliser ainsi tout le contour des fondations du bâtiment administration, comme repéré ci-dessous. Après validation avec la **coche verte** ✅.  
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/22_surface_topographique/surface_topographique_91.57.png" alt="surface_topographique_91.57" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Le terre-plein est visible dans une coupe sur le bâtiment Administration: 
+
+**1** - Plan horizontal de 1 cm d’épaisseur. 
+
+**2** - Vide vertical entre le sol et la fondation. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/22_surface_topographique/surface_topographique_9.55.png" alt="surface_topographique_9.55" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 3.20.3 Le terre plein 1.rvt  `** 
+
+<p>&nbsp;</p> 
+
+De la même façon, vous réaliserez tous les terre-pleins des semelles filantes du bâtiment. 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 3.20.3 Le terre plein 2.rvt  `** 
+
+<p>&nbsp;</p> 
+
+## 4- Les revêtements de sol extérieurs
+
+<p>&nbsp;</p> 
+
+Cette étape vient dans la continuité de la création de la topographie du site. Même si ils seront modifiés ou réajustés par la suite (avant les phases de rendus), nous allons modéliser les revêtements de sol, de 0.05 m d’épaisseur, sur le niveau **Voirie / extérieur**. Ils seront de plusieurs types : 
+
+- 1- revêtement asphalte gris foncé façade principale, pour les parkings. 
+
+- 2- revêtement asphalte gris clair, pour les terrains de sport, façade arrière. 
+
+- 3- revêtement paysager (écorces de résineux coloris rouge et brun, et graviers clairs), façade Nord Administration - salles d’activités. 
+
+Il faudra créer les matériaux : 
+
+\- **asphalte gris foncé**, **asphalte gris clair**, **écorces résineux et graviers clairs.** 
+
+Pour la réalisation du revêtement paysager, il faudra observer son tracé sur la photo satellite, la modélisation sera effectuée avec les outils **splines**, **lignes** et **choisir des lignes**, avec des choix de matériaux avec le **Navigateur de ressources**. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/22_surface_topographique/surface_topographique_92.22.png" alt="surface_topographique_92.22" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Voici une vue d’ensemble du projet avec les revêtements de sol extérieurs : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/22_surface_topographique/surface_topographique_92.33.png" alt="surface_topographique_92.33" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 3.20.4 Les revêtements de sol extérieurs.rvt  `** 
+
+<p>&nbsp;</p> 
+
+<p>&nbsp;</p> 
+
