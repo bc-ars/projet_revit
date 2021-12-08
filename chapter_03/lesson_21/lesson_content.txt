@@ -1,0 +1,222 @@
+# Insertion de composant de site, de parking et d’objets 3D 
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Nous allons découvrir comment insérer des objets 3D ou 2D appelés composants de site ou objets 3D de la bibliothèque intégrée au logiciel. 
+
+<p>&nbsp;</p> 
+
+## 1- Composant de site: plantes, personnages, véhicules
+
+<p>&nbsp;</p> 
+
+Les composants de site sont des composants spécifiques comme les plantes, les arbres, les bornes incendie, les personnages et les véhicules. 
+
+Dans l’onglet **Volume et site** 1️⃣, cliquer sur **Composant de site **2️⃣, et quand le message indique **"Aucune famille Site n’est chargée dans le projet"** cliquer sur **Oui** pour Charger la famille. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/23_composant_site/composant_site_0.02.png" alt="composant_site_0.02" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Les composants de site se trouvent dans les dossiers : 
+
+\- **France / Plantes** : Arbre et plantes 
+
+\- **France / Site** : Véhicules, portails, panneaux, … 
+
+\- **France / RPC** : Voitures, ordinateur et personnages 
+
+Il faut se placer sur le niveau **Plan Masse**, choisir l’arbre **RPC Arbre – Conifère** et dans le **Panneau Propriétés** choisir le **Cyprès d’Italie – 5.0 mètres**, par exemple. Cet arbre sera implanté sur le niveau **Voirie / extérieur**. Placer ces arbres selon l’implantation proposée ci-dessous, avec des Cyprès de diamètres **5 mètres** 1️⃣ ou **3 mètres** 2️⃣, par duplication. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/23_composant_site/composant_site_0.09.png" alt="composant_site_0.09" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Vous pouvez placer de la même façon, d’autres plantes pour arborer l’espace paysager du projet au Nord, la bande verte au Sud et les jardinières façades Ouest et Est. Il est toujours utile de contrôler son travail dans la **vue {3D}**. 
+
+par exemple nous pouvons avoir l'aménagement de l’espace paysager en exemple ci-dessous, façade Nord du projet, en **Vue {3D}:** 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/23_composant_site/composant_site_0.18.png" alt="composant_site_0.18" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+De la même façon, on peut placer des personnages et d’autres objets RPC, qui sont des objets qui ont un contenu photo réaliste (texture). 
+
+<p>&nbsp;</p>
+
+**`Fichier étape 3.20.1 Composant de site.rvt `** 
+
+<p>&nbsp;</p>
+
+## 2- Composant de parking
+
+<p>&nbsp;</p> 
+
+Les composants de parking contiennent les tracés des emplacements pour les véhicules. Pour les placer sur la modélisation, nous allons modifier l’implantation du Sol Asphalte gris foncé, jusqu’au trottoir. 
+
+Depuis le niveau *Voirie / extérieur*, il faut sélectionner le **Sol Asphalte gris foncé**, cliquer sur **Modifier la limite** et la superposer avec celle du trottoir. Placer ensuite les emplacements de parking que nous trouvons dans l’onglet **Volume et site**, icône **Composant de parking**. Les dimensions des emplacements seront modifiées afin de respecter les dimensions réglementaires (PMR). 
+
+*💡 : **Indication***
+
+- *La bande chaussée est accessible depuis **Composant**, **Site et Parking**, dans l’onglet **Architecture**.* 
+
+- *Pour faire tourner sur lui-même un composant, appuyer sur la barre **ESPACE** du clavier.* 
+
+**Voici le résultat sur le Plan Masse :** 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/23_composant_site/composant_site_0.27.png" alt="composant_site_0.27" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+**Voici le résultat sur un rendu de la Vue {3D} :** 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/23_composant_site/composant_site_0.35.png" alt="composant_site_0.35" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+**`Fichier étape 3.20.2 Composants de parking.rvt `** 
+
+<p>&nbsp;</p>
+
+## 3- Les objets 3D
+
+<p>&nbsp;</p> 
+
+Nous allons intégrés les composants de **Mobilier** et **Sanitaires**. Les mobiliers peuvent être accessibles depuis le répertoire **Mobilier** dans **France**. Ils sont classés dans 20 catégories, comme indiqués ci-dessous.
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/23_composant_site/composant_site_0.44.png" alt="composant_site_0.44" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Pour les intégrer au projet, retenons 4 principes : 
+
+**1-** Se placer sur le niveau d’implantation avant de positionner l’objet 3D (déplaçable aussi depuis le **Panneau Propriétés**). 
+
+**2-** Tous ces objets 3D pivotent sur eux-mêmes en appuyant sur la barre ESPACE du clavier. 
+
+**3-** Les objets 3D sont positionnés dans le plan avec des cotations temporaires bleues, afin d’ajuster leurs positions. 
+
+**4-** Utiliser l’outil Réseau pour dupliquer en série les objets 3D. 
+
+Les sanitaires sont dans le répertoire **Appareils sanitaires**, au sein de **France**. Ils sont classés selon 8 catégories. 
+
+<p>&nbsp;</p> 
+
+À vous maintenant de placer les objets 3D liés aux fonctions des différents espaces du projet (tables, chaises, bureaux, rangements, mobiliers de restauration collective, sanitaires, …). 
+
+Implantons par exemple les **Sanitaires Filles** et **Garçons** en affichant le fond de plan RDC.dwg. Nous les implanterons en fonction du cloisonnement. Dans l’onglet **Architecture** 1️⃣, cliquer sur **Composant** 2️⃣ et **Placer un composant** 3️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/23_composant_site/composant_site_1.05.png" alt="composant_site_1.05" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Si le menu déroulant (triangle noir) du Panneau Propriétés ne propose pas le composant recherché, il faut alors **Charger la famille** (onglet **Modifier I Placer Composant**) dans **WC – Bidets – Urinoirs**. 
+
+Dans la fenêtre **Charger la famille** 1️⃣, le répertoire **WC – Bidets – Urinoirs** 2️⃣ est ouvert. Choisir la famille **WC à réservoir** 3️⃣. Vous pouvez voir  l'**Aperçu** 4️⃣ et cliquer sur **Ouvrir** 5️⃣ pour importer cette famille Revit .rfa dans votre projet. Celle-ci, comme les autres, sera intégrée définitivement dans votre fichier .rvt.
+
+ <p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/23_composant_site/composant_site_1.48.png" alt="composant_site_1.48" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Vous pouvez insérer le **WC à réservoir** (**1**) dans l’espace Sanitaires Filles, adossé à la cloison. Utiliser la cotation temporaire et la barre ESPACE du clavier pour l’ajuster. 
+
+Pour information, les sanitaires sont décrits dans le CCTP : **PE15** 
+
+- LOT 06 PLOMBERIE CHAUFFAGE 
+  - 03 APPAREILS SANITAIRES- NOMENCLATURE DES OUVRAGES. 
+
+Nous allons dupliquer avec l’outil **Réseau** ce sanitaire, dans les Sanitaires Filles. 
+
+\- Tracer un **plan de référence** 1️⃣ au milieu de la dernière cabine. 
+
+\- Sélectionner **le sanitaire** 2️⃣. 
+
+\- Choisir l’outil **Réseau** et saisir la valeur **6** pour le nombre d’éléments et **Dernier** pour le déplacement. La case **Regrouper et Associer** est cochée par défaut, l’ensemble dupliqué sera un groupe. 
+
+\- Cliquer sur la position du premier sanitaire en **3️⃣** puis sur la position du dernier sanitaire en **4️⃣**. 
+
+La fenêtre **5️⃣** affiche le nombre d’éléments dupliqués, ce nombre est ajustable. Valider son travail avec la touche **ENTREE** du clavier. Les 6 sanitaires sont désormais créés, comme indiqué ci-dessous : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/23_composant_site/composant_site_2.26.png" alt="composant_site_2.26" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Pour dupliquer 3 **sanitaires Filles** vers les **sanitaires Garçons** : 
+
+**`Avant`** 
+
+- Tracer un **plan de référence** 1️⃣ au milieu de la cloison qui les sépare. 
+
+- Sélectionner les **3 sanitaires** 2️⃣ depuis la gauche, avec la touche **CTRL** du clavier enfoncée. 
+
+- Choisir l’outil **Symétrie – Choisir l’Axe** 3️⃣. 
+
+- Cliquer sur le plan de référence 1️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/23_composant_site/composant_site_3.36.png" alt="composant_site_3.36" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Après`** 
+
+- Les **3 sanitaires** sont dupliqués. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/23_composant_site/composant_site_3.52.png" alt="composant_site_3.52" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+***💡 : Indication***
+
+- *Vérifier la hauteur des lavabos grâce à des coupes locales, ils s’implantent sans décalage sur le niveau.* 
+
+- *Tous les mobiliers spécifiques comme les équipements de la cuisine industrielle et les salles d’activité peuvent être téléchargés par la suite sur les sites de ressources de composants BIM.*
+
+- *Il faut fréquemment dupliquer les mobiliers paramétriques afin de les adapter aux prescriptions du projet.*
+
+- <p>&nbsp;</p> 
+
+**Voici les extraits de plans des espaces aménagés avec la bibliothèque de composants de Revit :** 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/23_composant_site/composant_site_4.01-8983537.png" alt="composant_site_4.01" style="max-width: 100%" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/23_composant_site/composant_site_4.14-8983544.png" alt="composant_site_4.14" style="max-width: 100%" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/23_composant_site/composant_site_4.22-8983551.png" alt="composant_site_4.22" style="max-width: 100%" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/23_composant_site/composant_site_4.30.png" alt="composant_site_4.30" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 3.20.3 Les objets 3D.rvt `** 
+
+**`Fichier étape 3.20.4 Les revêtements de sol extérieurs.rvt `** 
+
+<p>&nbsp;</p> 
+
+<p>&nbsp;</p> 
