@@ -12,7 +12,7 @@ Grâce à cette section, vous allez contrôler votre projet. Vous apporterez des
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_2.08.png" alt="ajustement_projet_2.08" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_2.08.png" alt="ajustement_projet_2.08" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -26,7 +26,7 @@ Modifiez la valeur du décalage supérieur ou de la hauteur non contrainte de la
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_2.21.png" alt="ajustement_projet_2.21" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_2.21.png" alt="ajustement_projet_2.21" style="max-width: 70%" />
 
 
 
@@ -42,7 +42,7 @@ Insérer une ouverture libre (famille Ouvertures libres dans Portes) dans le mur
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_2.38.png" alt="ajustement_projet_2.38" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_2.38.png" alt="ajustement_projet_2.38" style="max-width: 60%" />
 
 <p>&nbsp;</p> 
 
@@ -56,7 +56,7 @@ Insérer une ouverture libre (famille Ouvertures libres dans Portes) dans le mur
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_3.34.png" alt="ajustement_projet_3.34" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_3.34.png" alt="ajustement_projet_3.34" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -70,7 +70,7 @@ Modéliser un terre-plein positif de 0.05 m dans les vides sanitaires sur la top
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_3.43.png" alt="ajustement_projet_3.43" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_3.43.png" alt="ajustement_projet_3.43" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -112,7 +112,7 @@ Comparer les hauteurs des bâtiments avec les fichiers en dwg et modifier si né
 
  <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_4.22.png" alt="ajustement_projet_4.22" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_4.22.png" alt="ajustement_projet_4.22" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -170,15 +170,27 @@ Nous allons affiner l’affectation des matériaux aux composants créés, selon
 
 Cette section se présente sous forme d'exercices où les modifications sont localisées et les méthodes sont proposées. 
 
-**LES MENUISERIES EXTERIEURES** 
+<p>&nbsp;</p> 
+
+### **LES MENUISERIES EXTERIEURES** 
+
+<p>&nbsp;</p> 
 
 Cliquer sur **Modifier le type** de la menuiserie et dans la rubrique **Matériaux et finitions**, choisir **Aluminium laqué blanc** pour : Tapées, Poignée, Fenêtre et Appui. Le **Navigateur de matériaux** s’ouvre en cliquant sur le bouton de sous-menu qui est au bout de chaque ligne (petit carré avec 3 points). 
 
-**LES PLANELLES DE RIVE** 
+<p>&nbsp;</p> 
+
+### **LES PLANELLES DE RIVE** 
+
+<p>&nbsp;</p> 
 
 Pour toutes les solutions de chaînages qui intègrent des planelles de rive, il faut choisir le matériau **Blocs de béton manufacturés, si ce n’est pas déjà fait.** 
 
-**BETON ARME DES ELEMENTS DE STRUCTURE** 
+<p>&nbsp;</p> 
+
+### **BETON ARME DES ELEMENTS DE STRUCTURE** 
+
+<p>&nbsp;</p> 
 
 Affecter le matériau Béton, coulé sur place pour les chaînages, les dalles de compression, plancher dalle plein, les acrotères et fondations du projet. 
 
@@ -222,11 +234,19 @@ Voici, la même **Vue {3D}**, avec **le style visuel Couleurs uniformes** 1️�
 
 Cette méthode est fastidieuse mais logique dans l’utilisation du BIM. Aussi, la façon la plus simple d’appliquer une couleur à un composant est d’utiliser l’outil **Peindre**, vu dans les chapitres précédents. 
 
-**LES MENUISERIES INTÉRIEURES** 
+<p>&nbsp;</p> 
+
+### **LES MENUISERIES INTÉRIEURES** 
+
+<p>&nbsp;</p> 
 
 Nous procéderons de la même façon que pour les menuiseries extérieures, en modifiant les matériaux dans **Matériaux et finitions** du composant. Les huisseries sont en bois ou en métal (PE9). 
 
-**LES REVÊTEMENTS DE SOL : CARRELAGE** 
+<p>&nbsp;</p> 
+
+### **LES REVÊTEMENTS DE SOL : CARRELAGE** 
+
+<p>&nbsp;</p> 
 
 Nous allons affiner l’affectation des matériaux de revêtement de sol dans les différents espaces du projet, selon la répartition suivante : 
 
@@ -302,7 +322,7 @@ De retour dans la fenêtre Navigateur de matériau, cliquer sur **Appliquer et O
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_6.46.png" alt="ajustement_projet_6.46" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_6.46.png" alt="ajustement_projet_6.46" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -340,7 +360,7 @@ On peut aussi appliquer une texture personnelle, en cliquant sur le nom de la pr
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_7.30.png" alt="ajustement_projet_7.30" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_7.30.png" alt="ajustement_projet_7.30" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
