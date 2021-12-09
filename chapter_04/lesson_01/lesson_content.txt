@@ -1,0 +1,358 @@
+# Modélisation et matériaux
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Grâce à cette section, vous allez contrôler votre projet. Vous apporterez des modifications et vous le complèterez sur les différents points relevés. Ce chapitre se présente sous forme d'exercices où les modifications sont localisées et les méthodes sont proposées. 
+
+<p>&nbsp;</p> 
+
+## 1- Ajustements de la modélisation  
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_2.08.png" alt="ajustement_projet_2.08" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**1 - MODIFICATION À APPORTER** 
+
+Vérifier la jonction des cloisons intérieures du projet avec la sous face de la dalle supérieure. 
+
+**MÉTHODE DE TRAVAIL** 
+
+Modifiez la valeur du décalage supérieur ou de la hauteur non contrainte de la cloison. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_2.21.png" alt="ajustement_projet_2.21" style="max-width: 100%" />
+
+
+
+<p>&nbsp;</p> 
+
+**2 - MODIFICATION À APPORTER** 
+
+Créer une ouverture, sans porte, entre l’entrée du réfectoire et le SAS local TGBT (avec un cadre). 
+
+**MÉTHODE DE TRAVAIL** 
+
+Insérer une ouverture libre (famille Ouvertures libres dans Portes) dans le mur repéré en rouge. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_2.38.png" alt="ajustement_projet_2.38" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**3 - MODIFICATION À APPORTER** 
+
+\- Supprimer les 2 passages des deux murs et insérer des ouvertures libres, avec un cadre en bois. 
+
+**MÉTHODE DE TRAVAIL** 
+
+\- Assembler les murs entre eux et insérer des ouvertures libres (famille Ouvertures libres dans Portes) dans les murs repérés en rouge. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_3.34.png" alt="ajustement_projet_3.34" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**4 - MODIFICATION À APPORTER** 
+
+Créer une zone de terre-plein dans les vides sanitaires pour retrouver le sol naturel au niveau Voirie / extérieur à -0.70. 
+
+**MÉTHODE DE TRAVAIL** 
+
+Modéliser un terre-plein positif de 0.05 m dans les vides sanitaires sur la topographie. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_3.43.png" alt="ajustement_projet_3.43" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**5 - MODIFICATION À APPORTER** 
+
+Créer une zone de terre-plein sous l’espace central de la cour, pour porter le dallage. 
+
+**MÉTHODE DE TRAVAIL** 
+
+Modéliser un terre-plein positif de 0.49 m entre le dallage de la cour et la topographie. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_4.03.png" alt="ajustement_projet_4.03" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**6 - MODIFICATION À APPORTER** 
+
+Contrôler et modifier les contraintes supérieures des bâtiments Cuisine et Réfectoire. 
+
+**MÉTHODE DE TRAVAIL** 
+
+Comparer les hauteurs des bâtiments avec les fichiers en dwg et modifier si nécessaire les contraintes supérieures. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_4.14.png" alt="ajustement_projet_4.14" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**7 - MODIFICATION À APPORTER** 
+
+Contrôler et modifier les contraintes supérieures des bâtiments Salles d’Activités et Administration (hauteur des acrotères différentes). 
+
+**MÉTHODE DE TRAVAIL** 
+
+Comparer les hauteurs des bâtiments avec les fichiers en dwg et modifier si nécessaire les contraintes supérieures. 
+
+ <p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_4.22.png" alt="ajustement_projet_4.22" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**8 - MODIFICATION À APPORTER** 
+
+Modéliser des garde-corps sur le pourtour de la terrasse du 1er étage, et vérifier la hauteur des acrotères. 
+
+**MÉTHODE DE TRAVAIL** 
+
+Esquisser une trajectoire des garde-corps en suivant les murs d’acrotères de la terrasse du 1er étage. Changer la hauteur des garde-corps et de pose. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_4.32.png" alt="ajustement_projet_4.32" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**9 - MODIFICATION À APPORTER** 
+
+\- Modéliser des garde-corps sur le pourtour de la terrasse du 1er étage, et vérifier la hauteur des acrotères. 
+
+**MÉTHODE DE TRAVAIL** 
+
+\- Esquisser une trajectoire de garde-corps en suivant les murs d’acrotères de la terrasse du 1er étage. Changer la hauteur des garde-corps et de pose. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_4.41.png" alt="ajustement_projet_4.41" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**10 - MODIFICATION À APPORTER** 
+
+\- Modéliser un mur porteur pour refermer le volume de l’ascenseur. Il accueillera une cage d’ascenseur de Revit. 
+
+**MÉTHODE DE TRAVAIL** 
+
+\- Modéliser le Mur de base M7 BA 16 + plâtre manquant, sur les deux niveaux du projet, en modifiant les trémies, et en insérant la cage d’ascenseur. 
+
+<p>&nbsp;</p> 
+
+Tous ces ajustements de la modélisation sont intégrés dans le fichier étape. Selon le niveau de précision et de développement de la maquette, on peut toujours la faire évoluer. Cependant, cela reste contre-productif de pousser le niveau de détail trop loin, ce qui incombe ensuite aux plans d’exécution 2D ; en cas de modifications de solutions constructives, le temps de travail s’en trouve d’autant plus rallongé. 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 4.1 Ajustements modélisation.rvt  `** 
+
+<p>&nbsp;</p> 
+
+## 2- Ajustements de matériaux  
+
+<p>&nbsp;</p> 
+
+Nous allons affiner l’affectation des matériaux aux composants créés, selon les prescriptions du CCTP, et également pour le rendu. Vous apporterez des modifications et vous le complèterez sur les différents points relevés. 
+
+Cette section se présente sous forme d'exercices où les modifications sont localisées et les méthodes sont proposées. 
+
+**LES MENUISERIES EXTERIEURES** 
+
+Cliquer sur **Modifier le type** de la menuiserie et dans la rubrique **Matériaux et finitions**, choisir **Aluminium laqué blanc** pour : Tapées, Poignée, Fenêtre et Appui. Le **Navigateur de matériaux** s’ouvre en cliquant sur le bouton de sous-menu qui est au bout de chaque ligne (petit carré avec 3 points). 
+
+**LES PLANELLES DE RIVE** 
+
+Pour toutes les solutions de chaînages qui intègrent des planelles de rive, il faut choisir le matériau **Blocs de béton manufacturés, si ce n’est pas déjà fait.** 
+
+**BETON ARME DES ELEMENTS DE STRUCTURE** 
+
+Affecter le matériau Béton, coulé sur place pour les chaînages, les dalles de compression, plancher dalle plein, les acrotères et fondations du projet. 
+
+**L’ENDUIT DE FACADE DU R+1** 
+
+Pour l’ajustement de l’enduit de façade, il faut distinguer deux choses : 
+
+\- **La couleur de l’aperçu** dans la fenêtre de travail, dans le **style visuel Couleurs uniformes :** 
+
+La teinte est déterminée dans l’onglet **Graphiques** du matériau **Maçonnerie – Enduit**. Dans la rubrique **Ombrage**, la couleur est **RGB 245 228 177**. 
+
+**- L’apparence du rendu :** Il faut commencer par dupliquer le matériau **Maçonnerie – Enduit** dans le **Navigateur de matériau** et le renommer : **Maçonnerie – Enduit ton pierre.** 
+
+Dans le **Navigateur de matériaux** 1️⃣, de **Maçonnerie – Enduit ton pierre** 2️⃣, ouvrir l’onglet **Apparence** 3️⃣. Copier sur le symbole des doubles feuilles pour dupliquer la texture et la renommer **Extérieur lisse – ton pierre** 4️⃣, avec la **Couleur RGB245 228 177.** Cliquer sur **Appliquer** et **OK** (**7).** 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_4.54.png" alt="ajustement_projet_4.54" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Il faudra penser à affecter ce nouveau matériau pour l’enduit de façade à tous les murs du projet, en RDC (murs et chaînages). 
+
+En utilisant la même méthode de travail, vous ajusterez la teinte des éléments de structure du R+1 : (Murs, chaînage et acrotères). Voici un exemple avec le Mur M1 : 
+
+- **Dupliquer** et **renommer** le mur de l’étage M1 : **M1 enduit 2 +BBMC 20+ iso 10** devient **M1E enduit 2 +BBMC 20+ iso 10**. 
+
+- Créer le matériau **Maçonnerie – Enduit teinte ocre rouge moyen**. 
+
+- Attribuer la teinte **RGB 1468484** au matériau (onglets Graphiques et Apparence). 
+
+- **Nom dans la case information : Extérieur lisse - ton ocre rouge moyen.** 
+
+Voici, la même **Vue {3D}**, avec **le style visuel Couleurs uniformes** 1️⃣ et avec **le mode Rendu** 2️⃣ : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_5.04.png" alt="ajustement_projet_5.04" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Cette méthode est fastidieuse mais logique dans l’utilisation du BIM. Aussi, la façon la plus simple d’appliquer une couleur à un composant est d’utiliser l’outil **Peindre**, vu dans les chapitres précédents. 
+
+**LES MENUISERIES INTÉRIEURES** 
+
+Nous procéderons de la même façon que pour les menuiseries extérieures, en modifiant les matériaux dans **Matériaux et finitions** du composant. Les huisseries sont en bois ou en métal (PE9). 
+
+**LES REVÊTEMENTS DE SOL : CARRELAGE** 
+
+Nous allons affiner l’affectation des matériaux de revêtement de sol dans les différents espaces du projet, selon la répartition suivante : 
+
+**1-** Carrelage gré cérame ton beige clair: RDC (accessible au public sauf salle de réunion, dgt). 
+
+**2-** Carrelage gré cérame ton gris foncé : RDC (stockage, TGBT, Sas). 
+
+**3-** Carrelage gré cérame ton gris clair : RDC (parvis entrée et entrée réfectoire). 
+
+**4-** Sol souple vinylique en lé ton bleu clair (locaux secs salle de réunion, salle de repos, rgt étage). 
+
+**5-** Sol souple vinylique en lé ton gris clair (vestiaires H et F, sanitaires G et F, local ménage, cumulus, dgt). 
+
+**6**- Carrelage gré cérame ton blanc : RDC (cuisine). 
+
+Nous identifierons les revêtements de sol avec l’indice du matériau Pn (n de 1 à 6), et il faudra modifier les esquisses des planchers afin de leur attribuer le bon matériau de sol. 
+
+Regardons en détail le sol **Plancher P1 Chape 5 + carrelage 2**, en carrelage gré cérame ton beige clair. Nous allons ajuster la texture du carrelage avec la bonne teinte et le calepinage des carreaux (40 x 40). 
+
+Pour cela sélectionner le sol dans l’entrée du projet soit à l’aide d’une coupe soit en survolant sa limite en plan tout en appuyant sur la touche tabulation du clavier pour le sélectionner. 
+
+Après avoir sélectionné le plancher **P1** et avoir cliqué sur **Modifier le type**, la fenêtre **Modifier l’assemblage** 1️⃣ du **Plancher P1 Chape 5 + carrelage** 2️⃣ s’ouvre. Pour ajuster le carrelage afin d’obtenir le **Carrelage beige clair** 3️⃣, cliquer sur **le bouton de sous menu** 4️⃣ des matériaux. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_5.17.png" alt="ajustement_projet_5.17" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+En bas de la fenêtre **Navigateur de matériaux**, cliquer sur **l’icône Créer un matériau** (ci-dessous). Nommer-le **Carrelage beige clair**. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_5.27.png" alt="ajustement_projet_5.27" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dans l’onglet **Graphiques**, indiquer la Couleur **RGB 234 215 194** (dans **Ombrage**). C’est la teinte de surface que l’on voit en plan et dans le style visuel Couleurs uniformes. Afin d’affecter un matériau (texture) d’Autodesk à votre nouveau matériau, cliquer sur le **Navigateur de ressources**. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_5.37.png" alt="ajustement_projet_5.37" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dans la fenêtre du **Navigateur de ressources 1️⃣**, taper carrelage 2️⃣ dans la zone "**Rechercher**". Choisir le Carrelage Carrés 6 pro – Beige 3️⃣. Il appartient aux bibliothèques de **Ressources physiques Autodesk** (thermique, masse, …) 4️⃣ et d’**apparences** (texture) 5️⃣. Cliquer sur l’icône d’**association** 6️⃣ afin d’associer cette texture à votre matériau. Fermer votre fenêtre. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_5.53.png" alt="ajustement_projet_5.53" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dans la fenêtre **Navigateur de matériaux** 1️⃣, sélectionner votre matériau **Carrelage beige clair** 2️⃣, dans l’onglet **Apparences** 3️⃣, dupliquer 4️⃣ la texture actuelle afin de la conserver. Renseigner enfin dans les zones **Informations** 5️⃣ et **Céramique** 6️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_6.07.png" alt="ajustement_projet_6.07" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous venons de définir la texture du carrelage, avec la teinte beige, de notre matériau du revêtement de sol. Il nous reste à ajuster le calepinage afin d’avoir les dimensions 40 x 40. Dans **Motif de relief**, cliquer sur l’image utilisée à cet effet pour le carrelage. Nous allons ajuster ses dimensions à la taille du carreau. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_6.17.png" alt="ajustement_projet_6.17" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dans la fenêtre **Editeur de texture** 1️⃣ qui s’ouvre, nous avons **sa représentation en plan** avec **ses dimensions** 2️⃣. La source du **fichier d’origine** est indiquée 3️⃣. Dans **Echelle **4️⃣, saisir les valeurs **80.00 cm** et **80.00 cm** qi sont liées. Enfin, cliquer sur **Terminer** 5️⃣ pour valider le travail. 
+
+De retour dans la fenêtre Navigateur de matériau, cliquer sur **Appliquer et OK**. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_6.46.png" alt="ajustement_projet_6.46" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Voici le rendu avec l’ajustement de la texture du carrelage 40 cm x 40cm: 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_6.57.png" alt="ajustement_projet_6.57" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Cette méthode de travail est valable avec toutes les autres textures, originaires de Revit Autodesk. 
+
+On peut proposer une variante avec un parquet bois : **Plancher P1 Chape 5 + parquet 2**, avec une texture *Finishes.Flooring.Wood.Parquet.1.jpg* de Revit (du **parquet – brun).** Il faudra réduire la réflexivité. 
+
+On peut aussi appliquer une texture personnelle, en cliquant sur le nom de la précédente et en indiquant le chemin de la nouvelle. Il est préférable de l’inclure dans le dossier du projet (Si le dossier est déplacé, le chemin pour la télécharger change et Revit ne l’affichera pas). Il faudra redéfinir sa position. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_7.08.png" alt="ajustement_projet_7.08" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**Pour générer une vue 3D Caméra avec son rendu:** 
+
+- Se placer sur le Niveau 0 RDC. 
+
+- Choisir dans **l’onglet Vue** 1️⃣, puis **Vue 3D** 2️⃣, **Caméra** 3️⃣. 
+
+- Cliquer sur le plan pour placer la caméra et une deuxième fois pour orienter le champ de vision, la direction du point de vue. 
+
+- Ouvrir la Vue générée par la Caméra : **Vue 3D1** dans l’arborescence du projet. 
+
+- Afficher la vue avec le style visuel Couleurs uniformes, Niveau de détail : Elevé. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_7.30.png" alt="ajustement_projet_7.30" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+- Afficher la boîte de dialogue de rendu (Icône dans la barre des outils de visualisation), et lancer le rendu avec une résolution imprimante de 300 ppp, avec des **Conditions** d’éclairage soleil et lumières artificielles. Cliquer sur le bouton **Rendu**. 
+
+Les Vues 3D seront abordées en détail dans le chapitre sur la documentation du projet. 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 4.2 Ajustements matériaux.rvt   `** 
+
+<p>&nbsp;</p> 
+
+<p>&nbsp;</p> 
+
