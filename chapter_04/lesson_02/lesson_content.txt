@@ -4,7 +4,7 @@
 
 <p>&nbsp;</p>
 
-Nous  allons découvrir 3 sites de ressources en ligne, vous permettant d'intégrer à votre projet les produits réels des fabricants industriels. Ces objets bim répondent à l’objectif du BIM d’intégrer dans une maquette numérique les informations modélisées du bâtiment. 
+Nous  allons découvrir 3 sites de ressources en ligne, vous permettant d'intégrer à votre projet les produits réels des fabricants industriels. Ces objets BIM répondent à l’objectif du BIM d’intégrer dans une maquette numérique les informations modélisées du bâtiment. 
 
 Vous augmenterez le niveau de détail de la maquette BIM du niveau 2 avec des composants génériques vers le niveau 3 avec des composants professionnels qui traduisent les prescriptions des pièces écrites. 
 
