@@ -56,7 +56,7 @@ Comment créer notre **Variante 1 bassin** dans la fenêtre **Variantes** 1️�
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_20.19.png" alt="variantes_20.19" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_20.19.png" alt="variantes_20.19" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -84,7 +84,7 @@ Cliquer sur l’icône **Ajouter au jeu**, à gauche du sélecteur de variantes.
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_21.02.png" alt="variantes_21.02" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_21.02.png" alt="variantes_21.02" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -96,7 +96,7 @@ Cliquer sur l’icône **Ajouter au jeu**, à gauche du sélecteur de variantes.
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_21.39.png" alt="variantes_21.39" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_21.39.png" alt="variantes_21.39" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -114,7 +114,7 @@ Dans la gestion des variantes, il faut créer une variante principale vide (cell
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_21.59.png" alt="variantes_21.59" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_21.59.png" alt="variantes_21.59" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -136,11 +136,11 @@ Le paramétrage a été effectué précédemment.
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_22.50.png" alt="variantes_22.50" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_22.50.png" alt="variantes_22.50" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_22.57.png" alt="variantes_22.57" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_22.57.png" alt="variantes_22.57" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -184,7 +184,7 @@ Dès lors que vous avez modélisé les 8 poteaux de la Halle couverte, vous pouv
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_23.37.png" alt="variantes_23.37" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_23.37.png" alt="variantes_23.37" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -228,7 +228,7 @@ Vous ajusterez toutes ces dimensions. Les valeurs indiquées ne sont pas défini
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_25.28-9420508.png" alt="variantes_25.28" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_25.28.png" alt="variantes_25.28" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -260,7 +260,7 @@ Nous devons maintenant définir notre plan perpendiculaire **PLAN**.
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_25.39-9482623.png" alt="variantes_25.39" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_25.39.png" alt="variantes_25.39" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -268,7 +268,7 @@ Dans la fenêtre **Plan de construction** 1️⃣, choisir de spécifier le nouv
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_25.59.png" alt="variantes_25.59" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_25.59.png" alt="variantes_25.59" style="max-width: 60%" />
 
 <p>&nbsp;</p> 
 
@@ -276,7 +276,7 @@ Pour le Niveau de référence du toit et décalage, choisir le **Niveau 1er**, s
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_25.49-9502394.png" alt="variantes_25.49" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_25.49.png" alt="variantes_25.49" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -296,9 +296,9 @@ Ajuster la position de la couverture par rapport à la charpente 1️⃣, et dan
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_26.42.png" alt="variantes_26.42" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_26.42.png" alt="variantes_26.42" style="max-width: 70%" />
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_26.52.png" alt="variantes_26.52" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_26.52.png" alt="variantes_26.52" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
