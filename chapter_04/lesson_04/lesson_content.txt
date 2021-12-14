@@ -58,7 +58,7 @@ Maintenant, nous allons dupliquer ce plan Niveau 0 RDC, avec les détails, à tr
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/33_phases/phases_5.30.png" alt="phases_5.30" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/33_phases/phases_5.30.png" alt="phases_5.30" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
