@@ -1,0 +1,380 @@
+# Les variantes du projet
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Nous allons comprendre le fonctionnement des variantes dans Revit. La variante de base sera le projet Revit initial et les autres variantes, dites secondaires, seront des solutions architecturales alternatives à la conception initiale. Nous avons le projet de base sur lequel on vient rajouter des éléments Pour illustrer cette fonction, nous nous intéresserons à l’aménagement de la cour centrale avec 3 variantes : 
+
+**1- Variante bassin** 
+
+**2- Variante charpente couverture** 
+
+**3- Variante forme libre, coque** 
+
+<p>&nbsp;</p> 
+
+## 1- Variante bassin
+
+<p>&nbsp;</p> 
+
+Nous repartirons du **`Fichier étape 6.3.L’étude d’ensoleillement du projet.rvt`**, avant les modifications du projet lors du phasage (afin de ne pas fausser, par la suite, les résultats des nomenclatures de quantité.) 
+
+Je vous propose de créer une première variante qui consiste à créer un bassin de faible profondeur, 40 cm avec 30 cm d’eau, au milieu de la cour. 
+
+Nous modéliserons un bassin rectangulaire de 10mx 4.20m, avec un mur de 40 cm de hauteur libre, sur l’esplanade de la cour. Ce mur sera composé de 3 couches : enduit 2 + BBMC 20 + carrelage 1. Nous ajouterons un fond avec le carrelage de 1 cm pour appliquer une texture ou une couleur. L’eau sera symbolisée par un plan avec la texture Water. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_19.44.png" alt="variantes_19.44" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+### **CRÉATION DU JEU DE VARIANTE ET DE LA VARIANTE** 
+
+<p>&nbsp;</p> 
+
+Nous allons voir comment définir la construction du bassin en tant que Variante du projet. Dans l’onglet **Gérer** 1️⃣, cliquer sur **Variantes **2️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_20.01.png" alt="variantes_20.01" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Comment créer notre **Variante 1 bassin** dans la fenêtre **Variantes** 1️⃣ qui s’ouvre : 
+
+- Cliquer sur **Nouveau** 2️⃣, pour créer un jeu de variantes. 
+
+- Sélectionner **le jeu de variantes créé** 3️⃣. 
+
+- Le renommer **Variantes cour intérieure** en cliquant sur le bouton **Renommer** 4️⃣. 
+
+- Pour renommer la variante 1 du jeu, la sélectionner 5️⃣ et cliquer sur **Renomme**r 6️⃣ : **Variante 1 bassin** (principale se rajoute après). 
+
+- Enfin, cliquer sur Fermer 7️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_20.19.png" alt="variantes_20.19" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+- La variante s’affiche dans le sélecteur de variante, à côté de la barre de visualisation des graphismes. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_20.27.png" alt="variantes_20.27" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+### **ATTRIBUTION DES ÉLÉMENTS DU BASSIN À LA VARIANTE** 
+
+<p>&nbsp;</p> 
+
+Sélectionner les 4 murs périphériques du bassin, comme indiqué ci-dessous. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_21.20.png" alt="variantes_21.20" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Cliquer sur l’icône **Ajouter au jeu**, à gauche du sélecteur de variantes. Nous allons attribuer les 4 murs à la **variante 1 bassin**. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_21.02.png" alt="variantes_21.02" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+- La fenêtre **Ajouter au jeu de variantes** s’ouvre. 
+
+- Dans la fenêtre **Ajouter au jeu de variantes** 1️⃣, choisir **Variante cour intérieure** (le seul jeu créé maintenant) 2️⃣ et cocher **la case de Variante 1 bassin (principale).** 
+
+- Une fois terminer, cliquer sur **OK** en bas de la fenêtre. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_21.39.png" alt="variantes_21.39" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Vous pouvez reproduire la même opération pour le sol du bassin (carrelage 1) et pour le niveau de l’eau. On s’aperçoit que les éléments de la **Variante 1 bassin** ne peuvent être sélectionnés uniquement si le sélecteur est sur cette variante, sur le **Modèle de base**, ils apparaissent grisés et ne sont pas éditables. 
+
+Dans la gestion des variantes, il faut créer une variante principale vide (celle-ci est associée lors de l’affichage au modèle de base). 
+
+- Rendez-vous dans la fenêtre **Variantes** 1️⃣. 
+
+- Créer une nouvelle variante (**Nouveau**) qui sera renommée : Variante vide 2️⃣. 
+
+- Cliquer sur **Rendre principale** (associée donc au modèle de base lors de son affichage). 
+
+- La **Variante 1 bassin** 3️⃣ perd son statut de principale. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_21.59.png" alt="variantes_21.59" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+### GESTION DE L’AFFICHAGE DES VARIANTES DANS LES VUES 
+
+<p>&nbsp;</p> 
+
+Pour gérer l’affichage des variantes dans les vues, il faut dans l’arborescence du projet dupliquer la vue avec les détails et la renommer avec le suffixe **Variante 1 bassin.** 
+
+Par exemple, pour une vue {3D} générique, nous la dupliquons avec le nom : **3D Variante 1 bassin**. 
+
+Pour gérer l’affichage de la variante sur la vue active, ici la vue 3D Variante 1 bassin, il faut se rendre dans la fenêtre **Remplacements visibilité : graphisme** (raccourci **vv**) 1️⃣. Dans l’onglet Variantes 2️⃣, nous retrouvons notre jeu de variante : **Variante cour intérieure** 3️⃣ et les **Variantes** associées 4️⃣. Choisir **la variante** 5️⃣ que l’on veut afficher dans notre vue. Cliquer sur **Appliquer** et **OK** en bas de la fenêtre. 
+
+Le paramétrage a été effectué précédemment. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_22.39.png" alt="variantes_22.39" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_22.50.png" alt="variantes_22.50" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_22.57.png" alt="variantes_22.57" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Une fois ces vues paramétrées, elles pourront être intégrées aux mises en page du projet pour présenter des solutions alternatives. 
+
+**`Fichier étape 8.1 Variante 1 bassin.rvt    `**  
+
+Dans les 2 exemples suivants, nous allons créer des variantes avec une famille de charpente intégrée au projet et une forme libre créée, une coque. 
+
+<p>&nbsp;</p> 
+
+## 2- Variante charpente et couverture  
+
+<p>&nbsp;</p> 
+
+Pour illustrer notre deuxième variante, nous allons réaliser une halle couverte avec une famille revit de charpente paramétrique et une couverture en tuile. Elle occupera la même emprise au sol que le bassin dans la variante 1, soit 10 m x 4.20 m. L’entrait sera à 2.50 m et la pente de la toiture sera de 30%. 
+
+<p>&nbsp;</p> 
+
+### MODÉLISATION DES 8 POTEAUX EN BOIS DE LA HALLE AVEC LES 6 POUTRES LONGITUDINALES
+
+<p>&nbsp;</p> 
+
+Nous allons modéliser les poteaux bois avec une section de 235x235 sur une hauteur de 2.50 m. Il faut charger la famille **Bois - Bois d'oeuvre.rfa** qui est dans le répertoire France / Structure / Poteaux / Bois., avec le Type 235 x 235 (vérifier les dimensions dans Structure). 
+
+Vous avez ci-contre les contraintes pour sa modélisation sur le **Niveau 0 RDC**. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_23.12.png" alt="variantes_23.12" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Vous pouvez modéliser les 8 poteaux selon le plan d’implantation ci-contre. La halle couverte est centrée dans la cour, par rapport aux circulations latérales à-0.02. Vous rajouterez des poutres. 
+
+Dès lors que vous avez modélisé les 8 poteaux de la Halle couverte, vous pouvez créer la Variante 2 charpente et couverture, et y associer les poteaux. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_23.26.png" alt="variantes_23.26" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_23.37.png" alt="variantes_23.37" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_23.44.png" alt="variantes_23.44" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+### IMPORTATION DE LA FAMILLE DE CHARPENTE TRADITIONNELLE
+
+<p>&nbsp;</p> 
+
+Nous allons importer la famille revit **ferme traditionnelle.rfa** dans notre projet actif (répertoire Ressource de la formation). Pour cela, ouvrir cette famille depuis le menu **Fichier** / **Ouvrir** / **Famille**, puis cliquer sur **charger dans le projet et fermer**. 
+
+Placez-vous sur le **Niveau 1er**, la ferme traditionnelle apparaît, cliquer sur le plan pour l’intégrer. Sinon, vous pouvez la trouver dans l’arborescence du projet dans **Familles** / **Ossature** / **Ferme traditionnelle**. Vous penserez à associer votre ferme à la Variante 2 charpente couverture. 
+
+Nous allons ajuster les valeurs de cette famille paramétrique afin de l’adapter à la structure porteuse verticale modélisée. 
+
+<p>&nbsp;</p> 
+
+### PARAMÉTRAGE DE LA FAMILLE FERME TRADITIONNELLE 
+
+Voici la ferme importée dans le projet, après une rotation. Dans la vue **Avant**, nous accédons, dans la fenêtre **Propriétés** 1️⃣ de la **Ferme traditionnelle** 2️⃣ aux paramètres d’implantation, les **Contraintes** 3️⃣. Ses dimensions et son niveau de base sont à modifier 4️⃣. Nous devons obtenir le résultat dans la vue **Après**. Le positionnement de la ferme sur les poteaux est réalisé. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_24.53.png" alt="variantes_24.53" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Ci-dessous, pour ajuster les dimensions de la **Ferme traditionnelle** 1️⃣, **des cotes** 2️⃣ sont modifiables pour obtenir le résultat dans la vue **3D Variante 2 charpente et couverture**. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_25.04.png" alt="variantes_25.04" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+A l’aide de **Modifier le type** de la fenêtre **Propriétés**, nous allons accéder aux **Paramètres du type** 1️⃣, et à d’autres **cotes **2️⃣ pour dimensionner la ferme, et notamment l’angle d’inclinaison de 30.00°. 
+
+Vous ajusterez toutes ces dimensions. Les valeurs indiquées ne sont pas définitives. Pour information, selon la largeur de la ferme, les pannes intermédiaires sont affichées ou supprimées. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_25.28.png" alt="variantes_25.28" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Dans la vue du 1er Niveau ci-dessous, vous dupliquerez la ferme 1️⃣ désormais paramétrée pour la placer sur chaque poteau en bois. A l’aide **des poignées bleues** 2️⃣, vous ajusterez les longueurs des pannes des 4 fermes. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_25.32.png" alt="variantes_25.32" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_25.35.png" alt="variantes_25.35" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+### MODÉLISATION DE LA TOITURE : TOIT EN TUILES
+
+<p>&nbsp;</p> 
+
+Positionner une coupe devant la charpente, afin de la voir de profil, la renommer : **Coupe profil Variante 2.** 
+
+Nous allons créer une toiture par extrusion pour notre variante. 
+
+Il faut se placer sur la vue du Niveau 1er et tracer un plan de quadrillage que nous nommerons **PLAN** 1️⃣. C’est dans ce plan perpendiculaire à la charpente que nous allons dessiner le profil du toit. 
+
+Puis, dans l’onglet **Architecture**, cliquer sur **Toit** et choisir **Toit par extrusion**. 
+
+Nous devons maintenant définir notre plan perpendiculaire **PLAN**. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_25.39.png" alt="variantes_25.39" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Dans la fenêtre **Plan de construction** 1️⃣, choisir de spécifier le nouveau plan de construction par **Nom** 2️⃣ et sélectionner le **Quadrillage : PLAN** 3️⃣. Cliquer sur **OK** 4️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_25.59.png" alt="variantes_25.59" style="max-width: 60%" />
+
+<p>&nbsp;</p> 
+
+Pour le Niveau de référence du toit et décalage, choisir le **Niveau 1er**, sans décalage. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_25.49.png" alt="variantes_25.49" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Dans votre coupe, choisir le **Toit de base : Toit – 200 mm** 1️⃣. Tracer avec l’outil ligne **le profil** de la toiture 2 pentes 2️⃣. Le début de l’extrusion est à 0 par rapport au plan. Valider votre esquisse en cliquant sur **la coche verte** 3️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_26.18.png" alt="variantes_26.18" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Ajuster la position de la couverture par rapport à la charpente 1️⃣, et dans la vue du **Niveau 1er**, ajuster la longueur de la toiture. Elle s’étend sur la gauche, ramener sa limite à l’aide de la poignée bleue (flèche). Un débord de 20 cm sera mis en place sur la périphérie du toit. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_26.32.png" alt="variantes_26.32" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_26.42.png" alt="variantes_26.42" style="max-width: 70%" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_26.52.png" alt="variantes_26.52" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+On peut toujours par la suite affiner la composition de la toiture dans la version du projet de base. 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 8.2Variante 2 charpente et couverture.rvt   `** 
+
+<p>&nbsp;</p> 
+
+## 3- Variante coque en béton
+
+<p>&nbsp;</p> 
+
+Réaliseons une coque en béton, issue d’une forme libre. Elle sera implantée dans la cour, sur une emprise rectangulaire de 10x x 4.20m. Elle peut servir de jeux pour les enfants, à l’intérieur comme à l’extérieur. 
+
+Positionnez une coupe devant la charpente, afin de la voir de profil, renommez-la : **Coupe profil Variante 3.** 
+
+De façon identique à la Variante 2, nous allons créer un Quadrillage : **PLAN COQUE** 1️⃣, sur la limite de l’emprise au sol du volume, dans le sens de la longueur. 
+
+Dans la continuité, nous allons créer la **Variante 3 coque forme libre** dans notre jeu de variantes **Variante cour intérieure**, puis y associer le quadrillage PLAN COQUE. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_27.04.png" alt="variantes_27.04" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dans la fenêtre **Plan de construction** 1️⃣, choisir de spécifier le nouveau plan de construction par **Nom** 2️⃣ et sélectionner le **Quadrillage : PLAN** COQUE 3️⃣. Cliquer sur **OK** 4️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_27.14.png" alt="variantes_27.14" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Pour le Niveau de référence du toit et décalage, choisir le **Niveau 0 RDC**, sans décalage. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_27.23.png" alt="variantes_27.23" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dans votre coupe créée précédemment, vous dessinerez le profil de cette forme libre à l’aide de l’outil **Spline**. En tirant sur le point d’extrémité à droite, vous ajusterez la longueur à 10.00 m. Cliquer sur la coche verte ✅ pour valider. Assignez cette toiture en forme libre à la variante 3. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_27.40.png" alt="variantes_27.40" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Comme dans la Variante 2, placez-vous en plan et ajuster dans une coupe transversale à la forme et ajuster la largeur à 4.20 m. Ce toit sera dupliqué et renommé en **Toit – ba 20 cm**. Cette création se fera dans le modèle de base, avant d’être attribué à la coque forme libre. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_27.49.png" alt="variantes_27.49" style="max-width: 100%" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/34_variantes/variantes_28.00.png" alt="variantes_28.00" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+***💡 : Affichage des variantes:*** 
+
+- *Si on veut afficher le projet d’origine, raccourci **vv** avec automatique ou la variante vide, et le sélecteur de variante sur le modèle de base* 
+
+- *Si on veut afficher une variante, 3 par exemple, sans l’éditer, raccourci **vv** avec la variante 3 et le sélecteur de variante avec le modèle de base. Cela permet d’effectuer une mise en page avec plusieurs variantes du projet affichées.* 
+
+- *Si on veut afficher une variante, 3 par exemple, et l’éditer, raccourci **vv** avec la variante 3 (ou automatique) et le sélecteur de variante avec la variante 3.* 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 8.3 Variante 2 coque forme libre.rvt   `** 
+
+<p>&nbsp;</p> 
+
+<p>&nbsp;</p> 
+

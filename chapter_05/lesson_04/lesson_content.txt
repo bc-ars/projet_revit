@@ -1,0 +1,256 @@
+# Les phases de construction du projet
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Nous allons comprendre comment créer et gérer des phases de construction dans un projet REVIT. 
+
+<p>&nbsp;</p> 
+
+## 1- Phases démolition et construction
+
+<p>&nbsp;</p> 
+
+Nous allons nous intéresser à l’organisation du cloisonnement intérieur de l’espace Administration, afin d’illustrer le fonctionnement du phasage. 
+
+Placez-vous sur le plan Niveau 0 RDC, orienter le projet selon le nord du projet et masquer la catégorie des plans de référence. 
+
+A l’origine, tout ce qui est modélisé dans Revit appartient à la Phase de création **Nouvelle construction**. 
+
+Néanmoins, pour intervenir sur le phasage de certains composants, il faut qu’ils appartiennent à la phase de construction **Existant**. 
+
+Dans un premier temps, il faut sélectionner les cloisons, portes de circulation et portes de placards 1️⃣.
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/33_phases/phases_5.15.png" alt="phases_5.15" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dans cet espace et dans **Phase de construction** : **Phase de création** du Panneau **Propriétés**, choisir **Existante** 2️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/33_phases/phases_5.08.png" alt="phases_5.08" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+
+
+**`Fichier étape 6.1 Géolocalisation du projet.rvt   `** 
+
+<p>&nbsp;</p> 
+
+Hors intervention, vous affecterez cette phase Existante également, aux autres éléments : cloison, porte, murs périphériques et fenêtre. 
+
+Notre projet consiste à la réorganisation du cloisonnement intérieur entre le bureau 1 périscolaire et le bureau 1 directeur. 
+
+Nous allons le dessiner 1️⃣ avec la cloison **C cloison 98/48 - 2 ba13h + isol 48 + 2 ba13h**, afin de faire une différence avec l’**Existant**, selon le plan ci-dessous : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/33_phases/phases_5.23.png" alt="phases_5.23" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Maintenant, nous allons dupliquer ce plan Niveau 0 RDC, avec les détails, à trois reprises, et leur affecter les noms: clic droit souris sur le nom du plan dans l’arborescence, **Dupliquer** la vue et **Dupliquer** avec les détails.
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/33_phases/phases_5.30.png" alt="phases_5.30" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Appellations des 3 vue en plan dupliquées, à partir du Niveau 0 RDC.:
+
+- **1 Niveau 0 RDC Existant**. 
+
+- **2 Niveau 0 RDC Démolition**. 
+
+- **3 Niveau 0 RDC Projet**. 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 7.1 Les phases du projet 1.rvt   `** 
+
+<p>&nbsp;</p> 
+
+Nous allons aborder le phasage de cette opération de restructuration. Dans l’onglet **Gérer** 1️⃣, cliquer sur **Phases** 2️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/33_phases/phases_5.42.png" alt="phases_5.42" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+La fenêtre **Phase de construction** 3️⃣ s’ouvre. Elle contient 3 onglets : **Phases du projet** 4️⃣
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/33_phases/phases_5.48.png" alt="phases_5.48" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+ **Filtres des phases** 5️⃣ 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/33_phases/phases_6.10.png" alt="phases_6.10" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+et **Remplacement de graphisme** 6️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/33_phases/phases_6.29.png" alt="phases_6.29" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous resterons sur les réglages proposés par Revit pour ces 3 onglets. 
+
+<p>&nbsp;</p> 
+
+### PLAN DE NIVEAU 1 NIVEAU 0 RDC EXISTANT
+
+<p>&nbsp;</p> 
+
+Dans la fenêtre **Propriétés** 1️⃣ du Plan d’Etage **1 Niveau 0 RDC Existant** 2️⃣, choisir dans **Phase de construction** 3️⃣ : 
+
+- **Filtre des phases :** Composants Existants + nouveaux. 
+
+- **Phase :** Existante 
+
+Dans la présentation de l’existant, nous ne montrons que ce qui est dans la phase Existante (éléments déclarés dans cette phase) avec le filtre des phases des composants Existants et nouveau 4️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/33_phases/phases_7.07.png" alt="phases_7.07" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+### PLAN DE NIVEAU 1 NIVEAU 0 RDC DEMOLITION
+
+<p>&nbsp;</p> 
+
+Dans la fenêtre **Phase de construction** 1️⃣, ouvrir l’onglet **Phases du Projet** 2️⃣, à l’aide des boutons **Insérer** 3️⃣, créer la phase **Démolition** 4️⃣. 
+
+Cliquer sur **Appliquer** et **OK**. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/33_phases/phases_7.29.png" alt="phases_7.29" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Ces 3 phases sont ordonnées selon le déroulement de l’opération de restructuration, du PASSÉ au FUTUR (au-dessus et au-dessous du tableau). 
+
+Pour travailler, placez-vous directement sur le plan 3 Niveau 0 Projet, afin de voir directement les opérations effectuées. 
+
+Dans la fenêtre **Propriétés** 1️⃣ du Plan d’Etage **3 Niveau 0 RDCProjet** 2️⃣, choisir dans **Phase de construction** 3️⃣ : 
+
+- **Filtre des phases :** Composants Existants + nouveaux. 
+
+- **Phase :** Projet 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/33_phases/phases_7.42.png" alt="phases_7.42" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Comme indiqué ci-dessus avec des points rouges, sélectionner les éléments **Existants** qui seront démolis et leur attribuer les statuts ci-dessous : 
+
+- **Phase de création : Existante** (murs noirs car le graphisme de l’Existant est remplacé par un remplissage noir dans les vues en coupe, onglet Remplacements de graphisme). 
+
+- **Phase de démolition : Démolition** (les cloisons disparaissent car ce qui est démoli n’est pas affiché dans le filtre des phases : existant et nouveaux. 
+
+**Phase de construction** du Panneau Propriétés des éléments Existants sélectionnés: 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/33_phases/phases_7.50.png" alt="phases_7.50" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Pour information, la cloison masquée laisse la place à son implantation au sol, elle était posée sur le sol brut. Le phasage ne transforme pas le projet (comme les Variantes), mais présente les étapes de la restructuration. 
+
+Dans la fenêtre **Propriétés** 1️⃣ du Plan d’Etage **3 Niveau 0 RDC Démolition** 2️⃣, choisir dans **Phase de construction** 3️⃣ : 
+
+- **Filtre des phases :** Composants Existants + démolis. 
+
+- **Phase :** Démolition 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/33_phases/phases_8.29.png" alt="phases_8.29" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Pour contrôler la couleur des éléments démolis, il faut aller dans la fenêtre **Phase de construction**. Dans l’onglet **Remplacements de graphisme** 2️⃣, dans l’état de la phase **Démoli** 3️⃣, un matériau avec une couleur d’ombrage rouge est affecté, en cliquant sur **le bouton du menu** 4️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/33_phases/phases_9.05.png" alt="phases_9.05" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+### PLAN DE NIVEAU 1 NIVEAU 0 RDC PROJET 
+
+<p>&nbsp;</p> 
+
+Le paramétrage a été effectué précédemment. 
+
+<p>&nbsp;</p> 
+
+### RÉSULTAT FINAL DES 3 ETAPES DE LA RESTRUCTURATION
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/33_phases/phases_9.22.png" alt="phases_9.22" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+
+
+## 2- L’implantation du projet : faire pivoter son projet vers le Nord géographique 
+
+<p>&nbsp;</p> 
+
+Pacez-vous sur une vue en plan, le Plan Masse par exemple. Dans le panneau **Propriétés** 1️⃣, de **Plan d’étage** 2️⃣ actif, vérifier si le paramètre **Orientation** est bien le **Nord géographique** 3️⃣, l’autre choix est le Nord du projet. 
+
+Le Nord du projet défini l’orientation de toutes les autres vues du projet. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/32_geolocalisation/geolocalisation_13.44.png" alt="geolocalisation_13.44" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Pour information, le Nord du projet et le Nord géographique forment un angle de 12° (à mesurer sur un cadastre), dans le sens horaire. 
+
+Dans l’onglet **Gérer** 1️⃣, puis l’icône **Position** 2️⃣, cliquer sur **Faire Pivoter le nord géographique** 3️⃣. Revit place le point de rotation sur le point de base projet, désigner alors la verticale et une droite inclinée sur la droite de 12°, cliquer sur le plan pour valider. 
+
+La valeur de **12°** peut être saisie au clavier au moment de la rotation. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/32_geolocalisation/geolocalisation_13.52.png" alt="geolocalisation_13.52" style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/32_geolocalisation/geolocalisation_14.01.png" alt="geolocalisation_14.01" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Vous pouvez maintenant choisir d’orienter votre vue en plan active selon le nord du projet ou le nord géographique, depuis le Panneau Propriétés. 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 7.1 Les phases du projet 2.rvt   `** 
+
+<p>&nbsp;</p> 
+
+<p>&nbsp;</p> 
+

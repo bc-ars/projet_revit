@@ -1,0 +1,3 @@
+Terminons notre projet en créant les différents rendus qui nous serviront à l'exploiter et communiquer autour: Vues, nomenclatures, annotations, cartouches...
+
+Nous verrons ensemble comment nous pouvons encore plus l'optimiser et l'exporter.

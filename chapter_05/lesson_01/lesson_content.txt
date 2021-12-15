@@ -1,0 +1,622 @@
+# La communication du projet
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Nous allons faire l’inventaire des documents 2D et 3D que l’on peut produire avec Revit, afin de bien communiquer graphiquement son projet, dans les différentes feuilles. 
+
+<p>&nbsp;</p> 
+
+## 1- Les vues 2D  
+
+<p>&nbsp;</p> 
+
+### Le plan masse, les plans, coupes et façades.
+
+<p>&nbsp;</p> 
+
+Les vues en plan masse, plans, coupes et façades sont disponibles dans l’arborescence de projet de Revit, dans le gabarit par défaut. Seules les coupes et les vues de détails seront à créer en les positionnant dans le projet. L’affichage de ces vues est réalisé avec la barre de contrôle de l’affichage (échelle, niveau de détail, style visuel, ombrages). Les vues en plan sont créées automatiquement lors de la création d’un niveau. Le plan structure est le plan utilisé avec le gabarit structure. 
+
+**LE PLAN DE MASSE** est intégré au gabarit par défaut d’origine. On peut toujours afficher ou masquer des éléments dans cette vue, ou même lui appliquer un gabarit de vue. 
+
+Dans notre exemple, les ombres sont activées. 
+
+Nous verrons par la suite que l’on peut annoter ce document et y ajouter le symbole du Nord (au moment de la mise en page). 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_0.34.png" alt="communication_0.34" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**LES PLANS** sont **d’Etage** (coupe horizontale vue de dessus) et de **Structure** (coupe horizontale vue de dessous).Ils affichent les éléments coupés du projet selon l’altitude du niveau défini au début du projet. 
+
+La possibilité de les dupliquer vous permet de générer des plans qui affichent chacun des informations différentes (aménagement, cotation, surface, …). 
+
+**Pour les renommer**, il faut sélectionner le nom et le saisir quand il est en surbrillance bleu, dans l’arborescence. 
+
+**Pour gérer l’affichage de certaines catégories**, le raccourci « **vv** » vous permet de modifier la visibilité des catégories de modèles et d’annotations. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_0.41.png" alt="communication_0.41" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**LES COUPES** seront créées par l’utilisateur tout au long du processus de modélisation, on peut les renommer et aussi les déplacer sur le plan, comme les raccourcir ou modifier la profondeur de champs (les ajustements se font avec les flèches bleues). Elles permettent de contrôler son travail Leur suppression comme leur appellation se gère aussi dans l’arborescence du Projet. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_0.47.png" alt="communication_0.47" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous regardons ici dans le détail le réglage des coupes et des élévations : 
+
+**POUR LA COUPE :** 
+
+**1️⃣** Symbole de coupe. 
+
+**2️⃣** Inversion du sens de la coupe. 
+
+**3️⃣** Agrandir la plage de vue latéralement en tirant sur les flèches bleues. 
+
+**4️⃣** Augmenter ou réduire la profondeur de la plage de vue. 
+
+**5️⃣ Créer une coupe à baïonnette.** 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_0.56.png" alt="communication_0.56" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**POUR LA FACADE :** 
+
+**1️⃣** Symbole de l’élévation. 
+
+**2️⃣** Plan de début de l’élévation. 
+
+**3️⃣** Plage de fin de l’élévation. 
+
+**4️⃣** Augmenter ou réduire la profondeur de la plage de vue de l’élévation. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_1.02.png" alt="communication_1.02" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**LES FACADES** du projet sont générées en fonction de la position des symboles d’élévation. Pour en créer une nouvelle, comme une élévation intérieure, sélectionner Elévation dans l’onglet Vue. 
+
+La direction est indiquée par la pointe noire du symbole. Comme pour les coupes, la plage de vue peut se modifier. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_1.17.png" alt="communication_1.17" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Pour information, si vous voulez afficher la topographie (avec la terre) sur les élévations, il faut absolument que la ligne de début du plan de coupe, à côté du symbole d’élévation, passe par le terrain. 
+
+Par ailleurs, l’épaisseur de ce sol naturel peut se paramétrer, comme sa texture. 
+
+Dans l’onglet **Volume et Site**, cliquer sur la flèche de **Paramètre de Site**. Dans la fenêtre du même nom 1️⃣, dans **Matériaux pour la vue des coupes** 2️⃣, choisir **Terre**. **Dans Elévation de la base de la coupe**, régler la profondeur, ici **-2.5000 m** 3️⃣. 
+
+Penser à Appliquer et cliquer sur **OK**.  Libre à vous de changer de texture également pour le sol. 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 9.1.1 Plans coupes façades.rvt  `** 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_1.30.png" alt="communication_1.30" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+### Les coupes de détails
+
+<p>&nbsp;</p> 
+
+Les coupes de détails vous permettent d’extraire un détail d’une vue en plan, coupe ou élévation et de l’afficher à une échelle différente. Vous pouvez annoter une partie de l’ouvrage. Nous allons voir le cas de figure de la toiture terrasse avec les Panneaux solaires. 
+
+Dans l’onglet **Vue** 1️⃣, choisir **Repère** 2️⃣ puis **Rectangle** 3️⃣. Dessiner **ensuite la zone rectangulaire** autour des panneaux solaires 4️⃣. Dans **le repère circulaire** 5️⃣ de la vue, nous aurons le numéro de la vue et la référence de la feuille lors de la mise en page. 
+
+Ce repère se déplace en agissant sur les 2 poignées bleues. 
+
+<p>&nbsp;</p> 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_1.36.png" alt="communication_1.36" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous retrouvons cette vue dans l’arborescence du projet, avec le nom : **Transversale Activités - Réfectoire - Repère 1**, car elle a été créée dans la coupe : **Transversale Activités – Réfectoire.** 
+
+IL faut maintenant lui assigner la bonne catégorie de famille. Une fois ouverte dans l’arborescence, dans la fenêtre **Propriétés** 1️⃣, de la **Coupe du bâtiment** 2️⃣ représentée dans la fenêtre de travail 3️⃣, il faut modifier l’affectation de la famille de **Coupe de bâtiment** 4️⃣ à **Coupe de détail** 5️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_1.59.png" alt="communication_1.59" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+L’annotation de cette **Coupe de détail** sera présentée dans un chapitre ultérieurement. Elle apparaît désormais dans les Coupes de détail de l’arborescence de Revit. 
+
+De la même façon, vous pouvez compléter votre carnet de détail en générant des coupes de détail sur des éléments caractéristiques du projet (Mur rideau de l’escalier, auvent métallique, …), au moment de la mise en page du projet. Pour information, si vous supprimez les vues sur lesquelles vous repérez les coupes de détails, elles seront également supprimées. 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 9.1.2 Les coupes de détail.rvt   `** 
+
+<p>&nbsp;</p> 
+
+## 2- Les vues 3D  
+
+<p>&nbsp;</p> 
+
+### Perspectives caméra
+
+<p>&nbsp;</p> 
+
+La Vue 3D avec une caméra s’obtient en position une caméra sur le projet avec le point cible. Dans notre cas de figure, nous allons créer une perspective de la façade principale du projet et découvrir les paramètres que l’on peut ajuster. 
+
+Plaçons-nous sur le **Plan masse**, dans l’onglet **Vue** 1️⃣, choisir **Vue 3D** 2️⃣ et **Caméra** 3️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_2.06.png" alt="communication_2.06" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dans le Plan masse, cliquer une première fois pour placer **la position de la caméra** 4️⃣ et une deuxième fois pour placer **le point cible** 5️⃣. 
+
+**La ligne repérée** 6️⃣ indique la profondeur de champs de la vue 3D. Si vous la rapprochez, tout ce qui est après ne sera pas visible. Revit ouvre automatiquement la vue 3D 1 
+
+Régler la hauteur du point de vue à 1.70 m depuis le Niveau Voirie. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_2.48.png" alt="communication_2.48" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous avons ci-dessous la Vue 3D générée automatiquement, **Avant** la modification du style visuel en couleurs uniformes et du niveau de détail, dans la vue **Après**. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_3.07.png" alt="communication_3.07" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Si vous souhaitez modifier le champ de vision de la caméra en hauteur ou en largeur, il faut déplacer **les points bleus** 1️⃣. Attention, la perspective aura tendance à se déformer. Initialement la focale du point de vue est de 50°, avec des lignes verticales parallèles, sans point de fuite. 
+
+Nous allons légèrement ajuster le cadrage de la perspective. 
+
+- Vous pouvez agir sur la caméra depuis le plan de masse en déplaçant la caméra et le point cible. 
+
+(Pour afficher la caméra dans le Plan masse, il faut effectuer un clic droit souris sur la Vue 3D 1 dans l’arborescence du projet et choisir Afficher dans la vue). 
+
+- Depuis la vue 3D, vous pouvez faire varier le cadrage avec les points bleus. 
+
+Dans cette vue, la position de la caméra peut varier en appuyant simultanément la touche MAJ du clavier et la molette de la souris, et en la déplaçant. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_3.17.png" alt="communication_3.17" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Vous renommerez la **vue 3D 1** dans l’arborescence du projet : **Perspective extérieure de l’entrée**.
+
+Pour information, pour modifier la hauteur du point cible: 
+
+- Activer une vue en coupe qui va le montrer. 
+
+- Dans l’arborescence du projet, afficher la caméra dans la vue. 
+
+- Le point cible apparaît et le faire glisser sur un axe vertical pour modifier son altitude. 
+
+ <p>&nbsp;</p> 
+
+**`Fichier étape 9.2.1Perspectives caméra.rvt  `** 
+
+ <p>&nbsp;</p> 
+
+### Les vues 3D avec zone de coupe
+
+<p>&nbsp;</p> 
+
+Cette vue 3D vous permet d’associer la perspective à une coupe. Nous allons présenter une vue 3D après un plan de section qui passe par l’accès principal. 
+
+Il faut tout d’abord dupliquer avec les détails la **Vue {3D}** générique de Revit et la renommer : 
+
+**- Vue 3D plan de section longitudinal **4️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_3.36.png" alt="communication_3.36" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dans la fenêtre **Propriétés** 1️⃣, de la **Vue 3D** 2️⃣, cocher la case de la **Zone de coupe** 3️⃣, déplacer les zones de coupe repérées par les flèches bleues. Nous avancerons celui repéré en **4️⃣** pour passer par l’entrée. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_3.51.png" alt="communication_3.51" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 9.2.2 Vue 3D zone de coupe.rvt  `** 
+
+<p>&nbsp;</p> 
+
+### La visite virtuelle
+
+<p>&nbsp;</p> 
+
+Cette fonction de Revit permet de créer une animation en dessinant la trajectoire de la caméra, son chemin. Cette visite virtuelle peut ensuite être exportée. 
+
+<p>&nbsp;</p> 
+
+**LA CRÉATION DU CHEMIN DE LA CAMÉRA** 
+
+<p>&nbsp;</p> 
+
+Nous allons nous placer sur le plan masse du projet. Dans l’onglet **Vue** 1️⃣, choisir **Vue 3D** 2️⃣ et **Visite virtuelle** 3️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_4.07.png" alt="communication_4.07" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Régler son point de vue sur le Niveau **Voirie/extérieur**e avec **un décalage de 1.70 m**. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_4.00.png" alt="communication_4.00" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous allons tracer la trajectoire que la caméra va suivre. 
+
+Vous allez placer la caméra successivement sur **les points 1️⃣ à 8️⃣**, ils représenteront les images clefs. Appuyer sur la coche verte ✅ pour finir le dessin du chemin. Elle s’ouvre à l’issue de sa création. 
+
+<p>&nbsp;</p> 
+
+Votre visite virtuelle apparaît maintenant dans l’arborescence du projet, renommer la : 
+
+**Visite virtuelle accès principal du projet.** 
+
+Pour la modifier, il faut retourner sur le Plan masse, et à l’aide d’un clic droit souris sur le nom de la visite virtuelle dans l’arborescence du projet, **afficher la caméra**. 
+
+Le chemin de la visite virtuelle s’affiche sur le Plan masse. Cette méthode est identique à l’affichage de la caméra de la Vue 3D. 
+
+Nous accédons à son paramétrage. Il est important de placer à des distances identiques les positions des caméras. Cela permettra d’avoir par la suite une vitesse de déplacement homogène. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_4.15.png" alt="communication_4.15" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**LA MODIFICATION DE LA VISITE VIRTUELLE** 
+
+<p>&nbsp;</p> 
+
+Dans l’onglet **Modifier I Caméra** 1️⃣, cliquer sur **Modifier la visite virtuelle** 2️⃣. Le chemin de la visite virtuelle s’affiche dans le Plan masse pour ajuster les caméras. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_4.10.png" alt="communication_4.10" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Les fonctions qui permettent de gérer les images de la visite virtuelle sont accessibles depuis le Plan masse comme depuis la prévisualisation de celle-ci. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_4_25.png" alt="communication_4_25" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**- Image clé précédente :** Accès à l’image clé précédente par rapport à celle qui est active. 
+
+**- Image précédente :** Accès à l’image précédente par rapport à celle qui est active. 
+
+**- Image suivante :** Accès à l’image suivante par rapport à celle qui est active. 
+
+**- Image clé suivante :** Accès à l’image clé suivante par rapport à celle qui est active. 
+
+**- Lecture :** Lecture de la visite virtuelle (dans la vue active). 
+
+Après avoir cliqué sur **Modifier la visite virtuelle**, vous pouvez modifier le point cible de chaque caméra des images clé. Revit calculera les images intermédiaires et orientera les caméras de façon fluide. Les profondeurs de champs sont également paramétrables. 
+
+<p>&nbsp;</p> 
+
+**Pour supprimer une image clé**, dans la barre d'option de la visite virtuelle 1️⃣, sous caméra active, choisir Supprimer l'image clé 2️⃣. Puis sélectionner l'image clé à effacer de la trajectoire. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_4.22.png" alt="communication_4.22" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**Pour déplacer une image clé**, dans la barre d'option de la visite virtuelle, dans **Contrôles** 1️⃣, choisir **Chemin** 2️⃣. Puis déplacer le point bleu de l'image clé, la trajectoire se modifie alors. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_4.30.png" alt="communication_4.30" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**Pour ajouter une image clé**, dans la barre d'option de la visite virtuelle, dans **Contrôles** 1️⃣, choisir **Ajouter l'image clé** 2️⃣. Puis placer le point bleu de l'image clé sur la trajectoire, où vous le souhaitez. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_4.37.png" alt="communication_4.37" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+
+
+Revit offre la possibilité de moduler la durée de la visite virtuelle et la vitesse de déplacement des caméras. Afin d’accéder à ces options, il faut cliquer sur la valeur 300 qui se trouve dans la barre d’option de la visite virtuelle. Par défaut, votre visite virtuelle comporte 300 images. 
+
+La boîte de dialogue **Images de la visite virtuelle** 1️⃣ s'ouvre. Vous pouvez définir le **nombre d'image**s contenues dans votre animation, ici **400** 2️⃣.Vous ajustez également le nombre **d'images par seconde**, afin de rendre votre animation fluide, soit **25** 3️⃣. Faire le choix d'une **vitesse uniforme** 4️⃣, le tableau indique automatiquement 1.970 m/s. Dans le cas contraire, on peut jouer sur le coefficient accélérateur. Penser à **Appliquer** et à cliquer sur **OK** 5️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_5.12.png" alt="communication_5.12" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**LECTURE DE LA VISITE VIRTUELLE** 
+
+<p>&nbsp;</p> 
+
+Depuis le Plan masse, il faut cliquer sur **Ouvrir la promenade virtuelle** 1️⃣. Si vous choisissez **Redéfinir les caméras** 2️⃣, vous allez perdre l’orientation du point cible de chaque caméra. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_4.45.png" alt="communication_4.45" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Vous pouvez aussi vous placer directement dans la visite virtuelle, et cliquer sur **Modifier la visite virtuelle**. Ajuster la fenêtre de la caméra avec les points bleus, le Niveau de détail et le Style visuel. Placez-vous sur la première image clé et cliquer sur le bouton **Lecture.** 
+
+Votre prévisualisation de la visite virtuelle se lance, avec le calcul des images en temps réel. Cela vous permet de vérifier son paramétrage, avant le Rendu. Il sera abordé ultérieurement dans un chapitre. 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 9.2.3 La visite virtuelle.rvt  `** 
+
+<p>&nbsp;</p> 
+
+## 3- les rendus  
+
+<p>&nbsp;</p> 
+
+Le logiciel Revit dispose de la fonction de Rendu, avec le moteur de rendu Autodesk Raytracer, aussi bien pour les images fixes que pour les animations. Nous allons découvrir comment paramétrer les différentes étapes. Les éclairages artificiels jouent un rôle dans la qualité des rendus. 
+
+<p>&nbsp;</p> 
+
+### **Les éclairages** 
+
+<p>&nbsp;</p> 
+
+Nous allons placer des lumières artificielles à l'extérieur et à l'intérieur pour avoir un effet visuel des lumières sur le projet. Nous pourrons ainsi effectuer les rendus avec l’éclairage artificiel et/ou naturel. La gestion des sources lumineuses reste cependant délicate, même si c’est un outil puissant. 
+
+Dans l’onglet **Architecture** 1️⃣, choisir **Composant** 2️⃣ et **Placer un composant** 3️⃣. Si les éclairages ne sont pas chargés, vous les trouverez dans le répertoire : 
+
+*France/MEP électrique/Eclairage/Externe ou interne.* 
+
+Dans notre exemple, nous allons placer des éclairages externes sur la façade, au niveau de l’entrée du centre de loisirs. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_4.60.png" alt="communication_4.60" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous allons choisir, par exemple, le bloc mural lumineux extérieur – 230 v. Placez-vous sur le **Niveau 0 RDC** et positionner le composant sur la face du mur. 
+
+<p>&nbsp;</p> 
+
+### **LES PLANELLES DE RIVE** 
+
+<p>&nbsp;</p> 
+
+Pour toutes les solutions de chaînages qui intègrent des planelles de rive, il faut choisir le matériau **Blocs de béton manufacturés, si ce n’est pas déjà fait.** 
+
+L’option **Placer sur la face verticale** 1️⃣ doit être activée. Seule une paroi verticale, hôte, acceptera le composant. Placer 2 éclairages au-dessus du SAS vitré de l’entrée. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_5.23.png" alt="communication_5.23" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Il faut activer **l’Elévation Ouest** afin d’ajuster la hauteur de l’Elévation à 2.50 m. L’hôte peut être redéfini. 
+
+Dans les Propriétés du composant, on peut ajuster : 
+
+- la couleur extérieure. 
+
+- l’intensité initiale et la couleur initiale pour la source d’éclairage, avec son angle. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_5.30.png" alt="communication_5.30" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Ci-dessous, le rendu de l’entrée avec uniquement les lumières artificielles, dans les paramètres de l’éclairage. 
+
+Les bibliothèques d’éclairages de Revit sont intéressantes mais les sites de ressources d’objets BIM en lignes (Bimobject, polantis, …) sont également dotés de gammes de constructeurs. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_5.35.png" alt="communication_5.35" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+De la même façon, vous pouvez placer des éclairages extérieurs et intérieurs dans le projet. Le CCTP donne très peu d’indications, hormis à la page **PE26** pour les éclairages des ascenseurs. 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 9.3.1 Les éclairages.rvt  `** 
+
+<p>&nbsp;</p> 
+
+### Le rendu dans Revit 
+
+<p>&nbsp;</p> 
+
+**LE RENDU DES IMAGES FIXES** 
+
+<p>&nbsp;</p> 
+
+Nous nous intéresserons essentiellement au rendu réaliste de Revit, selon la position de la caméra ci-dessous. Il faudra orienter au préalable son Plan masse selon le Nord géographique, pour avoir un rendu des ombres réaliste. Pour accéder aux options du Rendu, il faut cliquer sur l’icône dans la barre de visualisation en bas de l’écran. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_6.40.png" alt="communication_6.40" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+La fenêtre de paramétrage du **Rendu** 1️⃣ s’affiche. Pour illustrer notre exemple, nous avons placé une caméra au niveau du 1er étage, à l’extérieur du projet. Ouvrons la **Perspective extérieure niveau 1er**. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_6.49.png" alt="communication_6.49" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**COMPOSITION DE LA FENETRE DE RENDU** 
+
+**2️⃣** Cocher la case **Zone** si vous souhaitez ajuster le cadrage de la perspective. Sinon, toute la vue sera rendue. 
+
+**3️⃣** Choisir **Haute qualité** pour un rendu pour un support pdf, choisir Qualité optimale pour améliorer les détails. 
+
+**4️⃣ Imprimante** ou écran vous permet de régler le nombre de pixels par pouce ; 300 ppp est une résolution idéale mais le temps de calcul est plus long. 
+
+**5️⃣** Pour l’**Eclairage**, dans Condition, vous choisissez un ciel avec ou sans nuages; dans **Paramètre** de soleil, on peut définir le moment du rendu : jour et l’heure (Toujours). 
+
+**6️⃣** L’**Arrière-plan** concerne votre ciel, avec ou sans nuage, on peut aussi choisir une image de fond (localiser dans le répertoire). 
+
+**7️⃣** L’**exposition** ajuste la luminosité et le contraste de l’image. 
+
+**8️⃣** Cliquer sur **Rendu** pour lancer le calcul de l’image. 
+
+**9️⃣** On peut **Enregistrer dans le projet** son image, dans l’arborescence du projet, pour la mise en page. 
+
+**🔟** On peut **Exporter** son image dans un répertoire personnel. 
+
+**1️⃣1️⃣ Afficher le rendu** est possible si on ne quitte pas la fenêtre Rendu. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_6.20.png" alt="communication_6.20" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Enregistrer ensuite le Rendu dans le projet afin de l’intégrer dans une mise en page. 
+
+On peut aussi affiner les textures, replacer des personnages et intégrer une image de fond pour améliorer l’apparence du Rendu (300 pp pour la mise en page). 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_6.49.png" alt="communication_6.49" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 9.3.2 Le rendu dans Revit 1.rvt  `** 
+
+<p>&nbsp;</p> 
+
+**LE RENDU DES ANIMATIONS** 
+
+Nous allons nous placer sur le Plan masse et afficher la **visite virtuelle accès principal du projet**, en affichant la caméra sur la vue active. 
+
+Pour exporter notre animation, il faut ouvrir notre visite virtuelle. Dans l’onglet **Modifier I Caméras** 1️⃣, cliquer sur **Modifier la visite virtuelle** 2️⃣. Puis, cliquer sur **Ouvrir la promenade virtuelle** 3️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_7.08.png" alt="communication_7.08" style="max-width: 100%" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_7.24.png" alt="communication_7.24" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dans le menu **Fichier** 1️⃣, choisir **Exporter** 2️⃣, **Images et animations** 3️⃣ puis **Visite virtuelle** 4️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_8.00.png" alt="communication_8.00" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dans la fenêtre **Longueur/Format** 5️⃣, choisir le **Style visuel** 6️⃣ avec la résolution et valider en cliquant sur **OK** 7️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_7.50.png" alt="communication_7.50" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Vous allez ensuite choisir le répertoire de destination de la vidéo, avec son nom. Elle sera au format AVI, format vidéo non compressé et volumineux. La qualité de l’animation générée dépend de la puissance de l’ordinateur. On peut aussi diminuer le nombre d’images par seconde afin d’alléger le calcul des images et les dimensions de la vidéo (proportions conservées). 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 9.3.2 Le rendu dans Revit 2.rvt  `** 
+
+<p>&nbsp;</p> 
+
+### Le rendu dans le Cloud Autodesk
+
+<p>&nbsp;</p> 
+
+Il existe une autre possibilité d’effectuer son rendu, grâce à Autodesk. Il existe plusieurs intérêts dans l’utilisation de cette méthode : 
+
+- Lancer des rendus plus fins et de libérer en même temps le logiciel Revit. Vous pouvez ainsi continuer à travailler. Il faut pour cela disposer d’un compte et de se connecter. 
+
+- Une gamme de rendu plus large : image fixe, panorama, panorama stéréo et éclairement. 
+
+- La possibilité de lancer plusieurs rendus en même temps avec des perspectives différentes, il suffit de les sélectionner.
+
+Pour accéder au rendu Autodesk, il faut se rendre dans l’onglet **Vue** 1️⃣, panneau **Graphismes** 2️⃣ et choisir **Rendu dans le Cloud** 3️⃣.  
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_8.30.png" alt="communication_8.30" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Une fenêtre d’aide s’ouvre et vous indique les 3 étapes clés : 
+
+**1-** Sur l’écran suivant, sélectionner Vues 3D et lancer le rendu. 
+
+**2-** Le service vous avertit lorsque vos images sont prêtes. 
+
+**3**- Sélectionner « Vue > Galerie de rendu » pour afficher, télécharger et effectuer d’autres opérations au niveau de vos rendus terminés en ligne. 
+
+<p>&nbsp;</p> 
+
+Dans la fenêtre **Rendu dans le Cloud** (en ligne) 1️⃣, choisissez **votre vue, le type de sortie, la qualité du rendu, la taille de l’image et l’exposition** 2️⃣. Chaque rendu dans le Cloud vous coûtera **2 crédits** 3️⃣ sur un total de 100 acquis au moment de l’inscription. 
+
+Vous pouvez cocher la case **Envoyer un courrier électronique une fois la tâche terminée** 4️⃣, afin d’être tenu informé. Cliquer enfin sur **Rendu** 5️⃣ pour lancer le calcul en ligne. 
+
+Pendant le calcul, vous pouvez continuer à travailler en arrière-plan, votre PC n’est pas sollicité. 
+
+Ensuite, vous accédez à vos rendus à l’adresse internet : https://gallery.autodesk.com/a360rendering 
+
+On peut aussi y accéder en cliquant sur **Galerie de rendus** dans l’onglet **Vue**. Une connexion internet de qualité est requise pour permettre le transfert des informations sur le site Autodesk. Une fois le rendu achevé de l’image, cliquer dessus pour y accéder. Elles sont classées par projet. 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 9.3.3 Le rendu dans le cloud.rvt  `** 
+
+<p>&nbsp;</p> 
+
+<p>&nbsp;</p> 

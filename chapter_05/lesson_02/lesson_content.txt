@@ -1,0 +1,382 @@
+# Les sites de ressources de composants BIM
+
+------------------------------
+
+<p>&nbsp;</p>
+
+Nous  allons découvrir 3 sites de ressources en ligne, vous permettant d'intégrer à votre projet les produits réels des fabricants industriels. Ces objets BIM répondent à l’objectif du BIM d’intégrer dans une maquette numérique les informations modélisées du bâtiment. 
+
+Vous augmenterez le niveau de détail de la maquette BIM du niveau 2 avec des composants génériques vers le niveau 3 avec des composants professionnels qui traduisent les prescriptions des pièces écrites. 
+
+<p>&nbsp;</p> 
+
+## 1- Polantis – Bimobject : Insertion d’un exutoire de fumée  
+
+<p>&nbsp;</p> 
+
+Le site web polantis nécessite une inscription pour être membre et avoir accès aux nombreuses bibliothèques disponibles. L’accès aux composants se fait soit par fabriquant soit par objet. 
+
+Le site web est accessible à l'adresse internet: https://www.polantis.com/fr/ 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_19.56.png" alt="site_BIM_19.56"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+L’inscription au site se fait à partir du bouton **S’IDENTIFIER**, puis créer un compte. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_20.54.png" alt="site_BIM_20.54"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+L’accès aux objets BIM peut se faire depuis l’icône du menu 1️⃣, soit par les **catégories**, soit par les **fabricants** 2️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_20.04.png" alt="site_BIM_20.04"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+La zone **Chercher**, en haut de l’écran, permet d’affiner sa recherche. 
+
+On peut également accéder à des bibliothèques : 
+
+- Objets 3D générique, classée par Types et Collections (Véhicules, personnages, mobiliers, bateaux, …). 
+
+- Fournitures (mobiliers). 
+
+- Plantes 3D 
+
+  <p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_21.01.png" alt="site_BIM_21.01"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Pour illustrer l’utilisation du site polantis, nous allons télécharger la fenêtre de toit, pour l’éclairage et le désenfumage de la cage d’escalier (*PE25 – article 2 – éclairement*). 
+
+<p>&nbsp;</p> 
+
+### **TÉLÉCHARGER L’OBJET BIM SUR LE SITE** 
+
+<p>&nbsp;</p> 
+
+\- Dans la zone **Chercher**, taper le mot « désenfumage » et cliquer sur la loupe. 
+
+\- Dans la page qui affiche les résultats, cliquer sur **l’objet BIM** 1️⃣, **la fenêtre coupole exutoire désenfumage électrique**, ou cocher **la case** liée 2️⃣ et sur **Télécharger** (fenêtre en bas à droite). 
+
+\- Nous choisissons de cliquer sur l’objet 3D afin de voir les possibilités de téléchargement. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_21.20.png" alt="site_BIM_21.20"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Polantis affiche la fiche du produit avec **des visuels** 1️⃣ de la fenêtre de toit VELUX. On a la possibilité de se rendre sur **le site du fabricant** 2️⃣, de télécharger son **Catalogue** 3️⃣ et enfin de télécharger **l’objet 3D** 4️⃣ selon différents formats. Cliquer sur l’icône de téléchargement. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_21.25.png" alt="site_BIM_21.25"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Dans la fenêtre qui permet d’accéder au téléchargement de **l’objet 3D** 1️⃣, plusieurs **formats** 2️⃣ sont disponibles, propres à chaque logiciel, dont celui de **Revit** 3️⃣. Cliquer sur **Télécharger** 4️⃣ pour récupérer dans votre dossier téléchargement la famille Revit en .rfa. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_21.29.png" alt="site_BIM_21.29"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+L’objet 3D s’enregistre sous deux noms : **roof-windowsveluxcspisd.rfa** et **roof-windowsveluxcspisdfr.rfa**. Il faut commencer par importer votre nouvelle famille .rfa dans le projet. Il doit être ouvert pour insérer l’objet 3D : 
+
+- Dans Revit, avec votre projet ouvert, depuis le Menu Fichier, ouvrir le fichier **roof- windowsveluxcspisd.rfa** qui se trouve dans le répertoire Familles de la formation. 
+
+- Une fois Revit ouvert avec la famille du VELUX, cliquer sur **Charger dans le projet et fermer** 1️⃣. 
+
+Votre VELUX s’ouvre automatiquement dans votre projet, il est visible dans le **Panneau Propriétés**. Si vous ouvrez la famille VELUX depuis l’explorateur de windows, Revit s’ouvre une deuxième fois et le projet initial ne sera pas trouvé. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_21.37.png" alt="site_BIM_21.37"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Le VELUX **roof-winndowsveluxcspisdfr** 1️⃣ existe en deux dimensions **1000x1000** et **1200x1200** 2️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_21.44.png" alt="site_BIM_21.44"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Cet Objet 3D ne s’intègre qu’à un toit de base, et non à un plancher. Nous choisirons le modèle 1000 x 1000 avec une dimension intérieure de 0.992 m. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_21.52.png" alt="site_BIM_21.52"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Nous adapterons la toiture terrasse du projet afin d’insérer le VELUX. Ci-dessous, le détail technique d’implantation du VELUX sur la toiture terrasse, issu du document « brochure-solutions pour toits-plats-2018.original » (répertoire ressources de la formation). Les rehausses joueront le rôle des acrotères pour arrêter l’isolation thermique et l’étanchéité de la toiture. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_22.04.png" alt="site_BIM_22.04"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+**Voici les étapes à suivre pour intégrer l’objet BIM dans le projet :** 
+
+**1-** **Modéliser une toiture de base sans pente** à l’endroit où le velux s’implantera. Seul le toit accepte cet objet, on parle de composant hôte. Ce sera un carré de 1.18 m de côté. 
+
+- Dans l’onglet **Architecture** 1️⃣, sélectionner **Toit** 2️⃣ puis **Toit par tracé** 3️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_22.20.png" alt="site_BIM_22.20"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+- Dupliquer le toit existant de 200 mm et en créer un de 1 mm d’épaisseur. 
+
+- Tracer l’**Emprise du Toit,** comme indiqué à droite, avec les outils de dessin (rectangle), sur Niveau Toiture fini R+1, avec 1n décalage inférieur de 0.176 m. Le positionner au centre de la toiture terrasse. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_22.43.png" alt="site_BIM_22.43"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Avant de valider l’Esquisse avec **la coche verte **✅, sélectionner chaque ligne d’esquisse à côté du symbole d’inclinaison de pente et saisir une pente nulle de **0 degré** 2️⃣. Cela permettra d’avoir un toit plat. Valider l’Esquisse. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_22.51.png" alt="site_BIM_22.51"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Refuser d’attacher les murs au toit. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_23.07.png" alt="site_BIM_23.07"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+**2-** **Insérer le VELUX sur le toit depuis la Vue {3D}**. Pour cela masquer temporairement la toiture terrasse en demi-cercle existante, afin de laisser apparaître le toit plat modélisé à l’étape précédent. 
+
+L’arborescence du projet contient dans le dossier Familles toutes les familles.rfa du projet. 
+
+Dans le dossier Familles, ouvrir Fenêtres 1️⃣, vous retrouvez la fenêtre **CSP size 1000x1000** 2️⃣. Cliquer dessus et sans relâcher le clic gauche, la faire glisser le toit plat 3️⃣, cliquer pour la positionner. Vous ajusterez la position du VELUX sur le centre du toit plat en vous aidant de coupes perpendiculaires, les 2 éléments se superposent. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_23.20.png" alt="site_BIM_23.20"  style="max-width: 70%" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_23.28.png" alt="site_BIM_23.28"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Coupe du VELUX avec les profils de la toiture à modifier. Créer les planchers : 
+
+1️⃣: étanchéité 6 +isolant 12 + étanchéité 6. 
+
+2️⃣: Dalle ba 20 cm 
+
+(dupliquer le 2️⃣ avec le 1️⃣ depuis la coupe). 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_23.40.png" alt="site_BIM_23.40"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+L’implantation du VELUX est désormais terminée, au-dessus de la cage d’escalier. Nous sommes conformes au détail technique du fabricant. Contrôler son travail dans différentes vues. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_23.57.png" alt="site_BIM_23.57"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 5.1.polantis bimobject.rvt   `** 
+
+<p>&nbsp;</p> 
+
+## 2- Bimobject: Insertion d’une unité extérieure de climatisation 
+
+<p>&nbsp;</p> 
+
+Le site bimobject nécessite une inscription pour être membre et avoir accès aux nombreuses bibliothèques disponibles. L’accès aux composants se fait soit par fabriquant soit par objet. 
+
+Le site est accessible à l'adresse https://www.bimobject.com/fr/product 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_24.06.png" alt="site_BIM_24.06"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+L’inscription au site se fait à partir du bouton **Login / Register**, et **créer un compte** (la connexion est possible avec un compte Gmail, Autodesk et Linkedin). 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_24.14.png" alt="site_BIM_24.14"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+L’accès aux objets BIM se fait par **Catégories** dans le bandeau de la page internet, avec la possibilité de filtrer les produits par **Fabricants**, **Types d’objets BIM**, **Format de fichier** et **Région**. La zone de Recherche est également disponible. 
+
+Pour illustrer l’utilisation du site bimobject, nous allons télécharger les unités extérieures de climatisation. Elles sont au nombre de 4, posées sur la toiture de l’espace Administration, adossées au mur Nord du projet, au R+1. 
+
+Parmi les 12 catégories proposées (types d’objets), nous allons ouvrir le **CVC** 1️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_24.25.png" alt="site_BIM_24.25"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Nous appliquerons donc 2 filtres à notre recherche 1️⃣, le **Types d’objets CVC** et le **Fabricant SAMSUNG**, afin de porter notre choix sur le modèle **MULTISPLIT Outdoor Unit (880x638x310)** 2️⃣, par exemple. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_24.35.png" alt="site_BIM_24.35"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Comme pour l’exemple du VELUX, télécharger votre objet 3D, sous le format famille .rfa dans votre dossier de travail. Ensuite, l’ouvrir depuis Revit (Ficher, Ouvrir, Famille, …) et le **Charger dans le projet** en cours. Vous retrouverez l’unité extérieure de climatisation dans les Familles de l’arborescence, dans **Equipement de génie climatique** : **5.20kW, 220-240V, HEAT PUMP** 1️⃣. 
+
+Vous implanterez vos **4 unités extérieures** selon l’organisation ci-dessous 2️⃣, sur **une dalle en béton armé de 5 cm,** sur les gravillons, avec **un chemin technique** en dalle de 40x40, en ba (Google Earth). 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_24.47.png" alt="site_BIM_24.47"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 5.2.bimobject.rvt   `** 
+
+<p>&nbsp;</p> 
+
+## 3- Le site Revitcity : insertion de panneaux solaires 
+
+<p>&nbsp;</p> 
+
+Le site **`Revitcity`** nécessite une inscription pour être membre et avoir accès aux nombreuses bibliothèques disponibles. L’accès aux composants se fait soit par catégories soit par objet 3D avec des filtres (logiciel, extension du fichier 3D). L’interface est en anglais. 
+
+Le site est accessible à l'adresse internet : https://www.revitcity.com/ 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_24.55.png" alt="site_BIM_24.55"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+L’inscription au site se fait à partir du bouton **Join**, avec un formulaire. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_25.02.png" alt="site_BIM_25.02"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+L’accès aux objets BIM se fait en cliquant sur Download dans le bandeau supérieur, avec 39 catégories d’objets BIM, organisées en répertoires et sous répertoires. 
+
+Pour illustrer l’utilisation du site Revitcity, nous allons télécharger une famille de panneaux solaires, installés sur le bâtiment Réfectoire, orientés au SUD. 
+
+Il suffit de taper **Solar** dans la zone **Keyword** 1️⃣ et de valider. **Des filtres** peuvent 2️⃣ s’appliquer avec la version du logiciel et le format du fichier. Nous sélectionnerons l’objet 3D **Concrete pad mounted solar panels** 3️⃣. 
+
+Cliquer sur la représentation du panneau solaire. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_25.12.png" alt="site_BIM_25.12"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Pour le télécharger, cliquer sur **Download** ou effectuer un clic droit souris sur **Click here** en choisissant « enregistrer la cible du lien sous … » avec comme Type « tous les fichiers » dans votre navigateur. 
+
+Depuis votre fichier de projet Revit, ouvrir le fichier **Concrete_pad_mounted_solar_panels_11145 (fichier revit .rvt) ;** le sélectionner dans son intégralité, le copier et le coller dans son projet (Niveau R+1). Afin d’en faire un seul objet, le sélectionner et choisir **Créer un assemblage** 1️⃣ et nommer **le Type** « Panneau solaire réfectoire ». 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_25.33.png" alt="site_BIM_25.33"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+Nous avons ci-dessous l’intégration des panneaux solaires sous la forme d’un fichier Revit. L’inconvénient de ce format, qui n’est pas une famille, est que ces dimensions ne sont pas paramétrables, à moins de modifier la famille à l’origine. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_25.46.png" alt="site_BIM_25.46"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 5.3.revitcity 1.rvt   `** 
+
+<p>&nbsp;</p> 
+
+Je vous propose l’alternative du fichier Sola heater, hot water, que vous trouverez dans les propositions d’objets 3D. Vous téléchargerez, par exemple, le fichier **Solar_heater_hot_water_14959.rfa**, qui est une famille Revit (disponible dans le répertoire Familles de la formation). 
+
+Vous l’importerez dans le fichier du projet et l’implanterez sur le toit du réfectoire, sur une dalle en ba de 5 cm 1️⃣. 
+
+En fonction du niveau du développement de la famille, celle-ci incorpore ou non des paramètres modifiables, celle-ci reste figée dans ses dimensions. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_25.56.png" alt="site_BIM_25.56"  style="max-width: 70%" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_26.05.png" alt="site_BIM_26.05"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 5.3.revitcity 2.rvt   `** 
+
+<p>&nbsp;</p> 
+
+La famille de panneaux solaires ci-dessous dispose de dimensions modifiables (longueur, largeur et hauteur), quand on modifie le type : (disponible dans le répertoire Familles de la formation). 
+
+**EvoEnergy_Ltd_Ballasted_A-Frame_Solar_Photovoltaic_Array_16113 2.rfa** 
+
+Pour information, la texture originale est absente de la plateforme de téléchargement, elle a été remplacée par une teinte grise, lors de la modification de la famille. 
+
+Voici le résultat dans la **Vue {3D}** : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_26.17.png" alt="site_BIM_26.17"  style="max-width: 70%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 5.3.revitcity 3.rvt   `** 
+
+<p>&nbsp;</p> 
+
+Le site Bimandco est également une ressource intéressante afin de personnaliser son projet. De la même façon, vous pouvez compléter le projet à l’aide de famille Revit dans les sites de ressources. 
+
+Les composants suivants sont à intégrer au projet : 
+
+- Menuiserie extérieure 5e (voir CCTP). 
+
+- Cloisons amovibles des sanitaires garçons, filles et petits (modèle Corail de France Equipement hauteur 1.78 + 12 cm de vide). 
+
+- Ascenseur RDC et R+1 (réalisé avec le plugin *DigiParaEA_21_00_0064_64bit*). 
+
+- Appareils sanitaires) - Bornes de parking 
+
+Dans la mesure où ces familles ne seraient pas disponibles, la modélisation sera réalisée avec des éléments comparables issues de Revit. 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 5.4.mise à jour des familles.rvt   `** 
+
+<p>&nbsp;</p> 
+
+<p>&nbsp;</p> 
+
