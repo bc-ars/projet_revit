@@ -68,7 +68,7 @@ Nous regardons ici dans le détail le réglage des coupes et des élévations :
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_0.56.png" alt="communication_0.56" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_0.56.png" alt="communication_0.56" style="max-width: 60%" />
 
 <p>&nbsp;</p> 
 
@@ -165,7 +165,7 @@ Plaçons-nous sur le **Plan masse**, dans l’onglet **Vue** 1️⃣, choisir **
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_2.06.png" alt="communication_2.06" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_2.06.png" alt="communication_2.06" style="max-width: 50%" />
 
 <p>&nbsp;</p> 
 
@@ -231,7 +231,7 @@ Cette vue 3D vous permet d’associer la perspective à une coupe. Nous allons p
 
 Il faut tout d’abord dupliquer avec les détails la **Vue {3D}** générique de Revit et la renommer : 
 
-**- Vue 3D plan de section longitudinal **4️⃣. 
+**Vue 3D plan de section longitudinal** 4️⃣. 
 
 <p>&nbsp;</p> 
 
@@ -267,7 +267,7 @@ Nous allons nous placer sur le plan masse du projet. Dans l’onglet **Vue** 1�
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_4.07.png" alt="communication_4.07" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_4.07.png" alt="communication_4.07" style="max-width: 50%" />
 
 <p>&nbsp;</p> 
 
@@ -379,7 +379,7 @@ Depuis le Plan masse, il faut cliquer sur **Ouvrir la promenade virtuelle** 1️
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_4.45.png" alt="communication_4.45" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_4.45.png" alt="communication_4.45" style="max-width: 60%" />
 
 <p>&nbsp;</p> 
 
@@ -517,7 +517,7 @@ La fenêtre de paramétrage du **Rendu** 1️⃣ s’affiche. Pour illustrer not
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_6.20.png" alt="communication_6.20" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/41_communication/communication_6.20.png" alt="communication_6.20" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
