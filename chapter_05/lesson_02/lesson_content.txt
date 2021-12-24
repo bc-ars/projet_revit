@@ -510,7 +510,7 @@ Pour créer une nomenclature, deux possibilités existent:
 
 La boîte de dialogue **Nouvelle nomenclature** 1️⃣ s'ouvre, vous pouvez choisir la catégorie que vous souhaitez quantifier, dans le cadre **Catégorie** 2️⃣. Pour notre exemple, nous allons choisir **Mur**. 
 
-Cliquer sur **OK **3️⃣ pour valider. 
+Cliquer sur **OK**3️⃣ pour valider. 
 
 <p>&nbsp;</p> 
 
@@ -694,7 +694,7 @@ Pour cela, il faut agir sur le coude, comme pour les lignes de niveau en éléva
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_52.20-0338672.png" alt="documentation_1_52.20" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_52.20.png" alt="documentation_1_52.20" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
