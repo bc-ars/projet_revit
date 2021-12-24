@@ -1,0 +1,412 @@
+# La publication des documents
+
+------------------------------
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p> 
+
+Nous allons aborder la création d’un cartouche personnalisé, les créations des vues pour communiquer le projet et leur mise en page ainsi que la documentation du projet (annotations, cotations, nomenclatures). 
+
+<p>&nbsp;</p> 
+
+## 1- Création d’un cartouche personnalisé et d’une nouvelle feuille 
+
+<p>&nbsp;</p> 
+
+Nous allons apprendre à créer un cartouche personnalisé pour vos mises en page de projet, au format A3 horizontal. Dans le menu de **Fichier** 1️⃣, choisir **Nouveau** 2️⃣ puis **Cartouche** 3️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_15.00.png" alt="publication_15.00" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+La fenêtre **Nouveau cartouche** 4️⃣ s’ouvre, avec le répertoire **Cartouches** 5️⃣. Choisir le format **Métrique A3.rft** 6️⃣. C’est une famille, comme l'indique l'extension **.rft** du fichier 7️⃣. Cliquer sur **Ouvrir** 8️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_15.21.png" alt="publication_15.21" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Il faut enregistrer ce nouveau cartouche sous le nom **CARTOUCHE A3**«**NOM** », sous le format de la famille Revit, dans votre répertoire de travail. Nous allons désormais dessiner les lignes qui structurent votre cartouche. Votre feuille A3 est ouverte dans l’espace de travail de Revit, nous allons utiliser les outils de dessin comme la ligne et le rectangle, que nous ajusterons avec la cotation temporaire. L’outil **Ligne** se trouve dans l’onglet **Créer** 1️⃣, Panneau **Détail** 2️⃣ et **Ligne** 3️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_18.42.png" alt="publication_18.42" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**DESSIN DE LA STRUCTURE DU CARTOUCHE** 
+
+<p>&nbsp;</p> 
+
+Choisir le **Rectangle** 1️⃣, avec un décalage de **10.000** 2️⃣ et le tracer du point **3️⃣** au point **4️⃣**. Appuyer sur la barre **ESPACE** du clavier pour inverser le décalage. Les valeurs intérieures sont notées 5️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_26.09.png" alt="publication_26.09" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Vous pouvez tracer votre cartouche, par exemple, jusqu'à obtenir le résultat présenté ci-après, de la gauche vers la droite: 
+
+\- 1 carré de 23x23 1️⃣, 
+
+\- 2 rectangles de 10x106.33 2️⃣, 
+
+\- 1 rectangle de 23x 99.66 3️⃣, 
+
+\- 2 rectangles de 10x 99.66 4️⃣, 
+
+\- 1 rectangle de 23x46 5️⃣. 
+
+Ces formes sont toutes espacées de 3 mm entre elles et sont à 10 mm à l’intérieur du cadre tracé précédemment. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_17.16.png" alt="publication_17.16" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Pour représenter ce découpage du cartouche, je vous conseille de copier les lignes les unes par rapport aux autres (sélection de la ligne et la déplacer avec la touche CTRL du clavier enfoncée) et de les positionner avec la cotation temporaire bleue. Pour réaliser les jonctions entre les lignes, vous pouvez utiliser l’outil **Scinder l’élément** et les rejoindre avec l’outil **Ajuster/Prolonger** en angle ou en déplaçant leurs extrémités avec les points bleus. 
+
+<p>&nbsp;</p> 
+
+**CREATION DES ZONES DE TEXTE DANS LE CARTOUCHE** 
+
+<p>&nbsp;</p> 
+
+Nous allons créer des zones de texte, certaine seront définitives et d’autres s’adapteront au projet. 
+
+Pour créer **un texte toujours visible**, dans l'onglet **Créer** 1️⃣, Panneau **Texte** 2️⃣, choisir **A Texte** 3️⃣. Modifier la taille du texte en dupliquant et en créant un **Texte de 4 mm** 4️⃣. Dessiner l'implantation de votre texte 5️⃣ qui apparaît dans un cadre bleu et saisir le nom de l'établissement, ici, Lycée Denis DIDEROT - MARSEILLE 5️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_19.06.png" alt="publication_19.06" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Copier et coller le cadre texte créé pour tous les textes figés de votre cartouche, avec les possibilités de mise en forme traditionnelles (alignement, couleur, gras, italique). Voir l’exemple ci-dessous : 
+
+**Textes à créer :** Le nom du dessinateur- Projet–Nom de la feuille Echelle - Date - Numéro (Taille 3 mm). 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_20.09.png" alt="publication_20.09" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Pour créer **un texte qui s’adapte à l’identité du projet**, nous allons créer des libellés. Dans l'onglet **Créer** 1️⃣, **Panneau Texte** 2️⃣, cliquer sur **A Libellé** 3️⃣. Choisir sa taille de texte ou la créer comme dans l’exemple précédent. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_21.11.png" alt="publication_21.11" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dès que vous cliquez dans le cartouche pour placer le libellé, la boîte de dialogue **Modifier le libellé** 1️⃣ s'ouvre, comme ci-dessous: 
+
+Dans la zone des champs disponibles, choisir **Nom du projet** 2️⃣. Cliquer sur l'icône **Ajouter les paramètres au libellé** 3️⃣, celui-ci apparaît sur la ligne 1:**Nom du projet** 4️⃣. 
+
+A partir du moment où cette information a été saisie dans les **Informations du projet**, elle apparaîtra à cette place, lors de la création de la feuille avec ce gabarit de cartouche. Cliquer sur **Appliquer** et **OK** 5️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_21.18.png" alt="publication_21.18" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Comme pour le texte, copier les autres libellés dans les cases dédiées, et penser à réassigner le champ correspondant (cadre **2**), en cliquant sur **Modifier le libellé**, une fois sélectionné. 
+
+A ce moment-là, **Supprimer le paramètre du libellé** précédent et placer le nouveau. Il faut penser à ajuster la profondeur du champ par rapport à la taille de la case et la taille du texte. 
+
+Pour information, les libellés peuvent être orientés verticalement avec la rotation (symbole dans le coin supérieur droit du libellé quand on le sélectionne). Voir l’exemple ci-dessous : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_22.45.png" alt="publication_22.45" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Il nous reste désormais à intégrer une image dans le dernier espace qui reste libre du cartouche (23x23). 
+
+<p>&nbsp;</p> 
+
+**INSERTION D’UNE IMAGE DANS LE CARTOUCHE** 
+
+<p>&nbsp;</p> 
+
+On pourrait insérer une image représentative du projet par exemple. Dans notre cas de figure, nous allons placer le logo de l’établissement. Dans l'onglet **Insérer** 1️⃣, Panneau **Importer** 2️⃣, cliquer sur **Image** 3️⃣. Sélectionner l'image à insérer dans le cartouche : logo Diderot, à l'aide de l'explorateur (Répertoire Ressources, familles, cartouche). La placer dans le cartouche dans son cadre, elle est symbolisée par une **croix en pointillés** 4️⃣. 
+
+Vous pouvez redimensionner cette image à l'aide des poignées bleues à ses 4 angles 4️⃣ jusqu'à lui donner la taille de son cadre et aussi saisir sa dimension réelle : **Largeur et Hauteur** 5️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_22.35.png" alt="publication_22.35" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Aperçu final de votre cartouche dans votre mise en page format A3 horizontal: 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_22.45-0343252.png" alt="publication_22.45" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Vous penserez à enregistrer à nouveau votre cartouche, Cartouche A3 « NOM ».rfa, en tant que famille dans votre répertoire de travail (avec votre fichier gabarit personnalisé par la suite). 
+
+Pour intégrer ce nouveau cartouche à votre projet Revit, et à fichier gabarit par la suite, il faut dans l'onglet **Insérer** 1️⃣, **Panneau Editeur de familles** 2️⃣, cliquer sur **Charger dans le projet et fermer** 3️⃣. (Fermer la fenêtre d'Avertissement vous informant que cet élément ne peut s'insérer dans la vue active). Dans l’arborescence de votre projet, vous retrouvez votre cartouche dans Familles, Symboles d’annotations. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_30.31.png" alt="publication_30.31" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 11.1 Cartouche A3 personnalisé.rvt    `** 
+
+<p>&nbsp;</p> 
+
+## 2- Mise en page des vues  
+
+<p>&nbsp;</p> 
+
+Découvrons la méthode pour mettre en page votre projet dans le format A3, avec votre cartouche personnalisé, précédemment créé. 
+
+Cette étape est très importante et doit faire l’objet du plus grand soin afin de bien communiquer son projet, ses intentions à l’aide de la palette de vues disponibles avec Revit. 
+
+De ce fait, nous aborderons cette section en 5 étapes : 
+
+- La création des feuilles pour la mise en page. 
+
+- La mise en page des vues sur les feuilles. 
+
+- Le cadrage des vues dans les feuilles. 
+
+- Les annotations et les cotations des vues. 
+
+- L’impression du dossier du projet. 
+
+<p>&nbsp;</p> 
+
+**LA CRÉATION DES FEUILLES POUR LA MISE EN PAGE** 
+
+<p>&nbsp;</p> 
+
+Dans l’**Arborescence** 1️⃣ du projet, effectuer un clic droit sur **Feuilles** 2️⃣ et choisir **Nouvelle feuille** 3️⃣. 
+
+Dans la fenêtre **Nouvelle feuille** qui s’ouvre, cliquer sur **Charger** afin d’ouvrir le cartouche personnalisé créé au chapitre précédent. 
+
+Ouvrir le fichier **CARTOUCHE A3 ARSENIO** qui se trouve dans le répertoire de la formation : RESSOURCES / Familles / Cartouches. 
+
+Cliquer sur **OK** pour afficher votre nouvelle feuille à l’écran, qui se nommera : **A101 – Sans nom** 
+
+(Pour information : les cartouches de Revit se trouvent dans le répertoire : France / Cartouches). 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_31.02.png" alt="publication_31.02" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Pour identifier votre nouvelle feuille, en faisant un clic droit souris dessus son nom dans l’arborescence du projet et choisir **Renommer**. 
+
+Nous allons mettre en page 2 façades pour illustrer la mise en page. Dans votre boîte de dialogue Titre de la feuille, vous pouvez saisir les informations indiquées ci-contre, dans les rubriques **Nombres** et **Nom**. Elles seront listées selon le **Nombre**. Ces informations sont modifiables à tout moment. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_31.09.png" alt="publication_31.09" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous avons ci-dessous, un exemple de liste de feuilles. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_35_01.png" alt="publication_35_01" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous allons mettre en page la feuille A3 11 afin d’obtenir le résultat ci-dessous : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_31.26.png" alt="publication_31.26" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**LA MISE EN PAGE DES VUES SUR LES FEUILLES** 
+
+<p>&nbsp;</p> 
+
+Avant de placer une vue sur une feuille, il faut effectuer des réglages : 
+
+- L’échelle de la vue, ici le 1 :125 (saisir une échelle spécifique). 
+
+- Niveau de détail : Elevé. 
+
+- Style visuel : Couleurs uniformes. 
+
+- Ombres activées. 
+
+- Cadrer sa vue et afficher la zone cadrée pour ajuster le cadre autour de la vue. 
+
+Le principe pour placer une vue sur une feuille est simple. Ouvrir la feuille qui accueille la vue : **A3 11**. 
+
+Cliquer une fois sur la vue **Elévation OUEST** à placer. La déplacer sur la feuille sans relâcher le clic gauche de la souris et le relâcher une fois dessus. Cliquer sur la feuille pour placer la vue **Elévation OUEST**. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_33.07.png" alt="publication_33.07" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Il est fort possible que vous n’obteniez pas directement ce résultat sur votre feuille, c’est pour cela que nous allons ajuster le cadrage de la vue dans la feuille. 
+
+Chaque vue de votre arborescence du projet ne peut être mise en page qu’une seule fois, il faut donc dupliquer les vues avec les détails si vous souhaitez les réutilisez dans d’autres feuilles. 
+
+<p>&nbsp;</p> 
+
+**LE CADRAGE DES VUES DANS LA FEUILLE** 
+
+<p>&nbsp;</p> 
+
+Pour modifier le cadrage de la vue, il suffit de double cliquer sur la vue dans la feuille, elle devient active. 
+
+On peut ainsi ajuster le cadre qui est visible. 
+
+De rendre **la vue active** présente les intérêts suivants: 
+
+\- Recadrer sa vue. 
+
+\- Déplacer les niveaux visibles. 
+
+\- Effectuer des créations et modifications d’annotations et de cotations directement visibles. 
+
+\- d’afficher ou de masquer des éléments sur la vue. 
+
+Pour sortir de la vue active, il faut double cliquer sur l’espace de travail de Revit, à l’extérieur de la feuille. On accède aussi à cette activation de la vue à l’aide d’un clic droit souris : **Activer / Désactiver la vue**. 
+
+Pour ajuster le libellé de vue de la feuille : Elévation Ouest 
+
+\- Cliquer dessus une fois pour le déplacer. 
+
+\- Cliquer sur la vue pour faire varier la longueur de la ligne d’extension. 
+
+<p>&nbsp;</p> 
+
+**LES ANNOTATIONS ET LES COTATIONS DES VUES** 
+
+<p>&nbsp;</p> 
+
+Comme cela a été conseillé dans le chapitre sur la cotation, il est préférable d’effectuer ses annotations et cotations du projet une fois celui-ci mis en page. Cela permet d’apprécier la taille des textes en fonction de l’échelle choisie. 
+
+Pour information, toutes les modifications effectuées sur les vues actives des mises en page le sont directement sur les vues de l’arborescence du projet, et vice-versa. 
+
+En suivant ces méthodes de travail, vous pouvez mettre en page votre projet en suivant, par exemple, la liste de feuilles proposées. Ce travail est long et méticuleux. 
+
+<p>&nbsp;</p> 
+
+**L’IMPRESSION DU DOSSIER DU PROJET** 
+
+<p>&nbsp;</p> 
+
+Pour imprimer les feuilles du projet, au format PDF, il faut se rendre dans le menu **Fichier** puis choisir **Imprimer** et **Imprimer** une nouvelle fois. La fenêtre **Imprimer** 1️⃣ s’ouvre, nous allons effectuer plusieurs paramétrages : 
+
+**2️⃣** Choisir l’imprimante virtuelle **PDFCreator**. 
+
+**3️⃣** Dans **Propriétés**, sélectionner le format A3, horizontal. 
+
+**4️⃣** Choisir Combiner plusieurs feuilles en un seul fichier. 
+
+**5️⃣** Sélectionner le répertoire de destination du fichier PDF. 
+
+**6️⃣** Dans **Configurer**, vérifier que le zoom est bien à 100%. 
+
+**7️⃣** Cliquer sur Sélectionner pour définir les feuilles qui seront imprimées dans le fichier PDF. 
+
+**8️⃣** Valider le paramétrage de l’impression et la lancer en cliquant sur **OK**. 
+
+À l’étape **7️⃣**, n’afficher que les Feuilles en cochant la case sous la liste proposée, puis cocher **Tout sélectionner**. Cette liste vous propose toutes les vues et feuilles qui sont dans l’arborescence du projet. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_36.05.png" alt="publication_36.05" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 11.2 Mise en page des vues.rvt   `** 
+
+<p>&nbsp;</p> 
+
+## 3- Mise à jour du fichier gabarit du projet 
+
+<p>&nbsp;</p> 
+
+La mise en place d'un gabarit de projet est une priorité afin d'utiliser la même charte graphique et méthode de travail. Il s'agit de gagner du temps et en efficacité, donc en confort de travail pour modéliser ses projets. 
+
+Revit contient 6 fichiers gabarits différents, extension .rte, qui correspondent à autant de professions: 
+
+\- **DefaultFRAFRA.rte**: gabarit de projet pour l'architecte. 
+
+\- **Mechanical-DefaultFRAFRA.rte**: gabarit de projet pour le Bureau d'Etudes en CVC. 
+
+\- **Electrical-DefaultFRAFRA.rte**: gabarit de projet pour le Bureau d'Etudes en électricité. 
+
+\- **Plumbing-DefaultFRAFRA.rte**: gabarit de projet pour le Bureau d'Etudes en plomberie. 
+
+\- **Structural Analysis-DefaultFRAFRA.rte**: gabarit de projet pour le Bureau d'Etudes en structure. 
+
+\- **Construction-DefaultFRAFRA.rte**: gabarit de projet pour une construction métallique. 
+
+Ce fichier gabarit vous permet de conserver tous les paramétrages effectués dans votre projet Revit, à partir du **fichier gabarit architectural** de départ. C’est comme si nous avions un fichier Revit vierge personnalisé dans lequel vous capitalisez votre expérience, avec : 
+
+1- Les informations du projet 
+
+2- Les unités de travail du projet 
+
+3- Les niveaux du projet. 
+
+4- Les paramètres de visualisation des vues. 
+
+5- Les styles de lignes, textes et symboles. 
+
+6- Les familles systèmes: murs et planchers. 
+
+7- Les familles externes importées dans Revit. 
+
+8- La bibliothèque de matériaux. 
+
+9- L'organisation des vues de mise en page. 
+
+Nous allons créer ce fichier gabarit à l’issu de la modélisation du centre de loisirs. Le principal intérêt est de partir de ce nouveau gabarit architectural pour faciliter la modélisation du prochain projet. 
+
+Dans l’onglet **Fichier** 1️⃣, cliquer sur **Enregistrer sous** 2️⃣ puis choisir **Gabarit** 3️⃣. 
+
+Notre fichier sera nommé : **Gabarit architectural EPv1220.rte** 
+
+Le fichier Excel recensera tous les composants personnalisés dans les onglets suivants : 
+
+- Murs porteurs 
+
+- Cloisons 
+
+- Planchers 
+
+- Menuiseries extérieures 
+
+- Familles Revit rfa. 
+
+Pour un futur projet, il sera intéressant de partir de ce fichier gabarit enrichi. Veiller à bien enregistrer son fichier Revit auparavant. 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 11.3 Fichier gabarit.rvt     `** 
+
+<p>&nbsp;</p> 
+
+<p>&nbsp;</p> 
+
