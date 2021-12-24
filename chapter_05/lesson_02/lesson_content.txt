@@ -1,382 +1,861 @@
-# Les sites de ressources de composants BIM
+# La documentation du projet
 
 ------------------------------
 
 <p>&nbsp;</p>
 
-Nous  allons découvrir 3 sites de ressources en ligne, vous permettant d'intégrer à votre projet les produits réels des fabricants industriels. Ces objets BIM répondent à l’objectif du BIM d’intégrer dans une maquette numérique les informations modélisées du bâtiment. 
+<p>&nbsp;</p> 
+
+## 1- Annotation des dessins
+
+<p>&nbsp;</p> 
+
+L’objectif de ce chapitre est de d’apprendre à documenter son projet en indiquant zones de texte (repère et paragraphe), des cotations planimétriques et altimétriques. Les méthodes d’annotation sont présentées maintenant mais nous verrons ensuite qu’il sera plus judicieux de la réaliser au moment de la mise en page du projet. 
+
+<p>&nbsp;</p> 
+
+### Les annotations textuelles
+
+<p>&nbsp;</p> 
+
+L’ajout de texte sur le projet est très utile pour y ajouter des informations techniques comme des indications de matériaux, des précisions sur les solutions techniques. 
+
+Pour illustrer cette fonction, nous allons documenter une coupe du projet qui apparaîtra dans la mise en page du projet : **Longitudinale Stockage cantine - Réfectoire.** 
+
+Avant de commencer à annoter cette vue, il faut affiner sa visualisation : 
+
+- Masquer les plans de référence. 
+
+- Masquer les quadrillages. 
+
+- Aligner les niveaux du projet sur un côté, ou les deux. 
+
+- Délimiter la zone visible. 
+
+  <p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_0_1.png" alt="documentation_0_1" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous allons indiquer le nom des espaces dans la coupe en utilisant **l’outil Texte**. 
+
+Dans l’onglet **Annoter** 1️⃣, choisir l’outil **Texte** 2️⃣. Revit va afficher un réticule avec la lettre **A**. Cliquer à l'intérieur de votre vue pour placer votre texte, en définissant un cadre. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_0_40.png" alt="documentation_0_40" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Une fois le texte saisi et sélectionné 1️⃣, le panneau **Propriété** vous informe du nom **du texte** 2️⃣, sa hauteur est mentionnée dans son appellation. 
+
+Cliquer sur **Modifier le type** 3️⃣ pour le dupliquer afin d’en créer un autre, de changer sa tailler, sa couleur, le mettre en gras, italique, afficher un cadre, … 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_33.33.png" alt="documentation_1_33.33" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Le cadre du texte vous offre la possibilité de le déplacer et de l’orienter avec une rotation. Dans notre exemple, nous utiliserons un texte bleu marine de 3mm, gras, sans cadre. On peut ainsi distinguer les informations courantes comme le nom des espaces en bleu des informations techniques en rouge. 
+
+⚠️ : ***Important***
+
+*La hauteur de votre texte ne changera pas quelle que soit l’échelle de votre vue. Cela veut dire que sur un document au 1 :200, le texte de 2 mm sera deux fois plus gros que sur un document au 1 :100.* 
+
+*De ce fait, il faut au préalable définir l’échelle de ses vues et ajuster les hauteurs des annotations, comme celles des cotations du projet. Le plus simple est d’annoter son projet une fois les vues sélectionnées et mis en page. Celles-ci se mettront automatiquement à jour.* 
+
+Pour modifier vos textes, il suffit de double-cliquer dessus et de saisir le mot. Pour agrandir la ligne de texte, un seul clic permet d’accéder à la poignée bleue pour agrandir le cadre. Les lignes de texte se dupliquent par copier-coller ou en le déplaçant avec **la touche CTRL** du clavier enfoncé. 
+
+Les alignements du texte (justifications) se font dans le panneau Alignement ou dans les propriétés du texte sélectionné. 
+
+Nous avons aussi la possibilité d’annoter le projet avec les repères de texte composé d’une zone de texte et d’une ligne de repère, qui peut se rajouter après la saisie. 
+
+Sélectionner **une zone de texte** 1️⃣ puis choisir **une ligne de repère** 2️⃣. Elle se place automatiquement sur la cadre du texte (visible ou non). Cette ligne se déplace et s’ajuste en longueur à l’aide des poignées bleues. 
+
+Attention, si vous la supprimez, vous supprimer la ligne et le texte simultanément. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_34.03.png" alt="documentation_1_34.03" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_34.16.png" alt="documentation_1_34.16" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_34.29.png" alt="documentation_1_34.29" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+*💡 : la **Limite de propriété** symbolisée par un trait d’axe rouge, est une nouvelle ligne de détail. Il faut se rendre dans l’onglet **Gérer**, puis **Paramètres supplémentaires**, choisir **Styles de lignes** et créer cette nouvelle ligne (couleur rouge et trait centre).* 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_34.44.png" alt="documentation_1_34.44" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dans la fenêtre Remplacements visibilité / graphisme (vv), les textes sont classés dans les **Notes textuelles** de l’onglet **Catégories d’annotations**. 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 10.1.1 Les annotations textuelles.rvt    `** 
+
+<p>&nbsp;</p> 
+
+### La cotation planimétrique
+
+<p>&nbsp;</p> 
+
+Les cotations planimétriques sont issues de familles système style de cotations alignées, linéaires et angulaires. Elles sont accessibles depuis l’onglet **Annoter** 1️⃣. 
+
+Nous utiliserons principalement les deux styles de cotation ci-dessous selon les besoins : 
+
+\- cotation **Alignée** 2️⃣ : cotation des références individuelles du projet 
+
+\- cotation **Linéaire** 3️⃣ : cotation des murs entiers avec les ouvertures, du cloisonnement intérieur. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_35.11.png" alt="documentation_1_35.11" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**CRÉATION DE LA COTATION ALIGNÉE** 
+
+<p>&nbsp;</p> 
+
+Pour illustrer ce principe de cotation, nous allons nous ouvrir le **Niveau 0 RDC**. On peut masquer les quadrillages, les plans de coupe et les plans de références, afin de ne laisser apparaître que l’architecture de cet espace dédié à la restauration. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_35.30.png" alt="documentation_1_35.30" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Avec cette cotation alignée, on peut effectuer toute la cotation planimétrique du projet, en utilisant les **Murs entiers** ou les **Références individuelles**. C’est une fonction automatique très pratique quand elle est bien paramétrée. 
+
+Commençons par les **Murs entiers**, pour cela, dans l’onglet **Annoter**, choisir **Alignée**, la barre d’option s’affiche. Choisir **Faces du mur** 1️⃣, les faces extérieures, et **Murs entiers** 2️⃣. Cliquer sur **Options** 3️⃣ pour définir les options de cotes automatiques. 
+
+Une fois la boîte de dialogue **Options des cotes automatiques** 1️⃣ ouverte, nous allons choisir les références pour la cotation alignée : 
+
+\- **Ouvertures** : Centres : cotation des axes des baies. 
+
+Largeurs : cotations des largeurs des baies.
+
+\- **Intersection des murs** : cotation des murs qui rentrent en contact avec le mur de façade désigné. 
+
+\- **Quadrillage intersectés** : cotation des quadrillages.
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_36.18.png" alt="documentation_1_36.18" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous allons choisir d’effectuer la cotation de la façade SUD extérieure, avec **les largeurs des baies,** avec le paramétrage indiqué plus haut. Cliquer sur **OK** pour valider. Nous choisirons une cotation de 2 mm. 
+
+Cliquer une première fois sur la façade SUD puis une deuxième fois à l’endroit où vous voulez placer votre ligne de cotation horizontale : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_36.32.png" alt="documentation_1_36.32" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Vous obtenez ce résultat après de nombreux réglages du style de cote, dans **Modifier le type**, comme : 
+
+\- Décalage du texte : 0.0000 mm 
+
+\- Police du texte : Arial 
+
+\- Format des unités : 1234.27 [m] 
+
+\- Facteur de largeur : 0.800000 (compression latérale quand les cotes sont rapprochées). 
+
+\- Extension de la ligne d’attache : 1.5000 m 
+
+\- Afficher la hauteur des ouvertures. 
+
+Pour effectuer la cotation **des axes des baies**, il faut simplement, dans **Ouvertures**, décocher **Largeurs** et cocher **Centres**. Vous obtenez le résultat ci-dessous pour la façade SUD : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_36.45.png" alt="documentation_1_36.45" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Comme pour les annotations textuelles, la dimension de la cotation est fixe quelle que soit l’échelle du plan. Il faudra donc ajuster la hauteur des styles de cote au moment du choix des échelles de la mise en page du projet. 
+
+Pour finir avec la cotation extérieure, nous allons indiquer **la dimension totale de la façade**. Pour cela, il faut tout décocher dans **Ouvertures**. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_36.56.png" alt="documentation_1_36.56" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous allons regarder de plus près comment agir sur la position des lignes d’attaches. 
+
+En agissant sur la poignée bleue 1️⃣, vous jouez sur la longueur de la ligne d’attache. 
+
+En agissant sur la poignée bleue 2️⃣, vous positionnez la ligne d’attache : 
+
+- Cliquer 1 fois dessus et à chaque fois la ligne se positionne (face extérieure, centre porteur ou face intérieure). 
+
+- Glisser le point bleu à l’endroit désiré (face extérieure, axe porteur, axe mur, face intérieur). 
+
+Cela vous permet de corriger la cotation automatique. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_37.12.png" alt="documentation_1_37.12" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 10.1.2 La cotation alignée 1.rvt    `** 
+
+<p>&nbsp;</p> 
+
+Toujours à l’aide de **la cotation alignée**, nous pouvons aussi réaliser **la cotation du cloisonnement intérieur du projet**. Il faut simplement laisser cocher **Intersection des murs** dans la boîte de dialogue **Options des cotes automatiques**. Cliquez sur le mur de séparation de la cuisine et des sanitaires : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_37.44.png" alt="documentation_1_37.44" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous observons que la cotation intérieure avec les murs est effectuée. En regardant de plus près **la zone repérée** 1️⃣, la cloison intérieure est cotée mais le mur de refend qui touche notre mur également. Nous avons donc la valeur 0.22 qui ne devrait pas apparaître. 
+
+Il existe deux solutions pour pallier à cette erreur : 
+
+\- Modifier la position des lignes d’attaches : travail supplémentaire et laborieux parfois. 
+
+\- Effectuer la cotation intérieure en utilisant les **Références individuelles** ou des **Murs entiers**. 
+
+Cette deuxième option est fiable puisque l’on vient choisir une à une nos références à coter. 
+
+Nous allons effectuer la cotation du cloisonnement intérieur, pour cela, dans l’onglet **Annoter**, choisir **Alignée**, la barre d’option s’affiche. Choisir **Faces du mur (**les faces extérieures), et **Références individuelles**. Aucune Option n’est disponible dans cette méthode. Cliquer sur chaque face intérieure des murs et des cloisons de gauche à droite, et cliquer une dernière fois pour placer votre ligne de cotation, afin d’obtenir le résultat ci-dessous. Vous remarquez alors que les épaisseurs des murs et cloisons se superposent à l’ouvrage. Il faut déplacer la valeur latéralement à l’aide de la poignée bleue du chiffre (elle se trouve sur la ligne de cote sous le chiffre) : 
+
+<p>&nbsp;</p> 
 
-Vous augmenterez le niveau de détail de la maquette BIM du niveau 2 avec des composants génériques vers le niveau 3 avec des composants professionnels qui traduisent les prescriptions des pièces écrites. 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_38.44.png" alt="documentation_1_38.44" style="max-width: 100%" />
 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_38.54.png" alt="documentation_1_38.54" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Cette fonction de cotation à l’aide des références individuelles est aussi utilisée pour effectuer la cotation des coupes. Nous allons illustrer cette possibilité sur la coupe **Longitudinale Stockage cantine - Réfectoire.** 
+
+Il faut cliquer sur chaque face que l’on veut désigner comme référence pour la ligne de cote verticale (de la base de la fondation à la couvertine de l’acrotère). 
+
+Pour information, même si le plancher est composé de plusieurs couches de matériaux, chaque couche peut servir de référence (utile pour les coupes de détail). 
+
+Nous avons, à droite, la cotation verticale du mur extérieur du stockage cantine. Il faudra décaler certaines valeurs qui se superposent entre elles. La valeur est alors reliée à sa ligne avec un arc. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_39.05.png" alt="documentation_1_39.05" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 10.1.2 La cotation alignée 2.rvt    `** 
+
+<p>&nbsp;</p> 
+
+La cotation linéaire est utilisée pour coter des références entres elles comme les composants insérés. 
+
+<p>&nbsp;</p> 
+
+### La cotation altimétrique
+
 <p>&nbsp;</p> 
 
-## 1- Polantis – Bimobject : Insertion d’un exutoire de fumée  
+Cette cotation d’élévation vous permet d’indiquer la valeur du niveau des éléments choisis. Elle se calcule en fonction des niveaux déclarés au début du projet. Nous pourrons l’effectuer sur les plans d’Etage, sur les coupes et élévations. 
 
 <p>&nbsp;</p> 
 
-Le site web polantis nécessite une inscription pour être membre et avoir accès aux nombreuses bibliothèques disponibles. L’accès aux composants se fait soit par fabriquant soit par objet. 
+**CRÉATION DE LA COTATION ALTIMÉTRIQUE EN PLAN** 
+
+<p>&nbsp;</p> 
+
+Placez-vous sur le **Niveau 1er**. Dans l’onglet **Annoter** 1️⃣, cliquer sur **Cote d’élévation** 2️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_39.21.png" alt="documentation_1_39.21" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dans le Panneau **Propriétés**, choisir la cotation **En Plan – Projet** 1️⃣, puis placer **le symbole** 2️⃣ sur le plan, à l’endroit choisi. Régler les **Graphismes** 3️⃣ comme indiqué ci-contre. 
+
+Dans **Modifier le type**, nous pouvons accéder à des réglages de cette cotation pour affiner son graphisme (taille du texte, couleur, typographie, format des unités (+), transparence de l’étiquette). 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_39.41.png" alt="documentation_1_39.41" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+*💡 : **Indications***
+
+*\- Il est conseillé, une fois les réglages effectués de dupliquer cette famille et la renommer selon le gabarit de l’agence : **En Plan – Projet PE**.* 
+
+*\- Dans les propriétés de la vue en plan, dans Niveau en fond de plan, choisir **Aucune** pour Plage : niveau de base.* 
+
+<p>&nbsp;</p> 
 
-Le site web est accessible à l'adresse internet: https://www.polantis.com/fr/ 
+**CRÉATION DE LA COTATION ALTIMÉTRIQUE EN COUPE ET EN ÉLÉVATION** 
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_19.56.png" alt="site_BIM_19.56"  style="max-width: 70%" />
+Placez-vous sur une coupe ou une élévation, le principe sera le même. 
 
+Dans le Panneau **Propriétés**, choisir la cotation **Aucun symbole (projet)** 1️⃣, puis placer **le symbole** 2️⃣ sur la surface horizontale à coter, à l’endroit choisi. Régler les **Graphismes** 3️⃣ comme indiqué ci-contre. Dupliquer cette cotation et la renommer **Niveau projet élévation coupe PE**. 
+
+Dans **Modifier le type**, nous pouvons accéder à des réglages de cette cotation pour affiner son graphisme (taille du texte, couleur, typographie, format des unités (+), transparence de l’étiquette). 
+
 <p>&nbsp;</p> 
 
-L’inscription au site se fait à partir du bouton **S’IDENTIFIER**, puis créer un compte. 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_39.56.png" alt="documentation_1_39.56" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_20.54.png" alt="site_BIM_20.54"  style="max-width: 70%" />
+**`Fichier étape 10.10.1.3 La cotation altimétrique.rvt    `** 
 
 <p>&nbsp;</p> 
 
-L’accès aux objets BIM peut se faire depuis l’icône du menu 1️⃣, soit par les **catégories**, soit par les **fabricants** 2️⃣. 
+En suivant ces principes, vous pouvez effectuer la cotation de l’ensemble du projet, du moins les plans coupes et élévations qui apparaîtront dans votre mise en page du projet, dont vous connaissez l’échelle. Pour la formation, certaines seront exécutées au moment de l’édition des formats A3, uniquement sur les vues sélectionnées. 
 
 <p>&nbsp;</p> 
+
+
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_20.04.png" alt="site_BIM_20.04"  style="max-width: 70%" />
+## 2- Les surfaces des pièces et le tableau de repérage  
 
 <p>&nbsp;</p> 
+
+Dans cette section, vous allez créer des pièces sur votre projet et générer un tableau de surface. 
+
+Depuis l'arborescence du projet, placez-vous sur le **Niveau 0 RDC**, faire un clic droit souris sur le nom, dupliquez la vue RDC avec les détails. La nouvelle vue sera renommée : **Niveau 0 RDC Surfaces**. 
+
+Pour améliorer la lisibilité du plan, vous masquerez les éléments suivants : 
+
+\- Les cotations. 
+
+\- Les indications de plan de coupe. 
 
-La zone **Chercher**, en haut de l’écran, permet d’affiner sa recherche. 
+\- les quadrillages. 
 
-On peut également accéder à des bibliothèques : 
+<p>&nbsp;</p> 
 
-- Objets 3D générique, classée par Types et Collections (Véhicules, personnages, mobiliers, bateaux, …). 
+**DÉLIMITER LES PIÈCES DU REZ-DE-CHAUSSÉE** 
 
-- Fournitures (mobiliers). 
+<p>&nbsp;</p> 
 
-- Plantes 3D 
+Avant de déclarer vos pièces, il faut les délimiter sur le plan Niveau 0 RDC (si celles-ci ne sont fermées). Nous utiliserons cet outil pour séparer le Hall d’entrée en 2 parties distinctes (Hall escalier et Hall central). Dans l'onglet **Architecture 1️⃣**, Panneau **Pièces et surface** 2️⃣, choisissez **Séparateur de pièces** 3️⃣. 
 
-  <p>&nbsp;</p>
+<p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_21.01.png" alt="site_BIM_21.01"  style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_40.24.png" alt="documentation_1_40.24" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
+
+Cliquez sur le point de **Début** puis **Fin**, la ligne bleue en pointillé marque la délimitation. 
+
+Paramétrer l’affichage des lignes de séparation fines ou épaisses, pour tracer précisément la séparation et la visualiser. 
 
-Pour illustrer l’utilisation du site polantis, nous allons télécharger la fenêtre de toit, pour l’éclairage et le désenfumage de la cage d’escalier (*PE25 – article 2 – éclairement*). 
+Revit considérera maintenant cette séparation comme une limite de pièce. 
 
 <p>&nbsp;</p> 
 
-### **TÉLÉCHARGER L’OBJET BIM SUR LE SITE** 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_40.37.png" alt="documentation_1_40.37" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
-\- Dans la zone **Chercher**, taper le mot « désenfumage » et cliquer sur la loupe. 
+Comme repéré ci-dessous, dessiner maintenant les limites de pièces pour cet espace de circulation, qui distribue le rez-de-chaussée avec l’escalier et l’ascenseur. 
 
-\- Dans la page qui affiche les résultats, cliquer sur **l’objet BIM** 1️⃣, **la fenêtre coupole exutoire désenfumage électrique**, ou cocher **la case** liée 2️⃣ et sur **Télécharger** (fenêtre en bas à droite). 
+Ce sont justement ces deux composants qui ne délimitent pas naturellement les pièces. 
 
-\- Nous choisissons de cliquer sur l’objet 3D afin de voir les possibilités de téléchargement. 
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_40.49.png" alt="documentation_1_40.49" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_21.20.png" alt="site_BIM_21.20"  style="max-width: 70%" />
+**REPÉRER LES PIÈCES DU REZ-DE-CHAUSSÉE** 
 
 <p>&nbsp;</p> 
 
-Polantis affiche la fiche du produit avec **des visuels** 1️⃣ de la fenêtre de toit VELUX. On a la possibilité de se rendre sur **le site du fabricant** 2️⃣, de télécharger son **Catalogue** 3️⃣ et enfin de télécharger **l’objet 3D** 4️⃣ selon différents formats. Cliquer sur l’icône de téléchargement. 
+Dans l’onglet **Architecture**, panneau **Pièce et surface** 1️⃣, cliquez sur **Pièce** 2️⃣. 
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_21.25.png" alt="site_BIM_21.25"  style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_41.05.png" alt="documentation_1_41.05" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
+
+Il est conseillé de venir cliquer à l'intérieur de tous les espaces. Vous pouvez aussi choisir de toutes les sélectionner automatiquement en cliquant sur **Placez des Pièces automatiquement**. 
+
+Revit vous sélectionne 61 pièces, dont les 6 jardinières réalisées avec l’outil **Muret** 1 gaine (à supprimer). 
+
+Il faudra délimiter l’espace Entrée Réfectoire et associer le Dégagement des bureaux avec l’espace au-dessus du Hall circulation. 
 
-Dans la fenêtre qui permet d’accéder au téléchargement de **l’objet 3D** 1️⃣, plusieurs **formats** 2️⃣ sont disponibles, propres à chaque logiciel, dont celui de **Revit** 3️⃣. Cliquer sur **Télécharger** 4️⃣ pour récupérer dans votre dossier téléchargement la famille Revit en .rfa. 
+Pour information, en décochant Limite de pièce dans le panneau Propriété d’un mur, il perd sa fonction de limite de pièce. La pièce sera alors étendue. 
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_21.29.png" alt="site_BIM_21.29"  style="max-width: 70%" />
+**RENOMMER LES PIÈCES DU REZ-DE-CHAUSSÉE** 
 
 <p>&nbsp;</p> 
 
-L’objet 3D s’enregistre sous deux noms : **roof-windowsveluxcspisd.rfa** et **roof-windowsveluxcspisdfr.rfa**. Il faut commencer par importer votre nouvelle famille .rfa dans le projet. Il doit être ouvert pour insérer l’objet 3D : 
+Renommez successivement les **Pièces**, en cliquant sur l’étiquette, selon les appellations du projet support de référence. 
 
-- Dans Revit, avec votre projet ouvert, depuis le Menu Fichier, ouvrir le fichier **roof- windowsveluxcspisd.rfa** qui se trouve dans le répertoire Familles de la formation. 
+Pour paramétrer votre étiquette, la sélectionner puis **Modifiez la famille**. Sélectionnez ensuite la zone de masquage ou le libellé, pour changer la taille du texte, ou la transparence du fond. Charger dans le projet votre nouvelle famille. 
 
-- Une fois Revit ouvert avec la famille du VELUX, cliquer sur **Charger dans le projet et fermer** 1️⃣. 
+<p>&nbsp;</p> 
 
-Votre VELUX s’ouvre automatiquement dans votre projet, il est visible dans le **Panneau Propriétés**. Si vous ouvrez la famille VELUX depuis l’explorateur de windows, Revit s’ouvre une deuxième fois et le projet initial ne sera pas trouvé. 
+**SÉLECTIONNER LES COULEURS DES PIÈCES DU REZ-DE-CHAUSSÉE** 
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_21.37.png" alt="site_BIM_21.37"  style="max-width: 70%" />
+Vous allez maintenant ajouter des couleurs aux pièces. Dans l’onglet **Architecture**, panneau Pièce et surface, Cliquez sur le sous menu **Pièce et surface** 1️⃣, puis sur **Choix des couleurs** 2️⃣. 
 
 <p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_41.20.png" alt="documentation_1_41.20" style="max-width: 100%" />
 
-Le VELUX **roof-winndowsveluxcspisdfr** 1️⃣ existe en deux dimensions **1000x1000** et **1200x1200** 2️⃣. 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_41.32.png" alt="documentation_1_41.32" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
+
+Dans la fenêtre ci-dessous **Modification du choix de couleurs** 1️⃣, effectuer les réglages suivants : 
+
+- Dans **Catégories**, choisir **Pièces** 2️⃣. 
+
+- Dans **Titre**, saisir **Repérage couleur des espaces** 3️⃣. 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_21.44.png" alt="site_BIM_21.44"  style="max-width: 70%" />
+- Dans **Couleur**, choisir par **Nom** 4️⃣ et choisir ses couleurs (par fonction par exemple). 
 
+- **Le nom des espaces** sont listés dans la colonne Valeur 5️⃣, vous pouvez attribuer une couleur par fonction afin d’améliorer la compréhension du fonctionnement du bâtiment. 
+
+- Cliquer sur **Appliquer** et **OK** pour valider 6️⃣. 
+
 <p>&nbsp;</p> 
 
-Cet Objet 3D ne s’intègre qu’à un toit de base, et non à un plancher. Nous choisirons le modèle 1000 x 1000 avec une dimension intérieure de 0.992 m. 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_42.32.png" alt="documentation_1_42.32" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_21.52.png" alt="site_BIM_21.52"  style="max-width: 70%" />
+Pour placer ensuite votre légende sur votre dessin, choisissez dans l'onglet **Annoter** 1️⃣, Panneau **Motif / couleur**, **Légende de Motif** / **couleur** 2️⃣. 
 
 <p>&nbsp;</p> 
 
-Nous adapterons la toiture terrasse du projet afin d’insérer le VELUX. Ci-dessous, le détail technique d’implantation du VELUX sur la toiture terrasse, issu du document « brochure-solutions pour toits-plats-2018.original » (répertoire ressources de la formation). Les rehausses joueront le rôle des acrotères pour arrêter l’isolation thermique et l’étanchéité de la toiture. 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_43.26.png" alt="documentation_1_43.26" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_22.04.png" alt="site_BIM_22.04"  style="max-width: 70%" />
+Dans la fenêtre "**Choisir le type d'espace et le choix des couleurs**, choisissez par **Pièces** puis par **Nom**. Cliquez sur votre vue pour placer votre légende. 
 
+Sélectionner votre légende sur votre espace de travail et cliquer sur **Modifier le type** afin de paramétrer les graphismes et textes. Les espaces de la légende qui s’affichent seront uniquement ceux du niveau actif. 
+
+Toute modification des espaces et couleurs est automatiquement répercutée dans les légendes. 
+
 <p>&nbsp;</p> 
 
-**Voici les étapes à suivre pour intégrer l’objet BIM dans le projet :** 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_43.40.png" alt="documentation_1_43.40" style="max-width: 100%" />
 
-**1-** **Modéliser une toiture de base sans pente** à l’endroit où le velux s’implantera. Seul le toit accepte cet objet, on parle de composant hôte. Ce sera un carré de 1.18 m de côté. 
+<p>&nbsp;</p> 
 
-- Dans l’onglet **Architecture** 1️⃣, sélectionner **Toit** 2️⃣ puis **Toit par tracé** 3️⃣. 
+**`Fichier étape 10.2 Les surfaces des pièces.rvt   `** 
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_22.20.png" alt="site_BIM_22.20"  style="max-width: 70%" />
+## 3- Création des nomenclatures
 
 <p>&nbsp;</p> 
 
-- Dupliquer le toit existant de 200 mm et en créer un de 1 mm d’épaisseur. 
+Nous allons comprendre le fonctionnement des nomenclatures, comment les éditer et les mettre en forme afin de les insérer dans la mise en page. Cette fonction vous permet de générer instantanément des quantitatifs des éléments qui apparaissent dans votre projet. Ces tableaux se mettent à jour automatiquement, suivent l'évolution de votre projet, et restent dynamiques. 
 
-- Tracer l’**Emprise du Toit,** comme indiqué à droite, avec les outils de dessin (rectangle), sur Niveau Toiture fini R+1, avec 1n décalage inférieur de 0.176 m. Le positionner au centre de la toiture terrasse. 
+Par défaut, dans le fichier gabarit d’origine, Revit vous propose 3 nomenclatures, que vous trouvez dans l’arborescence du projet : 
 
+\- Nomenclature des fenêtres. 
+
+\- Nomenclature des pièces. 
+
+\- Nomenclature des portes. 
+
+Nous aborderons, par la suite, les méthodes pour les organiser, améliorer leur présentation et en créer d’autres, qui seront intégrées à votre projet et à votre fichier gabarit personnel. 
+
+Il faut distinguer les nomenclatures d’éléments des nomenclatures de matériaux. 
+
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_22.43.png" alt="site_BIM_22.43"  style="max-width: 70%" />
+### Les nomenclatures de composants du projet
 
 <p>&nbsp;</p> 
+
+**LE PARAMÉTRAGE DE LA NOMENCLATURE AVEC LES ONGLETS** 
+
+<p>&nbsp;</p> 
+
+Pour créer une nomenclature, deux possibilités existent: 
+
+**1-** Effectuer un clic droit sur **Nomenclatures/Quantités** dans l'arborescence du projet et choisir **Nouvelle(s) nomenclature/quantités** avec un clic droit. 
 
-Avant de valider l’Esquisse avec **la coche verte **✅, sélectionner chaque ligne d’esquisse à côté du symbole d’inclinaison de pente et saisir une pente nulle de **0 degré** 2️⃣. Cela permettra d’avoir un toit plat. Valider l’Esquisse. 
+**2-** Cliquer sur **Nomenclatures/quantités** dans **Nomenclatures** de l'onglet **Vue**. 
 
+La boîte de dialogue **Nouvelle nomenclature** 1️⃣ s'ouvre, vous pouvez choisir la catégorie que vous souhaitez quantifier, dans le cadre **Catégorie** 2️⃣. Pour notre exemple, nous allons choisir **Mur**. 
+
+Cliquer sur **OK **3️⃣ pour valider. 
+
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_22.51.png" alt="site_BIM_22.51"  style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_43.56.png" alt="documentation_1_43.56" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
+
+La boîte de dialogue Propriétés de la Nomenclature 1️⃣ s'ouvre, comme ci-dessous: 
+
+- 5 onglets 2️⃣ permettent de régler la nomenclature, nous allons paramétrer les éléments du premier onglet **Champs**. 
+
+- Nous allons choisir les Champs pour les **Murs** 3️⃣. 
+
+- Sélectionner les **Champs** 3️⃣ qui vont définir le mur. 
+
+- Parmi ceux qui sont disponibles 4️⃣, **Ajouter** ou **Supprimer** 5️⃣, afin de les faire apparaître dans **la nomenclature** 6️⃣. 
+
+- Pour organiser l’ordre des champs 6️⃣, qui apparaîtront de gauche à droite dans le tableau généré, agir sur **Monter** ou **Descendre** 7️⃣. 
+
+- Cliquer sur **OK** 8️⃣, pour valider.
 
-Refuser d’attacher les murs au toit. 
+<p>&nbsp;</p>  
 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_48.14.png" alt="documentation_1_48.14" style="max-width: 100%" />
+
 <p>&nbsp;</p> 
+
+L'intérêt d'avoir une nomenclature correctement paramétrée est de faire apparaître dans son tableau les éléments souhaités avec des totaux judicieusement placés, d'affiner sa mise en forme et d'obtenir ainsi des avant-métrés complets des lots de l'ouvrage. Ces nomenclatures feront partie du fichier gabarit, une fois paramétrées. Cependant, les divers paramétrages seront ajustés si les appellations des composants du projet évoluent au moment de finaliser son fichier gabarit. 
+
+Reprenons l'exemple des murs pour illustrer le paramétrage de la nomenclature, à l'aide des 5 onglets. Il faut ouvrir pour cela la nomenclature des murs dans l'arborescence du projet. 
+
+Ouvrir votre nomenclature dans l’arborescence du projet (**Nomenclature de mur**), vous permet de constater les effets de votre paramétrage des champs. Ce sera le réflexe de travail à adopter à chaque fois afin de vérifier les effets de ces choix, le plus souvent possible. 
+
+Dans notre cas de figure, parmi les champs sélectionnés (cadre rouge, nous supprimerons : 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_23.07.png" alt="site_BIM_23.07"  style="max-width: 70%" />
+\- Famille (car tous en mur de base). 
 
+\- Matériaux structurel (car composés de plusieurs matériaux) 
+
 <p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_48.45.png" alt="documentation_1_48.45" style="max-width: 100%" />
 
-**2-** **Insérer le VELUX sur le toit depuis la Vue {3D}**. Pour cela masquer temporairement la toiture terrasse en demi-cercle existante, afin de laisser apparaître le toit plat modélisé à l’étape précédent. 
+<p>&nbsp;</p> 
 
-L’arborescence du projet contient dans le dossier Familles toutes les familles.rfa du projet. 
+Nous allons voir maintenant comment affiner notre présentation, par Famille et type, en indiquant des quantités, grâce aux 4 onglets disponibles, et en améliorant l’aspect graphique du tableau. Nous nous intéresserons uniquement aux murs porteurs du projet. Il faudra rajouter le champ **Commentaires**. 
 
-Dans le dossier Familles, ouvrir Fenêtres 1️⃣, vous retrouvez la fenêtre **CSP size 1000x1000** 2️⃣. Cliquer dessus et sans relâcher le clic gauche, la faire glisser le toit plat 3️⃣, cliquer pour la positionner. Vous ajusterez la position du VELUX sur le centre du toit plat en vous aidant de coupes perpendiculaires, les 2 éléments se superposent. 
+Pour information, selon le composant que vous souhaitez détailler dans la nomenclature, les champs proposés ne sont pas les mêmes, ils dépendent des caractéristiques dimensionnelles de l’élément. 
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_23.20.png" alt="site_BIM_23.20"  style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_48.55.png" alt="documentation_1_48.55" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_23.28.png" alt="site_BIM_23.28"  style="max-width: 70%" />
+**ONGLET FILTRE** 
 
 <p>&nbsp;</p> 
 
-Coupe du VELUX avec les profils de la toiture à modifier. Créer les planchers : 
+Pour l'onglet **Filtre** 1️⃣, vous allez pouvoir organiser selon vos préférences l'ordre d'affichage de la catégorie qui est détaillée. Choisir de filtrer par **Commentaires** 2️⃣, qui **contient **3️⃣ le mot **Porteur** 4️⃣. 
 
-1️⃣: étanchéité 6 +isolant 12 + étanchéité 6. 
+On peut filtrer plusieurs fois sa nomenclature, mais avec d'autres critères (égal, n'est pas égal, est plus grand que, est plus grand que ou égal à, ...). 
 
-2️⃣: Dalle ba 20 cm 
+De ce fait, dans les **Propriétés** des murs M1 à M8, indiquer **Porteur** en face de Commentaires (dans la vue 3D, sélectionner toutes les occurrences depuis la famille de mur dans l’arborescence du fichier). 
 
-(dupliquer le 2️⃣ avec le 1️⃣ depuis la coupe). 
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_49.27.png" alt="documentation_1_49.27" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_23.40.png" alt="site_BIM_23.40"  style="max-width: 70%" />
+Cependant, les murs ne sont pas classés par ordre croissant, la lecture est confuse, leurs appellations n’apparaissent pas distinctement, comme leur nombre. 
 
 <p>&nbsp;</p> 
 
-L’implantation du VELUX est désormais terminée, au-dessus de la cage d’escalier. Nous sommes conformes au détail technique du fabricant. Contrôler son travail dans différentes vues. 
+**ONGLET TRI / REGROUPEMENT** 
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_23.57.png" alt="site_BIM_23.57"  style="max-width: 70%" />
+Pour l'onglet **Tri/Regroupement** 1️⃣, **Trier par Famille et type**, en ordre **Croissant**, en affichant le nom de l’élément trié en haut en bas de chaque tri. Les totaux s’afficheront en pied de page. Entre chaque Famille et type de Mur, une ligne vierge s’intercalera 2️⃣. 
 
+Cochez la case **Totaux généraux** 3️⃣ afin de les faire apparaître en bas du tableau. 
+
+Si vous cochez la case **Détailler chaque occurrence** 4️⃣, le tableau listera tous les murs pour chaque Famille et type. Valider en cliquant sur **OK**.
+
 <p>&nbsp;</p> 
 
-**`Fichier étape 5.1.polantis bimobject.rvt   `** 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_49.43.png" alt="documentation_1_49.43" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
+
+Voici un extrait des effets des modifications effectuées avec l’onglet Tri/Regroupement : 
 
-## 2- Bimobject: Insertion d’une unité extérieure de climatisation 
+Mur de base M2 et M3 de la nomenclature des Murs. 
 
 <p>&nbsp;</p> 
 
-Le site bimobject nécessite une inscription pour être membre et avoir accès aux nombreuses bibliothèques disponibles. L’accès aux composants se fait soit par fabriquant soit par objet. 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_49.55.png" alt="documentation_1_49.55" style="max-width: 100%" />
 
-Le site est accessible à l'adresse https://www.bimobject.com/fr/product 
+<p>&nbsp;</p> 
+
+**ONGLET MISE EN FORME** 
 
 <p>&nbsp;</p> 
+
+Pour l'onglet **Mise en forme** 1️⃣, vous allez régler les options d’affichage de chaque **Champs** 2️⃣. Par exemple, pour la **Surface**, choisir l’appellation de l’en-tête 3️⃣, son orientation et l’alignement des valeurs (**Format** donne accès aux unités). 
+
+N’oubliez pas de choisir **Calculer les totaux** 4️⃣ pour les retrouver en pied de page, pour chaque **Famille et type**. 
+
+Vous pouvez effectuer les mêmes réglages pour **Nombre** et **Volume**. 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_24.06.png" alt="site_BIM_24.06"  style="max-width: 70%" />
+Valider en cliquant sur **OK**.
 
 <p>&nbsp;</p> 
 
-L’inscription au site se fait à partir du bouton **Login / Register**, et **créer un compte** (la connexion est possible avec un compte Gmail, Autodesk et Linkedin). 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_50.28.png" alt="documentation_1_50.28" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_24.14.png" alt="site_BIM_24.14"  style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_51.10.png" alt="documentation_1_51.10" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
-L’accès aux objets BIM se fait par **Catégories** dans le bandeau de la page internet, avec la possibilité de filtrer les produits par **Fabricants**, **Types d’objets BIM**, **Format de fichier** et **Région**. La zone de Recherche est également disponible. 
+Pour information, vous pouvez-masquer la colonne **Commentaires**, en sélectionnant le champ et en cochant **Champ masqué**. 
 
-Pour illustrer l’utilisation du site bimobject, nous allons télécharger les unités extérieures de climatisation. Elles sont au nombre de 4, posées sur la toiture de l’espace Administration, adossées au mur Nord du projet, au R+1. 
+<p>&nbsp;</p> 
 
-Parmi les 12 catégories proposées (types d’objets), nous allons ouvrir le **CVC** 1️⃣. 
+**ONGLET APPARENCE** 
 
 <p>&nbsp;</p> 
+
+Avec l'onglet **Apparence** 1️⃣, vous allez pouvoir finaliser l'aspect graphique de la nomenclature, en gérant l'affichage des titres, la taille du texte et l'épaisseur du quadrillage. 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_24.25.png" alt="site_BIM_24.25"  style="max-width: 70%" />
+Aussi, comme vous pourriez le faire avec Excel, vous avez la possibilité de modifier l'apparence des champs, en jouant sur la couleur, les bordures, l'alignement ... 2️⃣ et 3️⃣.
 
+Le traitement de l’apparence se fait essentiellement avec l’onglet de Revit **Modifier la nomenclature/les quantités**. 
+
+Valider en cliquant sur **OK**.
+
 <p>&nbsp;</p> 
 
-Nous appliquerons donc 2 filtres à notre recherche 1️⃣, le **Types d’objets CVC** et le **Fabricant SAMSUNG**, afin de porter notre choix sur le modèle **MULTISPLIT Outdoor Unit (880x638x310)** 2️⃣, par exemple. 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_51.24.png" alt="documentation_1_51.24" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
+
+**Ombrage** sert à appliquer une couleur au cadre (cliquer sur Surface ou sur la lettre). 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_24.35.png" alt="site_BIM_24.35"  style="max-width: 70%" />
+**Bordure** modifie l’épaisseur des lignes. 
 
+Police change la taille et la couleur du texte. 
+
+**Les Alignements** vous permettent d’ajuster la justification du texte. 
+
 <p>&nbsp;</p> 
 
-Comme pour l’exemple du VELUX, télécharger votre objet 3D, sous le format famille .rfa dans votre dossier de travail. Ensuite, l’ouvrir depuis Revit (Ficher, Ouvrir, Famille, …) et le **Charger dans le projet** en cours. Vous retrouverez l’unité extérieure de climatisation dans les Familles de l’arborescence, dans **Equipement de génie climatique** : **5.20kW, 220-240V, HEAT PUMP** 1️⃣. 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_51.33.png" alt="documentation_1_51.33" style="max-width: 100%" />
 
-Vous implanterez vos **4 unités extérieures** selon l’organisation ci-dessous 2️⃣, sur **une dalle en béton armé de 5 cm,** sur les gravillons, avec **un chemin technique** en dalle de 40x40, en ba (Google Earth). 
+<p>&nbsp;</p> 
 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_51.45.png" alt="documentation_1_51.45" style="max-width: 100%" />
+
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_24.47.png" alt="site_BIM_24.47"  style="max-width: 70%" />
+Les modifications sont réellement visibles une fois la nomenclature mise en page dans votre format. On peut alors directement ajuster la largeur des colonnes, comme ci-dessous, en déplaçant le repère **1️⃣** de la colonne Matériau structurel vers le point **2️⃣**. 
 
 <p>&nbsp;</p> 
 
-**`Fichier étape 5.2.bimobject.rvt   `** 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_52.11.png" alt="documentation_1_52.11" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
-## 3- Le site Revitcity : insertion de panneaux solaires 
+Dans le cas de figure, ci-dessous, où votre nomenclature ne rentre pas complètement dans votre mise en page A3 1️⃣, vous avez la possibilité de la diviser. 
 
 <p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_52.31.png" alt="documentation_1_52.31" style="max-width: 100%" />
 
-Le site **`Revitcity`** nécessite une inscription pour être membre et avoir accès aux nombreuses bibliothèques disponibles. L’accès aux composants se fait soit par catégories soit par objet 3D avec des filtres (logiciel, extension du fichier 3D). L’interface est en anglais. 
+<p>&nbsp;</p> 
 
-Le site est accessible à l'adresse internet : https://www.revitcity.com/ 
+Pour cela, il faut agir sur le coude, comme pour les lignes de niveau en élévation. Vous devez sélectionner votre nomenclature dans la mise en page, celle-ci devient bleue. Cliquer sur le **coude** 2️⃣ afin de diviser votre tableau. 
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_24.55.png" alt="site_BIM_24.55"  style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_52.20-0338672.png" alt="documentation_1_52.20" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
-L’inscription au site se fait à partir du bouton **Join**, avec un formulaire. 
+Celui-ci apparaît désormais en deux parties. 
 
 <p>&nbsp;</p> 
+
+A l'aide du **point bleu** 1️⃣ qui est en bas de la première section, redimensionner votre tableau, faites le glisser vers le haut 2️⃣, afin de faire rentrer votre nomenclature dans votre feuille. 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_25.02.png" alt="site_BIM_25.02"  style="max-width: 70%" />
+Si vous réduisez la taille de la section de la nomenclature, les lignes qui n'ont plus de place se positionnent dans la section suivante. 
 
 <p>&nbsp;</p> 
 
-L’accès aux objets BIM se fait en cliquant sur Download dans le bandeau supérieur, avec 39 catégories d’objets BIM, organisées en répertoires et sous répertoires. 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_52.49.png" alt="documentation_1_52.49" style="max-width: 100%" />
 
-Pour illustrer l’utilisation du site Revitcity, nous allons télécharger une famille de panneaux solaires, installés sur le bâtiment Réfectoire, orientés au SUD. 
+<p>&nbsp;</p> 
 
-Il suffit de taper **Solar** dans la zone **Keyword** 1️⃣ et de valider. **Des filtres** peuvent 2️⃣ s’appliquer avec la version du logiciel et le format du fichier. Nous sélectionnerons l’objet 3D **Concrete pad mounted solar panels** 3️⃣. 
+Etant donné qu'elle contient les lignes restantes, la dernière section ne peut pas être redimensionnée. Afin d'écarter la deuxième section de votre nomenclature du cadre de votre mise en page, agir sur le curseur 3️⃣ et le déplacer sur la droite (voir ci-dessus) 
 
-Cliquer sur la représentation du panneau solaire. 
+La limite de la nomenclature de composants est que nous ne connaissons pas les quantités des matériaux qui composent les couches du mur du projet. On peut également insérer une image afin d’illustrer le composant qui est quantifié. 
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_25.12.png" alt="site_BIM_25.12"  style="max-width: 70%" />
+**`Fichier étape 10.3.1 Les nomenclatures de composants.rvt   `** 
 
 <p>&nbsp;</p> 
+
+### Les nomenclatures de matériaux du projet : le relevé de matériau 
 
-Pour le télécharger, cliquer sur **Download** ou effectuer un clic droit souris sur **Click here** en choisissant « enregistrer la cible du lien sous … » avec comme Type « tous les fichiers » dans votre navigateur. 
+<p>&nbsp;</p> 
 
-Depuis votre fichier de projet Revit, ouvrir le fichier **Concrete_pad_mounted_solar_panels_11145 (fichier revit .rvt) ;** le sélectionner dans son intégralité, le copier et le coller dans son projet (Niveau R+1). Afin d’en faire un seul objet, le sélectionner et choisir **Créer un assemblage** 1️⃣ et nommer **le Type** « Panneau solaire réfectoire ». 
+La nomenclature de matériau, appelé relevé de matériau, permet de déterminer les quantités de matériaux utilisés dans le projet. Elle répertorie les sous-composants ou les matériaux de n'importe quelle famille Revit, avec les mêmes fonctions que la nomenclature de composant. 
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_25.33.png" alt="site_BIM_25.33"  style="max-width: 70%" />
+**RELEVÉ DE MATÉRIAU DU MUR PORTEUR (DÉTAILLÉ)** 
 
 <p>&nbsp;</p> 
+
+Nous allons créer un relevé de matériaux, la procédure est identique à celle de la nomenclature de composant. Il faut sélectionner **Nouveau relevé de matériau.** 
+
+Pour les champs, il faudra sélectionner les champs : (avec Matériau en préfixe) 
+
+\- Matériau : Nom 
+
+\- Famille et type 
 
-Nous avons ci-dessous l’intégration des panneaux solaires sous la forme d’un fichier Revit. L’inconvénient de ce format, qui n’est pas une famille, est que ces dimensions ne sont pas paramétrables, à moins de modifier la famille à l’origine. 
+\- Matériau : Surface 
 
+\- Matériau : Volume 
+
+Uniquement avec la sélection des champs, nous obtenons le résultat ci-dessous (extrait). 
+
+Il faut maintenant organiser le tableau par matériaux en faisant apparaître les totaux des surfaces et volumes. 
+
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_25.46.png" alt="site_BIM_25.46"  style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_52.57.png" alt="documentation_1_52.57" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
+
+Comme pour la nomenclature de composant, nous ajusterons notre paramétrage des onglets : 
+
+- **Filtre :** Néant 
 
-**`Fichier étape 5.3.revitcity 1.rvt   `** 
+- **Tri/Regroupement** : Matériau : Nom puis par Famille et Type 
 
+(avec une ligne vierge après chaque matériau et avec Titre, nombre et totaux) 
+
+- **Mise en forme** : Choisir Calculer les totaux, pour Matériau : Surface et Matériau : Volume. 
+
+Après les ajustements abordés des 4 onglets, nous obtenons le résultat ci-dessous (extrait). 
+
+Il ne restera qu’à affiner l’Apparence du tableau. 
+
 <p>&nbsp;</p> 
 
-Je vous propose l’alternative du fichier Sola heater, hot water, que vous trouverez dans les propositions d’objets 3D. Vous téléchargerez, par exemple, le fichier **Solar_heater_hot_water_14959.rfa**, qui est une famille Revit (disponible dans le répertoire Familles de la formation). 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_53.06.png" alt="documentation_1_53.06" style="max-width: 100%" />
 
-Vous l’importerez dans le fichier du projet et l’implanterez sur le toit du réfectoire, sur une dalle en ba de 5 cm 1️⃣. 
+<p>&nbsp;</p> 
 
-En fonction du niveau du développement de la famille, celle-ci incorpore ou non des paramètres modifiables, celle-ci reste figée dans ses dimensions. 
+**RELEVÉ DE MATÉRIAU DU MUR PORTEUR (SIMPLIFIÉ)** 
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_25.56.png" alt="site_BIM_25.56"  style="max-width: 70%" />
+Nous pouvons simplifier les réglages des onglets afin de ne laisser apparaître que les noms des matériaux avec les quantités (Surface et Volume). 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_26.05.png" alt="site_BIM_26.05"  style="max-width: 70%" />
+Nous masquerons le champ Famille et type. 
 
 <p>&nbsp;</p> 
 
-**`Fichier étape 5.3.revitcity 2.rvt   `** 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_53.14.png" alt="documentation_1_53.14" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
-La famille de panneaux solaires ci-dessous dispose de dimensions modifiables (longueur, largeur et hauteur), quand on modifie le type : (disponible dans le répertoire Familles de la formation). 
+Ce tableau qui résume les quantités des matériaux des murs porteurs peut trouver sa place dans une feuille de synthèse du projet. 
 
-**EvoEnergy_Ltd_Ballasted_A-Frame_Solar_Photovoltaic_Array_16113 2.rfa** 
+<p>&nbsp;</p> 
+
+*💡 : **Information***
+
+*Cette méthode a pour avantage de présenter la composition des murs et d'organiser la présentation, sans pour autant rendre le décompte précis, car les mesures sont prises aux axes des murs. Elle fonctionne très bien pour les sols.* 
+
+***Afin que les calculs soient précis, les murs doivent être décomposés en éléments, les mesures seront alors prises à l'axe de chacun, séparément.*** 
+
+*Egalement, lorsque vous sélectionnez un matériau dans la nomenclature, en cliquant sur **Mettre en surbrillance dans le projet** (Onglet Modifier la nomenclature/les quantités), Revit vous l’affiche dans les vues. Il faut utiliser cette fonction avec une nomenclature détaillée, pour n’afficher qu’un seul matériau à la fois.* 
 
-Pour information, la texture originale est absente de la plateforme de téléchargement, elle a été remplacée par une teinte grise, lors de la modification de la famille. 
+<p>&nbsp;</p> 
+
+**`Fichier étape 10.3.2 Les nomenclatures de matériaux.rvt    `** 
 
-Voici le résultat dans la **Vue {3D}** : 
+<p>&nbsp;</p> 
 
+### Les nomenclatures d'éléments
+
 <p>&nbsp;</p> 
+
+La nomenclature d’élément va nous permettre de connaitre précisément les quantités des matériaux des différentes couches des murs porteurs du projet, de M1 à M8. 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/31_site_BIM/site_BIM_26.17.png" alt="site_BIM_26.17"  style="max-width: 70%" />
+Au préalable, il faut commencer par dupliquer, avec les détails, la vue {3D} du projet et la renommer : 
 
+**Vue 3D décomposée en éléments**
+
+Ensuite, il faut ouvrir la **Vue 3D décomposée en éléments** et sélectionner le projet dans son intégralité, à l’aide de la souris. Puis, cliquer sur **l’icône** 1️⃣ pour affiner les catégories d’éléments sélectionnés (1556). 
+
+Dans cette liste de catégories, il ne faut **rien sélectionner** pour ne cocher ensuite que les Murs (360). 
+
 <p>&nbsp;</p> 
 
-**`Fichier étape 5.3.revitcity 3.rvt   `** 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_53.27.png" alt="documentation_1_53.27" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
 
-Le site Bimandco est également une ressource intéressante afin de personnaliser son projet. De la même façon, vous pouvez compléter le projet à l’aide de famille Revit dans les sites de ressources. 
+Une fois les **Murs** sélectionnés, dans l'onglet **Modifier I Murs** 1️⃣, choisir **Créer des éléments** 2️⃣. L'opération inverse est possible, il s'agit de l'icône au-dessus, **Créer un assemblage**. 
+
+<p>&nbsp;</p> 
 
-Les composants suivants sont à intégrer au projet : 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_53.51.png" alt="documentation_1_53.51" style="max-width: 100%" />
 
-- Menuiserie extérieure 5e (voir CCTP). 
+<p>&nbsp;</p> 
 
-- Cloisons amovibles des sanitaires garçons, filles et petits (modèle Corail de France Equipement hauteur 1.78 + 12 cm de vide). 
+Si vous sélectionnez, sur cette vue, un mur, il s’affichera comme un élément désormais. Si on effectue cette opération sur les plans de niveau, les éléments qui composent les murs seront indépendants les uns des autres. 
 
-- Ascenseur RDC et R+1 (réalisé avec le plugin *DigiParaEA_21_00_0064_64bit*). 
+Maintenant, vous pouvez créer votre nouvelle nomenclature/quantité depuis l'arborescence du projet, en choisissant la catégorie Eléments. 
 
-- Appareils sanitaires) - Bornes de parking 
+**Dans l'onglet Champs, vous allez choisir les champs disponibles:** 
 
-Dans la mesure où ces familles ne seraient pas disponibles, la modélisation sera réalisée avec des éléments comparables issues de Revit. 
+Matériau -Famille d'origine- - Epaisseur - Longueur – Hauteur - Surface – Volume 
 
 <p>&nbsp;</p> 
 
-**`Fichier étape 5.4.mise à jour des familles.rvt   `** 
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/42_documentation/documentation_1_54.00.png" alt="documentation_1_54.00" style="max-width: 100%" />
 
 <p>&nbsp;</p> 
+
+Nous pouvons créer deux versions de la nomenclature, détaillée ou simplifiée, comme ci-dessus. 
 
+(Avec les réglages vus précédemment). 
+
+**`Fichier étape 10.3.3 Les nomenclatures d’éléments.rvt     `** 
+
 <p>&nbsp;</p> 
 
+<p>&nbsp;</p> 
