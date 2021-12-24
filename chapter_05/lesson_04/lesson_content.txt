@@ -1,0 +1,156 @@
+# L'exportation du projet
+
+------------------------------
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p> 
+
+Nous allons découvrir les possibilités d’exportations, de votre projet, proposées par Revit. Cela vous permettra d’exploiter sa modélisation pour : 
+
+- Générer des devis avec un logiciel tableur, avec l’exportation des nomenclatures au format txt. 
+
+- Produire des dessins de détails et d’exécution grâce à l’exportation des vues en dwg et dxf. 
+
+- Exploiter votre modélisation dans d’autres logiciels avec le format IFC. 
+
+- Affiner son rendu et produire des animations en l’exportant au format FBX. 
+
+<p>&nbsp;</p> 
+
+## 1- Format txt des nomenclatures
+
+<p>&nbsp;</p> 
+
+Vous avez la possibilité d’exporter les nomenclatures générées par Revit au format .txt, afin de les intégrer à un fichier Excel. Cela peut servir à l’élaboration de devis. 
+
+En revanche, en extrayant ces quantités de Revit, ces quantités sont alors détachées du projet. Si celui-ci est amené à évoluer, les changements ne seront plus pris en compte. 
+
+<p>&nbsp;</p> 
+
+**PROCEDURE POUR L’EXPORTATION DES NOMENCLATURES AU FORMAT TXT** 
+
+<p>&nbsp;</p> 
+
+\- Ouvrir une nomenclature du projet, Nomenclature des menuiseries extérieures, par exemple. 
+
+\- Dans l’onglet **Fichier**, choisir **Exporter** puis **Rapports,** et **Nomenclature**. 
+
+\- Choisir le dossier cible pour enregistrer l’exportation avec le nom du fichier, qui sera au format txt. 
+
+\- Cliquer sur **Enregistrer.** 
+
+\- Cocher toutes les options proposées dans la boîte de dialogue **Exportation de la nomenclature.** 
+
+Il ne vous reste plus, avec un copier-coller qu’à l’intégrer dans un tableau en vue de le retravailler. 
+
+<p>&nbsp;</p> 
+
+## 2- Formats 2D : DWG, DXF   
+
+<p>&nbsp;</p> 
+
+Au préalable, il faut ouvrir le document 2D à exporter (plan, coupe, façade, vue 3D) et cadrer la vue afin de délimiter les éléments qui seront exportés (dessin comme annotations). 
+
+<p>&nbsp;</p> 
+
+**PROCEDURE POUR L’EXPORTATION DU PROJET AUX FORMATS DWG ET DXF** 
+
+<p>&nbsp;</p> 
+
+Dans l’onglet **Fichier**, choisit **Exporter** puis **Format CAO** et **DWG.** 
+
+1️⃣ La boîte de dialogue de l’exportation s’ouvre. 
+
+**2️⃣** Choisir le document à exporter, vue, feuille, … 
+
+**3️⃣** Le nom de la vue à exporter s’affiche. 
+
+**4️⃣** Vignette de la vue à exporter, recadrée. 
+
+**5️⃣** Dans le sous-menu, régler les options d’exportations avec les 8 onglets proposés (mètre). 
+
+**6️⃣** Cliquer sur **Suivant** pour choisir la localisation et le nom du fichier DWG, avec le choix de la version. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/44_exportation/exportation_21.png" alt="exportation_21" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Le principe d’exportation est identique pour le format DXF. 
+
+<p>&nbsp;</p> 
+
+## 3- Formats 3D : IFC, FBX 
+
+<p>&nbsp;</p> 
+
+Ces deux formats d’exportation du projet sont au format 3D et sont destinés à une exploitation dans le cadre du BIM pour l’IFC et pour la communication du projet avec des rendus pour le format FBX. 
+
+<p>&nbsp;</p> 
+
+**PROCEDURE POUR L’EXPORTATION DU PROJET AU FORMAT IFC** 
+
+<p>&nbsp;</p> 
+
+- Ouvrir une vue 3D du projet la vue **{3D}** générique par exemple. 
+
+- Dans l’onglet **Fichier**, choisir **Exporter** puis **IFC**. 
+
+La boîte de dialogue ci-dessous s’ouvre : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/44_exportation/exportation_36.png" alt="exportation_36" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**1️⃣** La boîte de dialogue **Exporter IFC** s’ouvre pour effectuer le paramétrage. 
+
+**2️⃣** Choisir le nom du fichier avec le répertoire de destination. 
+
+**3️⃣** Choisir le format **IFC2x3 Coordination View 2.0** (pas le plus récent mais bien configuré). 
+
+**4️⃣** Dans **Modifier réglages**, cocher toutes les options d’exportation des onglets avec un niveau de détail élevé. Ceci n’est possible que si le format d’IFC est celui de la session en cours, tous les autres formats vous imposeront leurs paramétrages. Garder ensuite l’IFC2x3 Coordination View. 
+
+**5️⃣** Cliquer sur **Exporter** pour générer le fichier IFC. 
+
+<p>&nbsp;</p> 
+
+## 4- L’interopérabilité avec les plugins  
+
+<p>&nbsp;</p> 
+
+L’interopérabilité de Revit vous permet d’utiliser votre projet BIM avec d’autres logiciels afin d’exploiter sa modélisation et ses informations. 
+
+L’exploitation de la maquette BIM de Revit peut couramment se faire vers les logiciels, avec un format reconnu par le logiciel ou à l’aide d’un plugin installé dans Revit. 
+
+Cela permet de connecter son modèle 3D, quand la liaison se fait 
+
+\- **Bimvision** : Importation du format IFC pour la visualisation et l’exploitation de la maquette Revit 
+
+\- **Trimble Connect** : Importation du format IFC pour la visualisation et l’exploitation de la maquette Revit. 
+
+\- **Twinmotion** : Importation du format FBX pour la création de rendus et d’animations, ou liaison à l’aide d’un plugin de synchronisation. 
+
+\- **Cypeproject** : Importation du modèle BIM Revit à l’aide d’un plugin Cype installé dans Revit, afin de synchroniser le projet et de réaliser des quantitatifs et estimatifs du projet. 
+
+Le site Autodesk propose la plateforme de téléchargement de plugin : **Autodesk APP STORE** 
+
+https://apps.autodesk.com/RVT/FR/Home/Index 
+
+Vous pouvez accéder aux plugins classés en 15 catégories, après la connexion à votre compte Autodesk. 
+
+La recherche peut se faire par Catégories, Type d’application, Version, système d’exploitation et Langue. La zone de recherche vous permet de trouver facilement un plugin soit dans les Applications soit dans les Editeurs. 
+
+Ces plugins sont gratuits, en version d’essai ou payants. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/44_exportation/exportation_58.png" alt="exportation_58" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+<p>&nbsp;</p> 
+

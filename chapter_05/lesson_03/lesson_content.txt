@@ -18,7 +18,7 @@ Nous allons apprendre à créer un cartouche personnalisé pour vos mises en pag
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_15.00.png" alt="publication_15.00" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_15.00.png" alt="publication_15.00" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -218,7 +218,7 @@ Nous allons mettre en page 2 façades pour illustrer la mise en page. Dans votre
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_31.09.png" alt="publication_31.09" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_31.09.png" alt="publication_31.09" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -226,7 +226,7 @@ Nous avons ci-dessous, un exemple de liste de feuilles.
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_35_01.png" alt="publication_35_01" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_35_01.png" alt="publication_35_01" style="max-width: 70%" />
 
 <p>&nbsp;</p> 
 
@@ -385,6 +385,12 @@ Ce fichier gabarit vous permet de conserver tous les paramétrages effectués da
 Nous allons créer ce fichier gabarit à l’issu de la modélisation du centre de loisirs. Le principal intérêt est de partir de ce nouveau gabarit architectural pour faciliter la modélisation du prochain projet. 
 
 Dans l’onglet **Fichier** 1️⃣, cliquer sur **Enregistrer sous** 2️⃣ puis choisir **Gabarit** 3️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/43_publication/publication_36.34.png" alt="publication_36.34" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
 
 Notre fichier sera nommé : **Gabarit architectural EPv1220.rte** 
 
