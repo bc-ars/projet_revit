@@ -1,0 +1,427 @@
+# Compléments
+
+------------------------------
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p> 
+
+Nous allons voir des notions complémentaires afin d’améliorer votre pratique de Revit. Notamment, nous aborderons : 
+
+- la liaison d’une maquette RVT et IFC dans le projet. 
+
+- l’importation de maquette SKP dans le projet. 
+
+- la méthode de travail pour générer un tableau de surface. 
+
+La différence entre l’importation et la liaison est dans la nécessité de faire évoluer le fichier importé. Si votre fichier est terminé et ne subira plus de modification, l’importation suffira. En revanche, si vous souhaitez encore apporter des améliorations au fichier importé, la liaison est nécessaire. Il faudra toujours associer le fichier joint avec la localisation dans les répertoires de travail. 
+
+Pour illustrer ces fonctions, nous utiliserons le fichier « Local déchets » de la formation. Il s’agit d’une construction en dur, qui répond au besoin de pouvoir organiser le tri des déchets. 
+
+<p>&nbsp;</p> 
+
+## 1- Liaison d'une maquette Revit et IFC
+
+<p>&nbsp;</p> 
+
+Nous allons insérer un fichier RVT dans notre fichier Revit actif. Revit ne propose que la commande « lier Revit » dans l’onglet **Insérer.** 
+
+Au préalable, il faut ouvrir le document 2D à exporter (plan, coupe, façade, vue 3D) et cadrer la vue afin de délimiter les éléments qui seront exportés (dessin comme annotations). 
+
+Dans l’onglet **Insérer** 1️⃣, Panneau **Lier** 2️⃣, choisir **Lier Revit** 3️⃣. 
+
+Dans la fenêtre **Importer/Lier** qui s’ouvre, sélectionner votre fichier dans votre répertoire de la formation. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_28.26.png" alt="complements_28.26" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Il faudra choisir le **Positionnement : Manuel – Origine**, afin de positionner librement la modélisation du local déchets. Il ne vous restera plus qu’à positionner.
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_38.26.png" alt="complements_38.26" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Nous allons voir désormais comment gérer ce lien. Pour cela, il faut cliquer sur **Gestion des liens** qui se trouve dans le Panneau **Lier**. Cela vous permet principalement deux choses : 
+
+- **Recharger** (depuis) votre lien si votre projet externe a évolué. 
+
+- **Recharger** votre fichier si le chemin de celui-ci a changé, quand le critère **Absolu** est activé. Il faut préférer ainsi **Relatif** pour le **Type de chemin** (le fichier peut alors bouger). 
+
+Le fichier externe ne change pas en temps réel, il faut toujours **Recharger** le fichier lié afin de bénéficier de sa dernière version. Les modifications du fichier lié se font directement sur celui-ci, pas dans le fichier hôte. 
+
+Egalement, pour gérer l’affichage de votre fichier lié, il faut ouvrir la fenêtre **Remplacement visibilité / graphisme pour Plan d’étage : Plan Masse**, à l’aide du raccourci « **vv** ». Dans l’onglet **Liens Revit**, il suffit de cocher ou décocher la case **Visibilité**. Ce paramétrage est propre à chaque vue. 
+
+*💡 : Si vous souhaitez ouvrir votre IFC, créer un nouveau projet avec le gabarit architectural puis ouvrir un fichier IFC.* 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 13.1. Liaison d’une maquette RVT.rvt   `** 
+
+<p>&nbsp;</p> 
+
+Pour lier une maquette externe en IFC à votre projet, la méthode de travail est la même que celle présentée pour le fichier RVT, à utiliser seulement si vous n’avez pas le fichier natif du projet externe ou si la maquette est issue d’un autre logiciel BIM (Archicad, Alplan). 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 13.1. Liaison d’une maquette IFC.rvt   `** 
+
+<p>&nbsp;</p> 
+
+## 2- Insertion d’un fichier SKP 
+
+<p>&nbsp;</p> 
+
+L’utilité de cette méthode est de poursuivre la modélisation d’un projet, commencé dans Sketchup, à l’aide des fonctionnalités de Revit. Voici la méthode : 
+
+1- Ouvrir le plan d’Étage sur lequel vous souhaitez insérer le projet Sketchup. 
+
+2- Dans l’onglet **Architecture**, dans **Composant**, choisir **Créer in situ**. 
+
+3- Choisir le **Modèles génériques** qui insère le suffixe 1. 
+
+4- Dans le bandeau supérieur de Revit, dans l’onglet **Insérer**, choisir **Importer CAO** et sélectionner le fichier sketchup dans son répertoire personnel. 
+
+5- Choisir l’importation de centre à centre, le niveau et la détection automatique pour les unités, puis valider (l’opération est longue). 
+
+6- Une fois le projet importé, se rendre dans la vue {3D} et cliquer sur la coche vert ✅ pour finir la création. 
+
+7- Nous avons le résultat comparatif ci-dessous : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_48.26.png" alt="complements_48.26" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 13.2. Insertion d’une maquette SKP.rvt   `** 
+
+<p>&nbsp;</p> 
+
+## 3- Générer un tableau de surfaces 
+
+<p>&nbsp;</p> 
+
+Ce tableau de surface est généré à l’aide des nomenclatures de Revit. Il nous permettra de faire l’inventaire des espaces du projet, du rez-de-chaussée et de l’étage. 
+
+Nous allons créer 2 nomenclatures différentes avec les réglages : 
+
+- **Champs** : **Niveau**, **Nom** et **Surface**. 
+
+- **Filtre** : **Niveau** qui est **égal** à : RDC ou 1er étage
+- **Tri/regroupement** : Par **Niveau,** croissant, avec la case **En-Tête** cochée. 
+  - Par Nom, croissant. 
+
+​		**Totaux Généraux** à cocher (Totaux uniquement) 
+
+- **Mise en forme** : Niveau : cocher Champ masqué (Niveau indiqué dans le nom) 
+  - Nom : - 
+  - Surface : Choisir Calculer les totaux. 
+
+- **Apparence** : « Mise en forme habituelle » 
+
+Nous avons : RDC : 669.59 m² et 1er étage : 142.19 m² 
+
+
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 13.3. Générer un tableau de surface.rvt   `** 
+
+<p>&nbsp;</p> 
+
+## 4- Le mur rideau 
+
+<p>&nbsp;</p> 
+
+Pour illustrer la modélisation d’un mur rideau traditionnel, nous reviendrons sur le projet LISA (didacticiel Initiation Revit 2016 qui explique la méthode de travail sur façade droite en verre calepiné. 
+
+Pour cela, vous pourrez utiliser les fichiers : 
+
+- de départ : **`Fichier étape 13.4 Le mur rideau avant.rvt   `**  
+
+- de correction : **`Fichier étape 13.4 Le mur rideau après.rvt   `**  
+
+- Vous allez commencer par supprimer un mur de façade, repéré en rouge 1️⃣, celui qui sera exécuté en mur rideau. Vous réalignerez les murs latéraux à l'aide du plan de référence 2️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_48.57.png" alt="complements_48.57" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+- Pour créer votre mur rideau, vous devez choisir dans l'onglet **Architecture**, **Mur** puis **Mur architectural**, le **Simple panneau** 1️⃣, dans la famille Mur rideau. 
+
+- Vous modéliserez alors un mur en verre. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_49.10.png" alt="complements_49.10" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+- Ce mur rideau **Simple panneau** 1️⃣ se paramètre comme un mur simple: 
+
+- Dans Contrainte inférieure, garder le RDC. 
+
+- Dans Contrainte supérieure : **Sans contrainte** 2️⃣
+
+- Dans **Hauteur non contrainte**: hauteur du mur rideau: 5.00 m.
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_49.23.png" alt="complements_49.23" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+- Dessinez le mur rideau, comme repéré ci-dessous, aligné aux 2 murs, puis le déplacer vers le bas de 10 cm. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_49.32.png" alt="complements_49.32" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+- Dessiner le quadrillage du mur rideau, ses menuiseries (calepinage). 
+- Dans l'onglet **Architecture**, panneau **Création**, choisir **Quadrillage du mur rideau** 1️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_49.44.png" alt="complements_49.44" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+- Placez une ligne de quadrillage **A** verticale à 246,67 cm (**1**) du bord gauche du mur d'appui. Vous devez pour cela mettre votre souris sur la ligne du mur rideau. 
+
+- Procédez de la même façon pour placer la deuxième ligne à droite **A**, à 246.37 cm du mur. 
+
+- Vous rediviserez les 2 parties extérieures en 2; voir repères **A** **B** **C** en Elévation et isométrie en bas. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_50.05.png" alt="complements_50.05" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+Dans l'arborescence du projet, placez-vous sur l'**Elévation Sud**. 
+
+- Placez une ligne 1️⃣ de quadrillage horizontal à 2.50 m de hauteur. Vous devez pour cela mettre votre souris sur le bord vertical du mur rideau. 
+
+- Placez ensuite les 2 lignes de quadrillages horizontales suivantes : la 2️⃣ à 2.15 m de hauteur et la 3️⃣ à 4.65 m de hauteur. 
+
+- Vous rajouterez une ligne centrale repérée **D** que vous couperez en partie basse à l'aide de l'outil Ajouter / Supprimer des segments, une fois la sélection effectuée. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_50.20.png" alt="complements_50.20" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_50.32.png" alt="complements_50.32" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+- Vous allez maintenant paramétrer les meneaux et les placer. 
+- Dans l'onglet **Architecture**, panneau **Création**, et choisissez **Meneau** 1️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_50.41.png" alt="complements_50.41" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+- Choisissez le Meneau rectangulaire 150 x 2, Modifier le type, le dupliquer et le nommer 80 x 150. 
+
+- Modifiez ses caractéristiques dimensionnelles : 
+
+Les largeurs de côtés 1️⃣ sont données à droite et à gauche de l'axe, l'Epaisseur 2️⃣ correspond à la profondeur du meneau. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_50.56.png" alt="complements_50.56" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+- Placez-vous sur l’**Elévation Sud** et cliquez sur l'onglet **Architecture** puis **Meneau**. 
+
+- Les placer sur les lignes de quadrillages. Commencez par les verticales puis les horizontales pour finir. Vous obtenez ceci: 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_51.07.png" alt="complements_51.07" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+- Supprimez la menuiserie repérée ci-dessus 1️⃣, en la sélectionnant en 2 parties. 
+
+- Sélectionnez le panneau vitré depuis une vue 3D avec la touche tabulation et remplacez-le par la porte qui est proposée depuis la fenêtre Propriétés (en haut des choix): **Double vitrée.rfa**. Pensez à déverrouiller à l'aide de la punaise le panneau vitré afin de le modifier. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_51.29.png" alt="complements_51.29" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+- Vous pouvez, dans ses propriétés et Modifier le type, changer la structure de cette porte dans la rubrique Matériaux et finitions 1️⃣. Choisir PVC blanc pour Poignée, **Panneau** et Dormants pour avoir l'apparence ci - dessus. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_51.6.png" alt="complements_51.6" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 13.4. Le mur rideau après.rvt   `** 
+
+<p>&nbsp;</p> 
+
+## 5- L’escalier monobloc droit 
+
+<p>&nbsp;</p> 
+
+Pour illustrer la modélisation de l’escalier monobloc, nous reviendrons sur le projet LISA (didacticiel Initiation Revit 2016) qui explique la méthode de travail sur un escalier monobloc droit à 2 volées. 
+
+Pour cela, vous pourrez utiliser les fichiers : 
+
+-de départ : **`13.5 L’escalier monobloc droit avant.rvt`** 
+
+\- de correction : **`13.5 L’escalier monobloc droit après.rvt`** 
+
+Au cours de ce chapitre, vous allez créer un escalier du niveau RDC au niveau 1er ÉTAGE, de la mezzanine. 
+
+\- Tracez les plans de référence nécessaires pour l'implantation de l'escalier à dessiner. 
+
+\- Placez-vous sur le Niveau RDC, depuis l'arborescence du projet. 
+
+\- Dans l'onglet **Architecture** 1️⃣, choisir **Volée** 2️⃣ puis **Droit** 3️⃣. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_51.40.png" alt="complements_51.40" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+- Ici, la volée aura une largeur de 1 m, comme la profondeur du pallier. 
+
+- La première volée de l'escalier commence sur le point rouge, nommé **Départ**. 
+
+- Un vide central de 20 cm séparera les 2 volées de l'escalier (puisque la trémie fait 120 cm de large). 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_51.50.png" alt="complements_51.50" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+- Pour le dessin de l'escalier, choisir les paramètres indiqués ci-contre: 
+
+- Niveau bas: RDC 
+
+- Niveau supérieur: 1er ETAGE 
+
+- Décalage supérieur: 0.04 
+
+- Nombre de contremarches: 18 
+
+- Une fois ces paramètres saisis, cliquez sur le bouton **Appliquer** en bas à droite. 
+
+- Les valeurs de la hauteur actuelle de contre marche et de profondeur actuelle de giron se calculent seules, en respectant la formule de Blondel. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_52.00.png" alt="complements_52.00" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+- Pour la volée 1, cliquez sur le point 1️⃣ pour la commencer, et cliquez sur **2** pour la terminer. 
+
+- Pour la volée 2, cliquez sur le point **3** pour la commencer, et cliquez sur **4** pour la terminer. 
+- Pensez à cliquer sur la coche verte, repérée ci-dessous (**1**), afin de finir l'escalier. 
+- Contrôlez votre travail à l'aide de la coupe transversale qui coupe la volée n°2 de l'escalier, comme ci-dessous : 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_52.54.png" alt="complements_52.54" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+***💡 : Informations *** 
+
+*\- La 18ème et dernière marche 1️⃣ n’est pas représentée mais elle est bien calculée dans l’escalier. C’est le palier d’arrivée de la mezzanine qui sert de giron à cette marche. Il faudra rajouter, en revanche, une contremarche.* 
+
+*\- Il faudra probablement déplacer l’escalier afin que le palier arrive au nu de l’isolant (voir plus haut).* 
+
+*Vous devez maintenant réaliser la trémie de l'escalier dans le plancher bois.* 
+
+*\- Placez-vous sur le niveau **1er ETAGE**, sélectionner le sol : **Plancher bois** et **Modifiez la limite** dans l'onglet **Modifier I Sols**.* 
+
+- Modifiez et retracez le nouveau profil du plancher bois, en trait rose, comme ci-dessous : 
+- Valider l’esquisse avec la coche verte ✅. 
+
+<p>&nbsp;</p> 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_53.09.png" alt="complements_53.09" style="max-width: 100%" />
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 13.5 L’escalier monobloc droit après.rvt`** 
+
+<p>&nbsp;</p> 
+
+## 6- Récupérer les familles Revit de son projet 
+
+<p>&nbsp;</p> 
+
+Découvrons comment récupérer les familles .rfa d’un projet, les extraire, afin de les réinjecter dans un nouveau projet. 
+
+Nous sommes dans le cas de figure où vous ne travaillez pas avec votre fichier gabarit personnel.rte qui intègre toutes vos familles et que vous souhaitez les récupérer d’un autre projet. 
+
+**Étape 1 : *On peut au préalable sauvegarder les familles de son projet de référence*** 
+
+Se placer sur le fichier Revit qui contient les familles à récupérer : 
+
+1-Choisir **Famille** dans **Fichier** / **Enregistrez sous** / **Bibliothèque** 
+
+2- Dans l’explorateur de fichier qui s’ouvre, choisir un emplacement personnalisé pour créer un dossier : Famille Revit projet « nom »). 
+
+3- Dans **Nom de fichier**, le libellé sera **pareil au nom de la famille**. 
+
+4- Dans **Famille à enregistrer**, sélectionner **Toutes les familles**. 
+
+5- Cliquer sur **Enregistrer**. 
+
+On peut également sauvegarder ses familles individuellement, plutôt que l’intégralité. 
+
+Si vous ouvrez le répertoire créé, vous allez retrouver les familles sauvegardées, celles du fichier gabarit utilisées et celles importées à l’occasion. 
+
+**Étape 2 :** Récupérer les familles d’un projet et les intégrer à un nouveau projet. 
+
+(Indépendante de l’Etape 1). 
+
+Il faut avoir les deux projets ouverts : celui qui sert de référence et le nouveau : 
+
+1- Choisir **Transférer les normes du projet** dans l’onglet **Gérer**. 
+
+2- Dans **Copier depuis**, choisir son fichier de référence (proposé car ouvert). 
+
+3- Sélectionner (case cochée) les familles que vous souhaitez transférer. 
+
+4- Cliquer sur **OK** pour valider la copie des familles. 
+
+Revit vous informe que certaines familles existent déjà et vous demande si vous souhaitez les **Remplacer**, **Conserver existant** ou **Annuler**. 
+
+Vous retrouverez toutes vos familles dans le dossier **Familles** de l’**Arborescence du projet**. 
+
+*💡 : Une autre méthode existe, en lien avec l’Etape 1, elle consiste, depuis son explorateur de fichier, à glisser – déposer toutes ses familles Revit enregistrées dans son nouveau fichier Revit (espace de travail).* 
+
+<p>&nbsp;</p> 
+
+**`Fichier étape 13.6 Récupérer ses familles Revit.rvt`** 
+
+<p>&nbsp;</p> 
+
+<p>&nbsp;</p> 
+

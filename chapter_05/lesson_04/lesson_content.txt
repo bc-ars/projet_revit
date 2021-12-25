@@ -6,7 +6,7 @@
 
 <p>&nbsp;</p> 
 
-Nous allons découvrir les possibilités d’exportations, de votre projet, proposées par Revit. Cela vous permettra d’exploiter sa modélisation pour : 
+Nous allons découvrir les possibilités d’exportations de votre projet, proposées par Revit. Cela vous permettra d’exploiter sa modélisation pour : 
 
 - Générer des devis avec un logiciel tableur, avec l’exportation des nomenclatures au format txt. 
 
@@ -28,7 +28,7 @@ En revanche, en extrayant ces quantités de Revit, ces quantités sont alors dé
 
 <p>&nbsp;</p> 
 
-**PROCEDURE POUR L’EXPORTATION DES NOMENCLATURES AU FORMAT TXT** 
+**PROCÉDURE POUR L’EXPORTATION DES NOMENCLATURES AU FORMAT TXT** 
 
 <p>&nbsp;</p> 
 
@@ -54,7 +54,7 @@ Au préalable, il faut ouvrir le document 2D à exporter (plan, coupe, façade, 
 
 <p>&nbsp;</p> 
 
-**PROCEDURE POUR L’EXPORTATION DU PROJET AUX FORMATS DWG ET DXF** 
+**PROCÉDURE POUR L’EXPORTATION DU PROJET AUX FORMATS DWG ET DXF** 
 
 <p>&nbsp;</p> 
 
@@ -90,7 +90,7 @@ Ces deux formats d’exportation du projet sont au format 3D et sont destinés �
 
 <p>&nbsp;</p> 
 
-**PROCEDURE POUR L’EXPORTATION DU PROJET AU FORMAT IFC** 
+**PROCÉDURE POUR L’EXPORTATION DU PROJET AU FORMAT IFC** 
 
 <p>&nbsp;</p> 
 
