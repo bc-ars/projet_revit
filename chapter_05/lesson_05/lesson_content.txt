@@ -88,7 +88,7 @@ L’utilité de cette méthode est de poursuivre la modélisation d’un projet,
 
 5- Choisir l’importation de centre à centre, le niveau et la détection automatique pour les unités, puis valider (l’opération est longue). 
 
-6- Une fois le projet importé, se rendre dans la vue {3D} et cliquer sur la coche vert ✅ pour finir la création. 
+6- Une fois le projet importé, se rendre dans la vue {3D} et cliquer sur la coche vert ✅  pour finir la création. 
 
 7- Nous avons le résultat comparatif ci-dessous : 
 
@@ -174,7 +174,7 @@ Pour cela, vous pourrez utiliser les fichiers :
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_49.23.png" alt="complements_49.23" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_49.23.png" alt="complements_49.23" style="max-width: 60%" />
 
 <p>&nbsp;</p> 
 
@@ -238,7 +238,7 @@ Dans l'arborescence du projet, placez-vous sur l'**Elévation Sud**.
 
 - Modifiez ses caractéristiques dimensionnelles : 
 
-Les largeurs de côtés 1️⃣ sont données à droite et à gauche de l'axe, l'Epaisseur 2️⃣ correspond à la profondeur du meneau. 
+Les largeurs de côtés 1️⃣  sont données à droite et à gauche de l'axe, l'Epaisseur 2️⃣  correspond à la profondeur du meneau. 
 
 <p>&nbsp;</p> 
 
@@ -312,7 +312,7 @@ Au cours de ce chapitre, vous allez créer un escalier du niveau RDC au niveau 1
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_51.50.png" alt="complements_51.50" style="max-width: 100%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/45_complements/complements_51.50.png" alt="complements_51.50" style="max-width: 60%" />
 
 <p>&nbsp;</p> 
 
@@ -348,7 +348,7 @@ Au cours de ce chapitre, vous allez créer un escalier du niveau RDC au niveau 1
 
 <p>&nbsp;</p> 
 
-***💡 : Informations *** 
+***💡 : Informations* ** 
 
 *\- La 18ème et dernière marche 1️⃣ n’est pas représentée mais elle est bien calculée dans l’escalier. C’est le palier d’arrivée de la mezzanine qui sert de giron à cette marche. Il faudra rajouter, en revanche, une contremarche.* 
 
