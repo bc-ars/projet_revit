@@ -36,7 +36,7 @@ Dans le panneau **Propriétés**, choisir parmi les murs déjà intégrés à la
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_2.19.png" alt="creation_mur_porteur_rdc_2.19" style="max-width: 40%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_2.19.png" alt="creation_mur_porteur_rdc_2.19" style="max-width: 60%" />
 
 <p>&nbsp;</p>
 
@@ -48,7 +48,7 @@ La fenêtre **Modifier l’assemblage** s’ouvre 1️⃣ :
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_4.15.png" alt="creation_mur_porteur_rdc_4.15" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_4.15.png" alt="creation_mur_porteur_rdc_4.15" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -110,7 +110,7 @@ Le mur M1 1️⃣ sera dessiné sur le niveau 0 RDC :
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_4.57.png" alt="creation_mur_porteur_rdc_4.57" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_4.57.png" alt="creation_mur_porteur_rdc_4.57" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -148,7 +148,7 @@ Après l’analyse de la géométrie du mur M1, nous allons pouvoir, au moment d
 
 Tout d’abord, dans le réglage d’origine de Revit, il faut indiquer **Hauteur** (et non Profondeur) dans **Modifier I Placer Mur porteur**. Sinon un message d’erreur apparaîtra et le tracé sera impossible. 
 
- <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.26.png" alt="creation_mur_porteur_rdc_5.26" style="max-width: 70%" />
+ <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_5.26.png" alt="creation_mur_porteur_rdc_5.26" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -202,7 +202,7 @@ Afin d’obtenir cet aspect de rendu, il faut aller dans **la barre de contrôle
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_6.39.png" alt="creation_mur_porteur_rdc_6.39" style="max-width: 90%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_6.39.png" alt="creation_mur_porteur_rdc_6.39" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -210,7 +210,7 @@ Pour contrôler son travail en coupe, il faut créer une coupe en se replaçant 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_7.05.png" alt="creation_mur_porteur_rdc_7.05" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_7.05.png" alt="creation_mur_porteur_rdc_7.05" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -224,7 +224,7 @@ Nous allons faire une coupe longitudinale qui passe par la double porte d’entr
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_7.17.png" alt="creation_mur_porteur_rdc_7.17" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_7.17.png" alt="creation_mur_porteur_rdc_7.17" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -280,7 +280,7 @@ Pour visualiser le **Mur M1** en perspective, il faut se rendre dans **l’Arbor
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_9.07.png" alt="creation_mur_porteur_rdc_9.07" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_9.07.png" alt="creation_mur_porteur_rdc_9.07" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -316,7 +316,7 @@ Selon la même méthode en 5 étapes, vous dessinerez la totalité du **Mur M1**
 
 La vue **{3D}** affiche également le plan DWG importé sur le Niveau 0 RDC. 
 
-**`Fichier corrigé 3.2.1 méthode de trace du mur M1.rvt`** 
+**`Fichier étape 3.2.1 méthode de trace du mur M1.rvt`** 
 
 <p>&nbsp;</p>
 
@@ -376,7 +376,7 @@ Dans cette fenêtre **Nom `Avant`**, vous pouvez renommer l’ancien Mur **M1 en
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_923.30.png" alt="creation_mur_porteur_rdc_923.30" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_923.30.png" alt="creation_mur_porteur_rdc_923.30" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -396,7 +396,7 @@ L’**Aperçu** 6️⃣ vous permettra de contrôler votre assemblage, validez e
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_924.07.png" alt="creation_mur_porteur_rdc_924.07" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_924.07.png" alt="creation_mur_porteur_rdc_924.07" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -410,7 +410,7 @@ Ensuite, il faut suivre la méthode de modélisation en 5 étapes abordée à la
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_924.20.png" alt="creation_mur_porteur_rdc_924.20" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_924.20.png" alt="creation_mur_porteur_rdc_924.20" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -444,7 +444,7 @@ Dans le résultat ci-dessous, le mur M4 est modélisé et on s’aperçoit que l
 
 Vous complèterez de la même façon les autres **Murs M4** du projet (violet) en pensant à contrôler votre travail régulièrement en élévation, coupe et perspective. 
 
-**`Fichier corrigé 3.2.2 modélisation du mur porteur M4.rvt`** 
+**`Fichier étape 3.2.2 modélisation du mur porteur M4.rvt`** 
 
 
 
@@ -486,7 +486,7 @@ Pour sélectionner ceux qui n’apparaissent pas sur la vue active, choisir **Da
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_925.33.png" alt="creation_mur_porteur_rdc_925.33" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/4_creation_mur_porteur_rdc/creation_mur_porteur_rdc_925.33.png" alt="creation_mur_porteur_rdc_925.33" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -570,7 +570,7 @@ Le mur M8 sélectionné apparaît en bleu.
 
 On retrouvera cette étape dans:
 
-**`Fichier corrigé 3.2.3 modélisation des murs porteurs du RDC.rvt `** 
+**`Fichier étape 3.2.3 modélisation des murs porteurs du RDC.rvt `** 
 
  <p>&nbsp;</p>
 

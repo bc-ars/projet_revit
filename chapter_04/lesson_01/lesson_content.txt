@@ -12,8 +12,8 @@ Grâce à cette section, vous allez contrôler votre projet. Vous apporterez des
 
 <p>&nbsp;</p> 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_2.08.png" alt="ajustement_projet_2.08" style="max-width: 70%" />
-
+![<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/30_modelisation_materiaux/modelisation_materiaux_2.08.png" alt="ajustement_projet_2.08" style="max-width: 70%" />
+]()
 <p>&nbsp;</p> 
 
 **1 - MODIFICATION À APPORTER** 

@@ -14,7 +14,7 @@ Dans l’onglet **Architecture** 1️⃣, Panneau **Création** 2️⃣, choisir
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_0.03.png" alt="ajout_menuiseries_interieures_0.03" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_0.03.png" alt="ajout_menuiseries_interieures_0.03" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -38,7 +38,7 @@ Quand vous présentez la porte sur plan, seul un mur (architectural ou porteur) 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_0.26.png" alt="ajout_menuiseries_interieures_0.26" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_0.26.png" alt="ajout_menuiseries_interieures_0.26" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -48,7 +48,7 @@ Vous avez également **2 doubles flèches** 2️⃣ qui vous permettent d’inve
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_0.34.png" alt="ajout_menuiseries_interieures_0.34" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_0.34.png" alt="ajout_menuiseries_interieures_0.34" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -62,7 +62,7 @@ Comme indiqué ci-dessous, Il faut donc se rendre dans l’onglet **Modifier I P
 
  <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_0.41.png" alt="ajout_menuiseries_interieures_0.41" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_0.41.png" alt="ajout_menuiseries_interieures_0.41" style="max-width: 100%" />
 
  <p>&nbsp;</p>
 
@@ -72,7 +72,7 @@ Pour accéder à la porte coulissante et la charger, il faut ouvrir les réperto
 
  <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_0.51.png" alt="ajout_menuiseries_interieures_0.51" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/7_ajout_menuiseries_interieures/ajout_menuiseries_interieures_0.51.png" alt="ajout_menuiseries_interieures_0.51" style="max-width: 100%" />
 
  <p>&nbsp;</p>
 

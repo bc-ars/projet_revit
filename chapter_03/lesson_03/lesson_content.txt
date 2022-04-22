@@ -56,7 +56,7 @@ Nous allons nous intéresser à sa composition, à sa création dans Revit (couc
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_12.39.png" alt="creation_plancher_bas_12.39" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_12.39.png" alt="creation_plancher_bas_12.39" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -90,17 +90,17 @@ L'outil **Plancher**, à la différence de **Dalle architecture**, possède des 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_12.54.png" alt="creation_plancher_bas_12.54" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_12.54.png" alt="creation_plancher_bas_12.54" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
-La boîte de dialogue **Propriétés du type **1️⃣ s'ouvre, à partir du sol «**Dalle en béton - 250 mm** » 2️⃣, nous allons créer notre plancher, avant de le dessiner. Pour cela, cliquer sur **Dupliquer** 3️⃣ pour adapter la structure. 
+La boîte de dialogue **Propriétés du type** 1️⃣ s'ouvre, à partir du sol «**Dalle en béton - 250 mm** » 2️⃣, nous allons créer notre plancher, avant de le dessiner. Pour cela, cliquer sur **Dupliquer** 3️⃣ pour adapter la structure. 
 
 Nous ne modéliserons que la partie porteuse du plancher, la chape avec le revêtement de sol seront représentés une fois les cloisons implantées (sur sol brut). Ce sera une seconde modélisation. 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_13.49.png" alt="creation_plancher_bas_13.49" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_13.49.png" alt="creation_plancher_bas_13.49" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -108,7 +108,7 @@ Renommer ce nouveau plancher comme indiqué ci-contre, puis cliquer sur **OK** 1
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_14.22.png" alt="creation_plancher_bas_14.22" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_14.22.png" alt="creation_plancher_bas_14.22" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -118,7 +118,7 @@ Après avoir validé ce nouveau nom, nous revenons dans la fenêtre **Propriét�
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_16.02.png" alt="creation_plancher_bas_16.02" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_16.02.png" alt="creation_plancher_bas_16.02" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -126,7 +126,7 @@ Après avoir cliqué sur **Modifier**, la fenêtre **Modifier l’assemblage** 1
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_16.46.png" alt="creation_plancher_bas_16.46" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_16.46.png" alt="creation_plancher_bas_16.46" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -142,7 +142,7 @@ Dans la continuité du plancher porteur, nous allons créer le plancher composé
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_17.18.png" alt="creation_plancher_bas_17.18" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_17.18.png" alt="creation_plancher_bas_17.18" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -156,7 +156,7 @@ Sur la ligne de la couche 3, cliquer sur l’icône de sous menu 1️⃣.
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_17.36.png" alt="creation_plancher_bas_17.36" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_17.36.png" alt="creation_plancher_bas_17.36" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -164,7 +164,7 @@ Comme indiqué ci-dessous, la fenêtre du **Navigateur de matériaux** 1️⃣ s
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_18.01.png" alt="creation_plancher_bas_18.01" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_18.01.png" alt="creation_plancher_bas_18.01" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -172,7 +172,7 @@ Effectuer un clic droit souris sur **Valeur par défaut Nouveau Matériau** 1️
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_18.23.png" alt="creation_plancher_bas_18.23" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_18.23.png" alt="creation_plancher_bas_18.23" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -182,17 +182,17 @@ Pour assigner un matériau, contenu dans la bibliothèque du logiciel, sélectio
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_18.51.png" alt="creation_plancher_bas_18.51" style="max-width: 40%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_18.51.png" alt="creation_plancher_bas_18.51" style="max-width: 50%" />
 
 <p>&nbsp;</p>
 
-Quand votre **Navigateur de ressources** 3️⃣ s’ouvre, effectuer une recherche avec le mot **ciment** 4️⃣. Choisir le matériau **Mortier de ciment **5️⃣ proposé, celui-ci est issu de la bibliothèque des **Ressources physiques Autodesk** 6️⃣. 
+Quand votre **Navigateur de ressources** 3️⃣ s’ouvre, effectuer une recherche avec le mot **ciment** 4️⃣. Choisir le matériau **Mortier de ciment** 5️⃣ proposé, celui-ci est issu de la bibliothèque des **Ressources physiques Autodesk** 6️⃣. 
 
 Cliquer sur l’icône 7️⃣, cela remplace la ressource actuelle dans l’éditeur par cette nouvelle ressource. 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_19.42.png" alt="creation_plancher_bas_19.42" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_19.42.png" alt="creation_plancher_bas_19.42" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -202,11 +202,11 @@ Pour information, seules les ressources Autodesk contiennent des propriétés th
 
 Comme indiqué ci-dessous la **chape ciment** 1️⃣ est désormais caractérisée par son matériau Mortier de ciment, à l’aide des **4 onglets** 2️⃣. Ils vous permettent de personnaliser le matériau (**Identité**, **Graphisme**, **Apparence**, **Thermique**) 
 
-Par exemple, les **Propriétés **3️⃣ contenues dans l’onglet **Thermiques** sont modifiables afin de leurs donner des valeurs conformes au produit technique. Comme pour toute création et modification, il faut toujours cliquer ensuite sur **Appliquer** 4️⃣ puis **OK** 5️⃣. 
+Par exemple, les **Propriétés**3️⃣ contenues dans l’onglet **Thermiques** sont modifiables afin de leurs donner des valeurs conformes au produit technique. Comme pour toute création et modification, il faut toujours cliquer ensuite sur **Appliquer** 4️⃣ puis **OK** 5️⃣. 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_20.42.png" alt="creation_plancher_bas_20.42" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_20.42.png" alt="creation_plancher_bas_20.42" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -214,7 +214,7 @@ En suivant la même méthode de travail, on peut nommer « **Carrelage** » la c
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_23.33.png" alt="creation_plancher_bas_23.33" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_23.33.png" alt="creation_plancher_bas_23.33" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -226,7 +226,7 @@ Voici ci-dessous les étapes **`Avant`** et **`Après`** :
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_23.47.png" alt="creation_plancher_bas_23.47" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_23.47.png" alt="creation_plancher_bas_23.47" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -242,7 +242,7 @@ Pour dessiner ce plancher sur vide sanitaire sur les bureaux 1 et 2, et sur la s
 
 - <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_25.15.png" alt="creation_plancher_bas_25.15" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_25.15.png" alt="creation_plancher_bas_25.15" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -250,7 +250,7 @@ Pour dessiner ce plancher sur vide sanitaire sur les bureaux 1 et 2, et sur la s
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_30.42.png" alt="creation_plancher_bas_30.42" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_30.42.png" alt="creation_plancher_bas_30.42" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -258,7 +258,7 @@ Pour dessiner ce plancher sur vide sanitaire sur les bureaux 1 et 2, et sur la s
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_30.55.png" alt="creation_plancher_bas_30.55" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_30.55.png" alt="creation_plancher_bas_30.55" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -268,7 +268,7 @@ Dans la zone du ruban des outils de Revit, dans l’onglet **Modifier I Créer u
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_31.28.png" alt="creation_plancher_bas_31.28" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_31.28.png" alt="creation_plancher_bas_31.28" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -286,7 +286,7 @@ Cette case se trouve à gauche de l’écran sous le ruban des outils de Revit. 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_32.03.png" alt="creation_plancher_bas_32.03" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_32.03.png" alt="creation_plancher_bas_32.03" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -294,11 +294,11 @@ Cette case se trouve à gauche de l’écran sous le ruban des outils de Revit. 
 
 <p>&nbsp;</p>
 
-Il ne vous reste plus qu’à cliquer sur la **coche verte** 2️⃣ afin de terminer l’esquisse. Sans cette action, toute modélisation est interrompue. 
+Il ne vous reste plus qu’à cliquer sur la **coche verte** 1️⃣ afin de terminer l’esquisse. Sans cette action, toute modélisation est interrompue. 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_32.58.png" alt="creation_plancher_bas_32.58" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_32.58.png" alt="creation_plancher_bas_32.58" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -318,7 +318,7 @@ Dans **l’Arborescence du projet** 1️⃣, dans les Vues 3D, il faut cliquer s
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_33.17.png" alt="creation_plancher_bas_33.17" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_33.17.png" alt="creation_plancher_bas_33.17" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -326,7 +326,7 @@ Vous allez également créer une coupe, comme indiqué ci-dessous, celle-ci appa
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_33.48.png" alt="creation_plancher_bas_33.48" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_33.48.png" alt="creation_plancher_bas_33.48" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -334,7 +334,7 @@ Voici le résultat automatique de la coupe partielle longitudinale Administratio
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_34.05.png" alt="creation_plancher_bas_34.05" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_34.05.png" alt="creation_plancher_bas_34.05" style="max-width: 100%" />
 
 
 
@@ -352,7 +352,7 @@ Comme indiqué ci-après, la fenêtre **Modifier l’assemblage** 1️⃣ s’ou
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_34.46.png" alt="creation_plancher_bas_34.46" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_34.46.png" alt="creation_plancher_bas_34.46" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -360,7 +360,7 @@ En prenant l’exemple de ce **Mur M1** de façade, avec l’isolation thermique
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_35.05.png" alt="creation_plancher_bas_35.05" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_35.05.png" alt="creation_plancher_bas_35.05" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -377,7 +377,7 @@ Penser à cliquer sur **Appliquer** et **OK** après les modifications, afin de 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_35.30.png" alt="creation_plancher_bas_35.30" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_35.30.png" alt="creation_plancher_bas_35.30" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -401,7 +401,7 @@ Pour configurer l’aspect graphique des matériaux, il faut cliquer sur l’ic�
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_35.48.png" alt="creation_plancher_bas_35.48" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_35.48.png" alt="creation_plancher_bas_35.48" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -411,7 +411,7 @@ Nous nous intéresserons aux rubriques **Ombrage** 4️⃣ et **Motif de coupe**
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_36.10.png" alt="creation_plancher_bas_36.10" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_36.10.png" alt="creation_plancher_bas_36.10" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -437,7 +437,7 @@ Voici le résultat que l’on pourrait obtenir, en prévision d’une publicatio
 
 <p>&nbsp;</p>
 
-**`Fichier corrigé 3.3.1 Plancher sur vide sanitaire 1.rvt  `** 
+**`Fichier étape 3.3.1 Plancher sur vide sanitaire 1.rvt  `** 
 
 Désormais, vous pouvez modéliser, en vous plaçant sur le Niveau 0 RDC, tous les planchers sur vide sanitaire (voir la localisation à la leçon précédente), en suivant la méthode de travail en 6 étapes. Il faudra également réaliser les liaisons pour chaque jonction de mur et de plancher. 
 
@@ -465,7 +465,7 @@ Voici le résultat que l’on obtient, en vue en plan et en {3D} :
 
 \- Les chaînages périphériques seront modélisés dans la leçon suivante: **Chaînages périphériques RDC**. 
 
-**`Fichier corrigé 3.3.1 Plancher sur vide sanitaire 2.rvt  `** 
+**`Fichier étape 3.3.1 Plancher sur vide sanitaire 2.rvt  `** 
 
 <p>&nbsp;</p>
 
@@ -493,7 +493,7 @@ Nous allons nous intéresser à sa composition et à sa création dans Revit. No
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_39.03.png" alt="creation_plancher_bas_39.03" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_39.03.png" alt="creation_plancher_bas_39.03" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -511,7 +511,7 @@ Puis, dans la fenêtre **Propriété du type** qui s’ouvre, nous allons clique
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_39.27.png" alt="creation_plancher_bas_39.27" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_39.27.png" alt="creation_plancher_bas_39.27" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -519,7 +519,7 @@ Dans la fenêtre de **Propriété du type** qui s’ouvre, dans le tableau **Par
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_39.39.png" alt="creation_plancher_bas_39.39" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_39.39.png" alt="creation_plancher_bas_39.39" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -527,9 +527,9 @@ Pour modifier l’**Assemblage des matériaux de départ** 1️⃣, il faut util
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_40.25.png" alt="creation_plancher_bas_40.25" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_40.25.png" alt="creation_plancher_bas_40.25" style="max-width: 100%" />
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_40.34.png" alt="creation_plancher_bas_40.34" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_40.34.png" alt="creation_plancher_bas_40.34" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -599,11 +599,11 @@ Pour créer ce nouveau composant dans Revit, il est conseillé de partir du mur 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_43.45.png" alt="creation_plancher_bas_43.45" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_43.45.png" alt="creation_plancher_bas_43.45" style="max-width: 100%" />
 
 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_43.59.png" alt="creation_plancher_bas_43.59" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_43.59.png" alt="creation_plancher_bas_43.59" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -671,7 +671,7 @@ Nous sommes sur le **Niveau 0 RDC** 1️⃣, avec le Mur de base **Chaînage 2 +
 
  <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_45.48.png" alt="creation_plancher_bas_45.48" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_45.48.png" alt="creation_plancher_bas_45.48" style="max-width: 100%" />
 
  <p>&nbsp;</p>
 
@@ -679,7 +679,7 @@ Vous utiliserez l’outil de visualisation **View Cube** en cliquant sur un angl
 
  <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_46.07.png" alt="creation_plancher_bas_46.07" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/5_creation_plancher_bas_rdc/creation_plancher_bas_46.07.png" alt="creation_plancher_bas_46.07" style="max-width: 100%" />
 
  <p>&nbsp;</p>
 

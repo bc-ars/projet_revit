@@ -24,7 +24,7 @@ LOT 01 GROS OEUVRE / 01 – Construction / D – Structures BA /f) Acrotères BA
 
 Afin de voir en fond de plan les murs du RDC, il faut dans les **Propriétés** de la vue du **Niveau 1er**, dans **Niveau en fond de plan**, **Plage : niveau de base**, choisir **Niveau 0 RDC**. La silhouette des murs apparaît comme référence. 
 
-Voici l’assemblage de matériaux pour **l’acrotère **1️⃣ ayant deux faces en contact avec l’extérieur. Sa composition est détaillée avec **ses couches** 2️⃣, et créée à l’aide **des boutons** 3️⃣ : 
+Voici l’assemblage de matériaux pour **l’acrotère** 1️⃣ ayant deux faces en contact avec l’extérieur. Sa composition est détaillée avec **ses couches** 2️⃣, et créée à l’aide **des boutons** 3️⃣ : 
 
 <p>&nbsp;</p>
 

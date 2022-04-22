@@ -22,7 +22,7 @@ Pour notre tutoriel, nous prendrons l’exemple des cloisons de la cuisine, du t
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_43.22.png" alt="creation_cloison_in_rdc_43.22" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_43.22.png" alt="creation_cloison_in_rdc_43.22" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -36,7 +36,7 @@ Cliquer sur l’onglet **Architecture** 1️⃣, puis dans **Mur** 2️⃣, choi
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_43.51.png" alt="creation_cloison_in_rdc_43.51" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_43.51.png" alt="creation_cloison_in_rdc_43.51" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -50,7 +50,7 @@ Respectez les numéros de priorités de matériaux dans les crochets [], identiq
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_44.10.png" alt="creation_cloison_in_rdc_44.10" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_44.10.png" alt="creation_cloison_in_rdc_44.10" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -58,7 +58,7 @@ Nous pouvons commencer par modéliser la cloison repérée ci-dessous 1️⃣ en
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_44.23.png" alt="creation_cloison_in_rdc_44.23" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_44.23.png" alt="creation_cloison_in_rdc_44.23" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -100,11 +100,11 @@ Sur la vue ci-dessous, nous remarquons que lorsque l’on sélectionne la cloiso
 
 <p>&nbsp;</p>
 
-Afin de positionner correctement la cloison à 4.48 m du mur à gauche, il faut cliquer sur la cotation temporaire **3.1710** 1️⃣ taper la valeur**4.48 **2️⃣, puis valider sur **ENTRER**. 
+Afin de positionner correctement la cloison à 4.48 m du mur à gauche, il faut cliquer sur la cotation temporaire **3.1710** 1️⃣ taper la valeur**4.48** 2️⃣, puis valider sur **ENTRER**. 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_45.31.png" alt="creation_cloison_in_rdc_45.31" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_45.31.png" alt="creation_cloison_in_rdc_45.31" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -114,7 +114,7 @@ Les cotations temporaires apparaissent aussi sur la **`Vue {3D}`**, dès que l�
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_46.00.png" alt="creation_cloison_in_rdc_46.00" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_46.00.png" alt="creation_cloison_in_rdc_46.00" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -169,7 +169,7 @@ Pour information, si la nature des cloisons devait changer sur le projet, inutil
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_48.50.png" alt="creation_cloison_in_rdc_48.50" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_48.50.png" alt="creation_cloison_in_rdc_48.50" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -241,7 +241,7 @@ Dans Revit, Il faut sélectionner une cloison verticale, Revit affiche l’ongle
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_52.32.png" alt="creation_cloison_in_rdc_52.32" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_52.32.png" alt="creation_cloison_in_rdc_52.32" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -249,7 +249,7 @@ Une fois l’outil **Rotation** sélectionné, le point 2️⃣ apparaît, c’e
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_53.10.png" alt="creation_cloison_in_rdc_53.10" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_53.10.png" alt="creation_cloison_in_rdc_53.10" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -259,7 +259,7 @@ La vérification de l’implantation des cloisons peut se faire en réaffichant 
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_53.23.png" alt="creation_cloison_in_rdc_53.23" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/6_creation_cloisonnement_interieur_rdc/creation_cloison_in_rdc_53.23.png" alt="creation_cloison_in_rdc_53.23" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 

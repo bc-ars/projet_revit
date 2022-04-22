@@ -1,25 +1,15 @@
-# Le BIM: enjeux et fondements
+# Autodesk Revit 
 
 
 
-> "Ceci est une révolution !"
+> Source: Autodesk
 
-[Steve jobs](https://www.youtube.com/watch?v=x7qPAY9JqE4) aurait ainsi pu qualifier le BIM (de l'anglais Building information Modeling). 
+Revit est un logiciel BIM qui permet d'intégrer toutes les disciplines d'architecture, d'ingénierie et de construction dans un environnement de modélisation unifié, pour des projets plus efficaces et plus rentables
 
-Nous verrons dans ce cours pourquoi cette technologie bouscule le monde de la construction. Le BIM est innovant par plusieurs aspects: il introduit la **maquette numérique**, une nouvelle manière de **concevoir**, de **dessiner**, de **collaborer** et redéfinit l'acte de construire.
+Ce logiciel présente une méthode intelligente basée sur des modèles pour la planification, la conception, la construction et la gestion des bâtiments et des infrastructures. Revit prend en charge la collaboration pluridisciplinaire en matière de conception.
 
-Ce cours vous permettra de bien comprendre l'essence du BIM:
+Ce cours vous introduira pas à pas à travers un projet à différentes fonctionalités essentielles de Revit.
 
-- Comment en sommes nous arrivés à la technologie BIM.
+En route vers la modélisation !
 
-- La signification de l'acronyme BIM.
-- Les acteurs concernés par le BIM.
-- Les nouveaux métiers du BIM.
-- Un aperçu du cycle de projet en BIM.
-- La modélisation BIM
-- Les standards de fichiers.
-- La gestion de projet en BIM.
-
-Ce cours vous introduira pas à pas aux concepts fondamentaux du BIM et vous permettra d'en appréhender les possibilités. 
-
-En route vers le futur de la construction !
+***Voir ci-contre la vidéo promotionnelle d'Autodesk***

@@ -45,8 +45,9 @@ Dans Revit, rendez vous dans **l’Arborescence du projet** 1️⃣, dans **Elé
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_1.44.png" alt="mise_en_place_projet_1.44" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_1.44.png" alt="mise_en_place_projet_1.44" style="max-width: 100%" />
 
+<p>&nbsp;</p>
 
 
 *Les 3 niveaux proposés par défaut par Revit, qu’il faudra repositionner et renommer :* 
@@ -84,13 +85,13 @@ Avant toute création et manipulation, regardons la composition du niveau et de 
 
 **9️⃣** 	Symbole 2D ou 3D 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_2.05.png" alt="mise_en_place_projet_2.05" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_2.05.png" alt="mise_en_place_projet_2.05" style="max-width: 100%" />
 
 **Comment créer un niveau dans le projet ?** 
 
 Dans le menu **Architecture** 1️⃣, et le panneau **Référence** 2️⃣, cliquer sur **Niveau** 3️⃣. 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_2.25.png" alt="mise_en_place_projet_2.25" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_2.25.png" alt="mise_en_place_projet_2.25" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -100,7 +101,7 @@ Dans le menu **Architecture** 1️⃣, et le panneau **Référence** 2️⃣, cl
 
 2- Cliquer une deuxième fois 2️⃣ pour placer le point de gauche de votre ligne de **Niveau 5**. 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_2.38.png" alt="mise_en_place_projet_2.38" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_2.38.png" alt="mise_en_place_projet_2.38" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -149,7 +150,7 @@ Ainsi, vous allez pourvoir créer et modifier tous les niveaux du projet, comme 
 
 Pour information, le cadenas 8️⃣ verrouille le déplacement de votre étiquette, le symbole 2D / 3D 9️⃣ permet de jouer sur la limite de la vue (2D pour l’élévation et 3D pour le modèle entier). 
 
-**`Fichier corrigé 3.1.1 creation des niveaux.rvt`**
+**`Fichier étape 3.1.1 creation des niveaux.rvt`**
 
 
 
@@ -173,7 +174,7 @@ Dans l'onglet **Insérer** 1️⃣, panneau **Importer** 2️⃣, cliquer sur **
 
 <p>&nbsp;</p>
 
- <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_3.18.png" alt="mise_en_place_projet_3.18" style="max-width: 70%" />
+ <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_3.18.png" alt="mise_en_place_projet_3.18" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -183,21 +184,21 @@ Choisir le **mètre** 4️⃣ pour les Unités d’importation et le Positionnem
 
 Cliquer sur **Ouvrir** 6️⃣.
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_3.39.png" alt="mise_en_place_projet_3.39" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_3.39.png" alt="mise_en_place_projet_3.39" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
 *Ne pas tenir compte du message d’alerte ci-dessous et cliquer sur **Fermer** 1️⃣.* 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_3.53.png" alt="mise_en_place_projet_3.53" style="max-width: 30%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_3.53.png" alt="mise_en_place_projet_3.53" style="max-width: 60%" />
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_4.53.png" alt="mise_en_place_projet_4.53" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_4.53.png" alt="mise_en_place_projet_4.53" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
 Pour clôturer cette section, il nous reste à apprendre à gérer l’affichage de ce plan importé. Dans l'onglet **Vue** 1️⃣, panneau **Graphismes** 2️⃣, cliquer sur **Visibilité / Graphismes** 3️⃣.
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_5.04.png" alt="mise_en_place_projet_5.04" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_5.04.png" alt="mise_en_place_projet_5.04" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -207,11 +208,11 @@ On retrouve bien le plan **RDC.dwg** 3️⃣ dans la liste. En développant ce d
 
 Cliquer sur **OK**, **Annuler** ou **Appliquer** 5️⃣. 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_5.21.png" alt="mise_en_place_projet_5.21" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_5.21.png" alt="mise_en_place_projet_5.21" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
-**`Fichier corrigé 3.1.2 insertion d’un plan en DWG.rvt  `**
+**`Fichier étape 3.1.2 insertion d’un plan en DWG.rvt  `**
 
 
 
@@ -227,15 +228,15 @@ Nous allons maintenant analyser la construction du projet et plus particulièrem
 
 Avant toute modélisation, et indépendamment de la méthode de tracé (avec un plan DWG ou libre), il est **important d’avoir une maîtrise de la conception** de l’ouvrage et de lister les familles de murs à dessiner. La lecture du CCTP est nécessaire en identifiant les articles à lire et leur numéro de page : 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_5.22.png" alt="mise_en_place_projet_5.22" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_5.22.png" alt="mise_en_place_projet_5.22" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
 Dans la page suivante, on retrouve un repérage des 8 murs porteurs à représenter sur Revit, inventoriés pour intégrer la bibliothèque de votre projet. Cela nous permettra par la suite d’enrichir notre fichier gabarit personnel. 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_5.23.png" alt="mise_en_place_projet_5.23" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_5.23.png" alt="mise_en_place_projet_5.23" style="max-width: 100%" />
 
-**`Fichier corrigé 3.1.3 identification des murs porteurs.rvt  `**
+**`Fichier étape 3.1.3 identification des murs porteurs.rvt  `**
 
 
 
@@ -257,13 +258,13 @@ Si le quadrillage n’est pas exécuté lors de la réalisation du projet, sa mo
 
 Avant de commencer à travailler, il faut verrouiller le plan RDC.dwg sur votre espace de travail. Cliquez dessus, le contour devient bleu. Dans le menu **Modifier I RDC.dwg** 1️⃣, dans **Modifier** 2️⃣ cliquer sur **la punaise** 3️⃣. Celle-ci apparaît alors au centre de votre importation. Il ne bougera plus.
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_6.03.png" alt="mise_en_place_projet_6.03" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_6.03.png" alt="mise_en_place_projet_6.03" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
 Dans l’onglet **Architecture** 1️⃣, dans le **Panneau Référence** 2️⃣, cliquez sur **Quadrillage** 3️⃣ (l’icône Niveau est grisée, donc indisponible, car cette action n’est pas réalisable dans une vue en plan).
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_6.15.png" alt="mise_en_place_projet_6.15" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_6.15.png" alt="mise_en_place_projet_6.15" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
@@ -273,19 +274,19 @@ Pour placer sa première ligne de quadrillage sur le mur porteur vertical le plu
 
 - Puis, cliquer sur le point d’origine 3️⃣ et prolonger sa ligne jusqu’à la partie supérieure du plan 4️⃣. Cocher la case de visibilité 5️⃣ pour afficher le numéro de la file. 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_6.27.png" alt="mise_en_place_projet_6.27" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_6.27.png" alt="mise_en_place_projet_6.27" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
 Procédez ainsi pour placer tout le quadrillage du projet jusqu’à obtenir le résultat ci-dessous : 
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_6.46.png" alt="mise_en_place_projet_6.46" style="max-width: 70%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/3_mise_en_place_projet/mise_en_place_projet_6.46.png" alt="mise_en_place_projet_6.46" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
 💡 : Le dessin 2D des plans sur Autocad comporte parfois des imperfections. C’est le cas ici car une seule épaisseur de mur englobe parfois le porteur avec les enduits intérieurs et extérieurs. Il est conseillé d’ouvrir le fichier corrigé ci-dessous qui tient compte de cette remarque. 
 
-**`Fichier corrigé 3.1.4 files de la structure porteuse.rvt  `**
+**`Fichier étape 3.1.4 files de la structure porteuse.rvt  `**
 
 <p>&nbsp;</p>
 

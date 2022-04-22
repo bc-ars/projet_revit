@@ -2,22 +2,15 @@
 
 
 
-https://www.saintlaurentdelasalanque.fr/education-et-enfance/accueil-loisirs-periscolaire/
-
 **L’Accueil de Loisirs Sans Hébergement (A.L.S.H.),** plus connu aussi sous le nom de **centre de loisirs**, ou **centre aéré**.
 
-Il accueille généralement des enfants qui sont déjà scolarisés et des jeunes, pour des activités de loisirs éducatives:
+► pendant l’année scolaire, avant ou après les heures de classe, pendant la pause du déjeuner, le mercredi ou encore le samedi,
+
+► pendant les congés des petites et grandes vacances scolaires.
+
+En fonction de l’équipe et des gestionnaires, les enfants peuvent profiter de différentes activités : manuelles, jeux d’intérieur ou d’extérieur, de détente ou de découverte, culturelles, sportives, artistiques ou scientifiques et techniques, etc.
+
+https://www.saintlaurentdelasalanque.fr/education-et-enfance/accueil-loisirs-periscolaire/
 
 
-
-*Les échanges de plans dans un processus de travail traditionnel*
-
-Le BIM va permettre d'introduire une représentation digitale commune d'un projet de construction qui va accroître les possibilités de conception et de mise en oeuvre grâce à une centralisation des décisions. Il va également faire apparaître une multitude d'acteurs qui auront chacun un rôle bien précis dans le processus BIM: AMO BIM, BIM Manager, BIM Coordinateur, BIM Modeleur...
-
-Nous verrons dans ce chapitre comment les acteurs s'approprient le BIM: 
-
-- Le positionnement des acteurs traditionels avec le BIM.
-- Les nouveaux métiers liés au BIM.
-- Les documents d'un projet en BIM.
-
-Le BIM prend tout son sens si chacun des acteurs partagent une vision commune autour de la collaboration et de la fiabilité des données. Voyons comment tout cela s'articule !
+**

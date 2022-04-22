@@ -1,115 +1,276 @@
-# **La découverte de l'interface**
+# **Le paramétrage général du logiciel**
 
 ------------------------------
 
 <p>&nbsp;</p>
 
-L’objectif de ce chapitre est de découvrir l’environnement de travail du logiciel et de le paramétrer correctement, avant d’aborder la modélisation du projet. Ce paramétrage sera également abordé lors de la personnalisation du fichier gabarit, et de sa création, au chapitre:
+L’objectif de cette section est de vous présenter les réglages générales du logiciel à effectuer avant toute modélisation. Ce premier contact avec Revit va vous permettre de vous familiariser avec son interface de travail. Nous aborderons les réglages suivants : 
+ - Les informations du projet.	
 
-`**11.3 Mise à jour du fichier gabarit du projet.**`
+ - L’enregistrement automatique.	
+
+ - Les unités de travail.	 
+
+ - Les accrochages.	
+
+ - Les cotations.	
+
+ - Les épaisseurs des lignes.	
+
+ - La visibilité des éléments modélisés.
+
+   Ces paramétrages pourront être sauvegardés dans votre fichier gabarit personnel.
 
 <p>&nbsp;</p>
 
-## 1- **Ouverture du logiciel et création d’un nouveau projet**
+## 1- **Les informations du projet**
 
 ---------------------------
 
 
 
-Pour lancer le logiciel Revit (quelle que soit la version), Il faut double cliquer sur l'icône du logiciel, ou alors depuis la barre de lancment rapide cliquer une fois sur cette même icône:
+Nous allons saisir des informations afin de définir le projet, comme le nom du bâtiment, le concepteur, le contexte, la date de fin du projet… Tous ces renseignements seront utilisés afin de documenter le cartouche automatique lors de la mise en page. Ils restent modifiables à tout moment.
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/0_Installation/%20installation%20Revit%20C.18.png" alt=" installation Revit C.18" style="max-width: 10%" />
-
-
-
-Lors de son ouverture 1️⃣, la page d'acceuil propose différentes actions possibles:
-
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit25.10.png" alt="Interface_Revit25.10" style="max-width: 120%" />
-
-
-
-2️⃣: **Ouvrir** un projet existant ou un **Nouveau**. Créer un nouveau projet à partir d’un gabarit (4 types).
-
-3️⃣: **Ouvrir** des projets récents, que vous avez déjà travaillés, ou proposés à titre d’exemple.
-
-4️⃣: Travailler avec les **Familles** pour en créer de nouvelles ou pour les modifier.
-
-5️⃣: Accéder à des **Ressources** vidéo proposées par Autodesk et à l’aide en ligne.
-
-
-
-Nous allons créer un nouveau projet, nous cliquons sur **Nouveau** dans la fenêtre **Projets** 2️⃣. 
-
-💡: *On peut également de manière classique agir sur ses fichiers Revit à l’aide du menu Fichier, dans le ruban supérieur du logiciel.*
-
-Pour créer un nouveau projet, dans la fenêtre **Projets** 1️⃣ de la page d’accueil, cliquez sur **Nouveau** 2️⃣. Dans la boîte de dialogue du **Nouveau projet** 3️⃣, choisir le **Gabarit architectural** 4️⃣, car on souhaite modéliser l’architecture du bâtiment. Dans la zone **Créer un nouveau** 5️⃣, choisir **Projet**.
-
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.22.png" alt="Interface_Revit38.22" style="max-width: 40%" /><img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.33.png" alt="Interface_Revit38.33" style="max-width: 40%" />
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_06.44.png" alt="parametrage_general_06.44" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
-Suite à ces choix, cliquez sur OK pour valider. Revit va alors ouvrir un nouveau projet (qui devra être renommé) tout en affichant son interface de travail.
+Comme indiqué dans l'onglet **Gérer** 1️⃣, le panneau **Paramètres** 2️⃣, cliquez sur **Informations sur le projet** 3️⃣. La boîte de dialogue **Informations sur le projet** 4️⃣ s'ouvre (elle décrit la modélisation). En face de chaque **Paramètre** 5️⃣, saisir les informations correspondantes, dans la partie **Valeur** 6️⃣. Cliquez sur **OK** 7️⃣ pour valider.
 
-​	**Vous allez maintenant nommer votre nouveau fichier et l’enregistrer :**
-
-- Dans le menu **Fichier** 1️⃣ du bandeau supérieur, choisir **Enregistrer sous** 2️⃣ puis **Projet** 3️⃣.
-
-- Dans la fenêtre d’enregistrement qui s’ouvre, choisir son répertoire de destination du fichier, ici **Documents** 4️⃣. 
-
-- Taper le nom de son fichier dans la zone dédiée 5️⃣. Le nom sera celui du fichier corrigé : 2.1 Nouveau fichier
-
-- Il est aussi conseillé d’être le plus précis possible dans l’appellation du fichier, en y incluant les informations: 
-
-  - Qui ? ***Arsenio*** 
-
-  - Quoi ? ***Centre de loisirs***
-
-  - Quand ? ***150122***
-
-  - Ce qui donne: ***Arsenio_centre_de_loisirs_150122***
-
-    <p>&nbsp;</p>
-
-- Enfin, validez en cliquant sur **Enregistrer** 6️⃣.
-
-  <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.47.png" alt="Interface_Revit38.47" style="max-width: 30%" /> <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit38.59.png" alt="Interface_Revit38.59" style="max-width: 50%" />
-
-
-
-`Fichier corrigé : 2.1 Nouveau fichier.rvt`
-
-💡 : *Le fichier gabarit sera détaillé lors du chapitre « 2.4 Le fichier gabarit »*.
-
-Revit contient de base 6 fichiers gabarits différents, extension.rte, qui correspondent à autant de professions:
-  - **DefaultFRAFRA.rte**: gabarit de projet pour l'architecte.		
-  - **Mechanical-DefaultFRAFRA.rte**: gabarit de projet pour le Bureau d'Etudes en CVC.		
-  - **Electrical-DefaultFRAFRA.rte**: gabarit de projet pour le Bureau d'Etudes en électricité.		
-  - **Plumbing-DefaultFRAFRA.rte**: gabarit de projet pour le Bureau d'Etudes en plomberie.		
-  - **Structural Analysis-DefaultFRAFRA.rte**: gabarit de projet pour le Bureau d'Etudes en structure.		
-  - **Construction-DefaultFRAFRA.rte**: gabarit de projet pour une construction métallique.
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_06.53.png" alt="parametrage_general_06.53" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
-## 2 - L'interface de travail :
+**`Fichier étape : 2.3.1 Informations du projet.rvt`**
+
+
+
+<p>&nbsp;</p>
+
+## 2- **L'enregistrement automatique**
 
 ---------------------------
 
 
 
-Nous allons découvrir la composition de l’interface de travail de Revit. Nous reviendrons sur ces différents éléments tout au long de la modélisation du projet.
+Dans cette section, vous allez paramétrer l’enregistrement automatique de votre projet. Dans le menu **Fichier** 1️⃣, cliquer sur **Options** 2️⃣. La boîte de dialogue du même nom s’ouvre 3️⃣.Choisir dans le menu vertical **Propriétés générales** 4️⃣ et saisir un intervalle de rappel d’enregistrement de **30 minutes** 5️⃣. Cliquer sur **OK** 6️⃣ pour valider.
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_07.33.png" alt="parametrage_general_07.33" style="max-width: 70%" /> <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_07.41.png" alt="parametrage_general_07.41" style="max-width: 70%" />
+
+Si vous enregistrez votre fichier Revit manuellement, celui-ci conserve les fichiers précédents qui portent le même nom et il rajoute une extension qu’il incrémente (.0001, 0002, .0003, …). 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_07.50.png" alt="parametrage_general_07.50" style="max-width: 70%" />
+
+**`Fichier étape : 2.3.2 enregistrement automatique.rvt `**
+
+
 
 <p>&nbsp;</p>
 
-<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/1_Interface/Interface_Revit39.16.png" alt="Interface_Revit39.16" style="max-width: 100%" />
+## 3- **Le**s unités de travail
+
+---------------------------
+
+
+
+Dans cette section, vous allez définir les unités de travail de votre projet, dans la discipline commune.Dans l'onglet **Gérer** 1️⃣, panneau **Paramètres** 2️⃣, cliquez sur **Unités** 3️⃣. La boîte de dialogue **Unités** 4️⃣ s’ouvre.
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_08.00.png" alt="parametrage_general_08.00" style="max-width: 100%" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_07.50.png" alt="parametrage_general_07.50" style="max-width: 50%" />
+
+Une fois la boîte de dialogue **Unités** 4️⃣  ouverte, dans la discipline **Commune** 5️⃣, le paramétrage se présente sous la forme d’un tableau avec les **Unités** et le **Format** 6️⃣. Si vous cliquez sur la valeur de la **Longueur** 7️⃣, la boite de dialogue **Format** 8️⃣ s’ouvre.Elle vous propose d’affiner vos **Unités** et l’**Arrondi**. Cliquez une première fois sur **OK** 🔟 pour valider ce choix puis une deuxième fois dans la boîte de dialogue Unités 1️⃣1️⃣.
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_09.21.png" alt="parametrage_general_09.21" style="max-width: 100%" />
 
 <p>&nbsp;</p>
 
-- **🏗: Le Ruban Création et fonctions**: Ce ruban affiche les outils et fonctions proposés par Revit, celui-ci change en fonction de l’onglet qui est activé, ainsi que de l’outil choisi.
-- **🎨 Les Propriétés**: Elle affiche les paramètres et caractéristiques de l’objet sélectionné sur votre vue active,  dans le projet (sélection multiple), ou dans la vue sélectionnée. Elle peut se positionner librement dans l’espace de travail. Le sélectionneur de type affiche l’élément qui est décrit dans ces propriétés.
-- **📚 l'Arborescence projet**: L’arborescence du projet est un navigateur de vues de votre projet entre les plans, coupes, élévations, vues 3D, nomenclatures et les feuilles. Les Familles recensent toutes les familles utilisées dans votre projet. Cette onglet peut également se positionner librement sur l’écran.
-- **📑 La zone Vue / feuille du projet: **Cette zone de dessin vous affiche la vue active choisie dans l’arborescence du projet, sur laquelle vous allez travailler. Toutes les vues ouvertes sont disponibles à partir des onglets dans la partie supérieure.
-- **👓 Le Contrôle de l’affichage:** Cette barre regroupe les options de réglage liées à l’affichage : l’échelle, la précision des graphismes, le mode d’affichage, la visibilité des éléments cachés, le cadrage de la vue…
-- **📡 Le Centre de communication**: Il  donne accès pour l'utilisateur à l’espace de téléchargement d’Autodesk pour les plugins et compléments, ainsi qu'à l'aide en ligne.
+**`Fichier étape : 2.3.3unités de travail.rvt `**
+
+
+
+<p>&nbsp;</p>
+
+## 4- Les accrochages
+
+---------------------------
+
+
+
+Dans cette section, vous allez définir les accroches aux objets utilisés lors de la modélisation, ce sont les mêmes que nous pouvons retrouver sur un logiciel comme Autocad. Dans l'onglet **Gérer** 1️⃣, panneau **Paramètres** 2️⃣, cliquer sur **Accrochages** 3️⃣.
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_09.34.png" alt="parametrage_general_09.34" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+💡 : Il existe également des raccourcis pour activer les accroches objets.
+
+<p>&nbsp;</p>
+
+| Raccourcis | Accroches                           |
+| ---------- | ----------------------------------- |
+| SE         | extrémités                          |
+| ST         | tangentes                           |
+| SC         | centres                             |
+| SM         | quadrants                           |
+| SQ         | intersection                        |
+| SN         | le plus proche                      |
+| SP         | perpendiculaire                     |
+| PC         | nuages de points                    |
+| SW         | quadrillage du plan de construction |
+| SX         | points                              |
+| SO         | désactive l’accrochage              |
+
+<p>&nbsp;</p>
+
+Suite à cela, la boîte de dialogue **Accrochages** 4️⃣ s’ouvre. On dispose de 2 types d’accrochage :
+
+- Les **Incréments d'accrochage aux cotes** 5️⃣ de longueurs et angulaires permettent d’ajuster la précision, en fonction du zoom effectué dans l’espace de travail.
+
+- Les **Accrochages aux objets** 6️⃣, qui sont les plus importants, permettent de définir l’emplacement de l’accroche. Cliquez sur **Tout sélectionner** 7️⃣.
+  Cliquer sur **OK** 8️⃣ pour valider.
+
+  <img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_09.55.png" alt="parametrage_general_09.55" style="max-width: 100%" />
+
+  <p>&nbsp;</p>
+
+**`Fichier étape : 2.3.4accrochages.rvt `**
+
+
+
+<p>&nbsp;</p>
+
+## 5- Les cotations
+
+---------------------------
+
+
+
+Dans cette section, vous allez définir les unités et la précision de vos cotations, en fonction ou non, des unités de travail. Dans l'onglet **Annoter** 1️⃣, panneau **Cote **2️⃣, cliquez sur le petit triangle noir à coté de **Cote** pour ouvrir un sous menu. 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_10.10.png" alt="parametrage_general_10.10" style="max-width: 100%" />
+
+Notre exemple de paramétrage de la cotation se fera sur la cotation linéaire.
+
+Quand le sous menu **Cote** s’ouvre, cliquer sur **Types de cotes linéaires** 3️⃣, parmi les 7 autres disponibles dans les réglages.
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_10.17.png" alt="parametrage_general_10.17" style="max-width: 100%" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_10.34.png" alt="parametrage_general_10.34" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Dans la fenêtre **Propriétés du type** 1️⃣, vous accédez à la **Famille** et au **Type** de la cotation linéaire2️⃣. Dans le tableau Paramètres de type, en face de **Format des unités** 3️⃣, cliquez sur la valeur **1234.57 (m)** 4️⃣. La boite de dialogue **Format** 5️⃣ s’ouvre. Il faut choisir ses réglages personnels dans l’encadré rouge 6️⃣. Cliquez une première fois sur **OK** 7️⃣, la boite de dialogue **Format** se ferme. Cliquer ensuite une deuxième fois sur **OK** 8️⃣ dans la fenêtre **Propriétés du type**. 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_10.56.png" alt="parametrage_general_10.56" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+**`Fichier étape : 2.3.5cotations.rvt  `**
+
+
+
+<p>&nbsp;</p>
+
+## 6- **Les styles et épaisseurs de ligne** 
+
+---------------------------
+
+
+
+Nous aborderons dans ce chapitre les notions d’épaisseurs de ligne aussi appelées épaisseurs de traits.Ces notions sont importantes. Nous commençons par découvrir les styles de lignes, comme indiqué ci-dessous :
+
+Dans l'onglet **Gérer** 1️⃣, cliquez sur **Paramètres supplémentaires **2️⃣. Le menu se déroule, choisir alors **Styles de lignes** 3️⃣. La fenêtre **Styles de lignes** s’ouvre. 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_11.15.png" alt="parametrage_general_11.15" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Le tableau des **Styles de lignes** 1️⃣ présente les lignes utilisées dans Revit. Elles sont classées dans les colonnes : **Catégorie** 2️⃣, **Epaisseur des lignes** 3️⃣, **Couleur des lignes** 4️⃣ et **Motif des lignes** 5️⃣.  Nous allons modifier la ligne **Esquisse** 6️⃣. Son épaisseur d’origine est de 3, nous allons saisir la valeur 1. Cette ligne sera alors plus fine. Pour valider son choix, cliquer sur **Appliquer** 7️⃣ et **OK** 8️⃣. 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_11.35.png" alt="parametrage_general_11.35" style="max-width: 100%" />
+
+Dans l'onglet **Gérer** 1️⃣, cliquer sur **Paramètres supplémentaires** 2️⃣. Le menu se déroule, choisir **Epaisseur des lignes** 3️⃣.  La fenêtre **Epaisseur des lignes** s’ouvre (ci-dessous). 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_12.23.png" alt="parametrage_general_12.23" style="max-width: 100%" />
+
+Dans la fenêtre **Epaisseur des lignes **1️⃣, nous nous intéresserons aux **lignes de modèle** 2️⃣. Ce sont les lignes 3D de votre modélisation. Le tableau 3️⃣ met en relation les épaisseurs de lignes en fonction de l’échelle de votre vue. La ligne 1 est la plus fine et la ligne 16 est la plus épaisse. Cliquez sur **OK** 4️⃣ pour valider. 
+
+<p>&nbsp;</p>
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_12.54.png" alt="parametrage_general_12.54" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Nous aborderons plus loin les épaisseurs des lignes de détail que l’on peut rajouter sur les vues 2D. Nous effectuerons également les réglages des épaisseurs des lignes d’un mur composé de plusieurs couches, lors de la modélisation architecturale de l’ouvrage, notamment des murs. Ces réglages seront prioritaires.
+
+**`Fichier étape : 2.3.6 styles et épaisseurs de lignes.rvt  `**
+
+
+<p>&nbsp;</p>
+
+
+
+## **7- Les styles de lignes des couches**
+
+---------------------------
+
+Revenons à la boîte de dialogue **visibilité / graphisme**, pour la gestion des épaisseurs de ligne des éléments multicouches : murs, sols, plafonds et toits, dans vos différentes vues, et aussi pour les impressions.
+
+En bas à droite de la boîte de dialogue **visibilité / graphisme**, cochez la case **Styles de lignes de coupe** 1️⃣, puis cliquez sur **Modifier** 2️⃣. 
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_13.05.png" alt="parametrage_general_13.05" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+La boîte de dialogue **Styles de ligne des couches Hôtes** 1️⃣ s'ouvre comme ci-dessous: Les **Epaisseurs de lignes** 3️⃣ attribuées aux différentes couches du mur (**Fonction** 2️⃣), donnent le résultat **`Avant`** modification. Nous pouvons aussi ajuster les **Couleurs des lignes** 4️⃣.
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_13.18.png" alt="parametrage_general_13.18" style="max-width: 70%" /><img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_13.33.png" alt="parametrage_general_13.33" style="max-width: 70%" /> 
+
+<p>&nbsp;</p>
+
+Les épaisseurs de lignes s'échelonnent de 1 à 16, du plus fin au plus épais (voir le paragraphe précédent **Les styles et épaisseurs de ligne****). Dans le fichier gabarit d’origine, les épaisseurs des couches sont toutes réglées à 2. Nous allons, comme indiqué ci-dessous, modifier les **Epaisseurs des lignes** 1️⃣, nous choisirons l’épaisseur 3 pour le mur porteur (Porteur / Ossature) qui apparaîtra plus épais au dépend des autres couches secondaires (2, 3,4 et 5) qui se voient attribuer une ligne d’épaisseur 1.Cliquer sur **OK** 2️⃣ pour valider et sur **Appliquer** dans la fenêtre **Styles de ligne des couches Hôtes.**
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_14.32.png" alt="parametrage_general_14.32" style="max-width: 70%" />
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_14.59.png" alt="parametrage_general_14.59" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Ce réglage de l’épaisseur des lignes pour les couches est visible si vous activez l’épaisseur des lignes en cliquant sur l’icône **Lignes fines** dans la barre d’outils d’accès rapide.
+
+**`Fichier étape : 2.3.7 Les styles de lignes des couches.rvt`**
+
+
+
+
+<p>&nbsp;</p>
+
+
+
+## **8- La visibilité des graphismes**
+
+---------------------------
+
+Dans cette section, vous allez apprendre à gérer la visibilité des graphismes et des objets modélisés, propre à chaque vue de l’arborescence du projet. Cela s’apparente à la gestion des calques sur AutoCad. Nous verrons plus loin que chaque vue de l’arborescence du projet pourra disposer de son gabarit de vue avec ses paramètres de visibilité personnalisés.
+Dans l'onglet **Vue** 1️⃣, panneau **Graphismes** 2️⃣, cliquer sur **Visibilité / Graphismes** 3️⃣.
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_15.15.png" alt="parametrage_general_15.15" style="max-width: 70%" />
+
+<p>&nbsp;</p>
+
+Comme indiqué ci-dessous, la fenêtre **Remplacement visibilité / graphisme pour Plan d’étage Niveau 0** 1️⃣ s’affiche (vue active à l’écran). On obtient le même résultat avec le raccourci clavier « **vv** ».
+Dans cette fenêtre, les informations sont classées dans **4 onglets** 2️⃣. Durant la modélisation, nous utiliserons principalement les onglets **Catégories de modèles** (les composants modélisés et insérés) et **Catégories importées** (plan DWG du projet par exemple). La colonne **Visibilité** 3️⃣ liste les catégories à gérer et la visibilité s’active à l’aide des cases à cocher ou décocher 4️⃣, comme indiqué sur droite du tableau. Selon les modifications effectuées, il faut soit cliquer sur **OK**, sur **Annuler** ou **Appliquer** 5️⃣.
+
+<img src="https://raw.githubusercontent.com/bc-ars/plateform-images/main/Projet%20Revit/2_parametrage_general/parametrage_general_15.36.png" alt="parametrage_general_15.36" style="max-width: 100%" />
+
+<p>&nbsp;</p>
+
+Nous pourrons utiliser cet outil de gestion des calques tout au long de la modélisation du projet, très utile pour créer des gabarits de vue ou simplement pour ajuster ses graphismes de la vue courante (visibilité, couleur, …).
+
+**`Fichier étape : 2.3.8 visibilité des graphismes.rvt`**
 
 <p>&nbsp;</p>
 

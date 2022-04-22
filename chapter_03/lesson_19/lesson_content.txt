@@ -308,7 +308,7 @@ En nous aidant de la Coupe C2, nous effectuerons la modélisation de la structur
 
 <p>&nbsp;</p> 
 
-### **1 –**Modélisation de l'auvent: 
+### 1 – Modélisation de l'auvent: 
 
 <p>&nbsp;</p>
 
@@ -338,7 +338,7 @@ Ci-dessous, nous avons sélectionné l’auvent et repositionné sur **l’Elév
 
 <p>&nbsp;</p>
 
-### **2 – **Modélisation des Pare-soleil: 
+### 2 – Modélisation des Pare-soleil: 
 
 <p>&nbsp;</p>
 
@@ -394,7 +394,7 @@ Pour réaliser l’ensemble, auvent et pare-soleil, dans l’axe de la cour, il 
 
 <p>&nbsp;</p>
 
-### **3 –**Modélisation des poutres longitudinales et transversales : 
+### 3 – Modélisation des poutres longitudinales et transversales : 
 
 <p>&nbsp;</p>
 
